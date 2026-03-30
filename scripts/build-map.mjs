@@ -139,6 +139,32 @@ body { font-family: -apple-system, 'Segoe UI', sans-serif; }
 
 .leaflet-control-layers { direction: rtl; text-align: right; }
 .leaflet-control-layers label { direction: rtl; }
+
+#plans-panel {
+  position: absolute; top: 10px; right: 10px; z-index: 1000;
+  background: rgba(255,255,255,0.96); border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.2); direction: rtl; font-size: 12px;
+  width: 260px; max-height: 50vh; overflow: hidden; display: flex; flex-direction: column;
+}
+#plans-panel-header {
+  padding: 8px 12px; cursor: pointer; display: flex; justify-content: space-between;
+  align-items: center; background: #f5f5f5; border-bottom: 1px solid #e0e0e0;
+  font-weight: 600; font-size: 12px; flex-shrink: 0;
+}
+#plans-panel-header:hover { background: #eeeeee; }
+#plans-panel-body { overflow-y: auto; padding: 0; }
+#plans-panel-body.collapsed { display: none; }
+.plan-list-item {
+  display: flex; align-items: center; gap: 6px; padding: 5px 10px;
+  cursor: pointer; transition: background 0.15s; border-bottom: 1px solid #f0f0f0;
+  font-size: 11px; line-height: 1.3;
+}
+.plan-list-item:hover { background: #f0f7ff; }
+.plan-list-item .plan-dot {
+  width: 12px; height: 12px; border-radius: 3px; flex-shrink: 0; border: 1px solid #999;
+}
+.plan-list-item .plan-label { flex: 1; }
+.plan-list-item .plan-year { color: #888; font-size: 10px; flex-shrink: 0; }
 </style>
 </head>
 <body>
@@ -161,6 +187,14 @@ body { font-family: -apple-system, 'Segoe UI', sans-serif; }
       <span id="save-msg">נשמר!</span>
     </div>
   </div>
+</div>
+
+<div id="plans-panel">
+  <div id="plans-panel-header">
+    <span>\\u{1F4D0} \\u05EA\\u05DB\\u05E0\\u05D9\\u05D5\\u05EA \\u05D1\\u05D0\\u05D6\\u05D5\\u05E8</span>
+    <span id="plans-panel-toggle" style="font-size:14px">\\u25BE</span>
+  </div>
+  <div id="plans-panel-body"></div>
 </div>
 
 <script>
@@ -264,9 +298,13 @@ osmLayer.addTo(map);
 var sitesLayer = L.layerGroup().addTo(map);
 var parcelsLayer = L.layerGroup();
 var municipalLayer = L.layerGroup();
-var tabaPlansLayer = L.layerGroup();
+var tabaBaseLayer = L.layerGroup();   // תא/2215 only — off by default
+var tabaPlansLayer = L.layerGroup();  // all other plans — on by default
 var zoningLayer = L.layerGroup();
 var moshaaLayer = L.layerGroup();
+
+// Track plan layers for hover/click interaction
+var planLayerMap = {};  // plan_id -> { layer, plan, strokeColor, fillColor, fillOpacity, dashArray }
 
 // ══════════════════════════════════════════════════════════════════════════════
 // COLLAPSIBLE PICKER
@@ -497,61 +535,81 @@ parcelsLayer.addTo(map);
 municipalLayer.addTo(map);
 
 // ══════════════════════════════════════════════════════════════════════════════
-// 3. TABA PLANS \\u2014 per-plan unique colors, union polygons from v2
+// 3. TABA PLANS \\u2014 split: base plan (2215) vs other plans
 // ══════════════════════════════════════════════════════════════════════════════
+var BASE_PLAN_ID = '\\u05EA\\u05D0/2215';
+
 (function() {
-  // Index v2 boundaries by plan_id
   var boundaryByPlan = {};
   PLAN_BOUNDARIES_V2.features.forEach(function(f) {
     boundaryByPlan[f.properties.plan_id] = f;
   });
 
-  // Index plans database by plan_id
-  var planDbById = {};
-  PLANS_DATABASE.forEach(function(p) { planDbById[p.plan_id] = p; });
-
   var planCount = 0;
 
   PLANS_DATABASE.forEach(function(plan) {
     var pc = getPlanColor(plan.plan_id);
+    var isBase = plan.plan_id === BASE_PLAN_ID;
     var isProcess = plan.status !== '\\u05DE\\u05D0\\u05D5\\u05E9\\u05E8\\u05EA';
     var strokeColor, fillColor, fillOpacity, dashArray;
 
-    if (isProcess) {
+    if (isBase) {
+      // Base plan: dashed grey outline only, no fill
+      strokeColor = '#757575';
+      fillColor = 'transparent';
+      fillOpacity = 0;
+      dashArray = '8,4';
+    } else if (isProcess) {
       strokeColor = PLAN_PROCESS_STYLE.stroke;
       fillColor = PLAN_PROCESS_STYLE.fill;
-      fillOpacity = PLAN_PROCESS_STYLE.opacity;
-      dashArray = PLAN_PROCESS_STYLE.dash;
+      fillOpacity = 0.12;
+      dashArray = '6,6';
     } else if (pc) {
       strokeColor = pc.stroke;
       fillColor = pc.fill;
-      fillOpacity = pc.opacity;
-      dashArray = pc.dash;
+      fillOpacity = 0.15;
+      dashArray = null;
     } else {
       strokeColor = '#7b1fa2';
       fillColor = '#ce93d8';
-      fillOpacity = 0.15;
+      fillOpacity = 0.12;
       dashArray = null;
     }
 
     var boundary = boundaryByPlan[plan.plan_id];
     if (boundary) {
-      L.geoJSON(boundary, {
+      var targetLayer = isBase ? tabaBaseLayer : tabaPlansLayer;
+      var geoLayer = L.geoJSON(boundary, {
         style: {
-          color: strokeColor, weight: 2.5, fillColor: fillColor,
+          color: strokeColor, weight: 2, fillColor: fillColor,
           fillOpacity: fillOpacity, dashArray: dashArray
         },
         onEachFeature: function(f, layer) {
           layer.bindPopup(buildPlanPopup(plan, strokeColor), {maxWidth: 400});
+          // Hover highlight
+          layer.on('mouseover', function() {
+            layer.setStyle({ fillOpacity: isBase ? 0.08 : 0.45, weight: 3.5 });
+            layer.bringToFront();
+          });
+          layer.on('mouseout', function() {
+            layer.setStyle({ fillOpacity: fillOpacity, weight: 2 });
+          });
         }
-      }).addTo(tabaPlansLayer);
+      }).addTo(targetLayer);
+
+      planLayerMap[plan.plan_id] = {
+        layer: geoLayer, plan: plan,
+        strokeColor: strokeColor, fillColor: fillColor,
+        fillOpacity: fillOpacity, dashArray: dashArray
+      };
       planCount++;
     }
   });
 
-  logStatus('\\u2705 \\u05EA\\u05DB\\u05E0\\u05D9\\u05D5\\u05EA: ' + planCount + ' plans (union polygons)');
+  logStatus('\\u2705 \\u05EA\\u05DB\\u05E0\\u05D9\\u05D5\\u05EA: ' + planCount + ' plans');
 })();
 tabaPlansLayer.addTo(map);
+// tabaBaseLayer NOT added — off by default
 
 function buildPlanPopup(plan, color) {
   var provisions = (plan.key_provisions || []).slice(0, 3);
@@ -671,13 +729,73 @@ statusEl.classList.add('done');
 setTimeout(function() { statusEl.style.display = 'none'; }, 5000);
 
 // ══════════════════════════════════════════════════════════════════════════════
+// PLANS PANEL (right side)
+// ══════════════════════════════════════════════════════════════════════════════
+(function() {
+  var panelEl = document.getElementById('plans-panel');
+  var panelBody = document.getElementById('plans-panel-body');
+  var panelToggle = document.getElementById('plans-panel-toggle');
+  L.DomEvent.disableClickPropagation(panelEl);
+  L.DomEvent.disableScrollPropagation(panelEl);
+
+  document.getElementById('plans-panel-header').addEventListener('click', function() {
+    panelBody.classList.toggle('collapsed');
+    panelToggle.textContent = panelBody.classList.contains('collapsed') ? '\\u25B8' : '\\u25BE';
+  });
+
+  // Build plan list
+  var html = '';
+  PLANS_DATABASE.forEach(function(plan) {
+    var entry = planLayerMap[plan.plan_id];
+    if (!entry) return;
+    var isBase = plan.plan_id === BASE_PLAN_ID;
+    var isProcess = plan.status !== '\\u05DE\\u05D0\\u05D5\\u05E9\\u05E8\\u05EA';
+    var dotStyle = isBase
+      ? 'background:transparent;border:2px dashed #757575'
+      : 'background:' + entry.fillColor + ';border-color:' + entry.strokeColor + (isProcess ? ';border-style:dashed' : '');
+    html += '<div class="plan-list-item" data-plan="' + plan.plan_id + '">' +
+      '<div class="plan-dot" style="' + dotStyle + '"></div>' +
+      '<div class="plan-label">' + plan.plan_id + (isBase ? ' (\\u05D1\\u05E1\\u05D9\\u05E1)' : '') +
+      '<br><span style="color:#777;font-size:10px">' + plan.plan_name + '</span></div>' +
+      '<div class="plan-year">' + (plan.year || '') + '</div>' +
+      '</div>';
+  });
+  panelBody.innerHTML = html;
+
+  // Click handler: zoom to plan + open popup
+  panelBody.addEventListener('click', function(e) {
+    var item = e.target.closest('.plan-list-item');
+    if (!item) return;
+    var planId = item.dataset.plan;
+    var entry = planLayerMap[planId];
+    if (!entry) return;
+
+    // If base plan layer is off, add it temporarily
+    var isBase = planId === BASE_PLAN_ID;
+    if (isBase && !map.hasLayer(tabaBaseLayer)) {
+      map.addLayer(tabaBaseLayer);
+    }
+
+    // Zoom to plan bounds
+    var bounds = entry.layer.getBounds();
+    map.fitBounds(bounds, { padding: [40, 40], maxZoom: 17 });
+
+    // Open popup on first sub-layer
+    entry.layer.eachLayer(function(l) {
+      l.openPopup();
+    });
+  });
+})();
+
+// ══════════════════════════════════════════════════════════════════════════════
 // LAYER CONTROL + LEGEND
 // ══════════════════════════════════════════════════════════════════════════════
 L.control.layers(
   {'OpenStreetMap': osmLayer, '\\u{1F6F0}\\uFE0F \\u05DC\\u05D5\\u05D5\\u05D9\\u05DF': satellite, '\\u05D1\\u05D4\\u05D9\\u05E8': cartoLight},
   {
     '\\u{1F4CD} \\u05D0\\u05EA\\u05E8\\u05D9 \\u05E1\\u05D8\\u05D5\\u05D3\\u05D9\\u05D5': sitesLayer,
-    '\\u{1F4D0} \\u05EA\\u05DB\\u05E0\\u05D9\\u05D5\\u05EA (\\u05EA\\u05D1\\"\\u05E2\\u05D5\\u05EA)': tabaPlansLayer,
+    '\\u{1F4D0} \\u05EA\\u05D1\\"\\u05E2\\u05D5\\u05EA \\u05E0\\u05D5\\u05E1\\u05E4\\u05D5\\u05EA': tabaPlansLayer,
+    '\\u{1F4DC} \\u05EA\\u05D0/2215 \\u2014 \\u05EA\\u05DB\\u05E0\\u05D9\\u05EA \\u05D1\\u05E1\\u05D9\\u05E1': tabaBaseLayer,
     '\\u{1F7EB} \\u05D7\\u05DC\\u05E7\\u05D5\\u05EA (\\u05DC\\u05E4\\u05D9 \\u05D2\\u05D5\\u05D3\\u05DC)': parcelsLayer,
     '\\u{1F535} \\u05D1\\u05E2\\u05DC\\u05D5\\u05EA \\u05E2\\u05D9\\u05E8\\u05D5\\u05E0\\u05D9\\u05EA': municipalLayer,
     '\\u{1F7E5} \\u05D0\\u05D3\\u05DE\\u05D5\\u05EA \\u05DE\\u05D5\\u05E9\\u05E2': moshaaLayer,
@@ -691,9 +809,11 @@ legend.onAdd = function() {
   var div = L.DomUtil.create('div','legend');
 
   // Plans legend - per plan
-  var plansHtml = '<h4>\\u05EA\\u05DB\\u05E0\\u05D9\\u05D5\\u05EA (\\u05EA\\u05D1\\"\\u05E2\\u05D5\\u05EA)</h4>';
+  var plansHtml = '<h4>\\u05EA\\u05D1\\"\\u05E2\\u05D5\\u05EA</h4>';
+  plansHtml += '<div class="legend-item"><div class="legend-color" style="background:transparent;border:2px dashed #757575"></div>\\u05EA\\u05D0/2215 \\u2014 \\u05EA\\u05DB\\u05E0\\u05D9\\u05EA \\u05D1\\u05E1\\u05D9\\u05E1 (\\u05DB\\u05D1\\u05D5\\u05D9)</div>';
   var planKeys = Object.keys(PLAN_COLORS);
   planKeys.forEach(function(id) {
+    if (id === '\\u05EA\\u05D0/2215') return; // skip base in main legend
     var pc = PLAN_COLORS[id];
     plansHtml += '<div class="legend-item"><div class="legend-color" style="background:' + pc.fill + ';border-color:' + pc.stroke + '"></div>' + pc.label + '</div>';
   });
