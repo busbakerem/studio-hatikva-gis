@@ -298,8 +298,8 @@ osmLayer.addTo(map);
 var sitesLayer = L.layerGroup().addTo(map);
 var parcelsLayer = L.layerGroup();
 var municipalLayer = L.layerGroup();
-var tabaBaseLayer = L.layerGroup();   // תא/2215 only — off by default
-var tabaPlansLayer = L.layerGroup();  // all other plans — on by default
+var tabaWideLayer = L.layerGroup();    // neighborhood-wide plans (2215, ג/3) — off by default
+var tabaLocalLayer = L.layerGroup();  // local plans + in-process — on by default
 var zoningLayer = L.layerGroup();
 var moshaaLayer = L.layerGroup();
 
@@ -535,9 +535,9 @@ parcelsLayer.addTo(map);
 municipalLayer.addTo(map);
 
 // ══════════════════════════════════════════════════════════════════════════════
-// 3. TABA PLANS \\u2014 split: base plan (2215) vs other plans
+// 3. TABA PLANS \\u2014 neighborhood-wide (outline only, off) vs local (fill, on)
 // ══════════════════════════════════════════════════════════════════════════════
-var BASE_PLAN_ID = '\\u05EA\\u05D0/2215';
+var WIDE_PLAN_IDS = ['\\u05EA\\u05D0/2215', '\\u05EA\\u05D0/\\u05D2/3'];
 
 (function() {
   var boundaryByPlan = {};
@@ -546,39 +546,42 @@ var BASE_PLAN_ID = '\\u05EA\\u05D0/2215';
   });
 
   var planCount = 0;
+  var wideColors = {
+    '\\u05EA\\u05D0/2215': '#757575',
+    '\\u05EA\\u05D0/\\u05D2/3': '#1565c0'
+  };
 
   PLANS_DATABASE.forEach(function(plan) {
     var pc = getPlanColor(plan.plan_id);
-    var isBase = plan.plan_id === BASE_PLAN_ID;
+    var isWide = WIDE_PLAN_IDS.indexOf(plan.plan_id) !== -1;
     var isProcess = plan.status !== '\\u05DE\\u05D0\\u05D5\\u05E9\\u05E8\\u05EA';
     var strokeColor, fillColor, fillOpacity, dashArray;
 
-    if (isBase) {
-      // Base plan: dashed grey outline only, no fill
-      strokeColor = '#757575';
+    if (isWide) {
+      strokeColor = wideColors[plan.plan_id] || '#757575';
       fillColor = 'transparent';
       fillOpacity = 0;
       dashArray = '8,4';
     } else if (isProcess) {
       strokeColor = PLAN_PROCESS_STYLE.stroke;
       fillColor = PLAN_PROCESS_STYLE.fill;
-      fillOpacity = 0.12;
+      fillOpacity = 0.15;
       dashArray = '6,6';
     } else if (pc) {
       strokeColor = pc.stroke;
       fillColor = pc.fill;
-      fillOpacity = 0.15;
+      fillOpacity = 0.2;
       dashArray = null;
     } else {
       strokeColor = '#7b1fa2';
       fillColor = '#ce93d8';
-      fillOpacity = 0.12;
+      fillOpacity = 0.15;
       dashArray = null;
     }
 
     var boundary = boundaryByPlan[plan.plan_id];
     if (boundary) {
-      var targetLayer = isBase ? tabaBaseLayer : tabaPlansLayer;
+      var targetLayer = isWide ? tabaWideLayer : tabaLocalLayer;
       var geoLayer = L.geoJSON(boundary, {
         style: {
           color: strokeColor, weight: 2, fillColor: fillColor,
@@ -588,7 +591,7 @@ var BASE_PLAN_ID = '\\u05EA\\u05D0/2215';
           layer.bindPopup(buildPlanPopup(plan, strokeColor), {maxWidth: 400});
           // Hover highlight
           layer.on('mouseover', function() {
-            layer.setStyle({ fillOpacity: isBase ? 0.08 : 0.45, weight: 3.5 });
+            layer.setStyle({ fillOpacity: isWide ? 0.08 : 0.45, weight: 3.5 });
             layer.bringToFront();
           });
           layer.on('mouseout', function() {
@@ -598,7 +601,7 @@ var BASE_PLAN_ID = '\\u05EA\\u05D0/2215';
       }).addTo(targetLayer);
 
       planLayerMap[plan.plan_id] = {
-        layer: geoLayer, plan: plan,
+        layer: geoLayer, plan: plan, isWide: isWide,
         strokeColor: strokeColor, fillColor: fillColor,
         fillOpacity: fillOpacity, dashArray: dashArray
       };
@@ -608,8 +611,8 @@ var BASE_PLAN_ID = '\\u05EA\\u05D0/2215';
 
   logStatus('\\u2705 \\u05EA\\u05DB\\u05E0\\u05D9\\u05D5\\u05EA: ' + planCount + ' plans');
 })();
-tabaPlansLayer.addTo(map);
-// tabaBaseLayer NOT added — off by default
+tabaLocalLayer.addTo(map);
+// tabaWideLayer NOT added — off by default
 
 function buildPlanPopup(plan, color) {
   var provisions = (plan.key_provisions || []).slice(0, 3);
@@ -743,23 +746,30 @@ setTimeout(function() { statusEl.style.display = 'none'; }, 5000);
     panelToggle.textContent = panelBody.classList.contains('collapsed') ? '\\u25B8' : '\\u25BE';
   });
 
-  // Build plan list
-  var html = '';
-  PLANS_DATABASE.forEach(function(plan) {
+  // Build plan list grouped by category
+  function buildPlanItem(plan) {
     var entry = planLayerMap[plan.plan_id];
-    if (!entry) return;
-    var isBase = plan.plan_id === BASE_PLAN_ID;
+    if (!entry) return '';
+    var isWide = entry.isWide;
     var isProcess = plan.status !== '\\u05DE\\u05D0\\u05D5\\u05E9\\u05E8\\u05EA';
-    var dotStyle = isBase
-      ? 'background:transparent;border:2px dashed #757575'
+    var dotStyle = isWide
+      ? 'background:transparent;border:2px dashed ' + entry.strokeColor
       : 'background:' + entry.fillColor + ';border-color:' + entry.strokeColor + (isProcess ? ';border-style:dashed' : '');
-    html += '<div class="plan-list-item" data-plan="' + plan.plan_id + '">' +
+    return '<div class="plan-list-item" data-plan="' + plan.plan_id + '">' +
       '<div class="plan-dot" style="' + dotStyle + '"></div>' +
-      '<div class="plan-label">' + plan.plan_id + (isBase ? ' (\\u05D1\\u05E1\\u05D9\\u05E1)' : '') +
+      '<div class="plan-label">' + plan.plan_id +
       '<br><span style="color:#777;font-size:10px">' + plan.plan_name + '</span></div>' +
       '<div class="plan-year">' + (plan.year || '') + '</div>' +
       '</div>';
-  });
+  }
+
+  var widePlans = PLANS_DATABASE.filter(function(p) { return WIDE_PLAN_IDS.indexOf(p.plan_id) !== -1 && planLayerMap[p.plan_id]; });
+  var localPlans = PLANS_DATABASE.filter(function(p) { return WIDE_PLAN_IDS.indexOf(p.plan_id) === -1 && planLayerMap[p.plan_id]; });
+
+  var html = '<div style="padding:4px 10px;font-size:10px;color:#888;background:#fafafa;border-bottom:1px solid #e0e0e0">\\u05DB\\u05DC\\u05DC-\\u05E9\\u05DB\\u05D5\\u05E0\\u05EA\\u05D9\\u05D5\\u05EA (\\u05E7\\u05D5 \\u05D2\\u05D1\\u05D5\\u05DC)</div>';
+  widePlans.forEach(function(p) { html += buildPlanItem(p); });
+  html += '<div style="padding:4px 10px;font-size:10px;color:#888;background:#fafafa;border-bottom:1px solid #e0e0e0">\\u05DE\\u05E7\\u05D5\\u05DE\\u05D9\\u05D5\\u05EA</div>';
+  localPlans.forEach(function(p) { html += buildPlanItem(p); });
   panelBody.innerHTML = html;
 
   // Click handler: zoom to plan + open popup
@@ -770,17 +780,14 @@ setTimeout(function() { statusEl.style.display = 'none'; }, 5000);
     var entry = planLayerMap[planId];
     if (!entry) return;
 
-    // If base plan layer is off, add it temporarily
-    var isBase = planId === BASE_PLAN_ID;
-    if (isBase && !map.hasLayer(tabaBaseLayer)) {
-      map.addLayer(tabaBaseLayer);
+    // If wide layer is off, add it temporarily
+    if (entry.isWide && !map.hasLayer(tabaWideLayer)) {
+      map.addLayer(tabaWideLayer);
     }
 
-    // Zoom to plan bounds
     var bounds = entry.layer.getBounds();
     map.fitBounds(bounds, { padding: [40, 40], maxZoom: 17 });
 
-    // Open popup on first sub-layer
     entry.layer.eachLayer(function(l) {
       l.openPopup();
     });
@@ -794,8 +801,8 @@ L.control.layers(
   {'OpenStreetMap': osmLayer, '\\u{1F6F0}\\uFE0F \\u05DC\\u05D5\\u05D5\\u05D9\\u05DF': satellite, '\\u05D1\\u05D4\\u05D9\\u05E8': cartoLight},
   {
     '\\u{1F4CD} \\u05D0\\u05EA\\u05E8\\u05D9 \\u05E1\\u05D8\\u05D5\\u05D3\\u05D9\\u05D5': sitesLayer,
-    '\\u{1F4D0} \\u05EA\\u05D1\\"\\u05E2\\u05D5\\u05EA \\u05E0\\u05D5\\u05E1\\u05E4\\u05D5\\u05EA': tabaPlansLayer,
-    '\\u{1F4DC} \\u05EA\\u05D0/2215 \\u2014 \\u05EA\\u05DB\\u05E0\\u05D9\\u05EA \\u05D1\\u05E1\\u05D9\\u05E1': tabaBaseLayer,
+    '\\u{1F4D0} \\u05EA\\u05DB\\u05E0\\u05D9\\u05D5\\u05EA \\u05DE\\u05E7\\u05D5\\u05DE\\u05D9\\u05D5\\u05EA': tabaLocalLayer,
+    '\\u{1F4DC} \\u05EA\\u05DB\\u05E0\\u05D9\\u05D5\\u05EA \\u05DB\\u05DC\\u05DC-\\u05E9\\u05DB\\u05D5\\u05E0\\u05EA\\u05D9\\u05D5\\u05EA': tabaWideLayer,
     '\\u{1F7EB} \\u05D7\\u05DC\\u05E7\\u05D5\\u05EA (\\u05DC\\u05E4\\u05D9 \\u05D2\\u05D5\\u05D3\\u05DC)': parcelsLayer,
     '\\u{1F535} \\u05D1\\u05E2\\u05DC\\u05D5\\u05EA \\u05E2\\u05D9\\u05E8\\u05D5\\u05E0\\u05D9\\u05EA': municipalLayer,
     '\\u{1F7E5} \\u05D0\\u05D3\\u05DE\\u05D5\\u05EA \\u05DE\\u05D5\\u05E9\\u05E2': moshaaLayer,
@@ -808,12 +815,14 @@ var legend = L.control({position:'bottomleft'});
 legend.onAdd = function() {
   var div = L.DomUtil.create('div','legend');
 
-  // Plans legend - per plan
-  var plansHtml = '<h4>\\u05EA\\u05D1\\"\\u05E2\\u05D5\\u05EA</h4>';
-  plansHtml += '<div class="legend-item"><div class="legend-color" style="background:transparent;border:2px dashed #757575"></div>\\u05EA\\u05D0/2215 \\u2014 \\u05EA\\u05DB\\u05E0\\u05D9\\u05EA \\u05D1\\u05E1\\u05D9\\u05E1 (\\u05DB\\u05D1\\u05D5\\u05D9)</div>';
+  // Plans legend
+  var plansHtml = '<h4>\\u05EA\\u05DB\\u05E0\\u05D9\\u05D5\\u05EA \\u05DB\\u05DC\\u05DC-\\u05E9\\u05DB\\u05D5\\u05E0\\u05EA\\u05D9\\u05D5\\u05EA (\\u05DB\\u05D1\\u05D5\\u05D9)</h4>';
+  plansHtml += '<div class="legend-item"><div class="legend-color" style="background:transparent;border:2px dashed #757575"></div>\\u05EA\\u05D0/2215 \\u2014 \\u05EA\\u05DB\\u05E0\\u05D9\\u05EA \\u05E9\\u05D9\\u05E7\\u05D5\\u05DD (1992)</div>';
+  plansHtml += '<div class="legend-item"><div class="legend-color" style="background:transparent;border:2px dashed #1565c0"></div>\\u05EA\\u05D0/\\u05D2/3 \\u2014 \\u05D1\\u05E0\\u05D9\\u05D9\\u05D4 \\u05E2\\u05DC \\u05D2\\u05D2\\u05D5\\u05EA (2014)</div>';
+  plansHtml += '<h4>\\u05EA\\u05DB\\u05E0\\u05D9\\u05D5\\u05EA \\u05DE\\u05E7\\u05D5\\u05DE\\u05D9\\u05D5\\u05EA</h4>';
   var planKeys = Object.keys(PLAN_COLORS);
   planKeys.forEach(function(id) {
-    if (id === '\\u05EA\\u05D0/2215') return; // skip base in main legend
+    if (WIDE_PLAN_IDS.indexOf(id) !== -1) return;
     var pc = PLAN_COLORS[id];
     plansHtml += '<div class="legend-item"><div class="legend-color" style="background:' + pc.fill + ';border-color:' + pc.stroke + '"></div>' + pc.label + '</div>';
   });
