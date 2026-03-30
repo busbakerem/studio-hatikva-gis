@@ -1,0 +1,512 @@
+[
+  {
+    "filename": "תא-2215-הוראות.pdf",
+    "path": "research/taba-plans/to-download/תא-2215-הוראות.pdf",
+    "pages": 8,
+    "file_size_mb": 0.11,
+    "plan_id": "תא/2215",
+    "priority": "high",
+    "reason": "תכנית הבסיס (1992) — כל הזכויות בשכונה נגזרות ממנה. חופפת כל 5 האתרים.",
+    "doc_type_guess": "הוראות"
+  },
+  {
+    "filename": "תא-2215-תשריט.pdf",
+    "path": "research/taba-plans/to-download/תא-2215-תשריט.pdf",
+    "pages": 1,
+    "file_size_mb": 2.54,
+    "plan_id": "תא/2215",
+    "priority": "high",
+    "reason": "תשריט תכנית הבסיס — ייעודי קרקע לכל השכונה.",
+    "doc_type_guess": "תשריט"
+  },
+  {
+    "filename": "תא2215.pdf",
+    "path": "research/taba-plans/תא2215.pdf",
+    "pages": 1,
+    "file_size_mb": 2.54,
+    "plan_id": "תא/2215",
+    "priority": "high",
+    "reason": "עותק נוסף של תשריט תכנית הבסיס (ייתכן כפילות עם תא-2215-תשריט).",
+    "doc_type_guess": "תשריט"
+  },
+  {
+    "filename": "תא-2324-הוראות.pdf",
+    "path": "research/taba-plans/to-download/תא-2324-הוראות.pdf",
+    "pages": 9,
+    "file_size_mb": 0.16,
+    "plan_id": "תא/2324",
+    "priority": "high",
+    "reason": "download-list #2, עדיפות גבוהה: 153 ד', 201 מגרשים, גושים 6134+6978. ענקית.",
+    "doc_type_guess": "הוראות"
+  },
+  {
+    "filename": "תא-2324-תשריט.pdf",
+    "path": "research/taba-plans/to-download/תא-2324-תשריט.pdf",
+    "pages": 1,
+    "file_size_mb": 2.18,
+    "plan_id": "תא/2324",
+    "priority": "high",
+    "reason": "תשריט תכנית 2324 — 201 מגרשים, גושים 6134+6978.",
+    "doc_type_guess": "תשריט"
+  },
+  {
+    "filename": "תא-3448-הוראות.pdf",
+    "path": "research/taba-plans/to-download/תא-3448-הוראות.pdf",
+    "pages": 8,
+    "file_size_mb": 0.18,
+    "plan_id": "תא/3448",
+    "priority": "high",
+    "reason": "download-list #3, עדיפות גבוהה: 65 ד', 113 מגרשים, מסחר, גושים 6978+7068+7069.",
+    "doc_type_guess": "הוראות"
+  },
+  {
+    "filename": "תא-3448-תשריט.pdf",
+    "path": "research/taba-plans/to-download/תא-3448-תשריט.pdf",
+    "pages": 1,
+    "file_size_mb": 1.03,
+    "plan_id": "תא/3448",
+    "priority": "high",
+    "reason": "תשריט תכנית 3448 — מסחר+מגורים, 113 מגרשים.",
+    "doc_type_guess": "תשריט"
+  },
+  {
+    "filename": "תא-2751-הוראות.pdf",
+    "path": "research/taba-plans/to-download/תא-2751-הוראות.pdf",
+    "pages": 4,
+    "file_size_mb": 0.12,
+    "plan_id": "תא/2751",
+    "priority": "high",
+    "reason": "download-list #4, עדיפות גבוהה: מסחר+ציבורי, גושים 6135+6979. חופף אתרים 1+3.",
+    "doc_type_guess": "הוראות"
+  },
+  {
+    "filename": "תא-2751-תשריט.pdf",
+    "path": "research/taba-plans/to-download/תא-2751-תשריט.pdf",
+    "pages": 1,
+    "file_size_mb": 2.11,
+    "plan_id": "תא/2751",
+    "priority": "high",
+    "reason": "תשריט תכנית 2751 — מסחר באתרים 1+3.",
+    "doc_type_guess": "תשריט"
+  },
+  {
+    "filename": "תא-ג-3-הוראות.pdf",
+    "path": "research/taba-plans/to-download/תא-ג-3-הוראות.pdf",
+    "pages": 15,
+    "file_size_mb": 0.30,
+    "plan_id": "תא/2215ג או תא/3/04/6",
+    "priority": "high",
+    "reason": "download-list #1 או #5: אם 2215ג — שינוי ג' לתכנית הבסיס! אם 3/04/6 — 90 ד', גוש 6135. 15 עמודים = תוכן משמעותי.",
+    "doc_type_guess": "הוראות"
+  },
+  {
+    "filename": "תא-ג-3-תשריט.pdf",
+    "path": "research/taba-plans/to-download/תא-ג-3-תשריט.pdf",
+    "pages": 1,
+    "file_size_mb": 7.38,
+    "plan_id": "תא/2215ג או תא/3/04/6",
+    "priority": "high",
+    "reason": "תשריט תכנית ג-3. קובץ גדול (7.4MB) — תשריט מפורט.",
+    "doc_type_guess": "תשריט"
+  },
+  {
+    "filename": "תא 566.pdf",
+    "path": "research/taba-plans/תא 566.pdf",
+    "pages": 1,
+    "file_size_mb": 0.58,
+    "plan_id": "תא/566",
+    "priority": "high",
+    "reason": "מוזכר ב-taba-analysis: תא/566א — שיכון עובדים כיזם, חלקות 3,2 בגוש 6135. חופף אתרים 3,4,5.",
+    "doc_type_guess": "תשריט"
+  },
+  {
+    "filename": "תא-2670-הוראות.pdf",
+    "path": "research/taba-plans/to-download/תא-2670-הוראות.pdf",
+    "pages": 4,
+    "file_size_mb": 0.07,
+    "plan_id": "תא/מק/2670",
+    "priority": "medium",
+    "reason": "ב-taba-analysis: תכנית מקומית 2005, עדכון לאחר 2215. ידוע אך לא נותח.",
+    "doc_type_guess": "הוראות"
+  },
+  {
+    "filename": "תא-2670-תשריט.pdf",
+    "path": "research/taba-plans/to-download/תא-2670-תשריט.pdf",
+    "pages": 1,
+    "file_size_mb": 1.10,
+    "plan_id": "תא/מק/2670",
+    "priority": "medium",
+    "reason": "תשריט תכנית 2670 — עדכון לאחר 2215.",
+    "doc_type_guess": "תשריט"
+  },
+  {
+    "filename": "תא_ מק_ 3329_תשריט התכנית - מאושר - חתום_.pdf",
+    "path": "research/taba-plans/תא_ מק_ 3329_תשריט התכנית - מאושר - חתום_.pdf",
+    "pages": 1,
+    "file_size_mb": 0.70,
+    "plan_id": "תא/מק/3329",
+    "priority": "medium",
+    "reason": "ב-taba-analysis: תכנית מקומית מאושרת, סטטוס PARTIAL. דף 1.",
+    "doc_type_guess": "תשריט"
+  },
+  {
+    "filename": "תא_ מק_ 3329_תשריט התכנית - מאושר - חתום_0.pdf",
+    "path": "research/taba-plans/תא_ מק_ 3329_תשריט התכנית - מאושר - חתום_0.pdf",
+    "pages": 1,
+    "file_size_mb": 1.16,
+    "plan_id": "תא/מק/3329",
+    "priority": "medium",
+    "reason": "עותק נוסף/דף נוסף של תשריט 3329.",
+    "doc_type_guess": "תשריט"
+  },
+  {
+    "filename": "תא-3328-הוראות.pdf",
+    "path": "research/taba-plans/to-download/תא-3328-הוראות.pdf",
+    "pages": 9,
+    "file_size_mb": 0.14,
+    "plan_id": "תא/3328",
+    "priority": "medium",
+    "reason": "מספר קרוב ל-3329 (ב-taba-analysis). ייתכן תכנית קשורה. 9 עמודים = תוכן משמעותי.",
+    "doc_type_guess": "הוראות"
+  },
+  {
+    "filename": "תא-3328-תשריט.pdf",
+    "path": "research/taba-plans/to-download/תא-3328-תשריט.pdf",
+    "pages": 1,
+    "file_size_mb": 1.76,
+    "plan_id": "תא/3328",
+    "priority": "medium",
+    "reason": "תשריט תכנית 3328.",
+    "doc_type_guess": "תשריט"
+  },
+  {
+    "filename": "תא-2205-הוראות.pdf",
+    "path": "research/taba-plans/to-download/תא-2205-הוראות.pdf",
+    "pages": 7,
+    "file_size_mb": 0.10,
+    "plan_id": "תא/2205",
+    "priority": "medium",
+    "reason": "תכנית לא מזוהה. מספר קרוב ל-2215 (תכנית הבסיס). 7 עמודים הוראות.",
+    "doc_type_guess": "הוראות"
+  },
+  {
+    "filename": "תא-2205-תשריט.pdf",
+    "path": "research/taba-plans/to-download/תא-2205-תשריט.pdf",
+    "pages": 1,
+    "file_size_mb": 1.88,
+    "plan_id": "תא/2205",
+    "priority": "medium",
+    "reason": "תשריט תכנית 2205.",
+    "doc_type_guess": "תשריט"
+  },
+  {
+    "filename": "תא-81-הוראות.pdf",
+    "path": "research/taba-plans/to-download/תא-81-הוראות.pdf",
+    "pages": 4,
+    "file_size_mb": 0.17,
+    "plan_id": "תא/81",
+    "priority": "medium",
+    "reason": "download-list #9, עדיפות בינונית: 15 ד', 25 מגרשים, גוש 6978.",
+    "doc_type_guess": "הוראות"
+  },
+  {
+    "filename": "תא-81-תשריט.pdf",
+    "path": "research/taba-plans/to-download/תא-81-תשריט.pdf",
+    "pages": 1,
+    "file_size_mb": 1.04,
+    "plan_id": "תא/81",
+    "priority": "medium",
+    "reason": "תשריט תכנית 81.",
+    "doc_type_guess": "תשריט"
+  },
+  {
+    "filename": "תא-624-הוראות.pdf",
+    "path": "research/taba-plans/to-download/תא-624-הוראות.pdf",
+    "pages": 3,
+    "file_size_mb": 0.53,
+    "plan_id": "תא/624",
+    "priority": "medium",
+    "reason": "download-list #10, עדיפות בינונית: 8 ד', 21 מגרשים, גוש 6978, מסחר.",
+    "doc_type_guess": "הוראות"
+  },
+  {
+    "filename": "תא-624-תשריט.pdf",
+    "path": "research/taba-plans/to-download/תא-624-תשריט.pdf",
+    "pages": 1,
+    "file_size_mb": 0.88,
+    "plan_id": "תא/624",
+    "priority": "medium",
+    "reason": "תשריט תכנית 624.",
+    "doc_type_guess": "תשריט"
+  },
+  {
+    "filename": "תא-761-הוראות.pdf",
+    "path": "research/taba-plans/to-download/תא-761-הוראות.pdf",
+    "pages": 1,
+    "file_size_mb": 0.31,
+    "plan_id": "תא/761",
+    "priority": "medium",
+    "reason": "download-list #11, עדיפות בינונית: 6 ד', 11 מגרשים, גוש 6978.",
+    "doc_type_guess": "הוראות"
+  },
+  {
+    "filename": "תא-761-תשריט.pdf",
+    "path": "research/taba-plans/to-download/תא-761-תשריט.pdf",
+    "pages": 1,
+    "file_size_mb": 0.57,
+    "plan_id": "תא/761",
+    "priority": "medium",
+    "reason": "תשריט תכנית 761.",
+    "doc_type_guess": "תשריט"
+  },
+  {
+    "filename": "תא-87-תשריט.pdf",
+    "path": "research/taba-plans/to-download/תא-87-תשריט.pdf",
+    "pages": 1,
+    "file_size_mb": 4.06,
+    "plan_id": "תא/87",
+    "priority": "medium",
+    "reason": "download-list #12, עדיפות בינונית: 5 ד', 19 מגרשים, גושים 6978+7068. תשריט בלבד (חסר הוראות).",
+    "doc_type_guess": "תשריט"
+  },
+  {
+    "filename": "תא-2015-הוראות.pdf",
+    "path": "research/taba-plans/to-download/תא-2015-הוראות.pdf",
+    "pages": 2,
+    "file_size_mb": 0.27,
+    "plan_id": "תא/2015",
+    "priority": "medium",
+    "reason": "download-list #13, עדיפות בינונית: 7 ד', 8 מגרשים, גוש 6135.",
+    "doc_type_guess": "הוראות"
+  },
+  {
+    "filename": "תא-2015-תשריט.pdf",
+    "path": "research/taba-plans/to-download/תא-2015-תשריט.pdf",
+    "pages": 1,
+    "file_size_mb": 0.52,
+    "plan_id": "תא/2015",
+    "priority": "medium",
+    "reason": "תשריט תכנית 2015.",
+    "doc_type_guess": "תשריט"
+  },
+  {
+    "filename": "תא-1236-הוראות.pdf",
+    "path": "research/taba-plans/to-download/תא-1236-הוראות.pdf",
+    "pages": 2,
+    "file_size_mb": 0.06,
+    "plan_id": "תא/1236",
+    "priority": "medium",
+    "reason": "download-list #14, עדיפות בינונית: 11 ד', 6 מגרשים, גוש 6892, ציבורי+שצ\"פ.",
+    "doc_type_guess": "הוראות"
+  },
+  {
+    "filename": "תא-1236-תשריט.pdf",
+    "path": "research/taba-plans/to-download/תא-1236-תשריט.pdf",
+    "pages": 1,
+    "file_size_mb": 0.62,
+    "plan_id": "תא/1236",
+    "priority": "medium",
+    "reason": "תשריט תכנית 1236.",
+    "doc_type_guess": "תשריט"
+  },
+  {
+    "filename": "תא-3139-הוראות.pdf",
+    "path": "research/taba-plans/to-download/תא-3139-הוראות.pdf",
+    "pages": 5,
+    "file_size_mb": 0.18,
+    "plan_id": "תא/3139",
+    "priority": "medium",
+    "reason": "download-list #15, עדיפות בינונית: 28 ד', 5 מגרשים, גוש 6136, שצ\"פ+מגורים.",
+    "doc_type_guess": "הוראות"
+  },
+  {
+    "filename": "תא-3139-תשריט.pdf",
+    "path": "research/taba-plans/to-download/תא-3139-תשריט.pdf",
+    "pages": 1,
+    "file_size_mb": 3.67,
+    "plan_id": "תא/3139",
+    "priority": "medium",
+    "reason": "תשריט תכנית 3139.",
+    "doc_type_guess": "תשריט"
+  },
+  {
+    "filename": "תא-1358ד-הוראות.pdf",
+    "path": "research/taba-plans/to-download/תא-1358ד-הוראות.pdf",
+    "pages": 4,
+    "file_size_mb": 0.11,
+    "plan_id": "תא/1358ד",
+    "priority": "medium",
+    "reason": "תכנית לא ברשימת ההורדה ולא ב-taba-analysis. 4 עמודי הוראות — צריך זיהוי.",
+    "doc_type_guess": "הוראות"
+  },
+  {
+    "filename": "תא-1358ד-תשריט.pdf",
+    "path": "research/taba-plans/to-download/תא-1358ד-תשריט.pdf",
+    "pages": 1,
+    "file_size_mb": 2.15,
+    "plan_id": "תא/1358ד",
+    "priority": "medium",
+    "reason": "תשריט תכנית 1358ד.",
+    "doc_type_guess": "תשריט"
+  },
+  {
+    "filename": "15617517-e209-4c4f-855b-2ce9917c6a4d.pdf",
+    "path": "research/taba-plans/15617517-e209-4c4f-855b-2ce9917c6a4d.pdf",
+    "pages": 1,
+    "file_size_mb": 1.76,
+    "plan_id": null,
+    "priority": "low",
+    "reason": "UUID — תכנית לא מזוהה. עמוד יחיד, כנראה תשריט סרוק.",
+    "doc_type_guess": "תשריט"
+  },
+  {
+    "filename": "340eaa95-6873-4995-8748-f3ab0d96939f.pdf",
+    "path": "research/taba-plans/340eaa95-6873-4995-8748-f3ab0d96939f.pdf",
+    "pages": 1,
+    "file_size_mb": 0.97,
+    "plan_id": null,
+    "priority": "low",
+    "reason": "UUID — תכנית לא מזוהה. עמוד יחיד, כנראה תשריט סרוק.",
+    "doc_type_guess": "תשריט"
+  },
+  {
+    "filename": "34eb6d1d-5ad3-44db-ae8e-3bfd8d4ded10.pdf",
+    "path": "research/taba-plans/34eb6d1d-5ad3-44db-ae8e-3bfd8d4ded10.pdf",
+    "pages": 1,
+    "file_size_mb": 1.63,
+    "plan_id": null,
+    "priority": "low",
+    "reason": "UUID — תכנית לא מזוהה. עמוד יחיד, כנראה תשריט סרוק.",
+    "doc_type_guess": "תשריט"
+  },
+  {
+    "filename": "373e32e3-fe60-4786-bdf2-7f24c80e2df5.pdf",
+    "path": "research/taba-plans/373e32e3-fe60-4786-bdf2-7f24c80e2df5.pdf",
+    "pages": 1,
+    "file_size_mb": 1.54,
+    "plan_id": null,
+    "priority": "low",
+    "reason": "UUID — תכנית לא מזוהה. עמוד יחיד, כנראה תשריט סרוק.",
+    "doc_type_guess": "תשריט"
+  },
+  {
+    "filename": "393f3adb-cfd9-4507-b737-eadbef0cda29.pdf",
+    "path": "research/taba-plans/393f3adb-cfd9-4507-b737-eadbef0cda29.pdf",
+    "pages": 1,
+    "file_size_mb": 0.50,
+    "plan_id": null,
+    "priority": "low",
+    "reason": "UUID — תכנית לא מזוהה. עמוד יחיד, כנראה תשריט סרוק.",
+    "doc_type_guess": "תשריט"
+  },
+  {
+    "filename": "464ba601-88b1-44a8-9513-3d0275a79f8d.pdf",
+    "path": "research/taba-plans/464ba601-88b1-44a8-9513-3d0275a79f8d.pdf",
+    "pages": 1,
+    "file_size_mb": 1.02,
+    "plan_id": null,
+    "priority": "low",
+    "reason": "UUID — תכנית לא מזוהה. עמוד יחיד, כנראה תשריט סרוק.",
+    "doc_type_guess": "תשריט"
+  },
+  {
+    "filename": "4adc32b1-3de5-448e-9441-71fe5d53cb19.pdf",
+    "path": "research/taba-plans/4adc32b1-3de5-448e-9441-71fe5d53cb19.pdf",
+    "pages": 1,
+    "file_size_mb": 0.38,
+    "plan_id": null,
+    "priority": "low",
+    "reason": "UUID — תכנית לא מזוהה. עמוד יחיד, כנראה תשריט סרוק.",
+    "doc_type_guess": "תשריט"
+  },
+  {
+    "filename": "7bd40b43-6f5a-424c-927e-159c8285112a.pdf",
+    "path": "research/taba-plans/7bd40b43-6f5a-424c-927e-159c8285112a.pdf",
+    "pages": 1,
+    "file_size_mb": 2.22,
+    "plan_id": null,
+    "priority": "low",
+    "reason": "UUID — תכנית לא מזוהה. עמוד יחיד, כנראה תשריט סרוק.",
+    "doc_type_guess": "תשריט"
+  },
+  {
+    "filename": "8d6aab71-86bb-4881-a592-22e76194ec60.pdf",
+    "path": "research/taba-plans/8d6aab71-86bb-4881-a592-22e76194ec60.pdf",
+    "pages": 1,
+    "file_size_mb": 0.27,
+    "plan_id": null,
+    "priority": "low",
+    "reason": "UUID — תכנית לא מזוהה. עמוד יחיד, כנראה תשריט סרוק.",
+    "doc_type_guess": "תשריט"
+  },
+  {
+    "filename": "8ebc6f60-edbc-401d-a719-7185ccf87faf.pdf",
+    "path": "research/taba-plans/8ebc6f60-edbc-401d-a719-7185ccf87faf.pdf",
+    "pages": 1,
+    "file_size_mb": 0.88,
+    "plan_id": null,
+    "priority": "low",
+    "reason": "UUID — תכנית לא מזוהה. עמוד יחיד, כנראה תשריט סרוק.",
+    "doc_type_guess": "תשריט"
+  },
+  {
+    "filename": "96aef17a-a9e7-4b5e-b55a-f315617f6f1f.pdf",
+    "path": "research/taba-plans/96aef17a-a9e7-4b5e-b55a-f315617f6f1f.pdf",
+    "pages": 1,
+    "file_size_mb": 0.29,
+    "plan_id": null,
+    "priority": "low",
+    "reason": "UUID — תכנית לא מזוהה. עמוד יחיד, כנראה תשריט סרוק.",
+    "doc_type_guess": "תשריט"
+  },
+  {
+    "filename": "9e3f2d15-7b40-46a0-b6ef-c728e754fbef.pdf",
+    "path": "research/taba-plans/9e3f2d15-7b40-46a0-b6ef-c728e754fbef.pdf",
+    "pages": 1,
+    "file_size_mb": 0.40,
+    "plan_id": null,
+    "priority": "low",
+    "reason": "UUID — תכנית לא מזוהה. עמוד יחיד, כנראה תשריט סרוק.",
+    "doc_type_guess": "תשריט"
+  },
+  {
+    "filename": "a892c11f-4a58-4adc-9686-5379f8708cea.pdf",
+    "path": "research/taba-plans/a892c11f-4a58-4adc-9686-5379f8708cea.pdf",
+    "pages": 1,
+    "file_size_mb": 0.29,
+    "plan_id": null,
+    "priority": "low",
+    "reason": "UUID — תכנית לא מזוהה. עמוד יחיד, כנראה תשריט סרוק.",
+    "doc_type_guess": "תשריט"
+  },
+  {
+    "filename": "bf4cefcb-a46f-40da-99dc-343747d01edb.pdf",
+    "path": "research/taba-plans/bf4cefcb-a46f-40da-99dc-343747d01edb.pdf",
+    "pages": 1,
+    "file_size_mb": 1.10,
+    "plan_id": null,
+    "priority": "low",
+    "reason": "UUID — תכנית לא מזוהה. עמוד יחיד, כנראה תשריט סרוק.",
+    "doc_type_guess": "תשריט"
+  },
+  {
+    "filename": "cacd7bb2-c1ec-4553-b37b-a7e8b4d91345.pdf",
+    "path": "research/taba-plans/cacd7bb2-c1ec-4553-b37b-a7e8b4d91345.pdf",
+    "pages": 1,
+    "file_size_mb": 0.93,
+    "plan_id": null,
+    "priority": "low",
+    "reason": "UUID — תכנית לא מזוהה. עמוד יחיד, כנראה תשריט סרוק.",
+    "doc_type_guess": "תשריט"
+  },
+  {
+    "filename": "f7ea8f0e-2a25-4352-8e66-3ab8ba32a338.pdf",
+    "path": "research/taba-plans/f7ea8f0e-2a25-4352-8e66-3ab8ba32a338.pdf",
+    "pages": 1,
+    "file_size_mb": 0.49,
+    "plan_id": null,
+    "priority": "low",
+    "reason": "UUID — תכנית לא מזוהה. עמוד יחיד, כנראה תשריט סרוק.",
+    "doc_type_guess": "תשריט"
+  }
+]

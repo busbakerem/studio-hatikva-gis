@@ -1,0 +1,27 @@
+{
+  "name": "tlv-gis-mcp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.28.0",
+    "@turf/combine": "^7.3.4",
+    "@turf/helpers": "^7.3.4",
+    "@turf/union": "^7.3.4",
+    "pdf-parse": "^1.1.1",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "typescript": "^6.0.2"
+  }
+}

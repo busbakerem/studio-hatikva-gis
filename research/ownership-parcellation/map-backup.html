@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>מפת מחקר — שכונת התקווה | סטודיו בצלאל</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, 'Segoe UI', sans-serif; }
+#map { width: 100%; height: 100vh; }
+
+/* Collapsible site picker */
+#site-picker {
+  position: absolute; top: 10px; left: 50%; transform: translateX(-50%);
+  z-index: 1000; background: #fff; border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.25); direction: rtl; font-size: 13px;
+  min-width: 320px; overflow: hidden; transition: all 0.3s;
+}
+#picker-header {
+  padding: 10px 14px; cursor: pointer; display: flex; justify-content: space-between;
+  align-items: center; background: #f8f9fa; border-bottom: 1px solid #eee;
+}
+#picker-header:hover { background: #e9ecef; }
+#picker-body { padding: 8px 14px 12px; }
+#picker-body.collapsed { display: none; }
+#site-picker table { width: 100%; border-collapse: collapse; }
+#site-picker th, #site-picker td { padding: 4px 6px; text-align: right; border-bottom: 1px solid #f0f0f0; }
+#site-picker th { font-size: 10px; color: #aaa; }
+.site-row { cursor: pointer; transition: background 0.15s; }
+.site-row:hover { background: #f0f7ff; }
+.site-row.active { background: #e3f2fd; }
+.site-row.done { background: #e8f5e9; }
+.site-dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+.site-coords { font-family: monospace; font-size: 10px; color: #888; }
+.btn { padding: 3px 10px; border: none; border-radius: 3px; cursor: pointer; font-size: 11px; font-family: inherit; }
+.btn-mark { background: #1976d2; color: #fff; }
+.btn-mark:disabled { background: #ccc; cursor: default; }
+.btn-clear { background: #eee; color: #333; margin-right: 3px; }
+.btn-save { background: #2e7d32; color: #fff; }
+#save-msg { font-size: 10px; color: #2e7d32; display: none; }
+#picker-actions { display: flex; gap: 6px; margin-top: 6px; align-items: center; }
+
+/* Map popups */
+.info-panel {
+  background: #fff; padding: 10px; border-radius: 6px; font-size: 12px; direction: rtl;
+  min-width: 180px; max-width: 300px;
+}
+.info-panel h4 { margin: 0 0 4px; font-size: 13px; }
+.info-panel table { width: 100%; border-collapse: collapse; }
+.info-panel td { padding: 2px 4px; border-bottom: 1px solid #f0f0f0; }
+.info-panel td:first-child { font-weight: 600; white-space: nowrap; }
+
+/* Legend */
+.legend {
+  background: rgba(255,255,255,0.95); padding: 8px 12px; border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15); font-size: 11px; line-height: 1.7;
+  max-height: 55vh; overflow-y: auto; direction: rtl;
+}
+.legend h4 { font-size: 11px; margin: 6px 0 2px; border-bottom: 1px solid #eee; padding-bottom: 1px; color: #555; }
+.legend h4:first-child { margin-top: 0; }
+.legend-item { display: flex; align-items: center; gap: 5px; }
+.legend-color { width: 14px; height: 10px; border: 1px solid #999; border-radius: 2px; flex-shrink: 0; }
+
+/* Site labels */
+.site-label-tip {
+  background: none !important; border: none !important; box-shadow: none !important;
+  font-size: 11px; font-weight: 700; color: #333; text-shadow: 0 0 4px #fff, 0 0 4px #fff, 0 0 4px #fff;
+}
+</style>
+</head>
+<body>
+<div id="map"></div>
+
+<div id="site-picker">
+  <div id="picker-header">
+    <span style="font-weight:600">📍 סימון אתרי סטודיו</span>
+    <span id="picker-toggle" style="font-size:16px">▾</span>
+  </div>
+  <div id="picker-body">
+    <table>
+      <thead><tr><th></th><th>אתר</th><th>מרכז</th><th></th></tr></thead>
+      <tbody id="site-rows"></tbody>
+    </table>
+    <div id="picker-actions">
+      <button class="btn btn-save" id="btn-export">שמור JSON (0/5)</button>
+      <span id="save-msg">נשמר!</span>
+    </div>
+  </div>
+</div>
+
+<script>
+// ── Data ─────────────────────────────────────────────────────────────────────
+var siteColors = ['#e91e63', '#2196f3', '#ff9800', '#4caf50', '#9c27b0'];
+var siteNames = ['התקווה-חנוך-טרפון','תשבי-ששון','דרך ההגנה','הורד-פארק','הורד-יחיעם-לבלוב'];
+var siteIds = ['hatikva-hanoch-tarfon','hatishbi-sasson','derech-hahagana','haverod-park','haverod-yechiam-leblov'];
+var siteData = [{center:null,marker:null,circle:null},{center:null,marker:null,circle:null},{center:null,marker:null,circle:null},{center:null,marker:null,circle:null},{center:null,marker:null,circle:null}];
+var siteRadius = 60; // meters
+var activeSite = null;
+
+// Saved positions
+var savedPositions = {
+  0: [32.05172906313234, 34.79006946086884],
+  1: [32.0487965112553, 34.79240834712983],
+  2: [32.05375335186845, 34.79045569897182],
+  3: [32.052816328304516, 34.79361534118653],
+  4: [32.05163377573587, 34.792724847793586],
+};
+
+// Plan colors
+var planColors = {
+  '507-0726463': '#d32f2f',
+  'תא/מק/4766': '#e65100',
+  'תא/מק/4765': '#1565c0',
+  'תא/מק/4899': '#6a1b9a'
+};
+var planNames = {
+  '507-0726463': 'רה-פרצלציה גוש 6979',
+  'תא/מק/4766': 'הסדרת מגרשים גוש 6135',
+  'תא/מק/4765': 'בעלות מדינה — גוש 6135',
+  'תא/מק/4899': 'רה-פרצלציה גוש 7069'
+};
+
+// ── Map ──────────────────────────────────────────────────────────────────────
+var map = L.map('map', {zoomControl: true}).setView([32.0513, 34.7920], 16);
+
+var cartoLight = L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {attribution:'&copy; CARTO', maxZoom:20});
+var cartoDark = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {attribution:'&copy; CARTO', maxZoom:20});
+var osmLayer = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {attribution:'&copy; OSM', maxZoom:20});
+cartoLight.addTo(map);
+
+// ── Collapsible picker ───────────────────────────────────────────────────────
+var pickerEl = document.getElementById('site-picker');
+var pickerBody = document.getElementById('picker-body');
+var pickerToggle = document.getElementById('picker-toggle');
+L.DomEvent.disableClickPropagation(pickerEl);
+L.DomEvent.disableScrollPropagation(pickerEl);
+
+document.getElementById('picker-header').addEventListener('click', function() {
+  pickerBody.classList.toggle('collapsed');
+  pickerToggle.textContent = pickerBody.classList.contains('collapsed') ? '▸' : '▾';
+});
+
+// ── Site picker logic ────────────────────────────────────────────────────────
+var tbody = document.getElementById('site-rows');
+tbody.addEventListener('click', function(e) {
+  var btn = e.target.closest('button');
+  if (!btn) return;
+  e.stopPropagation();
+  var i = parseInt(btn.dataset.site);
+  if (btn.dataset.action === 'mark') {
+    activeSite = i;
+    map.getContainer().style.cursor = 'crosshair';
+    renderTable();
+  } else if (btn.dataset.action === 'clear') {
+    clearSite(i);
+    activeSite = null;
+    map.getContainer().style.cursor = '';
+    renderTable();
+    updateExportBtn();
+  }
+});
+
+function renderTable() {
+  tbody.innerHTML = '';
+  siteNames.forEach(function(name, i) {
+    var has = siteData[i].center !== null;
+    var active = activeSite === i;
+    var tr = document.createElement('tr');
+    tr.className = 'site-row' + (active ? ' active' : '') + (has ? ' done' : '');
+    tr.innerHTML =
+      '<td><span class="site-dot" style="background:' + siteColors[i] + '"></span></td>' +
+      '<td><b>' + (i+1) + '. ' + name + '</b></td>' +
+      '<td class="site-coords">' + (has ? siteData[i].center[0].toFixed(5) + ', ' + siteData[i].center[1].toFixed(5) : '—') + '</td>' +
+      '<td>' +
+      '<button class="btn btn-mark" data-action="mark" data-site="' + i + '"' + (active?' disabled':'') + '>' + (active ? '⏳ לחץ' : (has ? '⟲' : 'סמן')) + '</button>' +
+      (has ? ' <button class="btn btn-clear" data-action="clear" data-site="' + i + '">✕</button>' : '') +
+      '</td>';
+    tbody.appendChild(tr);
+  });
+}
+
+function placeSite(i, latlng) {
+  clearSite(i);
+  siteData[i].center = [latlng.lat, latlng.lng];
+
+  // Small dot marker at center
+  siteData[i].marker = L.circleMarker(latlng, {
+    radius: 5, color: '#fff', weight: 2, fillColor: siteColors[i], fillOpacity: 1
+  }).addTo(map);
+
+  // Label at center
+  siteData[i].marker.bindTooltip((i+1) + '. ' + siteNames[i], {
+    permanent: true, direction: 'top', offset: [0, -8],
+    className: 'site-label-tip'
+  });
+
+  // Small circle (60m radius)
+  siteData[i].circle = L.circle(latlng, {
+    radius: siteRadius, color: siteColors[i], weight: 2,
+    fillColor: siteColors[i], fillOpacity: 0.06,
+    dashArray: '6,4'
+  }).addTo(map);
+}
+
+function clearSite(i) {
+  if (siteData[i].marker) { map.removeLayer(siteData[i].marker); siteData[i].marker = null; }
+  if (siteData[i].circle) { map.removeLayer(siteData[i].circle); siteData[i].circle = null; }
+  siteData[i].center = null;
+}
+
+function updateExportBtn() {
+  var count = siteData.filter(function(s){return s.center !== null}).length;
+  document.getElementById('btn-export').textContent = 'שמור JSON (' + count + '/5)';
+}
+
+map.on('click', function(e) {
+  if (activeSite === null) return;
+  placeSite(activeSite, e.latlng);
+  var current = activeSite;
+  activeSite = null;
+  map.getContainer().style.cursor = '';
+  for (var j = current + 1; j < 5; j++) {
+    if (!siteData[j].center) { activeSite = j; map.getContainer().style.cursor = 'crosshair'; break; }
+  }
+  renderTable();
+  updateExportBtn();
+});
+
+// Export
+var exportBtn = document.getElementById('btn-export');
+L.DomEvent.disableClickPropagation(exportBtn);
+exportBtn.addEventListener('click', function() {
+  var result = {};
+  siteNames.forEach(function(name, i) {
+    var c = siteData[i].center;
+    if (!c) { result[siteIds[i]] = {name:name, center:null, bounds:null}; return; }
+    result[siteIds[i]] = {
+      name: name,
+      center: {lat:c[0], lon:c[1]},
+      bounds: {
+        sw: {lat: c[0]-0.0006, lon: c[1]-0.0006},
+        ne: {lat: c[0]+0.0006, lon: c[1]+0.0006}
+      }
+    };
+  });
+  var blob = new Blob([JSON.stringify(result, null, 2)], {type:'application/json'});
+  var a = document.createElement('a'); a.href = URL.createObjectURL(blob);
+  a.download = 'site-locations.json'; a.click();
+  document.getElementById('save-msg').style.display = 'inline';
+  setTimeout(function(){ document.getElementById('save-msg').style.display = 'none'; }, 2000);
+});
+
+// Load saved positions
+Object.keys(savedPositions).forEach(function(i) {
+  placeSite(parseInt(i), L.latLng(savedPositions[i][0], savedPositions[i][1]));
+});
+renderTable();
+updateExportBtn();
+
+// Auto-collapse picker since sites are loaded
+pickerBody.classList.add('collapsed');
+pickerToggle.textContent = '▸';
+
+// ── Plan boundaries — precise polygons from GIS ──────────────────────────────
+var plansLayer = L.layerGroup();
+
+fetch('data/plan_boundaries.geojson').then(function(r){return r.json()}).then(function(data) {
+  L.geoJSON(data, {
+    style: function(f) {
+      var plan = f.properties._plan;
+      var color = planColors[plan] || '#666';
+      return {
+        color: color, weight: 3, fillColor: color, fillOpacity: 0.18,
+        dashArray: null  // solid lines for plans (distinct from dashed site circles)
+      };
+    },
+    onEachFeature: function(f, layer) {
+      var p = f.properties;
+      var plan = p._plan;
+      var color = planColors[plan] || '#666';
+      layer.bindPopup(
+        '<div class="info-panel">' +
+        '<h4 style="color:' + color + '">' + plan + '</h4>' +
+        '<table>' +
+        '<tr><td>שם</td><td>' + (planNames[plan]||'') + '</td></tr>' +
+        '<tr><td>גוש/חלקה</td><td>' + p.ms_gush + '/' + p.ms_chelka + '</td></tr>' +
+        '<tr><td>שטח</td><td>' + (p.Shape_Area||0).toFixed(0) + ' מ"ר</td></tr>' +
+        '</table></div>'
+      );
+    }
+  }).addTo(plansLayer);
+});
+plansLayer.addTo(map);
+
+// ── GeoJSON data layers ──────────────────────────────────────────────────────
+var MOSHAA = 5000;
+var zoningColors = {
+  'מגורים':'#4caf50','תחבורה':'#78909c','מבנים ומוסדות ציבור':'#29b6f6',
+  'שטחים פתוחים':'#81c784','מסחר':'#ffc107','תעסוקה':'#7e57c2',
+  'מגורים-תעסוקה מעורב':'#ec407a','שטח לתכנון בעתיד':'#bdbdbd','אחר':'#e0e0e0','ללא סיווג':'#f5f5f5'
+};
+
+var parcelsLayer = L.layerGroup();
+fetch('data/parcels.geojson').then(function(r){return r.json()}).then(function(data) {
+  L.geoJSON(data, {
+    style: function(f) {
+      var m = (f.properties.Shape_Area||0) > MOSHAA;
+      return { color: m?'#e65100':'#5d4037', weight: m?1.5:0.8, fillColor: m?'#fff3e0':'transparent', fillOpacity: m?0.35:0 };
+    },
+    onEachFeature: function(f, layer) {
+      var p = f.properties;
+      var m = (p.Shape_Area||0) > MOSHAA;
+      layer.bindPopup('<div class="info-panel"><h4>חלקה ' + p.ms_gush + '/' + p.ms_chelka + '</h4><table>' +
+        '<tr><td>שטח</td><td>' + (p.Shape_Area||0).toFixed(0) + ' מ"ר</td></tr>' +
+        (m ? '<tr><td colspan="2" style="color:#e65100;font-weight:bold">⚠️ מושע</td></tr>' : '') +
+        (p.heara ? '<tr><td>הערה</td><td>' + p.heara + '</td></tr>' : '') +
+        '</table></div>');
+    }
+  }).addTo(parcelsLayer);
+});
+parcelsLayer.addTo(map);
+
+var municipalLayer = L.layerGroup();
+fetch('data/municipal_land.geojson').then(function(r){return r.json()}).then(function(data) {
+  L.geoJSON(data, {
+    style: { color:'#f57f17', weight:0.5, fillColor:'#ffcc02', fillOpacity:0.3 },
+    onEachFeature: function(f, layer) {
+      var p = f.properties;
+      layer.bindPopup('<div class="info-panel"><h4>בעלות עירייה</h4><table>' +
+        '<tr><td>גוש/חלקה</td><td>' + p.ms_gush + '/' + p.ms_chelka + '</td></tr>' +
+        '<tr><td>סוג</td><td>' + (p.t_sug||'?') + '</td></tr>' +
+        '</table></div>');
+    }
+  }).addTo(municipalLayer);
+});
+municipalLayer.addTo(map);
+
+var zoningLayer = L.layerGroup();
+fetch('data/land_use.geojson').then(function(r){return r.json()}).then(function(data) {
+  L.geoJSON(data, {
+    style: function(f) {
+      return { color:'#666', weight:0.3, fillColor: zoningColors[f.properties.t_yeud_rashi]||'#e0e0e0', fillOpacity:0.25 };
+    },
+    onEachFeature: function(f, layer) {
+      var p = f.properties;
+      layer.bindPopup('<div class="info-panel"><h4>' + (p.t_yeud_rashi||'?') + '</h4><table>' +
+        '<tr><td>מפורט</td><td>' + (p.t_yeud_karka||'?') + '</td></tr>' +
+        '<tr><td>תב"ע</td><td>' + (p.st_taba||'').trim() + '</td></tr>' +
+        '</table></div>');
+    }
+  }).addTo(zoningLayer);
+});
+
+// ── Layer control ────────────────────────────────────────────────────────────
+L.control.layers(
+  {'בהיר':cartoLight, 'כהה':cartoDark, 'OSM':osmLayer},
+  {
+    '📐 תכניות פעילות': plansLayer,
+    '🟫 חלקות': parcelsLayer,
+    '🟨 בעלות עירייה': municipalLayer,
+    '🎨 ייעודי קרקע': zoningLayer
+  },
+  {collapsed:false, position:'topright'}
+).addTo(map);
+
+// ── Legend ────────────────────────────────────────────────────────────────────
+var legend = L.control({position:'bottomright'});
+legend.onAdd = function() {
+  var div = L.DomUtil.create('div','legend');
+  div.innerHTML =
+    '<h4>תכניות פעילות (קו רציף)</h4>' +
+    '<div class="legend-item"><div class="legend-color" style="background:rgba(211,47,47,0.2);border-color:#d32f2f"></div>507 — גוש 6979</div>' +
+    '<div class="legend-item"><div class="legend-color" style="background:rgba(230,81,0,0.2);border-color:#e65100"></div>4766 — גוש 6135</div>' +
+    '<div class="legend-item"><div class="legend-color" style="background:rgba(21,101,192,0.2);border-color:#1565c0"></div>4765 — בעלות מדינה</div>' +
+    '<h4>אתרי סטודיו (עיגול מקווקו)</h4>' +
+    siteNames.map(function(n,i){return '<div class="legend-item"><div class="legend-color" style="background:transparent;border:2px dashed ' + siteColors[i] + ';border-radius:50%"></div>' + (i+1) + '. ' + n + '</div>'}).join('') +
+    '<h4>בעלות</h4>' +
+    '<div class="legend-item"><div class="legend-color" style="background:#ffcc02;border-color:#f57f17"></div>עירייה (515)</div>' +
+    '<div class="legend-item"><div class="legend-color" style="background:#fff3e0;border-color:#e65100"></div>מושע (> 5,000 מ"ר)</div>' +
+    '<h4>ייעודי קרקע</h4>' +
+    Object.entries(zoningColors).filter(function(e){return !['אחר','ללא סיווג','שטח לתכנון בעתיד'].includes(e[0])}).map(function(e){return '<div class="legend-item"><div class="legend-color" style="background:'+e[1]+';border-color:#999"></div>'+e[0]+'</div>'}).join('');
+  return div;
+};
+legend.addTo(map);
+</script>
+</body>
+</html>

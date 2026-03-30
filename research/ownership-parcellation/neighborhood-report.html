@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>בעלות קרקע ופרצלציה — שכונת התקווה | בצלאל</title>
+<style>
+:root{--bg:#f8f9fa;--card:#fff;--border:#dee2e6;--text:#212529;--muted:#6c757d;--accent:#0d6efd;--green:#198754;--red:#dc3545;--orange:#fd7e14;--warn:#ffc107}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,'Segoe UI',Roboto,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;padding:1rem 1.5rem;max-width:1200px;margin:0 auto}
+h1{font-size:1.8rem;margin-bottom:0.2rem}h2{font-size:1.35rem;margin:2.5rem 0 1rem;border-bottom:2px solid var(--accent);padding-bottom:0.3rem}h3{font-size:1.1rem;margin:1.5rem 0 0.5rem}h4{font-size:0.95rem;margin:1rem 0 0.3rem;color:var(--muted)}
+.sub{color:var(--muted);margin-bottom:0.5rem}.date{color:var(--muted);font-size:0.82rem;margin-bottom:2rem}
+.card{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:1rem;margin-bottom:1rem}
+.warn{background:#fff3cd;border-color:var(--warn);border-radius:6px;padding:0.6rem 0.8rem;margin:0.5rem 0;font-size:0.85rem}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:0.6rem;margin-bottom:1rem}
+.stat{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:0.6rem;text-align:center}
+.stat .n{font-size:1.6rem;font-weight:700;color:var(--accent)}.stat .l{font-size:0.75rem;color:var(--muted)}
+table{width:100%;border-collapse:collapse;font-size:0.82rem;margin:0.5rem 0}
+th,td{padding:0.35rem 0.5rem;border:1px solid var(--border);text-align:right}
+th{background:#e9ecef;font-weight:600}tr:nth-child(even){background:#f8f9fa}
+.moshaa{background:#fff3cd !important}
+.bar-row{display:flex;align-items:center;gap:0.3rem;margin:0.12rem 0}
+.bar-row .lbl{font-size:0.75rem;min-width:70px;text-align:left}.bar-row .bar{height:16px;border-radius:3px;min-width:2px}.bar-row .val{font-size:0.75rem;color:var(--muted)}
+.site-card{border-right:4px solid var(--accent)}
+.permit-item{border-right:3px solid var(--orange);padding-right:0.5rem;margin:0.3rem 0;font-size:0.82rem}
+a{color:var(--accent)}
+@media print{body{padding:0;font-size:9pt}.card{break-inside:avoid}}
+</style>
+</head>
+<body>
+
+<h1>בעלות קרקע ופרצלציה בשכונת התקווה</h1>
+<p class="sub">מחקר לסטודיו אדריכלות — בצלאל, אקדמיה לאמנות ועיצוב</p>
+<p class="date">מקור: שרת GIS עיריית ת"א | 30.3.2026</p>
+
+<h2>1. מבוא</h2>
+<div class="card">
+<p>מיפוי מבנה הבעלות והפרצלציה בשכונת התקווה כבסיס לפרויקטים אדריכליים ב-5 אתרי סטודיו.</p>
+<table>
+<tr><th>מידע זמין ב-GIS <span style="background:#198754;color:#fff;padding:0.1rem 0.4rem;border-radius:3px;font-size:0.7rem;font-weight:600">✅ GIS</span></th><th>מידע חסר <span style="background:#dc3545;color:#fff;padding:0.1rem 0.4rem;border-radius:3px;font-size:0.7rem;font-weight:600">❌ UNVERIFIED</span></th></tr>
+<tr><td>בעלות עירייה (515)</td><td>בעלות רמ"י / קק"ל</td></tr>
+<tr><td>גבולות חלקות ושטחים (524)</td><td>זהות בעלים פרטיים</td></tr>
+<tr><td>ייעודי קרקע (514)</td><td>הבחנה בעלות / חכירה</td></tr>
+<tr><td>היתרי בניה (772)</td><td>סטטוס מושע מפורט</td></tr>
+<tr><td>מבנים וכתובות (513)</td><td>הערכות שווי</td></tr>
+</table>
+</div>
+
+<h2>3. בעלות קרקע</h2>
+<div class="warn">⚠️ <strong>שכבה 515 = בעלות עירונית בלבד.</strong> אינה כוללת רמ"י, קק"ל, או בעלות פרטית. "לא עירוני" ≠ "פרטי".</div>
+
+<div class="stats">
+<div class="stat"><div class="n">1,541</div><div class="l">חלקות</div></div>
+<div class="stat"><div class="n">2895</div><div class="l">דונם סה"כ</div></div>
+<div class="stat"><div class="n">483</div><div class="l">חלקות עירייה</div></div>
+<div class="stat"><div class="n">39%</div><div class="l">עירוני מסך השטח</div></div>
+<div class="stat"><div class="n">1758</div><div class="l">דונם לא-עירוני</div></div>
+</div>
+
+<div class="card">
+<h4>סוגי בעלות עירונית <span style="background:#198754;color:#fff;padding:0.1rem 0.4rem;border-radius:3px;font-size:0.7rem;font-weight:600">✅ GIS</span></h4>
+<table><thead><tr><th>סוג</th><th>חלקות</th><th>דונם</th></tr></thead><tbody>
+<tr><td>בעלות חלקית</td><td>57</td><td>651.2</td></tr>
+<tr><td>בעלות בשלמות</td><td>415</td><td>477.8</td></tr>
+<tr><td>חכירה חלקית</td><td>1</td><td>4.9</td></tr>
+<tr><td>חכירה בשלמות</td><td>10</td><td>4.1</td></tr>
+</tbody></table></div>
+
+<div class="card">
+<h4>הצלבה עם קדסטר לאומי (GovMap) <span style="background:#198754;color:#fff;padding:0.1rem 0.4rem;border-radius:3px;font-size:0.7rem;font-weight:600">✅ GIS</span></h4>
+<p style="font-size:0.82rem;color:var(--muted)">הקדסטר הלאומי (שירות המדידות) מכיל רק חלקות רשומות ("מוסדר") בטאבו. חלקות שקיימות ב-GIS העירוני אך לא בקדסטר הלאומי טרם נרשמו.</p>
+<table><thead><tr><th>גוש</th><th>TLV GIS</th><th>GovMap</th><th>רק בעירוני</th><th>סטטוס</th></tr></thead><tbody>
+<tr><td>6135</td><td>318</td><td>150</td><td>168</td><td>מוסדר</td></tr>
+<tr><td>6978</td><td>33</td><td>19</td><td>14</td><td>מוסדר</td></tr>
+<tr><td>6979</td><td>9</td><td>5</td><td>4</td><td>מוסדר</td></tr>
+<tr><td>6013</td><td>5</td><td>8</td><td>—</td><td>מוסדר</td></tr>
+<tr><td>6034</td><td>95</td><td>31</td><td>64</td><td>מוסדר</td></tr>
+<tr><td>6980</td><td>16</td><td>14</td><td>2</td><td>מוסדר</td></tr>
+</tbody></table>
+<div class="warn" style="margin-top:0.5rem">⚠️ <strong>ממצא מרכזי:</strong> גוש 6135: 168 חלקות (53%) לא רשומות בטאבו. גוש 6134: 248 חלקות ב-GIS עירוני, אפס בקדסטר לאומי — גוש שלם לא רשום.</div>
+</div>
+
+<h2>4. פרצלציה</h2>
+<div class="warn">⚠️ <strong>בעיית המושע:</strong> 89 חלקות (70% מהשטח) חשודות כמושע — שטח רשום כולל, בעלות משותפת של מספר בעלים. סף 5000 מ"ר הוא <strong>היוריסטיקה שרירותית</strong> — אימות דורש נסח טאבו. ⚠️ INFERRED</div>
+<div class="warn">🔶 <strong>חלקות-על:</strong> 6135/3 (37,637 מ"ר) ו-6135/4 (37,396 מ"ר) חוצות מספר אתרי סטודיו — אין לייחס לאתר בודד.</div>
+
+<div class="stats">
+<div class="stat"><div class="n">1452</div><div class="l">חלקות רגילות</div></div>
+<div class="stat"><div class="n">873</div><div class="l">דונם רגילות</div></div>
+<div class="stat"><div class="n">89</div><div class="l">חשודות מושע</div></div>
+<div class="stat"><div class="n">2022</div><div class="l">דונם מושע</div></div>
+</div>
+
+<div class="card">
+<h4>התפלגות גודל חלקות — ללא מושע <span style="background:#198754;color:#fff;padding:0.1rem 0.4rem;border-radius:3px;font-size:0.7rem;font-weight:600">✅ GIS</span></h4>
+<div class="bar-row"><span class="lbl">< 50 מ"ר</span><div class="bar" style="width:54px;background:var(--accent)"></div><span class="val">96 (1.9 ד')</span></div>
+<div class="bar-row"><span class="lbl">50–100 מ"ר</span><div class="bar" style="width:46px;background:var(--accent)"></div><span class="val">82 (6.4 ד')</span></div>
+<div class="bar-row"><span class="lbl">100–200 מ"ר</span><div class="bar" style="width:198px;background:var(--accent)"></div><span class="val">349 (52.8 ד')</span></div>
+<div class="bar-row"><span class="lbl">200–500 מ"ר</span><div class="bar" style="width:250px;background:var(--accent)"></div><span class="val">441 (141.3 ד')</span></div>
+<div class="bar-row"><span class="lbl">500–1,000 מ"ר</span><div class="bar" style="width:149px;background:var(--accent)"></div><span class="val">262 (173.3 ד')</span></div>
+<div class="bar-row"><span class="lbl">1,000–2,500 מ"ר</span><div class="bar" style="width:87px;background:var(--accent)"></div><span class="val">154 (258.9 ד')</span></div>
+<div class="bar-row"><span class="lbl">2,500–5,000 מ"ר</span><div class="bar" style="width:39px;background:var(--accent)"></div><span class="val">68 (238.5 ד')</span></div>
+<p style="margin-top:0.5rem;font-size:0.8rem;color:var(--muted)">ממוצע: 601 מ"ר | חציון: 270 מ"ר</p>
+</div>
+
+<h2>5. ייעודי קרקע <span style="background:#198754;color:#fff;padding:0.1rem 0.4rem;border-radius:3px;font-size:0.7rem;font-weight:600">✅ GIS</span></h2>
+<div class="card">
+<div class="bar-row"><span class="lbl">מגורים</span><div class="bar" style="width:250px;background:#198754"></div><span class="val">1252 (848.2 ד', 27%)</span></div>
+<div class="bar-row"><span class="lbl">ללא סיווג</span><div class="bar" style="width:206px;background:#0d6efd"></div><span class="val">11 (697.5 ד', 22%)</span></div>
+<div class="bar-row"><span class="lbl">תחבורה</span><div class="bar" style="width:194px;background:#6c757d"></div><span class="val">685 (657.5 ד', 21%)</span></div>
+<div class="bar-row"><span class="lbl">שטחים פתוחים</span><div class="bar" style="width:160px;background:#20c997"></div><span class="val">116 (541.4 ד', 17%)</span></div>
+<div class="bar-row"><span class="lbl">מבנים ומוסדות ציבור</span><div class="bar" style="width:56px;background:#0dcaf0"></div><span class="val">79 (190.0 ד', 6%)</span></div>
+<div class="bar-row"><span class="lbl">אחר</span><div class="bar" style="width:34px;background:#0d6efd"></div><span class="val">26 (113.8 ד', 4%)</span></div>
+<div class="bar-row"><span class="lbl">מסחר</span><div class="bar" style="width:8px;background:#ffc107"></div><span class="val">45 (26.7 ד', 1%)</span></div>
+<div class="bar-row"><span class="lbl">שטח לתכנון בעתיד</span><div class="bar" style="width:4px;background:#0d6efd"></div><span class="val">23 (12.8 ד', 0%)</span></div>
+<div class="bar-row"><span class="lbl">תעסוקה</span><div class="bar" style="width:3px;background:#6610f2"></div><span class="val">5 (10.7 ד', 0%)</span></div>
+<div class="bar-row"><span class="lbl">מגורים-תעסוקה מעורב</span><div class="bar" style="width:3px;background:#d63384"></div><span class="val">3 (9.3 ד', 0%)</span></div>
+</div>
+
+<h2>5.5 שלוש תכניות רה-פרצלציה פעילות <span style="background:#198754;color:#fff;padding:0.1rem 0.4rem;border-radius:3px;font-size:0.7rem;font-weight:600">✅ GIS</span></h2>
+<div class="warn">⚠️ <strong>ממצא מרכזי:</strong> הרה-פרצלציה מתרחשת <strong>עכשיו</strong>, בו-זמנית בשלושה גושים. סה"כ ~52 דונם בתהליך.</div>
+
+<div class="card">
+<h4>507-0726463 — גוש 6979 (12.6 ד')</h4>
+<p>איחוד וחלוקה של חלקת מושע <strong>ללא הסכמת בעלים</strong>. מכוח תא/5000, שינוי לתא/2215.</p>
+<table><thead><tr><th>ייעוד</th><th>שטח</th><th>%</th></tr></thead><tbody>
+<tr><td>מגורים ב'</td><td>8,488</td><td>65.8%</td></tr>
+<tr><td>דרכים</td><td>3,634</td><td>28.2%</td></tr>
+<tr><td>שבילים</td><td>625</td><td>4.9%</td></tr>
+<tr><td>מבנ"צ</td><td>158</td><td>1.2%</td></tr>
+</tbody></table>
+<p style="font-size:0.82rem">צפיפות: ≥12 יח"ד/ד' | יח"ד מינימלית: 47 מ"ר | חזית מסחרית: דרך ההגנה | עד 5 קומות</p>
+<p style="font-size:0.82rem;color:var(--muted)">✅ <strong>אתר 3</strong> (חופף) | ⚠️ <strong>אתר 1</strong> (גובל) | <a href="https://mavat.iplan.gov.il/SV4/1/5000989429/310" target="_blank">מבא"ת</a></p>
+</div>
+
+<div class="card" style="border-right:4px solid var(--red)">
+<h4>תא/מק/4766 (507-0859751) — גוש 6135 (31.6 ד')</h4>
+<p><strong>הסדרת מגרשים בשכונת התקווה</strong> — חלקות 79, 82, 96, 102, 104-105</p>
+<p style="font-size:0.82rem;color:var(--red)">✅ <strong>אתר 2 (תשבי-ששון) — רה-פרצלציה פעילה בתחום! חלקה 79 בתחום האתר</strong></p>
+</div>
+
+<div class="card">
+<h4>תא/מק/4899 (507-0884080) — גוש 7069 (8.2 ד')</h4>
+<p>רה-פרצלציה — חלקות 18, 139. לא חופף עם אתרי סטודיו.</p>
+</div>
+
+<h2>5.6 בעלות מדינה <span style="background:#198754;color:#fff;padding:0.1rem 0.4rem;border-radius:3px;font-size:0.7rem;font-weight:600">✅ GIS</span></h2>
+<div class="card" style="border-right:4px solid var(--orange)">
+<h4>תא/מק/4765 (507-0893354) — גוש 6135</h4>
+<p>הסדרת מגרשים — רחובות מושיע-שבתאי-נדב-בועז-הרן. חלקות 25-26, 11.155 דונם.</p>
+<p><strong>בעלים: מדינת ישראל</strong> — אישור רשמי לבעלות רמ"י. חלקה 25 (8,689 מ"ר) ב<strong>אתר 5</strong>.</p>
+</div>
+
+<h2>5.7 השפעה על אתרי סטודיו</h2>
+<div class="card">
+<p style="font-size:0.8rem;color:var(--muted)">מיקומים מכוילים 30.3.2026</p>
+<table><thead><tr><th>אתר</th><th>גושים</th><th>תכניות</th><th>ממצא</th></tr></thead><tbody>
+<tr style="background:#fff5f5"><td><strong>1. התקווה-חנוך</strong></td><td>6135, 6979</td><td><strong>507 (חופף)</strong></td><td><strong>רה-פרצלציה בתחום. 84% עירייה</strong></td></tr>
+<tr style="background:#fff0f0"><td><strong>2. תשבי-ששון</strong></td><td>6135</td><td><strong>4766 + 4765</strong></td><td><strong>שתי תכניות חופפות! רה-פרצלציה + בעלות מדינה</strong></td></tr>
+<tr style="background:#fff5f5"><td><strong>3. דרך ההגנה</strong></td><td>6134-6979</td><td><strong>507 (חופף)</strong></td><td><strong>רה-פרצלציה. 4 גושים, 87% עירייה</strong></td></tr>
+<tr><td>4. הורד-פארק</td><td>6134, 6135</td><td>566א</td><td>100% עירייה. חלקות-על בלבד</td></tr>
+<tr style="background:#fff5f5"><td><strong>5. הורד-יחיעם</strong></td><td>6135</td><td><strong>4765 (חלקה 25)</strong></td><td><strong>בעלות מדינה. 91% עירייה</strong></td></tr>
+</tbody></table>
+</div>
+
+<h2>6. אתרי סטודיו</h2>
+<div class="warn">מספרים לצד שמות רחובות = <strong>כתובות</strong>, לא מספרי חלקות. חלקות מעל 5000 מ"ר מסומנות כחשודות מושע.</div>
+<div class="card site-card">
+<h3>התקווה-חנוך-טרפון</h3>
+<p style="font-size:0.82rem;color:var(--muted)"><strong>כתובות:</strong> רחובות התקווה, חנוך, טרפון</p>
+<div class="stats" style="margin:0.5rem 0">
+<div class="stat"><div class="n">7+15</div><div class="l">חלקות+מושע</div></div>
+<div class="stat"><div class="n">322</div><div class="l">מבנים</div></div>
+<div class="stat"><div class="n">14</div><div class="l">חלקות עירייה</div></div>
+<div class="stat"><div class="n">5</div><div class="l">היתרים</div></div>
+</div>
+<h4>חלקות <span style="background:#198754;color:#fff;padding:0.1rem 0.4rem;border-radius:3px;font-size:0.7rem;font-weight:600">✅ GIS</span></h4>
+<p><img src="../../blocks/hatikva-hanoch-tarfon/site-map.png" alt="מפת אתר" style="max-width:100%;border:1px solid var(--border);border-radius:6px;margin:0.5rem 0"></p>
+<table><thead><tr><th>גוש</th><th>חלקה</th><th>שטח</th><th>עירייה</th><th>טאבו</th><th>מושע?</th><th>כתובות</th></tr></thead><tbody>
+<tr class="moshaa"><td>6979</td><td>3</td><td>19070</td><td>—</td><td><span style="color:#198754">✅</span></td><td>⚠️</td><td>—</td></tr>
+<tr class="moshaa" style="background:#ffe0cc"><td>6135</td><td>3</td><td>37637</td><td>✅</td><td><span style="color:#198754">✅</span></td><td>🔶 שכונתית</td><td>לבלוב 12, הונא 39, יזהר 16, לפידות 13, יזהר 11</td></tr>
+<tr class="moshaa"><td>6979</td><td>10</td><td>47239</td><td>✅</td><td><span style="color:#dc3545">❌</span></td><td>⚠️</td><td>—</td></tr>
+<tr class="moshaa"><td>6135</td><td>44</td><td>11584</td><td>✅</td><td><span style="color:#dc3545">❌</span></td><td>⚠️</td><td>אביטל 21</td></tr>
+<tr class="moshaa"><td>6135</td><td>45</td><td>9861</td><td>✅</td><td><span style="color:#198754">✅</span></td><td>⚠️</td><td>—</td></tr>
+<tr class="moshaa"><td>6135</td><td>46</td><td>6685</td><td>✅</td><td><span style="color:#dc3545">❌</span></td><td>⚠️</td><td>—</td></tr>
+<tr class="moshaa"><td>6135</td><td>47</td><td>11917</td><td>✅</td><td><span style="color:#198754">✅</span></td><td>⚠️</td><td>—</td></tr>
+<tr><td>6135</td><td>48</td><td>4977</td><td>✅</td><td><span style="color:#198754">✅</span></td><td>—</td><td>—</td></tr>
+<tr class="moshaa"><td>6135</td><td>49</td><td>11163</td><td>✅</td><td><span style="color:#198754">✅</span></td><td>⚠️</td><td>—</td></tr>
+<tr><td>6135</td><td>50</td><td>2847</td><td>✅</td><td><span style="color:#198754">✅</span></td><td>—</td><td>—</td></tr>
+<tr class="moshaa"><td>6135</td><td>51</td><td>18100</td><td>✅</td><td><span style="color:#dc3545">❌</span></td><td>⚠️</td><td>סמדר 9</td></tr>
+<tr class="moshaa"><td>6135</td><td>53</td><td>6467</td><td>✅</td><td><span style="color:#198754">✅</span></td><td>⚠️</td><td>—</td></tr>
+<tr><td>6135</td><td>68</td><td>4504</td><td>—</td><td><span style="color:#198754">✅</span></td><td>—</td><td>—</td></tr>
+<tr class="moshaa"><td>6135</td><td>69</td><td>33877</td><td>✅</td><td><span style="color:#198754">✅</span></td><td>⚠️</td><td>—</td></tr>
+<tr><td>6135</td><td>85</td><td>3279</td><td>—</td><td><span style="color:#198754">✅</span></td><td>—</td><td>—</td></tr>
+<tr><td>6135</td><td>86</td><td>1801</td><td>—</td><td><span style="color:#198754">✅</span></td><td>—</td><td>—</td></tr>
+<tr><td>6135</td><td>87</td><td>1792</td><td>—</td><td><span style="color:#198754">✅</span></td><td>—</td><td>—</td></tr>
+<tr class="moshaa"><td>6135</td><td>88</td><td>5064</td><td>✅</td><td><span style="color:#198754">✅</span></td><td>⚠️</td><td>—</td></tr>
+<tr class="moshaa"><td>6135</td><td>89</td><td>6737</td><td>—</td><td><span style="color:#198754">✅</span></td><td>⚠️</td><td>—</td></tr>
+<tr class="moshaa"><td>6135</td><td>90</td><td>12766</td><td>✅</td><td><span style="color:#dc3545">❌</span></td><td>⚠️</td><td>—</td></tr>
+<tr class="moshaa"><td>6135</td><td>91</td><td>5680</td><td>—</td><td><span style="color:#198754">✅</span></td><td>⚠️</td><td>—</td></tr>
+<tr><td>6135</td><td>92</td><td>620</td><td>—</td><td><span style="color:#198754">✅</span></td><td>—</td><td>—</td></tr>
+</tbody></table>
+<p class="warn">🔶 <strong>חלקות-על שכונתיות</strong> (6135/3, 6135/4): חלקת מושע שכונתית — חוצה מספר אתרים, אין לייחס לאתר בודד</p>
+<h4>ייעודי קרקע</h4><table><thead><tr><th>ייעוד</th><th>מגרשים</th><th>שטח</th></tr></thead><tbody>
+<tr><td>תחבורה</td><td>37</td><td>76710</td></tr>
+<tr><td>מגורים</td><td>19</td><td>53978</td></tr>
+<tr><td>מסחר</td><td>15</td><td>16456</td></tr>
+<tr><td>מבנים ומוסדות ציבור</td><td>1</td><td>704</td></tr>
+</tbody></table>
+<h4>היתרים פעילים</h4>
+<div class="permit-item"><span style="display:inline-block;padding:0.1rem 0.4rem;border-radius:3px;color:#fff;font-size:0.7rem;font-weight:600;background:#2980b9">קיים היתר</span> <strong>לבלוב 12</strong> — בניה חדשה בניין מגורים לא גבוה (עד 13 מ') | יח"ד: 2</div>
+<div class="permit-item"><span style="display:inline-block;padding:0.1rem 0.4rem;border-radius:3px;color:#fff;font-size:0.7rem;font-weight:600;background:#2980b9">קיים היתר</span> <strong>הונא 39</strong> — בניה חדשה בניין מגורים לא גבוה (עד 13 מ') | יח"ד: 2</div>
+<div class="permit-item"><span style="display:inline-block;padding:0.1rem 0.4rem;border-radius:3px;color:#fff;font-size:0.7rem;font-weight:600;background:#2980b9">קיים היתר</span> <strong>יזהר 16</strong> — בניה חדשה בניין מגורים לא גבוה (עד 13 מ') | יח"ד: 3</div>
+<div class="permit-item"><span style="display:inline-block;padding:0.1rem 0.4rem;border-radius:3px;color:#fff;font-size:0.7rem;font-weight:600;background:#2980b9">קיים היתר</span> <strong>לפידות 13</strong> — שינויים חידוש היתר</div>
+<div class="permit-item"><span style="display:inline-block;padding:0.1rem 0.4rem;border-radius:3px;color:#fff;font-size:0.7rem;font-weight:600;background:#2980b9">קיים היתר</span> <strong>יזהר 11</strong> — בניה חדשה בניין מגורים לא גבוה (עד 13 מ') | יח"ד: 3</div>
+</div>
+<div class="card site-card">
+<h3>תשבי-ששון</h3>
+<p style="font-size:0.82rem;color:var(--muted)"><strong>כתובות:</strong> תשבי 7, 4, 9, 11 | ששון 6, 8, 13</p>
+<div class="stats" style="margin:0.5rem 0">
+<div class="stat"><div class="n">10+13</div><div class="l">חלקות+מושע</div></div>
+<div class="stat"><div class="n">318</div><div class="l">מבנים</div></div>
+<div class="stat"><div class="n">14</div><div class="l">חלקות עירייה</div></div>
+<div class="stat"><div class="n">5</div><div class="l">היתרים</div></div>
+</div>
+<h4>חלקות <span style="background:#198754;color:#fff;padding:0.1rem 0.4rem;border-radius:3px;font-size:0.7rem;font-weight:600">✅ GIS</span></h4>
+<p><img src="../../blocks/hatishbi-sasson/site-map.png" alt="מפת אתר" style="max-width:100%;border:1px solid var(--border);border-radius:6px;margin:0.5rem 0"></p>
+<table><thead><tr><th>גוש</th><th>חלקה</th><th>שטח</th><th>עירייה</th><th>טאבו</th><th>מושע?</th><th>כתובות</th></tr></thead><tbody>
+<tr class="moshaa" style="background:#ffe0cc"><td>6135</td><td>3</td><td>37637</td><td>✅</td><td><span style="color:#198754">✅</span></td><td>🔶 שכונתית</td><td>לבלוב 23</td></tr>
+<tr class="moshaa" style="background:#ffe0cc"><td>6135</td><td>4</td><td>37396</td><td>✅</td><td><span style="color:#198754">✅</span></td><td>🔶 שכונתית</td><td>—</td></tr>
+<tr class="moshaa"><td>6135</td><td>25</td><td>8689</td><td>—</td><td><span style="color:#198754">✅</span></td><td>⚠️</td><td>—</td></tr>
+<tr><td>6135</td><td>38</td><td>3042</td><td>—</td><td><span style="color:#198754">✅</span></td><td>—</td><td>—</td></tr>
+<tr style="background:#fff5f5"><td>6135</td><td>43</td><td>3521</td><td>✅</td><td><span style="color:#dc3545">❌</span></td><td>—</td><td>—</td></tr>
+<tr class="moshaa"><td>6135</td><td>44</td><td>11584</td><td>✅</td><td><span style="color:#dc3545">❌</span></td><td>⚠️</td><td>אביטל 9, אביטל 21</td></tr>
+<tr class="moshaa"><td>6135</td><td>45</td><td>9861</td><td>✅</td><td><span style="color:#198754">✅</span></td><td>⚠️</td><td>הונא 14</td></tr>
+<tr class="moshaa"><td>6135</td><td>46</td><td>6685</td><td>✅</td><td><span style="color:#dc3545">❌</span></td><td>⚠️</td><td>שמחה 12</td></tr>
+<tr class="moshaa"><td>6135</td><td>47</td><td>11917</td><td>✅</td><td><span style="color:#198754">✅</span></td><td>⚠️</td><td>—</td></tr>
+<tr><td>6135</td><td>48</td><td>4977</td><td>✅</td><td><span style="color:#198754">✅</span></td><td>—</td><td>קמואל 13, קמואל 15</td></tr>
+<tr class="moshaa"><td>6135</td><td>49</td><td>11163</td><td>✅</td><td><span style="color:#198754">✅</span></td><td>⚠️</td><td>קמואל 14</td></tr>
+<tr><td>6135</td><td>50</td><td>2847</td><td>✅</td><td><span style="color:#198754">✅</span></td><td>—</td><td>—</td></tr>
+<tr><td>6135</td><td>70</td><td>3233</td><td>✅</td><td><span style="color:#198754">✅</span></td><td>—</td><td>שבתאי 21</td></tr>
+<tr style="background:#fff5f5"><td>6135</td><td>73</td><td>2682</td><td>—</td><td><span style="color:#dc3545">❌</span></td><td>—</td><td>—</td></tr>
+<tr style="background:#fff5f5"><td>6135</td><td>76</td><td>869</td><td>—</td><td><span style="color:#dc3545">❌</span></td><td>—</td><td>—</td></tr>
+<tr><td>6135</td><td>79</td><td>4365</td><td>—</td><td><span style="color:#198754">✅</span></td><td>—</td><td>—</td></tr>
+<tr class="moshaa"><td>6135</td><td>82</td><td>7707</td><td>✅</td><td><span style="color:#198754">✅</span></td><td>⚠️</td><td>עברי 22ב</td></tr>
+<tr class="moshaa"><td>6135</td><td>89</td><td>6737</td><td>—</td><td><span style="color:#198754">✅</span></td><td>⚠️</td><td>—</td></tr>
+<tr class="moshaa"><td>6135</td><td>90</td><td>12766</td><td>✅</td><td><span style="color:#dc3545">❌</span></td><td>⚠️</td><td>—</td></tr>
+<tr class="moshaa"><td>6135</td><td>91</td><td>5680</td><td>—</td><td><span style="color:#198754">✅</span></td><td>⚠️</td><td>—</td></tr>
+<tr class="moshaa"><td>6135</td><td>102</td><td>10885</td><td>—</td><td><span style="color:#198754">✅</span></td><td>⚠️</td><td>—</td></tr>
+<tr><td>6135</td><td>105</td><td>1900</td><td>—</td><td><span style="color:#198754">✅</span></td><td>—</td><td>—</td></tr>
+<tr><td>6135</td><td>108</td><td>3194</td><td>✅</td><td><span style="color:#198754">✅</span></td><td>—</td><td>—</td></tr>
+</tbody></table>
+<p class="warn">🔶 <strong>חלקות-על שכונתיות</strong> (6135/3, 6135/4): חלקת מושע שכונתית — חוצה מספר אתרים, אין לייחס לאתר בודד</p>
+<h4>ייעודי קרקע</h4><table><thead><tr><th>ייעוד</th><th>מגרשים</th><th>שטח</th></tr></thead><tbody>
+<tr><td>מגורים</td><td>25</td><td>76057</td></tr>
+<tr><td>תחבורה</td><td>19</td><td>49600</td></tr>
+<tr><td>שטחים פתוחים</td><td>1</td><td>41066</td></tr>
+<tr><td>מבנים ומוסדות ציבור</td><td>2</td><td>9305</td></tr>
+<tr><td>מסחר</td><td>1</td><td>1037</td></tr>
+</tbody></table>
+<h4>היתרים פעילים</h4>
+<div class="permit-item"><span style="display:inline-block;padding:0.1rem 0.4rem;border-radius:3px;color:#fff;font-size:0.7rem;font-weight:600;background:#e74c3c">בתהליך היתר</span> <strong>קמואל 13</strong> — בניה חדשה בניין מגורים לא גבוה (עד 13 מ') | יח"ד: 3</div>
+<div class="permit-item"><span style="display:inline-block;padding:0.1rem 0.4rem;border-radius:3px;color:#fff;font-size:0.7rem;font-weight:600;background:#e67e22">בבניה</span> <strong>שבתאי 21</strong> — תוספות בניה תוספת בניה לפי תכנית הרחבה | יח"ד: 1</div>
+<div class="permit-item"><span style="display:inline-block;padding:0.1rem 0.4rem;border-radius:3px;color:#fff;font-size:0.7rem;font-weight:600;background:#e74c3c">בתהליך היתר</span> <strong>קמואל 14</strong> — שימוש חורג שמוש חורג לעסקים</div>
+<div class="permit-item"><span style="display:inline-block;padding:0.1rem 0.4rem;border-radius:3px;color:#fff;font-size:0.7rem;font-weight:600;background:#e74c3c">בתהליך היתר</span> <strong>קמואל 15</strong> — בניה חדשה בניין מגורים לא גבוה (עד 13 מ') | יח"ד: 3</div>
+<div class="permit-item"><span style="display:inline-block;padding:0.1rem 0.4rem;border-radius:3px;color:#fff;font-size:0.7rem;font-weight:600;background:#e74c3c">בתהליך היתר</span> <strong>שמחה 12</strong> — בניה חדשה בניין מגורים לא גבוה (עד 13 מ') | יח"ד: 2</div>
+</div>
+<div class="card site-card">
+<h3>דרך ההגנה</h3>
+<p style="font-size:0.82rem;color:var(--muted)"><strong>כתובות:</strong> ציר דרך ההגנה</p>
+<div class="stats" style="margin:0.5rem 0">
+<div class="stat"><div class="n">16+10</div><div class="l">חלקות+מושע</div></div>
+<div class="stat"><div class="n">272</div><div class="l">מבנים</div></div>
+<div class="stat"><div class="n">16</div><div class="l">חלקות עירייה</div></div>
+<div class="stat"><div class="n">11</div><div class="l">היתרים</div></div>
+</div>
+<h4>חלקות <span style="background:#198754;color:#fff;padding:0.1rem 0.4rem;border-radius:3px;font-size:0.7rem;font-weight:600">✅ GIS</span></h4>
+<p><img src="../../blocks/derech-hahagana/site-map.png" alt="מפת אתר" style="max-width:100%;border:1px solid var(--border);border-radius:6px;margin:0.5rem 0"></p>
+<table><thead><tr><th>גוש</th><th>חלקה</th><th>שטח</th><th>עירייה</th><th>טאבו</th><th>מושע?</th><th>כתובות</th></tr></thead><tbody>
+<tr class="moshaa"><td>6978</td><td>3</td><td>34892</td><td>✅</td><td><span style="color:#dc3545">❌</span></td><td>⚠️</td><td>דרך ההגנה 75</td></tr>
+<tr class="moshaa" style="background:#ffe0cc"><td>6135</td><td>3</td><td>37637</td><td>✅</td><td><span style="color:#198754">✅</span></td><td>🔶 שכונתית</td><td>יזהר 4, יזהר 1א, אחיעזר 4, אחיעזר 6, הונא 39, יזהר 16, יזהר 11</td></tr>
+<tr><td>6978</td><td>5</td><td>1383</td><td>—</td><td><span style="color:#198754">✅</span></td><td>—</td><td>—</td></tr>
+<tr style="background:#fff5f5"><td>6978</td><td>6</td><td>2270</td><td>—</td><td><span style="color:#dc3545">❌</span></td><td>—</td><td>—</td></tr>
+<tr><td>6978</td><td>8</td><td>275</td><td>—</td><td><span style="color:#198754">✅</span></td><td>—</td><td>—</td></tr>
+<tr style="background:#fff5f5"><td>6979</td><td>9</td><td>2820</td><td>—</td><td><span style="color:#dc3545">❌</span></td><td>—</td><td>—</td></tr>
+<tr class="moshaa"><td>6979</td><td>10</td><td>47239</td><td>✅</td><td><span style="color:#dc3545">❌</span></td><td>⚠️</td><td>—</td></tr>
+<tr><td>6978</td><td>13</td><td>1361</td><td>✅</td><td><span style="color:#198754">✅</span></td><td>—</td><td>—</td></tr>
+<tr><td>6978</td><td>14</td><td>1014</td><td>✅</td><td><span style="color:#198754">✅</span></td><td>—</td><td>—</td></tr>
+<tr style="background:#fff5f5"><td>6134</td><td>19</td><td>21</td><td>✅</td><td><span style="color:#dc3545">❌</span></td><td>—</td><td>—</td></tr>
+<tr style="background:#fff5f5"><td>6134</td><td>20</td><td>123</td><td>✅</td><td><span style="color:#dc3545">❌</span></td><td>—</td><td>—</td></tr>
+<tr class="moshaa"><td>6135</td><td>53</td><td>6467</td><td>✅</td><td><span style="color:#198754">✅</span></td><td>⚠️</td><td>—</td></tr>
+<tr><td>6135</td><td>85</td><td>3279</td><td>—</td><td><span style="color:#198754">✅</span></td><td>—</td><td>—</td></tr>
+<tr><td>6135</td><td>86</td><td>1801</td><td>—</td><td><span style="color:#198754">✅</span></td><td>—</td><td>—</td></tr>
+<tr><td>6135</td><td>87</td><td>1792</td><td>—</td><td><span style="color:#198754">✅</span></td><td>—</td><td>—</td></tr>
+<tr class="moshaa"><td>6135</td><td>88</td><td>5064</td><td>✅</td><td><span style="color:#198754">✅</span></td><td>⚠️</td><td>—</td></tr>
+<tr class="moshaa"><td>6135</td><td>89</td><td>6737</td><td>—</td><td><span style="color:#198754">✅</span></td><td>⚠️</td><td>—</td></tr>
+<tr class="moshaa"><td>6135</td><td>90</td><td>12766</td><td>✅</td><td><span style="color:#dc3545">❌</span></td><td>⚠️</td><td>דרך ההגנה 86א, אצ"ל 3, אצ"ל 5, אצ"ל 3</td></tr>
+<tr class="moshaa"><td>6135</td><td>91</td><td>5680</td><td>—</td><td><span style="color:#198754">✅</span></td><td>⚠️</td><td>—</td></tr>
+<tr><td>6135</td><td>92</td><td>620</td><td>—</td><td><span style="color:#198754">✅</span></td><td>—</td><td>—</td></tr>
+<tr style="background:#fff5f5"><td>6135</td><td>321</td><td>4229</td><td>✅</td><td><span style="color:#dc3545">❌</span></td><td>—</td><td>—</td></tr>
+<tr class="moshaa"><td>6134</td><td>522</td><td>11265</td><td>✅</td><td><span style="color:#dc3545">❌</span></td><td>⚠️</td><td>—</td></tr>
+<tr class="moshaa"><td>6134</td><td>660</td><td>15878</td><td>✅</td><td><span style="color:#dc3545">❌</span></td><td>⚠️</td><td>—</td></tr>
+<tr style="background:#fff5f5"><td>6134</td><td>662</td><td>858</td><td>✅</td><td><span style="color:#dc3545">❌</span></td><td>—</td><td>—</td></tr>
+<tr style="background:#fff5f5"><td>6134</td><td>664</td><td>675</td><td>✅</td><td><span style="color:#dc3545">❌</span></td><td>—</td><td>—</td></tr>
+<tr style="background:#fff5f5"><td>6134</td><td>707</td><td>772</td><td>✅</td><td><span style="color:#dc3545">❌</span></td><td>—</td><td>—</td></tr>
+</tbody></table>
+<p class="warn">🔶 <strong>חלקות-על שכונתיות</strong> (6135/3, 6135/4): חלקת מושע שכונתית — חוצה מספר אתרים, אין לייחס לאתר בודד</p>
+<h4>ייעודי קרקע</h4><table><thead><tr><th>ייעוד</th><th>מגרשים</th><th>שטח</th></tr></thead><tbody>
+<tr><td>תחבורה</td><td>40</td><td>60410</td></tr>
+<tr><td>מגורים</td><td>15</td><td>37593</td></tr>
+<tr><td>מסחר</td><td>28</td><td>19888</td></tr>
+<tr><td>שטחים פתוחים</td><td>1</td><td>1673</td></tr>
+<tr><td>אחר</td><td>1</td><td>1639</td></tr>
+<tr><td>מבנים ומוסדות ציבור</td><td>1</td><td>704</td></tr>
+</tbody></table>
+<h4>היתרים פעילים</h4>
+<div class="permit-item"><span style="display:inline-block;padding:0.1rem 0.4rem;border-radius:3px;color:#fff;font-size:0.7rem;font-weight:600;background:#e74c3c">בתהליך היתר</span> <strong>יזהר 4</strong> — בניה חדשה בניין מגורים לא גבוה (עד 13 מ') | יח"ד: 3</div>
+<div class="permit-item"><span style="display:inline-block;padding:0.1rem 0.4rem;border-radius:3px;color:#fff;font-size:0.7rem;font-weight:600;background:#e74c3c">בתהליך היתר</span> <strong>דרך ההגנה 86א, אצ"ל 3, אצ"ל 5</strong> — בניה חדשה בניין מגורים מעל X קומות מסחריות , תוספות בניה הריסה | יח"ד: 11</div>
+<div class="permit-item"><span style="display:inline-block;padding:0.1rem 0.4rem;border-radius:3px;color:#fff;font-size:0.7rem;font-weight:600;background:#e74c3c">בתהליך היתר</span> <strong>דרך ההגנה 86א, אצ"ל 3, אצ"ל 5</strong> — בניה חדשה בניין מגורים מעל X קומות מסחריות , תוספות בניה הריסה | יח"ד: 11</div>
+<div class="permit-item"><span style="display:inline-block;padding:0.1rem 0.4rem;border-radius:3px;color:#fff;font-size:0.7rem;font-weight:600;background:#e67e22">בבניה</span> <strong>יזהר 1א</strong> — בניה חדשה בניין מגורים לא גבוה (עד 13 מ') | יח"ד: 2</div>
+<div class="permit-item"><span style="display:inline-block;padding:0.1rem 0.4rem;border-radius:3px;color:#fff;font-size:0.7rem;font-weight:600;background:#e74c3c">בתהליך היתר</span> <strong>אצ"ל 3</strong> — שימוש חורג שימוש חורג למסחר/מסעדה/גן ילדים פרטי או בניין עם ערוב שימושים</div>
+<div class="permit-item"><span style="display:inline-block;padding:0.1rem 0.4rem;border-radius:3px;color:#fff;font-size:0.7rem;font-weight:600;background:#e74c3c">בתהליך היתר</span> <strong>אחיעזר 4</strong> — בניה חדשה בניין מגורים לא גבוה (עד 13 מ') | יח"ד: 6</div>
+<div class="permit-item"><span style="display:inline-block;padding:0.1rem 0.4rem;border-radius:3px;color:#fff;font-size:0.7rem;font-weight:600;background:#e74c3c">בתהליך היתר</span> <strong>אחיעזר 6</strong> — בניה חדשה בניין מגורים לא גבוה (עד 13 מ') | יח"ד: 3</div>
+<div class="permit-item"><span style="display:inline-block;padding:0.1rem 0.4rem;border-radius:3px;color:#fff;font-size:0.7rem;font-weight:600;background:#e74c3c">בתהליך היתר</span> <strong>דרך ההגנה 75</strong> — בניה חדשה בנייה חדשה תמ"א 38 | יח"ד: 8</div>
+<div class="permit-item"><span style="display:inline-block;padding:0.1rem 0.4rem;border-radius:3px;color:#fff;font-size:0.7rem;font-weight:600;background:#2980b9">קיים היתר</span> <strong>הונא 39</strong> — בניה חדשה בניין מגורים לא גבוה (עד 13 מ') | יח"ד: 2</div>
+<div class="permit-item"><span style="display:inline-block;padding:0.1rem 0.4rem;border-radius:3px;color:#fff;font-size:0.7rem;font-weight:600;background:#2980b9">קיים היתר</span> <strong>יזהר 16</strong> — בניה חדשה בניין מגורים לא גבוה (עד 13 מ') | יח"ד: 3</div>
+<div class="permit-item"><span style="display:inline-block;padding:0.1rem 0.4rem;border-radius:3px;color:#fff;font-size:0.7rem;font-weight:600;background:#2980b9">קיים היתר</span> <strong>יזהר 11</strong> — בניה חדשה בניין מגורים לא גבוה (עד 13 מ') | יח"ד: 3</div>
+</div>
+<div class="card site-card">
+<h3>הורד-פארק</h3>
+<p style="font-size:0.82rem;color:var(--muted)"><strong>כתובות:</strong> הורד 6, הורד 9</p>
+<div class="stats" style="margin:0.5rem 0">
+<div class="stat"><div class="n">1+5</div><div class="l">חלקות+מושע</div></div>
+<div class="stat"><div class="n">224</div><div class="l">מבנים</div></div>
+<div class="stat"><div class="n">6</div><div class="l">חלקות עירייה</div></div>
+<div class="stat"><div class="n">13</div><div class="l">היתרים</div></div>
+</div>
+<h4>חלקות <span style="background:#198754;color:#fff;padding:0.1rem 0.4rem;border-radius:3px;font-size:0.7rem;font-weight:600">✅ GIS</span></h4>
+<p><img src="../../blocks/haverod-park/site-map.png" alt="מפת אתר" style="max-width:100%;border:1px solid var(--border);border-radius:6px;margin:0.5rem 0"></p>
+<table><thead><tr><th>גוש</th><th>חלקה</th><th>שטח</th><th>עירייה</th><th>טאבו</th><th>מושע?</th><th>כתובות</th></tr></thead><tbody>
+<tr class="moshaa" style="background:#ffe0cc"><td>6135</td><td>3</td><td>37637</td><td>✅</td><td><span style="color:#198754">✅</span></td><td>🔶 שכונתית</td><td>יזהר 4, יזהר 1א, אחיעזר 4, אחיעזר 6, לבלוב 12, יחיעם 26, הונא 39, ורד 10, יחיעם 28, יזהר 16, יזהר 11</td></tr>
+<tr class="moshaa" style="background:#ffe0cc"><td>6135</td><td>4</td><td>37396</td><td>✅</td><td><span style="color:#198754">✅</span></td><td>🔶 שכונתית</td><td>—</td></tr>
+<tr class="moshaa"><td>6135</td><td>90</td><td>12766</td><td>✅</td><td><span style="color:#dc3545">❌</span></td><td>⚠️</td><td>—</td></tr>
+<tr style="background:#fff5f5"><td>6135</td><td>321</td><td>4229</td><td>✅</td><td><span style="color:#dc3545">❌</span></td><td>—</td><td>—</td></tr>
+<tr class="moshaa"><td>6134</td><td>522</td><td>11265</td><td>✅</td><td><span style="color:#dc3545">❌</span></td><td>⚠️</td><td>—</td></tr>
+<tr class="moshaa"><td>6134</td><td>660</td><td>15878</td><td>✅</td><td><span style="color:#dc3545">❌</span></td><td>⚠️</td><td>—</td></tr>
+</tbody></table>
+<p class="warn">🔶 <strong>חלקות-על שכונתיות</strong> (6135/3, 6135/4): חלקת מושע שכונתית — חוצה מספר אתרים, אין לייחס לאתר בודד</p>
+<h4>ייעודי קרקע</h4><table><thead><tr><th>ייעוד</th><th>מגרשים</th><th>שטח</th></tr></thead><tbody>
+<tr><td>שטחים פתוחים</td><td>4</td><td>43070</td></tr>
+<tr><td>מגורים</td><td>11</td><td>40442</td></tr>
+<tr><td>מבנים ומוסדות ציבור</td><td>8</td><td>17798</td></tr>
+<tr><td>תחבורה</td><td>4</td><td>17272</td></tr>
+</tbody></table>
+<h4>היתרים פעילים</h4>
+<div class="permit-item"><span style="display:inline-block;padding:0.1rem 0.4rem;border-radius:3px;color:#fff;font-size:0.7rem;font-weight:600;background:#e74c3c">בתהליך היתר</span> <strong>יזהר 4</strong> — בניה חדשה בניין מגורים לא גבוה (עד 13 מ') | יח"ד: 3</div>
+<div class="permit-item"><span style="display:inline-block;padding:0.1rem 0.4rem;border-radius:3px;color:#fff;font-size:0.7rem;font-weight:600;background:#e67e22">בבניה</span> <strong>יזהר 1א</strong> — בניה חדשה בניין מגורים לא גבוה (עד 13 מ') | יח"ד: 2</div>
+<div class="permit-item"><span style="display:inline-block;padding:0.1rem 0.4rem;border-radius:3px;color:#fff;font-size:0.7rem;font-weight:600;background:#e74c3c">בתהליך היתר</span> <strong>אחיעזר 4</strong> — בניה חדשה בניין מגורים לא גבוה (עד 13 מ') | יח"ד: 6</div>
+<div class="permit-item"><span style="display:inline-block;padding:0.1rem 0.4rem;border-radius:3px;color:#fff;font-size:0.7rem;font-weight:600;background:#e74c3c">בתהליך היתר</span> <strong>אחיעזר 6</strong> — בניה חדשה בניין מגורים לא גבוה (עד 13 מ') | יח"ד: 3</div>
+<div class="permit-item"><span style="display:inline-block;padding:0.1rem 0.4rem;border-radius:3px;color:#fff;font-size:0.7rem;font-weight:600;background:#2980b9">קיים היתר</span> <strong>לבלוב 12</strong> — בניה חדשה בניין מגורים לא גבוה (עד 13 מ') | יח"ד: 2</div>
+<div class="permit-item"><span style="display:inline-block;padding:0.1rem 0.4rem;border-radius:3px;color:#fff;font-size:0.7rem;font-weight:600;background:#e67e22">בבניה</span> <strong>יחיעם 26</strong> — שינויים חידוש היתר</div>
+<div class="permit-item"><span style="display:inline-block;padding:0.1rem 0.4rem;border-radius:3px;color:#fff;font-size:0.7rem;font-weight:600;background:#2980b9">קיים היתר</span> <strong>הונא 39</strong> — בניה חדשה בניין מגורים לא גבוה (עד 13 מ') | יח"ד: 2</div>
+<div class="permit-item"><span style="display:inline-block;padding:0.1rem 0.4rem;border-radius:3px;color:#fff;font-size:0.7rem;font-weight:600;background:#2980b9">קיים היתר</span> <strong>ורד 10</strong> — שינויים חידוש היתר</div>
+<div class="permit-item"><span style="display:inline-block;padding:0.1rem 0.4rem;border-radius:3px;color:#fff;font-size:0.7rem;font-weight:600;background:#e67e22">בבניה</span> <strong>יחיעם 28</strong> — שינויים חידוש היתר</div>
+<div class="permit-item"><span style="display:inline-block;padding:0.1rem 0.4rem;border-radius:3px;color:#fff;font-size:0.7rem;font-weight:600;background:#2980b9">קיים היתר</span> <strong>יזהר 16</strong> — בניה חדשה בניין מגורים לא גבוה (עד 13 מ') | יח"ד: 3</div>
+<div class="permit-item"><span style="display:inline-block;padding:0.1rem 0.4rem;border-radius:3px;color:#fff;font-size:0.7rem;font-weight:600;background:#e67e22">בבניה</span> <strong>יחיעם 26</strong> — בניה חדשה בניין מגורים לא גבוה (עד 13 מ') | יח"ד: 2</div>
+<div class="permit-item"><span style="display:inline-block;padding:0.1rem 0.4rem;border-radius:3px;color:#fff;font-size:0.7rem;font-weight:600;background:#e67e22">בבניה</span> <strong>יחיעם 28</strong> — בניה חדשה בניין מגורים לא גבוה (עד 13 מ') | יח"ד: 2</div>
+<div class="permit-item"><span style="display:inline-block;padding:0.1rem 0.4rem;border-radius:3px;color:#fff;font-size:0.7rem;font-weight:600;background:#2980b9">קיים היתר</span> <strong>יזהר 11</strong> — בניה חדשה בניין מגורים לא גבוה (עד 13 מ') | יח"ד: 3</div>
+</div>
+<div class="card site-card">
+<h3>הורד-יחיעם-לבלוב</h3>
+<p style="font-size:0.82rem;color:var(--muted)"><strong>כתובות:</strong> ורד 29, יחיעם 31, לבלוב 23</p>
+<div class="stats" style="margin:0.5rem 0">
+<div class="stat"><div class="n">4+10</div><div class="l">חלקות+מושע</div></div>
+<div class="stat"><div class="n">297</div><div class="l">מבנים</div></div>
+<div class="stat"><div class="n">12</div><div class="l">חלקות עירייה</div></div>
+<div class="stat"><div class="n">10</div><div class="l">היתרים</div></div>
+</div>
+<h4>חלקות <span style="background:#198754;color:#fff;padding:0.1rem 0.4rem;border-radius:3px;font-size:0.7rem;font-weight:600">✅ GIS</span></h4>
+<p><img src="../../blocks/haverod-yechiam-leblov/site-map.png" alt="מפת אתר" style="max-width:100%;border:1px solid var(--border);border-radius:6px;margin:0.5rem 0"></p>
+<table><thead><tr><th>גוש</th><th>חלקה</th><th>שטח</th><th>עירייה</th><th>טאבו</th><th>מושע?</th><th>כתובות</th></tr></thead><tbody>
+<tr class="moshaa" style="background:#ffe0cc"><td>6135</td><td>3</td><td>37637</td><td>✅</td><td><span style="color:#198754">✅</span></td><td>🔶 שכונתית</td><td>לבלוב 23, לבלוב 12, יחיעם 26, הונא 39, ורד 10, יחיעם 28, יזהר 16, לפידות 13, יזהר 11</td></tr>
+<tr class="moshaa" style="background:#ffe0cc"><td>6135</td><td>4</td><td>37396</td><td>✅</td><td><span style="color:#198754">✅</span></td><td>🔶 שכונתית</td><td>—</td></tr>
+<tr class="moshaa"><td>6135</td><td>25</td><td>8689</td><td>—</td><td><span style="color:#198754">✅</span></td><td>⚠️</td><td>—</td></tr>
+<tr style="background:#fff5f5"><td>6135</td><td>43</td><td>3521</td><td>✅</td><td><span style="color:#dc3545">❌</span></td><td>—</td><td>—</td></tr>
+<tr class="moshaa"><td>6135</td><td>44</td><td>11584</td><td>✅</td><td><span style="color:#dc3545">❌</span></td><td>⚠️</td><td>אביטל 21</td></tr>
+<tr class="moshaa"><td>6135</td><td>45</td><td>9861</td><td>✅</td><td><span style="color:#198754">✅</span></td><td>⚠️</td><td>—</td></tr>
+<tr class="moshaa"><td>6135</td><td>46</td><td>6685</td><td>✅</td><td><span style="color:#dc3545">❌</span></td><td>⚠️</td><td>—</td></tr>
+<tr class="moshaa"><td>6135</td><td>47</td><td>11917</td><td>✅</td><td><span style="color:#198754">✅</span></td><td>⚠️</td><td>—</td></tr>
+<tr><td>6135</td><td>48</td><td>4977</td><td>✅</td><td><span style="color:#198754">✅</span></td><td>—</td><td>—</td></tr>
+<tr class="moshaa"><td>6135</td><td>49</td><td>11163</td><td>✅</td><td><span style="color:#198754">✅</span></td><td>⚠️</td><td>—</td></tr>
+<tr><td>6135</td><td>70</td><td>3233</td><td>✅</td><td><span style="color:#198754">✅</span></td><td>—</td><td>—</td></tr>
+<tr class="moshaa"><td>6135</td><td>90</td><td>12766</td><td>✅</td><td><span style="color:#dc3545">❌</span></td><td>⚠️</td><td>—</td></tr>
+<tr class="moshaa"><td>6135</td><td>91</td><td>5680</td><td>—</td><td><span style="color:#198754">✅</span></td><td>⚠️</td><td>—</td></tr>
+<tr><td>6135</td><td>108</td><td>3194</td><td>✅</td><td><span style="color:#198754">✅</span></td><td>—</td><td>—</td></tr>
+</tbody></table>
+<p class="warn">🔶 <strong>חלקות-על שכונתיות</strong> (6135/3, 6135/4): חלקת מושע שכונתית — חוצה מספר אתרים, אין לייחס לאתר בודד</p>
+<h4>ייעודי קרקע</h4><table><thead><tr><th>ייעוד</th><th>מגרשים</th><th>שטח</th></tr></thead><tbody>
+<tr><td>מגורים</td><td>20</td><td>66133</td></tr>
+<tr><td>תחבורה</td><td>14</td><td>43013</td></tr>
+<tr><td>שטחים פתוחים</td><td>1</td><td>41066</td></tr>
+<tr><td>מבנים ומוסדות ציבור</td><td>3</td><td>11207</td></tr>
+</tbody></table>
+<h4>היתרים פעילים</h4>
+<div class="permit-item"><span style="display:inline-block;padding:0.1rem 0.4rem;border-radius:3px;color:#fff;font-size:0.7rem;font-weight:600;background:#2980b9">קיים היתר</span> <strong>לבלוב 12</strong> — בניה חדשה בניין מגורים לא גבוה (עד 13 מ') | יח"ד: 2</div>
+<div class="permit-item"><span style="display:inline-block;padding:0.1rem 0.4rem;border-radius:3px;color:#fff;font-size:0.7rem;font-weight:600;background:#e67e22">בבניה</span> <strong>יחיעם 26</strong> — שינויים חידוש היתר</div>
+<div class="permit-item"><span style="display:inline-block;padding:0.1rem 0.4rem;border-radius:3px;color:#fff;font-size:0.7rem;font-weight:600;background:#2980b9">קיים היתר</span> <strong>הונא 39</strong> — בניה חדשה בניין מגורים לא גבוה (עד 13 מ') | יח"ד: 2</div>
+<div class="permit-item"><span style="display:inline-block;padding:0.1rem 0.4rem;border-radius:3px;color:#fff;font-size:0.7rem;font-weight:600;background:#2980b9">קיים היתר</span> <strong>ורד 10</strong> — שינויים חידוש היתר</div>
+<div class="permit-item"><span style="display:inline-block;padding:0.1rem 0.4rem;border-radius:3px;color:#fff;font-size:0.7rem;font-weight:600;background:#e67e22">בבניה</span> <strong>יחיעם 28</strong> — שינויים חידוש היתר</div>
+<div class="permit-item"><span style="display:inline-block;padding:0.1rem 0.4rem;border-radius:3px;color:#fff;font-size:0.7rem;font-weight:600;background:#2980b9">קיים היתר</span> <strong>יזהר 16</strong> — בניה חדשה בניין מגורים לא גבוה (עד 13 מ') | יח"ד: 3</div>
+<div class="permit-item"><span style="display:inline-block;padding:0.1rem 0.4rem;border-radius:3px;color:#fff;font-size:0.7rem;font-weight:600;background:#2980b9">קיים היתר</span> <strong>לפידות 13</strong> — שינויים חידוש היתר</div>
+<div class="permit-item"><span style="display:inline-block;padding:0.1rem 0.4rem;border-radius:3px;color:#fff;font-size:0.7rem;font-weight:600;background:#e67e22">בבניה</span> <strong>יחיעם 26</strong> — בניה חדשה בניין מגורים לא גבוה (עד 13 מ') | יח"ד: 2</div>
+<div class="permit-item"><span style="display:inline-block;padding:0.1rem 0.4rem;border-radius:3px;color:#fff;font-size:0.7rem;font-weight:600;background:#e67e22">בבניה</span> <strong>יחיעם 28</strong> — בניה חדשה בניין מגורים לא גבוה (עד 13 מ') | יח"ד: 2</div>
+<div class="permit-item"><span style="display:inline-block;padding:0.1rem 0.4rem;border-radius:3px;color:#fff;font-size:0.7rem;font-weight:600;background:#2980b9">קיים היתר</span> <strong>יזהר 11</strong> — בניה חדשה בניין מגורים לא גבוה (עד 13 מ') | יח"ד: 3</div>
+</div>
+<h2>7. שאלות פתוחות <span style="background:#dc3545;color:#fff;padding:0.1rem 0.4rem;border-radius:3px;font-size:0.7rem;font-weight:600">❌ UNVERIFIED</span></h2>
+<div class="card">
+<ol>
+<li><strong>בעלות רמ"י:</strong> מהו חלקה של רמ"י מכלל הקרקע?</li>
+<li><strong>מושע:</strong> אילו מ-89 החלקות הגדולות הן בפועל מושע?</li>
+<li><strong>חכירה:</strong> מהו חלק החכירה לעומת בעלות מלאה?</li>
+<li><strong>תא/5000:</strong> סטטוס עדכני וייעודים מוצעים?</li>
+<li><strong>רה-פרצלציה:</strong> תכניות מאושרות או בתהליך?</li>
+<li><strong>פינוי-בינוי:</strong> מתחמים מוכרזים?</li>
+</ol>
+</div>
+
+<h2>מקורות</h2>
+<div class="card" style="font-size:0.82rem">
+<p><strong>✅ אומתו:</strong></p>
+<ul>
+<li><a href="https://gisn.tel-aviv.gov.il/arcgis/rest/services/IView2/MapServer">שרת GIS — IView2 MapServer</a> (שכבות 515, 524, 514, 772, 513)</li>
+</ul>
+<p><strong>❌ לא אומתו:</strong></p>
+<ul>
+<li><a href="https://mavat.iplan.gov.il">מבא"ת</a> — תכניות תא/5000</li>
+<li><a href="https://land.gov.il">רמ"י</a> — בעלות מדינה</li>
+<li>טאבו — נסחי רישום, אימות מושע</li>
+</ul>
+</div>
+
+</body>
+</html>

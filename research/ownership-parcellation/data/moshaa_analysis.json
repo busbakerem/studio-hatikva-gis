@@ -1,0 +1,1031 @@
+[
+  {
+    "gush": 6979,
+    "chelka": 10,
+    "area_sqm": 47239.34,
+    "centroid": {
+      "lat": 32.05308,
+      "lon": 34.78922
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [
+      1,
+      3
+    ],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה | heara: 1122/2019"
+  },
+  {
+    "gush": 6135,
+    "chelka": 3,
+    "area_sqm": 37636.8,
+    "centroid": {
+      "lat": 32.05177,
+      "lon": 34.79255
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [
+      4,
+      5
+    ],
+    "notes": "תכנית היסטורית — שיכון עובדים. הגדירה שימושים על חלקות מושע אך לא ביצעה רה-פרצלציה | heara: תתג 308-2021  מס עבודה 4707"
+  },
+  {
+    "gush": 6135,
+    "chelka": 4,
+    "area_sqm": 37396.18,
+    "centroid": {
+      "lat": 32.05253,
+      "lon": 34.79446
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [
+      4,
+      5
+    ],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה | heara: תתג 308-2021  מס עבודה 4707"
+  },
+  {
+    "gush": 6978,
+    "chelka": 3,
+    "area_sqm": 34891.96,
+    "centroid": {
+      "lat": 32.05511,
+      "lon": 34.79133
+    },
+    "status": "שויכה",
+    "plan_id": "תא/3448",
+    "plan_status": "מאושרת",
+    "plan_year": 2008,
+    "overlapping_sites": [
+      3
+    ],
+    "notes": "תכנית יד אליהו דרום — מכסה את החלקה"
+  },
+  {
+    "gush": 6135,
+    "chelka": 69,
+    "area_sqm": 33876.6,
+    "centroid": {
+      "lat": 32.04894,
+      "lon": 34.78999
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [
+      1
+    ],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה | heara: 3121-2018  תכנית 4764   מס עבודה 6476"
+  },
+  {
+    "gush": 6979,
+    "chelka": 5,
+    "area_sqm": 32625.87,
+    "centroid": {
+      "lat": 32.05084,
+      "lon": 34.78854
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה | heara: 2674-2019"
+  },
+  {
+    "gush": 6979,
+    "chelka": 7,
+    "area_sqm": 29882.62,
+    "centroid": {
+      "lat": 32.0495,
+      "lon": 34.78709
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה"
+  },
+  {
+    "gush": 6978,
+    "chelka": 2,
+    "area_sqm": 22946.72,
+    "centroid": {
+      "lat": 32.05514,
+      "lon": 34.78976
+    },
+    "status": "שויכה",
+    "plan_id": "תא/3448",
+    "plan_status": "מאושרת",
+    "plan_year": 2008,
+    "overlapping_sites": [
+      3
+    ],
+    "notes": "תכנית יד אליהו דרום — מכסה את החלקה"
+  },
+  {
+    "gush": 6136,
+    "chelka": 36,
+    "area_sqm": 22221.11,
+    "centroid": {
+      "lat": 32.04331,
+      "lon": 34.79265
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה"
+  },
+  {
+    "gush": 6135,
+    "chelka": 328,
+    "area_sqm": 21193.27,
+    "centroid": {
+      "lat": 32.05172,
+      "lon": 34.79571
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה"
+  },
+  {
+    "gush": 6979,
+    "chelka": 3,
+    "area_sqm": 19070.49,
+    "centroid": {
+      "lat": 32.0509,
+      "lon": 34.78951
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [
+      1
+    ],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה | heara: 2674-2019"
+  },
+  {
+    "gush": 6135,
+    "chelka": 51,
+    "area_sqm": 18099.53,
+    "centroid": {
+      "lat": 32.04941,
+      "lon": 34.7908
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [
+      1
+    ],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה | heara: 3121-2018  תכנית 4764   מס עבודה 6476"
+  },
+  {
+    "gush": 6136,
+    "chelka": 17,
+    "area_sqm": 17857.73,
+    "centroid": {
+      "lat": 32.04614,
+      "lon": 34.79258
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה | heara: 271/2020"
+  },
+  {
+    "gush": 6136,
+    "chelka": 293,
+    "area_sqm": 16321.2,
+    "centroid": {
+      "lat": 32.04197,
+      "lon": 34.79645
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה"
+  },
+  {
+    "gush": 6134,
+    "chelka": 660,
+    "area_sqm": 15878.22,
+    "centroid": {
+      "lat": 32.05341,
+      "lon": 34.79443
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [
+      4
+    ],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה"
+  },
+  {
+    "gush": 6979,
+    "chelka": 8,
+    "area_sqm": 15737.78,
+    "centroid": {
+      "lat": 32.04954,
+      "lon": 34.78664
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה"
+  },
+  {
+    "gush": 6892,
+    "chelka": 46,
+    "area_sqm": 13599.51,
+    "centroid": {
+      "lat": 32.05063,
+      "lon": 34.79779
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה"
+  },
+  {
+    "gush": 6134,
+    "chelka": 607,
+    "area_sqm": 13475.73,
+    "centroid": {
+      "lat": 32.05496,
+      "lon": 34.79658
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה"
+  },
+  {
+    "gush": 6979,
+    "chelka": 1,
+    "area_sqm": 12905.11,
+    "centroid": {
+      "lat": 32.05311,
+      "lon": 34.78776
+    },
+    "status": "בתהליך_רה_פרצלציה",
+    "plan_id": "507-0726463",
+    "plan_status": "בתהליך",
+    "plan_year": 2025,
+    "overlapping_sites": [],
+    "notes": " | heara: 309-2021  מס עבודה 4707"
+  },
+  {
+    "gush": 6135,
+    "chelka": 90,
+    "area_sqm": 12765.5,
+    "centroid": {
+      "lat": 32.05356,
+      "lon": 34.79151
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [
+      3,
+      5
+    ],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה"
+  },
+  {
+    "gush": 6135,
+    "chelka": 47,
+    "area_sqm": 11916.88,
+    "centroid": {
+      "lat": 32.04943,
+      "lon": 34.79162
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [
+      5
+    ],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה | heara: תתג 2675-2019   תתג 3121-2018"
+  },
+  {
+    "gush": 6136,
+    "chelka": 2,
+    "area_sqm": 11873.88,
+    "centroid": {
+      "lat": 32.04732,
+      "lon": 34.79023
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה"
+  },
+  {
+    "gush": 6135,
+    "chelka": 44,
+    "area_sqm": 11584.12,
+    "centroid": {
+      "lat": 32.0494,
+      "lon": 34.79232
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [
+      2,
+      5
+    ],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה | heara: 2675-2019"
+  },
+  {
+    "gush": 6134,
+    "chelka": 522,
+    "area_sqm": 11265.31,
+    "centroid": {
+      "lat": 32.05377,
+      "lon": 34.79526
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [
+      4
+    ],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה"
+  },
+  {
+    "gush": 6135,
+    "chelka": 49,
+    "area_sqm": 11162.98,
+    "centroid": {
+      "lat": 32.05012,
+      "lon": 34.79133
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [
+      5
+    ],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה | heara: 3121-2018  תכנית 4764   מס עבודה 6476"
+  },
+  {
+    "gush": 6136,
+    "chelka": 98,
+    "area_sqm": 10888.3,
+    "centroid": {
+      "lat": 32.04703,
+      "lon": 34.79197
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה"
+  },
+  {
+    "gush": 6135,
+    "chelka": 102,
+    "area_sqm": 10884.79,
+    "centroid": {
+      "lat": 32.04901,
+      "lon": 34.79389
+    },
+    "status": "בתהליך_רה_פרצלציה",
+    "plan_id": "תא/מק/4766",
+    "plan_status": "בתהליך",
+    "plan_year": 2025,
+    "overlapping_sites": [
+      2,
+      5
+    ],
+    "notes": ""
+  },
+  {
+    "gush": 6979,
+    "chelka": 6,
+    "area_sqm": 10880.82,
+    "centroid": {
+      "lat": 32.05012,
+      "lon": 34.78811
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה | heara: 2674-2019"
+  },
+  {
+    "gush": 6136,
+    "chelka": 299,
+    "area_sqm": 10232.98,
+    "centroid": {
+      "lat": 32.0437,
+      "lon": 34.79615
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה"
+  },
+  {
+    "gush": 6135,
+    "chelka": 45,
+    "area_sqm": 9861.5,
+    "centroid": {
+      "lat": 32.04941,
+      "lon": 34.79205
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [
+      2,
+      5
+    ],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה | heara: 2675-2019"
+  },
+  {
+    "gush": 6978,
+    "chelka": 110,
+    "area_sqm": 9442.68,
+    "centroid": {
+      "lat": 32.05595,
+      "lon": 34.79268
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה"
+  },
+  {
+    "gush": 6134,
+    "chelka": 528,
+    "area_sqm": 9421.84,
+    "centroid": {
+      "lat": 32.05438,
+      "lon": 34.79533
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה"
+  },
+  {
+    "gush": 6892,
+    "chelka": 43,
+    "area_sqm": 9170.85,
+    "centroid": {
+      "lat": 32.05074,
+      "lon": 34.79626
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה"
+  },
+  {
+    "gush": 7069,
+    "chelka": 138,
+    "area_sqm": 8959.1,
+    "centroid": {
+      "lat": 32.05141,
+      "lon": 34.7856
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה"
+  },
+  {
+    "gush": 6135,
+    "chelka": 25,
+    "area_sqm": 8689.18,
+    "centroid": {
+      "lat": 32.0507,
+      "lon": 34.794
+    },
+    "status": "בתהליך_רה_פרצלציה",
+    "plan_id": "תא/מק/4765",
+    "plan_status": "בתהליך",
+    "plan_year": 2025,
+    "overlapping_sites": [
+      5
+    ],
+    "notes": ""
+  },
+  {
+    "gush": 6136,
+    "chelka": 300,
+    "area_sqm": 8534.4,
+    "centroid": {
+      "lat": 32.04393,
+      "lon": 34.79737
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה"
+  },
+  {
+    "gush": 7069,
+    "chelka": 139,
+    "area_sqm": 8101.65,
+    "centroid": {
+      "lat": 32.05203,
+      "lon": 34.78682
+    },
+    "status": "בתהליך_רה_פרצלציה",
+    "plan_id": "תא/מק/4899",
+    "plan_status": "בתהליך",
+    "plan_year": 2025,
+    "overlapping_sites": [],
+    "notes": " | heara: 1247/2020   מס'  עבודה 6445"
+  },
+  {
+    "gush": 6978,
+    "chelka": 107,
+    "area_sqm": 7734.05,
+    "centroid": {
+      "lat": 32.05623,
+      "lon": 34.7896
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה"
+  },
+  {
+    "gush": 6135,
+    "chelka": 82,
+    "area_sqm": 7706.51,
+    "centroid": {
+      "lat": 32.04889,
+      "lon": 34.79354
+    },
+    "status": "בתהליך_רה_פרצלציה",
+    "plan_id": "תא/מק/4766",
+    "plan_status": "בתהליך",
+    "plan_year": 2025,
+    "overlapping_sites": [
+      2,
+      5
+    ],
+    "notes": ""
+  },
+  {
+    "gush": 7069,
+    "chelka": 136,
+    "area_sqm": 7657.23,
+    "centroid": {
+      "lat": 32.05192,
+      "lon": 34.78486
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה"
+  },
+  {
+    "gush": 6136,
+    "chelka": 73,
+    "area_sqm": 7233.72,
+    "centroid": {
+      "lat": 32.04502,
+      "lon": 34.79673
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה | heara: תתג 2017/ 1908, ספריה מס' 4915"
+  },
+  {
+    "gush": 6136,
+    "chelka": 65,
+    "area_sqm": 7204.44,
+    "centroid": {
+      "lat": 32.04598,
+      "lon": 34.79526
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה | heara: תתג 2017/ 1908, ספריה מס' 4915"
+  },
+  {
+    "gush": 7068,
+    "chelka": 88,
+    "area_sqm": 7021.66,
+    "centroid": {
+      "lat": 32.05475,
+      "lon": 34.78505
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה"
+  },
+  {
+    "gush": 6135,
+    "chelka": 89,
+    "area_sqm": 6737.23,
+    "centroid": {
+      "lat": 32.05168,
+      "lon": 34.791
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [
+      1
+    ],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה"
+  },
+  {
+    "gush": 6135,
+    "chelka": 46,
+    "area_sqm": 6685.35,
+    "centroid": {
+      "lat": 32.04942,
+      "lon": 34.79185
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [
+      5
+    ],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה | heara: 2675-2019"
+  },
+  {
+    "gush": 6136,
+    "chelka": 302,
+    "area_sqm": 6517.68,
+    "centroid": {
+      "lat": 32.04349,
+      "lon": 34.79671
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה"
+  },
+  {
+    "gush": 6135,
+    "chelka": 291,
+    "area_sqm": 6495.47,
+    "centroid": {
+      "lat": 32.04874,
+      "lon": 34.79868
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה"
+  },
+  {
+    "gush": 6135,
+    "chelka": 53,
+    "area_sqm": 6467.04,
+    "centroid": {
+      "lat": 32.05091,
+      "lon": 34.78997
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [
+      1,
+      3
+    ],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה | heara: 3121-2018  תכנית 4764   מס עבודה 6476"
+  },
+  {
+    "gush": 7068,
+    "chelka": 4,
+    "area_sqm": 6449.28,
+    "centroid": null,
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה"
+  },
+  {
+    "gush": 7069,
+    "chelka": 145,
+    "area_sqm": 6275.32,
+    "centroid": {
+      "lat": 32.05278,
+      "lon": 34.78525
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה"
+  },
+  {
+    "gush": 6892,
+    "chelka": 35,
+    "area_sqm": 6251.47,
+    "centroid": {
+      "lat": 32.05248,
+      "lon": 34.79935
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה"
+  },
+  {
+    "gush": 6136,
+    "chelka": 34,
+    "area_sqm": 5930.24,
+    "centroid": {
+      "lat": 32.04373,
+      "lon": 34.79305
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה"
+  },
+  {
+    "gush": 6135,
+    "chelka": 96,
+    "area_sqm": 5817.67,
+    "centroid": {
+      "lat": 32.04904,
+      "lon": 34.79426
+    },
+    "status": "בתהליך_רה_פרצלציה",
+    "plan_id": "תא/מק/4766",
+    "plan_status": "בתהליך",
+    "plan_year": 2025,
+    "overlapping_sites": [],
+    "notes": ""
+  },
+  {
+    "gush": 6134,
+    "chelka": 622,
+    "area_sqm": 5800.68,
+    "centroid": {
+      "lat": 32.05532,
+      "lon": 34.79743
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה"
+  },
+  {
+    "gush": 7068,
+    "chelka": 89,
+    "area_sqm": 5782.57,
+    "centroid": {
+      "lat": 32.0542,
+      "lon": 34.78664
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה"
+  },
+  {
+    "gush": 6136,
+    "chelka": 33,
+    "area_sqm": 5753.91,
+    "centroid": {
+      "lat": 32.04387,
+      "lon": 34.79305
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה"
+  },
+  {
+    "gush": 6135,
+    "chelka": 91,
+    "area_sqm": 5680.39,
+    "centroid": {
+      "lat": 32.0529,
+      "lon": 34.79128
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [
+      3,
+      5
+    ],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה"
+  },
+  {
+    "gush": 6892,
+    "chelka": 21,
+    "area_sqm": 5610.96,
+    "centroid": {
+      "lat": 32.05343,
+      "lon": 34.79762
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה"
+  },
+  {
+    "gush": 6135,
+    "chelka": 58,
+    "area_sqm": 5497.57,
+    "centroid": {
+      "lat": 32.04786,
+      "lon": 34.78841
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה"
+  },
+  {
+    "gush": 6135,
+    "chelka": 55,
+    "area_sqm": 5470.32,
+    "centroid": {
+      "lat": 32.04793,
+      "lon": 34.78901
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה"
+  },
+  {
+    "gush": 6892,
+    "chelka": 17,
+    "area_sqm": 5430.99,
+    "centroid": {
+      "lat": 32.05145,
+      "lon": 34.79618
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה"
+  },
+  {
+    "gush": 6134,
+    "chelka": 621,
+    "area_sqm": 5411.37,
+    "centroid": {
+      "lat": 32.0554,
+      "lon": 34.79564
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה | heara: תת''ג 2461/2016"
+  },
+  {
+    "gush": 6136,
+    "chelka": 93,
+    "area_sqm": 5304.68,
+    "centroid": {
+      "lat": 32.04698,
+      "lon": 34.79052
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה"
+  },
+  {
+    "gush": 6135,
+    "chelka": 324,
+    "area_sqm": 5235.21,
+    "centroid": {
+      "lat": 32.05049,
+      "lon": 34.79631
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה | heara: גרפי לפי תצר 253-1993"
+  },
+  {
+    "gush": 6135,
+    "chelka": 88,
+    "area_sqm": 5064.23,
+    "centroid": {
+      "lat": 32.05232,
+      "lon": 34.79089
+    },
+    "status": "ללא_טיפול",
+    "plan_id": null,
+    "plan_status": null,
+    "plan_year": null,
+    "overlapping_sites": [
+      1,
+      3
+    ],
+    "notes": "חלקת מושע ללא תכנית רה-פרצלציה מזוהה"
+  }
+]

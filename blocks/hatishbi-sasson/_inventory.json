@@ -1,0 +1,1918 @@
+{
+  "inventory": [
+    {
+      "chelka": 38,
+      "gush": 6135,
+      "parcelArea": 3042.34,
+      "registeredArea": 3035,
+      "buildings": [
+        {
+          "id": 891,
+          "type": "מבנה רגיל",
+          "floors": 3,
+          "height": 14.12,
+          "year": 1997,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 109.63414001464844
+        },
+        {
+          "id": 3871,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 5.56,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 150.39972686767578
+        },
+        {
+          "id": 4082,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 7.5,
+          "year": null,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 114.49939727783203
+        },
+        {
+          "id": 4484,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 4.2,
+          "year": 1960,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 54.3243408203125
+        },
+        {
+          "id": 4475,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 12.58,
+          "year": 1950,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 94.8134536743164
+        },
+        {
+          "id": 617,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 3.24,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 53.199440002441406
+        },
+        {
+          "id": 4485,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 8.28,
+          "year": null,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 104.30558776855469
+        }
+      ],
+      "permits": []
+    },
+    {
+      "chelka": 43,
+      "gush": 6135,
+      "parcelArea": 3521.07,
+      "registeredArea": 3575,
+      "buildings": [
+        {
+          "id": 890,
+          "type": "מבנה רגיל",
+          "floors": 2,
+          "height": 5.02,
+          "year": 1950,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 57.203895568847656
+        },
+        {
+          "id": 1276,
+          "type": "מבנה ארעי",
+          "floors": 1,
+          "height": 0.92,
+          "year": null,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 6.096488952636719
+        },
+        {
+          "id": 900,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 8.89,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 86.78490447998047
+        },
+        {
+          "id": 863,
+          "type": "מבנה רגיל",
+          "floors": 2,
+          "height": 6.93,
+          "year": 0,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 74.3187026977539
+        },
+        {
+          "id": 4140,
+          "type": "מבנה רגיל",
+          "floors": 3,
+          "height": 9.32,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 161.2291488647461
+        },
+        {
+          "id": 4141,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 7.32,
+          "year": null,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 35.106414794921875
+        },
+        {
+          "id": 4146,
+          "type": "מבנה ארעי",
+          "floors": 1,
+          "height": 5.13,
+          "year": null,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 16.22119903564453
+        },
+        {
+          "id": 68067,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 14.3,
+          "year": 1998,
+          "name": "",
+          "onPillars": null,
+          "footprintArea": 65.93389892578125
+        },
+        {
+          "id": 1275,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 14.67,
+          "year": 1959,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 90.44449615478516
+        }
+      ],
+      "permits": [
+        {
+          "requestNum": 20191027,
+          "permissionNum": 20190853,
+          "address": "ששון 13, תשבי 8",
+          "type": "שינויים הארכת תוקף החלטה",
+          "content": "",
+          "stage": "בבניה",
+          "date": "7.7.2020",
+          "expiryDate": "7.7.2023",
+          "housingUnits": 2,
+          "tama38": "לא",
+          "docUrl": "",
+          "licensingTrack": "רישוי מלא (ללא הקלות ושימוש חורג)"
+        },
+        {
+          "requestNum": 20230998,
+          "permissionNum": 20231058,
+          "address": "ששון 13, תשבי 8",
+          "type": "שינויים חידוש היתר",
+          "content": "",
+          "stage": "בבניה",
+          "date": "8.5.2025",
+          "expiryDate": "7.7.2026",
+          "housingUnits": 0,
+          "tama38": "לא",
+          "docUrl": "",
+          "licensingTrack": "רישוי מלא (ללא הקלות ושימוש חורג)"
+        }
+      ]
+    },
+    {
+      "chelka": 44,
+      "gush": 6135,
+      "parcelArea": 11584.12,
+      "registeredArea": 11476,
+      "buildings": [
+        {
+          "id": 421,
+          "type": "מבנה רגיל",
+          "floors": 3,
+          "height": 12.1,
+          "year": 1993,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 60.99598693847656
+        },
+        {
+          "id": 423,
+          "type": "מבנה רגיל",
+          "floors": 2,
+          "height": 8.25,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 42.75153350830078
+        },
+        {
+          "id": 902,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 0.54,
+          "year": null,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 5.5903472900390625
+        },
+        {
+          "id": 903,
+          "type": "מבנה רגיל",
+          "floors": 2,
+          "height": 8.73,
+          "year": 1989,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 65.31732940673828
+        },
+        {
+          "id": 1017,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 5.26,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 117.20118713378906
+        },
+        {
+          "id": 1011,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 1.68,
+          "year": null,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 35.05006408691406
+        },
+        {
+          "id": 425,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 5.5,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 65.78589630126953
+        },
+        {
+          "id": 424,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 6.32,
+          "year": 1951,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 73.44273376464844
+        },
+        {
+          "id": 426,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 8.61,
+          "year": 1950,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 55.79450225830078
+        },
+        {
+          "id": 422,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 5.57,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 77.13136291503906
+        },
+        {
+          "id": 894,
+          "type": "מבנה רגיל",
+          "floors": 2,
+          "height": 7.47,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 88.71923065185547
+        },
+        {
+          "id": 883,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 7.79,
+          "year": 1958,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 54.3135986328125
+        },
+        {
+          "id": 1272,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 6.44,
+          "year": null,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 59.21003723144531
+        },
+        {
+          "id": 898,
+          "type": "מבנה רגיל",
+          "floors": 2,
+          "height": 8.42,
+          "year": 1953,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 80.73597717285156
+        },
+        {
+          "id": 907,
+          "type": "מבנה רגיל",
+          "floors": 2,
+          "height": 9.06,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 46.651100158691406
+        },
+        {
+          "id": 1006,
+          "type": "מבנה רגיל",
+          "floors": 2,
+          "height": 9.34,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 76.33609008789062
+        },
+        {
+          "id": 3715,
+          "type": "מבנה רגיל",
+          "floors": 2,
+          "height": 7.4,
+          "year": 1950,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 97.463623046875
+        },
+        {
+          "id": 4331,
+          "type": "מבנה ארעי",
+          "floors": 1,
+          "height": 4.24,
+          "year": null,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 3.710174560546875
+        },
+        {
+          "id": 880,
+          "type": "מבנה רגיל",
+          "floors": 2,
+          "height": 7.96,
+          "year": 1947,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 51.68883514404297
+        },
+        {
+          "id": 882,
+          "type": "מבנה רגיל",
+          "floors": 2,
+          "height": 6.48,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 49.691490173339844
+        },
+        {
+          "id": 914,
+          "type": "מבנה רגיל",
+          "floors": 2,
+          "height": 8.08,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 81.90705871582031
+        },
+        {
+          "id": 1013,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 5.44,
+          "year": 1954,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 73.46338653564453
+        },
+        {
+          "id": 4151,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 7.05,
+          "year": null,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 68.38025665283203
+        },
+        {
+          "id": 4183,
+          "type": "מבנה רגיל",
+          "floors": 2,
+          "height": 9.57,
+          "year": 1950,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 60.20100402832031
+        },
+        {
+          "id": 69323,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": null,
+          "year": null,
+          "name": "",
+          "onPillars": null,
+          "footprintArea": 18.548866271972656
+        }
+      ],
+      "permits": [
+        {
+          "requestNum": 20250863,
+          "permissionNum": 20250730,
+          "address": "ששון 17",
+          "type": "שינויים חידוש היתר",
+          "content": "פירוט המבוקש במרתפים: ללא מרתף\n",
+          "stage": "בבניה",
+          "date": "9.6.2025",
+          "expiryDate": "5.7.2028",
+          "housingUnits": 0,
+          "tama38": "לא",
+          "docUrl": "",
+          "licensingTrack": "רישוי מלא (ללא הקלות ושימוש חורג)"
+        },
+        {
+          "requestNum": 20210567,
+          "permissionNum": 20220285,
+          "address": "ששון 17",
+          "type": "בניה חדשה בניין מגורים לא גבוה (עד 13 מ')",
+          "content": "מספר קומות להריסה (סה\"כ הקומות במבנה או מספר מבנים על המגרש): 1, שטח הריסה (מ\"ר): 52.86, \r\nבמרתפים: מרתף אחד בלבד, אחר: חלל משחקים, \r\nבקומת הקרקע: אחר: ביתן אשפה. בלוני גז שעוני מים ופילר חשמל, \r\nבקומות: כמות קומות מגורים: 3, כמות יח\"ד מבוקשות: 2, \r\nעל הגג: חדרי יציאה, קולטי שמש, \r\nבחצר: גינה, שטחים מרוצפים, גדר בגבולות מגרש בגובה (מטר): 1, \r\n\r\nגן ילדים: קיים ממ\"ד: לא",
+          "stage": "בבניה",
+          "date": "5.7.2022",
+          "expiryDate": "5.7.2025",
+          "housingUnits": 2,
+          "tama38": "לא",
+          "docUrl": "",
+          "licensingTrack": "רישוי מלא (ללא הקלות ושימוש חורג)"
+        }
+      ]
+    },
+    {
+      "chelka": 45,
+      "gush": 6135,
+      "parcelArea": 9861.5,
+      "registeredArea": 9821,
+      "buildings": [
+        {
+          "id": 996,
+          "type": "מבנה רגיל",
+          "floors": 2,
+          "height": 8.96,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 69.26680755615234
+        },
+        {
+          "id": 989,
+          "type": "מבנה רגיל",
+          "floors": 2,
+          "height": 11.8,
+          "year": 1994,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 80.05899810791016
+        },
+        {
+          "id": 1010,
+          "type": "מבנה ארעי",
+          "floors": 1,
+          "height": 6.55,
+          "year": null,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 8.534812927246094
+        },
+        {
+          "id": 4298,
+          "type": "מבנה רגיל",
+          "floors": 2,
+          "height": 13.2,
+          "year": 1948,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 92.75677490234375
+        },
+        {
+          "id": 4332,
+          "type": "מבנה ארעי",
+          "floors": 1,
+          "height": 3.89,
+          "year": null,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 15.782302856445312
+        },
+        {
+          "id": 3838,
+          "type": "מבנה רגיל",
+          "floors": 2,
+          "height": 6.52,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 76.63015747070312
+        },
+        {
+          "id": 3839,
+          "type": "מבנה רגיל",
+          "floors": 2,
+          "height": 8.73,
+          "year": 1952,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 71.86705017089844
+        },
+        {
+          "id": 3842,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 8.68,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 88.81440734863281
+        },
+        {
+          "id": 4311,
+          "type": "מבנה רגיל",
+          "floors": 3,
+          "height": 14.64,
+          "year": 2006,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 103.9714126586914
+        },
+        {
+          "id": 4318,
+          "type": "מבנה רגיל",
+          "floors": 2,
+          "height": 6.4,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 69.97087097167969
+        },
+        {
+          "id": 4297,
+          "type": "מבנה רגיל",
+          "floors": 3,
+          "height": 15.62,
+          "year": 2003,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 74.1127700805664
+        },
+        {
+          "id": 4335,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 6.75,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 99.63024139404297
+        },
+        {
+          "id": 4337,
+          "type": "מבנה רגיל",
+          "floors": 3,
+          "height": 10.7,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 115.15306854248047
+        },
+        {
+          "id": 990,
+          "type": "מבנה רגיל",
+          "floors": 3,
+          "height": 12.93,
+          "year": 1950,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 109.23042297363281
+        },
+        {
+          "id": 3841,
+          "type": "מבנה רגיל",
+          "floors": 2,
+          "height": 7.94,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 110.02826690673828
+        },
+        {
+          "id": 4339,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 5.23,
+          "year": 2023,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 62.92372131347656
+        },
+        {
+          "id": 4317,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 7.62,
+          "year": 1955,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 61.159698486328125
+        },
+        {
+          "id": 4338,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 6.39,
+          "year": 0,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 48.02644348144531
+        },
+        {
+          "id": 3840,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 14.76,
+          "year": 2019,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 70.35617065429688
+        }
+      ],
+      "permits": [
+        {
+          "requestNum": 20191352,
+          "permissionNum": 20230617,
+          "address": "שמחה 13",
+          "type": "תוספות בניה תוספת בניה לפי תכנית הרחבה",
+          "content": "כמות קומות לתוספת: 2, כמות יח\"ד לתוספת: 2, מספר תכנית הרחבה: 2215, קומה בה מתבצעת התוספת: א+ב, שטח התוספת (מ\"ר): 77.28, שטח דירה/משרד לאחר תוספת (מ\"ר): 80, כיוון התוספת: לחזית, כיוון התוספת: לצד, מבוקשים שינויים פנימיים: הזזת מחיצות, \r\nבקומת הגג: כיוון התוספת: לחזית, שטח התוספת (מ\"ר): 40, שטח ניצול חלל הגג (מ\"ר): 40, הדירה, לרבות הבנייה על הגג קיימת בהיתר משנת: 1948, השימוש בתוספת המבוקשת: למגורים, גובה המבנה הקיים (מטר): 3, נסיגה מהמעקה מצד אחד (מטר): 2, נסיגה מהמעקה מצד שני (מטר): 1.2, \r\nהעבוד",
+          "stage": "קיים היתר",
+          "date": "6.7.2023",
+          "expiryDate": "6.7.2029",
+          "housingUnits": 2,
+          "tama38": "לא",
+          "docUrl": "",
+          "licensingTrack": "הקלה/שמוש חורג/תמ\"א38"
+        },
+        {
+          "requestNum": 20251644,
+          "permissionNum": 20251805,
+          "address": "שמחה 13",
+          "type": "שינויים שינוי שם/שינוי תנאי",
+          "content": "הגורם עבורו מתבצעת העבודה: גורם פרטי",
+          "stage": "קיים היתר",
+          "date": "23.2.2026",
+          "expiryDate": "23.2.2032",
+          "housingUnits": 0,
+          "tama38": "לא",
+          "docUrl": "",
+          "licensingTrack": "רישוי מלא (ללא הקלות ושימוש חורג)"
+        },
+        {
+          "requestNum": 20200259,
+          "permissionNum": 20221394,
+          "address": "שמחה 25",
+          "type": "בניה חדשה בניין מגורים לא גבוה (עד 13 מ')",
+          "content": "מספר קומות להריסה: 2, שטח הריסה (מ\"ר): 116.76, \r\nבמרתפים: מרתף אחד בלבד, מחסן, אחר: חדרי משחקים, \r\nבקומת הקרקע: אחר: ביתן אשפה. בלוני גז ושעוני מים, \r\nבקומות: כמות קומות מגורים: 3, כמות יח\"ד מבוקשות: 3, \r\nעל הגג: חדרי יציאה, קולטי שמש, \r\nבחצר: גינה, שטחים מרוצפים, גדר בגבולות מגרש בגובה (מטר): 1, \r\nהעבודות המבוקשות בהיתר כוללות הוספת צובר גז חדש, או העתקה של צובר קיים: כן",
+          "stage": "קיים היתר",
+          "date": "25.4.2023",
+          "expiryDate": "25.4.2029",
+          "housingUnits": 3,
+          "tama38": "לא",
+          "docUrl": "https://archive-binyan.tel-aviv.gov.il/pages/results.aspx?owstikid=40450250&owsdoctikbakashanummekuvenet=14797&owsdocumenttype=%d7%94%d7%93%d7%9e%d7%99%d7%95%d7%aa",
+          "licensingTrack": "הקלה/שמוש חורג/תמ\"א38"
+        }
+      ]
+    },
+    {
+      "chelka": 46,
+      "gush": 6135,
+      "parcelArea": 6685.35,
+      "registeredArea": 6752,
+      "buildings": [
+        {
+          "id": 910,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 3.39,
+          "year": 1953,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 68.53166198730469
+        },
+        {
+          "id": 1009,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 10.77,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 86.03032684326172
+        },
+        {
+          "id": 1005,
+          "type": "מבנה רגיל",
+          "floors": 2,
+          "height": 8.03,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 126.04542541503906
+        },
+        {
+          "id": 1398,
+          "type": "מבנה רגיל",
+          "floors": 3,
+          "height": 15.09,
+          "year": 1997,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 101.8079605102539
+        },
+        {
+          "id": 4336,
+          "type": "מבנה רגיל",
+          "floors": 2,
+          "height": 8.62,
+          "year": 1956,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 67.30830383300781
+        },
+        {
+          "id": 4321,
+          "type": "מבנה רגיל",
+          "floors": 2,
+          "height": 9.92,
+          "year": 1945,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 95.6939468383789
+        },
+        {
+          "id": 4322,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 4.61,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 88.20740509033203
+        },
+        {
+          "id": 4182,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 5.39,
+          "year": 1950,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 99.59851837158203
+        },
+        {
+          "id": 4177,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 5.04,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 72.0984878540039
+        },
+        {
+          "id": 4299,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 6.83,
+          "year": 1951,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 117.41434478759766
+        },
+        {
+          "id": 3809,
+          "type": "מבנה רגיל",
+          "floors": 3,
+          "height": 14.68,
+          "year": null,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 140.20780181884766
+        },
+        {
+          "id": 889,
+          "type": "מבנה רגיל",
+          "floors": 2,
+          "height": 11.14,
+          "year": 1987,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 68.69835662841797
+        }
+      ],
+      "permits": []
+    },
+    {
+      "chelka": 47,
+      "gush": 6135,
+      "parcelArea": 11916.88,
+      "registeredArea": 11831,
+      "buildings": [
+        {
+          "id": 489,
+          "type": "מבנה רגיל",
+          "floors": 2,
+          "height": 8.44,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 45.321937561035156
+        },
+        {
+          "id": 1018,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 5.47,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 68.46266174316406
+        },
+        {
+          "id": 1271,
+          "type": "מבנה רגיל",
+          "floors": 2,
+          "height": 9.56,
+          "year": 1950,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 66.30484008789062
+        },
+        {
+          "id": 908,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 3.91,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 14.511528015136719
+        },
+        {
+          "id": 942,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 5.66,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 58.37382507324219
+        },
+        {
+          "id": 614,
+          "type": "מבנה ארעי",
+          "floors": 1,
+          "height": 4.49,
+          "year": null,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 15.257049560546875
+        },
+        {
+          "id": 615,
+          "type": "מבנה רגיל",
+          "floors": 2,
+          "height": 8.89,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 111.39351654052734
+        },
+        {
+          "id": 490,
+          "type": "מבנה רגיל",
+          "floors": 3,
+          "height": 8.02,
+          "year": 1982,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 49.71942901611328
+        },
+        {
+          "id": 904,
+          "type": "מבנה רגיל",
+          "floors": 2,
+          "height": 8.82,
+          "year": 1952,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 43.08338928222656
+        },
+        {
+          "id": 911,
+          "type": "מבנה רגיל",
+          "floors": 2,
+          "height": 6.68,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 58.488983154296875
+        },
+        {
+          "id": 978,
+          "type": "מבנה רגיל",
+          "floors": 2,
+          "height": 10.67,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 59.05914306640625
+        },
+        {
+          "id": 1012,
+          "type": "מבנה רגיל",
+          "floors": 2,
+          "height": 6.15,
+          "year": 1950,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 50.82844543457031
+        },
+        {
+          "id": 1393,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 5.83,
+          "year": 1970,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 94.34699249267578
+        },
+        {
+          "id": 4330,
+          "type": "מבנה רגיל",
+          "floors": 3,
+          "height": 12.3,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 116.73017883300781
+        },
+        {
+          "id": 3808,
+          "type": "מבנה רגיל",
+          "floors": 3,
+          "height": 10.09,
+          "year": null,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 57.17088317871094
+        },
+        {
+          "id": 4180,
+          "type": "מבנה רגיל",
+          "floors": 2,
+          "height": 10.22,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 130.06488800048828
+        },
+        {
+          "id": 4234,
+          "type": "מבנה רגיל",
+          "floors": 3,
+          "height": 10.41,
+          "year": 1958,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 100.24054718017578
+        },
+        {
+          "id": 4320,
+          "type": "מבנה רגיל",
+          "floors": 3,
+          "height": 13.43,
+          "year": 1981,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 81.39208221435547
+        },
+        {
+          "id": 4334,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 4.66,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 78.7044906616211
+        },
+        {
+          "id": 4329,
+          "type": "מבנה ארעי",
+          "floors": 1,
+          "height": 10.79,
+          "year": null,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 24.569107055664062
+        },
+        {
+          "id": 4333,
+          "type": "מבנה רגיל",
+          "floors": 2,
+          "height": 8.67,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 50.08714294433594
+        },
+        {
+          "id": 3722,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 4.52,
+          "year": 0,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 49.37622833251953
+        },
+        {
+          "id": 4176,
+          "type": "מבנה רגיל",
+          "floors": 2,
+          "height": 8.3,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 67.97978210449219
+        },
+        {
+          "id": 4178,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 3.09,
+          "year": null,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 24.01435089111328
+        },
+        {
+          "id": 988,
+          "type": "מבנה רגיל",
+          "floors": 3,
+          "height": 12.35,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 96.82615661621094
+        },
+        {
+          "id": 3559,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 8.12,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 50.88892364501953
+        },
+        {
+          "id": 3884,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 4.58,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 89.55890655517578
+        },
+        {
+          "id": 4319,
+          "type": "מבנה רגיל",
+          "floors": 2,
+          "height": 11.96,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 85.87002563476562
+        }
+      ],
+      "permits": [
+        {
+          "requestNum": 20191193,
+          "permissionNum": 20200920,
+          "address": "רוני 52",
+          "type": "בניה חדשה בניין מגורים לא גבוה (עד 13 מ')",
+          "content": "מספר קומות להריסה: 1, שטח הריסה (מ\"ר): 8.12, \r\nבמרתפים: מרתף אחד בלבד, מחסן, אחר: חלל משחקים, \r\nבקומת הקרקע: אחר: נישה לאשפה ארונות חשמל ובזק., \r\nבקומות: כמות קומות מגורים: 3, כמות יח\"ד מבוקשות: 2, \r\nעל הגג: חדרי יציאה, קולטי שמש, \r\nבחצר: גינה, שטחים מרוצפים, גדר בגבולות מגרש בגובה (מטר): 1.2, \r\nהעבודות המבוקשות בהיתר כוללות הוספת צובר גז חדש, או העתקה של צובר קיים: כן",
+          "stage": "קיימת לפחות תעודת גמר אחת",
+          "date": "11.1.2021",
+          "expiryDate": "11.7.2024",
+          "housingUnits": 2,
+          "tama38": "לא",
+          "docUrl": "https://archive-binyan.tel-aviv.gov.il/pages/results.aspx?owstikid=40440520&owsdoctikbakashanummekuvenet=13551&owsdocumenttype=%d7%94%d7%93%d7%9e%d7%99%d7%95%d7%aa",
+          "licensingTrack": "הקלה/שמוש חורג/תמ\"א38"
+        },
+        {
+          "requestNum": 20240718,
+          "permissionNum": 20241023,
+          "address": "רוני 52",
+          "type": "שינויים חידוש היתר",
+          "content": "",
+          "stage": "קיימת לפחות תעודת גמר אחת",
+          "date": "18.6.2024",
+          "expiryDate": "11.7.2027",
+          "housingUnits": 0,
+          "tama38": "לא",
+          "docUrl": "",
+          "licensingTrack": "רישוי מלא (ללא הקלות ושימוש חורג)"
+        },
+        {
+          "requestNum": 20220858,
+          "permissionNum": 20241330,
+          "address": "רוני 37",
+          "type": "בניה חדשה בניין מגורים לא גבוה (עד 13 מ')",
+          "content": "מספר קומות להריסה (סה\"כ הקומות במבנה או מספר מבנים על המגרש): 1, שטח הריסה (מ\"ר): 96.6, \r\nבמרתפים: מרתף אחד בלבד, מחסן, אחר: חלל משחקים, \r\nבקומת הקרקע: אחר: ביתן אשפה. בלוני גז שעוני מים ופילר חשמל, \r\nבקומות: כמות קומות מגורים: 3, כמות יח\"ד מבוקשות: 2, \r\nעל הגג: חדרי יציאה, קולטי שמש, \r\nבחצר: גינה, שטחים מרוצפים, גדר בגבולות מגרש בגובה (מטר): 1, \r\nהעבודות המבוקשות בהיתר אינן כוללות הוספת צובר גז חדש, או העתקה של צובר קיים, \r\nגן ילדים: קיים ממ\"ד: לא",
+          "stage": "קיים היתר",
+          "date": "26.2.2025",
+          "expiryDate": "26.2.2031",
+          "housingUnits": 2,
+          "tama38": "לא",
+          "docUrl": "",
+          "licensingTrack": "רישוי מלא (ללא הקלות ושימוש חורג)"
+        },
+        {
+          "requestNum": 20211478,
+          "permissionNum": 20220630,
+          "address": "רוני 52",
+          "type": "שינויים שינויים במהלך ביצוע (סמכות מהנדס העיר)",
+          "content": "השינויים המבוקשים מההיתר המקורי: שינוי מהלך מדרגות פנימי בקומות מרתף, קרקע ו-א ושינויים פנימים בדירה עקב שיפור תכנון חלל פנים, בקומת קרקע, תוספת פילרים עקב דרישות יועצים, בקומות א ב ו-ג שינוי מיקום חלונות עקב שיפור חזיתות ותכנון פנים ששונה, \r",
+          "stage": "קיימת לפחות תעודת גמר אחת",
+          "date": "1.6.2022",
+          "expiryDate": "11.7.2027",
+          "housingUnits": 0,
+          "tama38": "לא",
+          "docUrl": "",
+          "licensingTrack": "שינויים בסמכות מה\"ע"
+        }
+      ]
+    },
+    {
+      "chelka": 48,
+      "gush": 6135,
+      "parcelArea": 4976.79,
+      "registeredArea": 4913,
+      "buildings": [
+        {
+          "id": 1002,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 4.32,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 41.61505126953125
+        },
+        {
+          "id": 896,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 9.31,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 124.11363220214844
+        },
+        {
+          "id": 3780,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 5.9,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 160.44039154052734
+        },
+        {
+          "id": 4181,
+          "type": "מבנה רגיל",
+          "floors": 2,
+          "height": 9.89,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 122.94502258300781
+        },
+        {
+          "id": 4327,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 4.84,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 41.428916931152344
+        },
+        {
+          "id": 4326,
+          "type": "מבנה רגיל",
+          "floors": 2,
+          "height": 5.43,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 46.808631896972656
+        }
+      ],
+      "permits": []
+    },
+    {
+      "chelka": 70,
+      "gush": 6135,
+      "parcelArea": 3233.37,
+      "registeredArea": 3188,
+      "buildings": [
+        {
+          "id": 4845,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 9.81,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 227.10411834716797
+        }
+      ],
+      "permits": []
+    },
+    {
+      "chelka": 71,
+      "gush": 6135,
+      "parcelArea": 1984.21,
+      "registeredArea": 1991,
+      "buildings": [
+        {
+          "id": 419,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 5.43,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 62.097381591796875
+        },
+        {
+          "id": 1274,
+          "type": "מבנה רגיל",
+          "floors": 2,
+          "height": 9.04,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 95.11132049560547
+        },
+        {
+          "id": 893,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 5.37,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 95.62482452392578
+        },
+        {
+          "id": 418,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 6.03,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 57.749778747558594
+        },
+        {
+          "id": 995,
+          "type": "מבנה רגיל",
+          "floors": 2,
+          "height": 7.82,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 116.21337127685547
+        },
+        {
+          "id": 4144,
+          "type": "מבנה רגיל",
+          "floors": 2,
+          "height": 7.82,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 104.65716552734375
+        },
+        {
+          "id": 3723,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 13.01,
+          "year": 1957,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 50.757591247558594
+        },
+        {
+          "id": 67351,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 3.54,
+          "year": 1900,
+          "name": "",
+          "onPillars": null,
+          "footprintArea": 46.29042053222656
+        },
+        {
+          "id": 66772,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 15.13,
+          "year": 2016,
+          "name": "",
+          "onPillars": null,
+          "footprintArea": 87.823486328125
+        }
+      ],
+      "permits": [
+        {
+          "requestNum": 20250637,
+          "permissionNum": 0,
+          "address": "תרדיון 6",
+          "type": "בניה חדשה בניין מגורים גבוה (מעל 13 מ')",
+          "content": "הריסה: מספר קומות להריסה: 2, שטח הריסה (מ\"ר): 208.08\nפירוט המבוקש במרתפים: מרתף אחד בלבד, חדרי עזר, אחר: שטח נלווה לדירה צמודה בקומת קרקע\nפירוט המבוקש בקומת הקרקע: חדר אשפה, אחר: פילרים, ודירה אחת.\nפירוט המבוקש בקומות: כמות קומות מגורים: 3, כמות יח\"ד מבוקשות: 4\nפירוט המבוקש על הגג: חדרי יציאה, קולטי שמש, פרגולה\nפירוט המבוקש בחצר: גינה, אחר: חצר אנגלית, גדר בגבולות מגרש בגובה (מטר): 1.50\nפירוט נוסף: מבוקש בניה חדשה למבנה מגורים בן 3 קומות + קומת מרתף וחדר יציאה לגג עבור 4 יח\"ד. כמו כן מבוקס מרפסות פתוחות.\nצובר גז: העבודות המבוקשות בהיתר כוללות הוספת צובר גז חדש או העתקה של צובר קיים: כן\nהגורם עבורו מתבצעת העבודה: גורם פרטי",
+          "stage": "בתהליך היתר",
+          "date": null,
+          "expiryDate": null,
+          "housingUnits": 4,
+          "tama38": "לא",
+          "docUrl": "",
+          "licensingTrack": "הקלה/שמוש חורג/תמ\"א38"
+        }
+      ]
+    },
+    {
+      "chelka": 72,
+      "gush": 6135,
+      "parcelArea": 515.51,
+      "registeredArea": 512,
+      "buildings": [],
+      "permits": []
+    },
+    {
+      "chelka": 73,
+      "gush": 6135,
+      "parcelArea": 2681.71,
+      "registeredArea": 2729,
+      "buildings": [
+        {
+          "id": 4481,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 7.21,
+          "year": 1954,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 110.42066192626953
+        },
+        {
+          "id": 4846,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 3.95,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 122.00018310546875
+        },
+        {
+          "id": 63078,
+          "type": "מבנה רגיל",
+          "floors": null,
+          "height": 15.04,
+          "year": 2013,
+          "name": "",
+          "onPillars": null,
+          "footprintArea": 171.50538635253906
+        }
+      ],
+      "permits": []
+    },
+    {
+      "chelka": 74,
+      "gush": 6135,
+      "parcelArea": 1385.86,
+      "registeredArea": 1359,
+      "buildings": [
+        {
+          "id": 488,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 6.36,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 104.14771270751953
+        },
+        {
+          "id": 897,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 5.66,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 294.32398986816406
+        },
+        {
+          "id": 887,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 5.22,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 90.88703155517578
+        },
+        {
+          "id": 4147,
+          "type": "מבנה רגיל",
+          "floors": 3,
+          "height": 11.63,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 51.64013671875
+        }
+      ],
+      "permits": []
+    },
+    {
+      "chelka": 75,
+      "gush": 6135,
+      "parcelArea": 467.96,
+      "registeredArea": 486,
+      "buildings": [],
+      "permits": []
+    },
+    {
+      "chelka": 76,
+      "gush": 6135,
+      "parcelArea": 868.97,
+      "registeredArea": 872,
+      "buildings": [],
+      "permits": []
+    },
+    {
+      "chelka": 77,
+      "gush": 6135,
+      "parcelArea": 167.56,
+      "registeredArea": 170,
+      "buildings": [],
+      "permits": []
+    },
+    {
+      "chelka": 78,
+      "gush": 6135,
+      "parcelArea": 579.92,
+      "registeredArea": 589,
+      "buildings": [
+        {
+          "id": 46264,
+          "type": null,
+          "floors": null,
+          "height": 11.02,
+          "year": 1953,
+          "name": "",
+          "onPillars": null,
+          "footprintArea": 79.53036499023438
+        }
+      ],
+      "permits": []
+    },
+    {
+      "chelka": 79,
+      "gush": 6135,
+      "parcelArea": 4364.75,
+      "registeredArea": 4347,
+      "buildings": [
+        {
+          "id": 1391,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 2.46,
+          "year": null,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 63.2523193359375
+        },
+        {
+          "id": 4498,
+          "type": "מבנה ציבור",
+          "floors": 2,
+          "height": 7,
+          "year": 1950,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 104.63797760009766
+        },
+        {
+          "id": 4474,
+          "type": "מבנה ארעי",
+          "floors": 1,
+          "height": 3.81,
+          "year": null,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 7.099510192871094
+        },
+        {
+          "id": 4678,
+          "type": "מבנה רגיל",
+          "floors": 2,
+          "height": 10.07,
+          "year": 0,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 101.76551818847656
+        }
+      ],
+      "permits": [
+        {
+          "requestNum": 20210348,
+          "permissionNum": 20221229,
+          "address": "אצ\"ל 87",
+          "type": "בניה חדשה בניין מגורים לא גבוה (עד 13 מ')",
+          "content": "מספר קומות להריסה (סה\"כ הקומות במבנה או מספר מבנים על המגרש): 1, שטח הריסה (מ\"ר): 158.45, \r\nבמרתפים: מרתף אחד בלבד, מחסן, אחר: חדר משחקים, \r\nבקומת הקרקע: אחר: ביתן אשפה. בלוני גז שעוני מים ופילר חשמל, כמות חנויות: 1, כמות חדרי שירותים: 1, \r\nבקומות: כמות קומות מגורים: 3, כמות יח\"ד מבוקשות: 5, \r\nעל הגג: חדרי יציאה, קולטי שמש, פרגולה, \r\nבחצר: גינה, שטחים מרוצפים, פרגולה, גדר בגבולות מגרש בגובה (מטר): 1, \r\nהעבודות המבוקשות בהיתר אינן כוללות הוספת צובר גז חדש, או העתקה של צובר קיים, \r\nגן ילדים: קיים ממ\"ד: לא",
+          "stage": "בבניה",
+          "date": "28.3.2023",
+          "expiryDate": "28.3.2029",
+          "housingUnits": 5,
+          "tama38": "לא",
+          "docUrl": "",
+          "licensingTrack": "הקלה/שמוש חורג/תמ\"א38"
+        }
+      ]
+    },
+    {
+      "chelka": 80,
+      "gush": 6135,
+      "parcelArea": 559.29,
+      "registeredArea": 541,
+      "buildings": [],
+      "permits": []
+    },
+    {
+      "chelka": 81,
+      "gush": 6135,
+      "parcelArea": 991.23,
+      "registeredArea": 996,
+      "buildings": [
+        {
+          "id": 618,
+          "type": "מבנה רגיל",
+          "floors": 2,
+          "height": 9.83,
+          "year": 1954,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 119.08406829833984
+        },
+        {
+          "id": 4145,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 5.19,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 79.847412109375
+        },
+        {
+          "id": 4157,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 7.8,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 126.83698272705078
+        },
+        {
+          "id": 64806,
+          "type": "מבנה ארעי",
+          "floors": 1,
+          "height": 15.18,
+          "year": 2015,
+          "name": "",
+          "onPillars": null,
+          "footprintArea": 137.0487518310547
+        }
+      ],
+      "permits": []
+    },
+    {
+      "chelka": 84,
+      "gush": 6135,
+      "parcelArea": 884.25,
+      "registeredArea": 880,
+      "buildings": [],
+      "permits": []
+    },
+    {
+      "chelka": 105,
+      "gush": 6135,
+      "parcelArea": 1900.02,
+      "registeredArea": 1881,
+      "buildings": [
+        {
+          "id": 4486,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 4.78,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 63.552040100097656
+        },
+        {
+          "id": 4473,
+          "type": "מבנה רגיל",
+          "floors": 3,
+          "height": 11.98,
+          "year": 1950,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 84.92623901367188
+        },
+        {
+          "id": 4487,
+          "type": "מבנה רגיל",
+          "floors": 2,
+          "height": 10.52,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 159.84532165527344
+        }
+      ],
+      "permits": []
+    },
+    {
+      "chelka": 106,
+      "gush": 6135,
+      "parcelArea": 282.19,
+      "registeredArea": 276,
+      "buildings": [],
+      "permits": []
+    },
+    {
+      "chelka": 107,
+      "gush": 6135,
+      "parcelArea": 597.26,
+      "registeredArea": 584,
+      "buildings": [
+        {
+          "id": 4081,
+          "type": "מבנה רגיל",
+          "floors": 2,
+          "height": 8.58,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 194.09141540527344
+        }
+      ],
+      "permits": []
+    },
+    {
+      "chelka": 109,
+      "gush": 6135,
+      "parcelArea": 552.18,
+      "registeredArea": 547,
+      "buildings": [],
+      "permits": []
+    },
+    {
+      "chelka": 110,
+      "gush": 6135,
+      "parcelArea": 2477.87,
+      "registeredArea": 2443,
+      "buildings": [
+        {
+          "id": 884,
+          "type": "מבנה רגיל",
+          "floors": 2,
+          "height": 9.14,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 59.38151550292969
+        },
+        {
+          "id": 992,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 8.62,
+          "year": 1956,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 61.917823791503906
+        },
+        {
+          "id": 994,
+          "type": "מבנה רגיל",
+          "floors": 2,
+          "height": 8.66,
+          "year": 1954,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 65.82610321044922
+        },
+        {
+          "id": 420,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 10.33,
+          "year": 1950,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 88.66712188720703
+        },
+        {
+          "id": 1395,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 5.6,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 51.53894805908203
+        },
+        {
+          "id": 1397,
+          "type": "מבנה רגיל",
+          "floors": 2,
+          "height": 8.56,
+          "year": 1954,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 61.813621520996094
+        },
+        {
+          "id": 861,
+          "type": "מבנה רגיל",
+          "floors": 3,
+          "height": 11.1,
+          "year": 2005,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 46.60316467285156
+        },
+        {
+          "id": 4079,
+          "type": "מבנה רגיל",
+          "floors": 3,
+          "height": 12.14,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 177.29635620117188
+        },
+        {
+          "id": 4149,
+          "type": "מבנה ארעי",
+          "floors": 1,
+          "height": 5.89,
+          "year": null,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 8.575325012207031
+        },
+        {
+          "id": 4166,
+          "type": "מבנה רגיל",
+          "floors": 1,
+          "height": 8.86,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 90.14338684082031
+        },
+        {
+          "id": 4148,
+          "type": "מבנה ארעי",
+          "floors": 1,
+          "height": 4.68,
+          "year": null,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 8.575279235839844
+        },
+        {
+          "id": 3810,
+          "type": "מבנה רגיל",
+          "floors": 3,
+          "height": 14.57,
+          "year": 2011,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 96.56838989257812
+        },
+        {
+          "id": 864,
+          "type": "מבנה רגיל",
+          "floors": 2,
+          "height": 9.18,
+          "year": 1949,
+          "name": "",
+          "onPillars": "לא",
+          "footprintArea": 116.65282440185547
+        }
+      ],
+      "permits": [
+        {
+          "requestNum": 20201646,
+          "permissionNum": 20220344,
+          "address": "תשבי 3",
+          "type": "בניה חדשה בניין מגורים לא גבוה (עד 13 מ')",
+          "content": "מספר קומות להריסה (סה\"כ הקומות במבנה או מספר מבנים על המגרש): 1, שטח הריסה (מ\"ר): 82.73, \r\nבמרתפים: מרתף אחד בלבד, מחסן, אחר: חלל משחקים, \r\nבקומת הקרקע: אחר: ביתן אשפה. בלוני גז שעוני מים ופילר חשמל, \r\nבקומות: כמות קומות מגורים: 3, כמות יח\"ד מבוקשות: 2, \r\nעל הגג: חדרי יציאה, קולטי שמש, \r\nבחצר: גינה, שטחים מרוצפים, גדר בגבולות מגרש בגובה (מטר): 1, \r\nהעבודות המבוקשות בהיתר אינן כוללות הוספת צובר גז חדש, או העתקה של צובר קיים, \r\nגן ילדים: קיים ממ\"ד: לא",
+          "stage": "קיים היתר",
+          "date": "18.12.2022",
+          "expiryDate": "18.12.2028",
+          "housingUnits": 2,
+          "tama38": "לא",
+          "docUrl": "",
+          "licensingTrack": "הקלה/שמוש חורג/תמ\"א38"
+        }
+      ]
+    }
+  ],
+  "orphanBuildings": 0,
+  "orphanPermits": [],
+  "conservation": 0,
+  "dangerous": 0
+}
