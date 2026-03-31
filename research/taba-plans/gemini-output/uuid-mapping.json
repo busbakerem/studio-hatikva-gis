@@ -1,0 +1,164 @@
+[
+  {
+    "filename": "0ba15da6-626c-4dbf-a05f-d804230d3614.pdf",
+    "plan_id": "תא/מק/4691 (507-0726463)",
+    "plan_name": "איחוד וחלוקה של חלקה 1 בגוש 6979, שכונת התקווה",
+    "year": 2026,
+    "doc_type": "הוראות",
+    "gushim": [6979],
+    "confidence": "high"
+  },
+  {
+    "filename": "4adc32b1-3de5-448e-9441-71fe5d53cb19.pdf",
+    "plan_id": "תא/465",
+    "plan_name": "תכנית בנין עיר מפורטת מס 465",
+    "year": null,
+    "doc_type": "תשריט",
+    "gushim": [6135],
+    "confidence": "high"
+  },
+  {
+    "filename": "7bd40b43-6f5a-424c-927e-159c8285112a.pdf",
+    "plan_id": "מק/3307",
+    "plan_name": "תשריט לתכנית מפורטת מס' מק 3307",
+    "year": null,
+    "doc_type": "תשריט",
+    "gushim": [],
+    "confidence": "medium"
+  },
+  {
+    "filename": "7c605d19-0563-488c-8299-3f159e21c6d3.pdf",
+    "plan_id": "תא/מק/4691 (507-0726463)",
+    "plan_name": "איחוד וחלוקה של חלקה 1 בגוש 6979, שכונת התקווה",
+    "year": 2026,
+    "doc_type": "תשריט",
+    "gushim": [6979],
+    "confidence": "high"
+  },
+  {
+    "filename": "8d6aab71-86bb-4881-a592-22e76194ec60.pdf",
+    "plan_id": "תא/1482",
+    "plan_name": "תכנית מפורטת מס 1482 (שנוי מס' 2 לשנת 1971)",
+    "year": 1971,
+    "doc_type": "תשריט",
+    "gushim": [6134],
+    "confidence": "high"
+  },
+  {
+    "filename": "8ebc6f60-edbc-401d-a719-7185ccf87faf.pdf",
+    "plan_id": "תא/1049",
+    "plan_name": "תכנית מפורטת מס 1049",
+    "year": 1973,
+    "doc_type": "תשריט",
+    "gushim": [6134],
+    "confidence": "medium"
+  },
+  {
+    "filename": "9e3f2d15-7b40-46a0-b6ef-c728e754fbef.pdf",
+    "plan_id": "תא/934",
+    "plan_name": "תכנית מפורטת מס' 934 (שנוי מס 1 לשנת 1964 של תכנית 301)",
+    "year": 1964,
+    "doc_type": "תשריט",
+    "gushim": [6155],
+    "confidence": "high"
+  },
+  {
+    "filename": "34eb6d1d-5ad3-44db-ae8e-3bfd8d4ded10.pdf",
+    "plan_id": "unknown",
+    "plan_name": "סקר צפיפות מצב קיים",
+    "year": null,
+    "doc_type": "תשריט",
+    "gushim": [],
+    "confidence": "low"
+  },
+  {
+    "filename": "96aef17a-a9e7-4b5e-b55a-f315617f6f1f.pdf",
+    "plan_id": "תא/1460",
+    "plan_name": "מקטע תשריט - תכנית מפורטת מס 1460",
+    "year": 1973,
+    "doc_type": "תשריט",
+    "gushim": [6134],
+    "confidence": "medium"
+  },
+  {
+    "filename": "340eaa95-6873-4995-8748-f3ab0d96939f.pdf",
+    "plan_id": "תא/1625",
+    "plan_name": "תשריט לתכנית מפורטת 1625 (שינוי מס' 1 לשנת 1980 של תכנית 465)",
+    "year": 1980,
+    "doc_type": "תשריט",
+    "gushim": [6155],
+    "confidence": "high"
+  },
+  {
+    "filename": "373e32e3-fe60-4786-bdf2-7f24c80e2df5.pdf",
+    "plan_id": "תא/1049",
+    "plan_name": "תשריט תכנית 1049",
+    "year": 1965,
+    "doc_type": "תשריט",
+    "gushim": [],
+    "confidence": "medium"
+  },
+  {
+    "filename": "393f3adb-cfd9-4507-b737-eadbef0cda29.pdf",
+    "plan_id": "תא/1829",
+    "plan_name": "שנוי מס' 1 לשנת 1974 של תכניות 566,25360",
+    "year": 1974,
+    "doc_type": "תשריט",
+    "gushim": [6133, 6134, 6135],
+    "confidence": "high"
+  },
+  {
+    "filename": "464ba601-88b1-44a8-9513-3d0275a79f8d.pdf",
+    "plan_id": "תא/3560",
+    "plan_name": "מתחם רשף",
+    "year": null,
+    "doc_type": "תשריט",
+    "gushim": [6135],
+    "confidence": "high"
+  },
+  {
+    "filename": "15617517-e209-4c4f-855b-2ce9917c6a4d.pdf",
+    "plan_id": "תא/3328",
+    "plan_name": "מתחם היורה גבעולים",
+    "year": null,
+    "doc_type": "תשריט",
+    "gushim": [6034, 6135],
+    "confidence": "high"
+  },
+  {
+    "filename": "a892c11f-4a58-4adc-9686-5379f8708cea.pdf",
+    "plan_id": "תא/1692",
+    "plan_name": "שנוי מס.1 שנת 1973 של תכנית ב.ע. מפורטת מס. 465",
+    "year": 1973,
+    "doc_type": "תשריט",
+    "gushim": [6132, 6135, 6137],
+    "confidence": "high"
+  },
+  {
+    "filename": "bf4cefcb-a46f-40da-99dc-343747d01edb.pdf",
+    "plan_id": "unknown",
+    "plan_name": "תשריט לתכנית מפורטת בסמכות הועדה המקומית",
+    "year": null,
+    "doc_type": "תשריט",
+    "gushim": [],
+    "confidence": "low"
+  },
+  {
+    "filename": "cacd7bb2-c1ec-4553-b37b-a7e8b4d91345.pdf",
+    "plan_id": "תא/1094 ב",
+    "plan_name": "שינוי מס 3 לשנת 1985 של תבע 1927",
+    "year": 1985,
+    "doc_type": "תשריט",
+    "gushim": [6135, 6968],
+    "confidence": "high"
+  },
+  {
+    "filename": "f7ea8f0e-2a25-4352-8e66-3ab8ba32a338.pdf",
+    "plan_id": "תא/1504",
+    "plan_name": "253.00 שינוי מס, 3 לשנת 1971 על תכנית מפורטת",
+    "year": 1971,
+    "doc_type": "תשריט",
+    "gushim": [6134],
+    "confidence": "high"
+  }
+]
