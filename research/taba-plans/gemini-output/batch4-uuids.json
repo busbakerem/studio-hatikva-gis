@@ -1,201 +1,138 @@
 [
-{
-"plan_id": "תא/1460",
-"plan_name": "unidentified",
-"year": 1973,
-"status": "מאושרת",
-"gushim": [
-6134
-],
-"chelkot": [
-134,
-142,
-143
-],
-"area_dunam": null,
-"units": null,
-"land_use": "מעורב",
-"description_heb": "תשריט סרוק של תכנית 1460. המסמך מתייחס לחוק התכנון והבניה משנת 1965.",
-"key_provisions": [],
-"is_reparcellation": false,
-"parent_plan": null,
-"overlapping_sites": [
-3,
-4
-],
-"doc_type": "תשריט",
-"source_files": [
-"96aef17a-a9e7-4b5e-b55a-f315617f6f1f.pdf"
-],
-"verification": "OCR_EXTRACTION",
-"notes": "תאריך המסמך 23.7.73."
-},
-{
-"plan_id": "תא/1482",
-"plan_name": "שנוי מס' 2 לשנת 1971",
-"year": 1971,
-"status": "מאושרת",
-"gushim": [
-6134
-],
-"chelkot": [
-140,
-275
-],
-"area_dunam": null,
-"units": null,
-"land_use": "מגורים מיוחד",
-"description_heb": "שינוי מס' 2 לשנת 1971 על תכנית 2535. התכנית מייעדת אזור למגורים מיוחד ומסדירה קיר משותף והפקעות להרחבת דרך.",
-"key_provisions": [
-"קביעת אזור מגורים מיוחד ",
-"הסדרת קיר משותף ",
-"הפקעה להרחבת דרך "
-],
-"is_reparcellation": false,
-"parent_plan": "2535",
-"overlapping_sites": [
-3,
-4
-],
-"doc_type": "תשריט",
-"source_files": [
-"8d6aab71-86bb-4881-a592-22e76194ec60.pdf"
-],
-"verification": "OCR_EXTRACTION",
-"notes": "אושרה למתן תוקף באוגוסט 1972 ומרץ 1978."
-},
-{
-"plan_id": "תא/1504",
-"plan_name": "שינוי מס, 3 לשנת 1971 על תכנית מפורטת",
-"year": 1974,
-"status": "מאושרת",
-"gushim": [
-6134
-],
-"chelkot": [
-132
-],
-"area_dunam": 0.275,
-"units": null,
-"land_use": "מגורים",
-"description_heb": "שינוי מס' 3 לשנת 1971 לתכנית מפורטת. התכנית מגדירה אזור מגורים, מבנה קיים בקומה א' ובניה מוצעת בקומה ב'.",
-"key_provisions": [
-"הגדרת אזור מגורים ",
-"הסדרת מבנה קיים בקומה א' ובניה מוצעת בקומה ב' ",
-"קביעת קיר משותף ודרך להרחבה "
-],
-"is_reparcellation": false,
-"parent_plan": "unidentified",
-"overlapping_sites": [
-3,
-4
-],
-"doc_type": "תשריט",
-"source_files": [
-"f7ea8f0e-2a25-4352-8e66-3ab8ba32a338.pdf"
-],
-"verification": "OCR_EXTRACTION",
-"notes": "שטח התכנית 275 מ\"ר (0.275 דונם)."
-},
-{
-"plan_id": "תא/2113",
-"plan_name": "שינוי מס' 1 לשנת 1980 של תכנית מפורטת מס' 1967",
-"year": 1980,
-"status": "מאושרת",
-"gushim": [
-6135
-],
-"chelkot": [
-251,
-269,
-273,
-275,
-276,
-278,
-279,
-841
-],
-"area_dunam": null,
-"units": null,
-"land_use": "מגורים / מסחר / שצ\"פ",
-"description_heb": "שינוי לתכניות 1967 ו-465 משנת 1980. התכנית כוללת אזור מגורים עם חזית חנויות, חניה פרטית, שביל הולכי רגל ושטח פרטי פתוח.",
-"key_provisions": [
-"ייעוד אזור מגורים כולל חזית חנויות ",
-"הסדרת חניה פרטית ושביל הולכי רגל ",
-"קביעת שטחים ציבוריים פתוחים ודרך לביטול "
-],
-"is_reparcellation": true,
-"parent_plan": "1967, 465",
-"overlapping_sites": [
-1,
-2,
-3,
-4,
-5
-],
-"doc_type": "תשריט",
-"source_files": [
-"340eaa95-6873-4995-8748-f3ab0d96939f.pdf"
-],
-"verification": "OCR_EXTRACTION",
-"notes": "התכנית משפיעה על מספר רב של חלקות בגוש 6135."
-},
-{
-"plan_id": "תא/1829",
-"plan_name": "שנוי מס' 1 לשנת 1974 של תכניות 566,2536",
-"year": 1974,
-"status": "מאושרת",
-"gushim": [
-6133,
-6134,
-6135
-],
-"chelkot": [],
-"area_dunam": 0.878,
-"units": null,
-"land_use": "מגורים",
-"description_heb": "שינוי מס' 1 לשנת 1974 לתכניות 566 ו-2536. התכנית מסדירה אזור מגורים, שבילים להולכי רגל, ומגדירה מגרש להשלמה תוך ביטול דרך קיימת.",
-"key_provisions": [
-"הסדרת אזור מגורים ושביל להולכי רגל ",
-"הגדרת מגרש להשלמה (רה-פרצלציה) ",
-"ביטול דרך קיימת "
-],
-"is_reparcellation": true,
-"parent_plan": "566, 2536",
-"overlapping_sites": [
-1,
-2,
-3,
-4,
-5
-],
-"doc_type": "תשריט",
-"source_files": [
-"393f3adb-cfd9-4507-b737-eadbef0cda29.pdf"
-],
-"verification": "OCR_EXTRACTION",
-"notes": "שטח התכנית 878 מ\"ר (0.878 דונם)."
-},
-{
-"plan_id": "תא/מק/3307",
-"plan_name": "תשריט לתכנית מפורטת מס' מק 3307",
-"year": null,
-"status": "בתהליך",
-"gushim": [],
-"chelkot": [],
-"area_dunam": null,
-"units": null,
-"land_use": "מעורב",
-"description_heb": "תשריט לתכנית מפורטת בסמכות הועדה המקומית. המסמך מציג מיפוי מפורט של מצב קיים ומצב מוצע בקנה מידה 1:500.",
-"key_provisions": [],
-"is_reparcellation": true,
-"parent_plan": null,
-"overlapping_sites": [],
-"doc_type": "תשריט",
-"source_files": [
-"7bd40b43-6f5a-424c-927e-159c8285112a.pdf"
-],
-"verification": "OCR_EXTRACTION",
-"notes": "מסמך ויזואלי בעיקרו (כולל מקרא צבעים לאזורי תכנון), גושים וחלקות לא זוהו במדויק בטקסט שחולץ."
-}
+  {
+    "plan_id": "תא/1460",
+    "plan_name": "unidentified",
+    "year": 1973,
+    "status": "מאושרת",
+    "gushim": [6134],
+    "chelkot": [134, 142, 143],
+    "area_dunam": null,
+    "units": null,
+    "land_use": "מעורב",
+    "description_heb": "תשריט סרוק של תכנית 1460. המסמך מתייחס לחוק התכנון והבניה משנת 1965.",
+    "key_provisions": [],
+    "is_reparcellation": false,
+    "parent_plan": null,
+    "overlapping_sites": [3, 4],
+    "doc_type": "תשריט",
+    "source_files": ["96aef17a-a9e7-4b5e-b55a-f315617f6f1f.pdf"],
+    "verification": "OCR_EXTRACTION",
+    "notes": "תאריך המסמך 23.7.73."
+  },
+  {
+    "plan_id": "תא/1482",
+    "plan_name": "שנוי מס' 2 לשנת 1971",
+    "year": 1971,
+    "status": "מאושרת",
+    "gushim": [6134],
+    "chelkot": [140, 275],
+    "area_dunam": null,
+    "units": null,
+    "land_use": "מגורים מיוחד",
+    "description_heb": "שינוי מס' 2 לשנת 1971 על תכנית 2535. התכנית מייעדת אזור למגורים מיוחד ומסדירה קיר משותף והפקעות להרחבת דרך.",
+    "key_provisions": [
+      "קביעת אזור מגורים מיוחד ",
+      "הסדרת קיר משותף ",
+      "הפקעה להרחבת דרך "
+    ],
+    "is_reparcellation": false,
+    "parent_plan": "2535",
+    "overlapping_sites": [3, 4],
+    "doc_type": "תשריט",
+    "source_files": ["8d6aab71-86bb-4881-a592-22e76194ec60.pdf"],
+    "verification": "OCR_EXTRACTION",
+    "notes": "אושרה למתן תוקף באוגוסט 1972 ומרץ 1978."
+  },
+  {
+    "plan_id": "תא/1504",
+    "plan_name": "שינוי מס, 3 לשנת 1971 על תכנית מפורטת",
+    "year": 1974,
+    "status": "מאושרת",
+    "gushim": [6134],
+    "chelkot": [132],
+    "area_dunam": 0.275,
+    "units": null,
+    "land_use": "מגורים",
+    "description_heb": "שינוי מס' 3 לשנת 1971 לתכנית מפורטת. התכנית מגדירה אזור מגורים, מבנה קיים בקומה א' ובניה מוצעת בקומה ב'.",
+    "key_provisions": [
+      "הגדרת אזור מגורים ",
+      "הסדרת מבנה קיים בקומה א' ובניה מוצעת בקומה ב' ",
+      "קביעת קיר משותף ודרך להרחבה "
+    ],
+    "is_reparcellation": false,
+    "parent_plan": "unidentified",
+    "overlapping_sites": [3, 4],
+    "doc_type": "תשריט",
+    "source_files": ["f7ea8f0e-2a25-4352-8e66-3ab8ba32a338.pdf"],
+    "verification": "OCR_EXTRACTION",
+    "notes": "שטח התכנית 275 מ\"ר (0.275 דונם)."
+  },
+  {
+    "plan_id": "תא/2113",
+    "plan_name": "שינוי מס' 1 לשנת 1980 של תכנית מפורטת מס' 1967",
+    "year": 1980,
+    "status": "מאושרת",
+    "gushim": [6135],
+    "chelkot": [251, 269, 273, 275, 276, 278, 279, 841],
+    "area_dunam": null,
+    "units": null,
+    "land_use": "מגורים / מסחר / שצ\"פ",
+    "description_heb": "שינוי לתכניות 1967 ו-465 משנת 1980. התכנית כוללת אזור מגורים עם חזית חנויות, חניה פרטית, שביל הולכי רגל ושטח פרטי פתוח.",
+    "key_provisions": [
+      "ייעוד אזור מגורים כולל חזית חנויות ",
+      "הסדרת חניה פרטית ושביל הולכי רגל ",
+      "קביעת שטחים ציבוריים פתוחים ודרך לביטול "
+    ],
+    "is_reparcellation": true,
+    "parent_plan": "1967, 465",
+    "overlapping_sites": [1, 2, 3, 4, 5],
+    "doc_type": "תשריט",
+    "source_files": ["340eaa95-6873-4995-8748-f3ab0d96939f.pdf"],
+    "verification": "OCR_EXTRACTION",
+    "notes": "התכנית משפיעה על מספר רב של חלקות בגוש 6135."
+  },
+  {
+    "plan_id": "תא/1829",
+    "plan_name": "שנוי מס' 1 לשנת 1974 של תכניות 566,2536",
+    "year": 1974,
+    "status": "מאושרת",
+    "gushim": [6133, 6134, 6135],
+    "chelkot": [],
+    "area_dunam": 0.878,
+    "units": null,
+    "land_use": "מגורים",
+    "description_heb": "שינוי מס' 1 לשנת 1974 לתכניות 566 ו-2536. התכנית מסדירה אזור מגורים, שבילים להולכי רגל, ומגדירה מגרש להשלמה תוך ביטול דרך קיימת.",
+    "key_provisions": [
+      "הסדרת אזור מגורים ושביל להולכי רגל ",
+      "הגדרת מגרש להשלמה (רה-פרצלציה) ",
+      "ביטול דרך קיימת "
+    ],
+    "is_reparcellation": true,
+    "parent_plan": "566, 2536",
+    "overlapping_sites": [1, 2, 3, 4, 5],
+    "doc_type": "תשריט",
+    "source_files": ["393f3adb-cfd9-4507-b737-eadbef0cda29.pdf"],
+    "verification": "OCR_EXTRACTION",
+    "notes": "שטח התכנית 878 מ\"ר (0.878 דונם)."
+  },
+  {
+    "plan_id": "תא/מק/3307",
+    "plan_name": "תשריט לתכנית מפורטת מס' מק 3307",
+    "year": null,
+    "status": "בתהליך",
+    "gushim": [],
+    "chelkot": [],
+    "area_dunam": null,
+    "units": null,
+    "land_use": "מעורב",
+    "description_heb": "תשריט לתכנית מפורטת בסמכות הועדה המקומית. המסמך מציג מיפוי מפורט של מצב קיים ומצב מוצע בקנה מידה 1:500.",
+    "key_provisions": [],
+    "is_reparcellation": true,
+    "parent_plan": null,
+    "overlapping_sites": [],
+    "doc_type": "תשריט",
+    "source_files": ["7bd40b43-6f5a-424c-927e-159c8285112a.pdf"],
+    "verification": "OCR_EXTRACTION",
+    "notes": "מסמך ויזואלי בעיקרו (כולל מקרא צבעים לאזורי תכנון), גושים וחלקות לא זוהו במדויק בטקסט שחולץ."
+  }
 ]

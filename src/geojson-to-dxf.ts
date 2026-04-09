@@ -63,7 +63,7 @@ ${name}
 ${(i % 7) + 1}
 6
 Continuous
-`
+`,
     )
     .join("");
 
@@ -109,7 +109,7 @@ function dxf3DFace(
   p1: number[],
   p2: number[],
   p3: number[],
-  p4: number[]
+  p4: number[],
 ): string {
   return `0
 3DFACE
@@ -144,7 +144,11 @@ ${p4[2]}
 `;
 }
 
-function dxfPolyline3D(layer: string, pts: number[][], closed: boolean): string {
+function dxfPolyline3D(
+  layer: string,
+  pts: number[][],
+  closed: boolean,
+): string {
   let s = `0
 POLYLINE
 5
@@ -183,7 +187,11 @@ ${layer}
   return s;
 }
 
-function dxfLwPolyline(layer: string, pts: number[][], closed: boolean): string {
+function dxfLwPolyline(
+  layer: string,
+  pts: number[][],
+  closed: boolean,
+): string {
   let s = `0
 LWPOLYLINE
 5
@@ -226,14 +234,15 @@ function getRings(feature: GeoJSONFeature): number[][][] {
 function buildExtrudedBuilding(
   ring: number[][],
   height: number,
-  layer: string
+  layer: string,
 ): string {
   let entities = "";
   const n = ring.length;
   // Skip last point if it duplicates first (closed ring)
-  const pts = ring[0][0] === ring[n - 1][0] && ring[0][1] === ring[n - 1][1]
-    ? ring.slice(0, -1)
-    : ring;
+  const pts =
+    ring[0][0] === ring[n - 1][0] && ring[0][1] === ring[n - 1][1]
+      ? ring.slice(0, -1)
+      : ring;
   const count = pts.length;
 
   // Top polyline (closed, at height)
@@ -273,12 +282,20 @@ function buildExtrudedBuilding(
 export async function buildingsGeojsonToDxf(
   inputPath: string,
   outputPath: string,
-  heightField: string = "gova_simplex_2019"
+  heightField: string = "gova_simplex_2019",
 ): Promise<{ total: number; with3d: number; without3d: number }> {
   handleCounter = 100;
-  const raw = JSON.parse(await readFile(inputPath, "utf-8")) as GeoJSONCollection;
+  const raw = JSON.parse(
+    await readFile(inputPath, "utf-8"),
+  ) as GeoJSONCollection;
 
-  const layers = ["BUILDINGS_TOP", "BUILDINGS_BOT", "BUILDINGS_WALLS", "BUILDINGS_CAP", "BUILDINGS_2D"];
+  const layers = [
+    "BUILDINGS_TOP",
+    "BUILDINGS_BOT",
+    "BUILDINGS_WALLS",
+    "BUILDINGS_CAP",
+    "BUILDINGS_2D",
+  ];
   let dxf = dxfHeader() + dxfTables(layers) + dxfEntitiesStart();
 
   let with3d = 0;
@@ -311,10 +328,12 @@ export async function buildingsGeojsonToDxf(
 export async function polygonGeojsonToDxf(
   inputPath: string,
   outputPath: string,
-  layerName: string = "PARCELS"
+  layerName: string = "PARCELS",
 ): Promise<{ total: number; exported: number }> {
   handleCounter = 100;
-  const raw = JSON.parse(await readFile(inputPath, "utf-8")) as GeoJSONCollection;
+  const raw = JSON.parse(
+    await readFile(inputPath, "utf-8"),
+  ) as GeoJSONCollection;
 
   const layers = [layerName];
   let dxf = dxfHeader() + dxfTables(layers) + dxfEntitiesStart();

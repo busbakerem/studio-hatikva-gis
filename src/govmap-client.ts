@@ -12,8 +12,7 @@
  *   opendata:nechalim1 — Streams
  */
 
-const GOVMAP_WFS_URL =
-  "https://open.govmap.gov.il/geoserver/opendata/wfs";
+const GOVMAP_WFS_URL = "https://open.govmap.gov.il/geoserver/opendata/wfs";
 
 export interface GovMapBBox {
   minLon: number;
@@ -23,12 +22,36 @@ export interface GovMapBBox {
 }
 
 export const GOVMAP_LAYERS = [
-  { name: "opendata:PARCEL_ALL", title: "חלקות (WGS84)", description: "National cadastral parcels" },
-  { name: "opendata:Parcels_ITM", title: "חלקות (Israel TM)", description: "National cadastral parcels in ITM" },
-  { name: "opendata:SUB_GUSH_ALL", title: "גושים (WGS84)", description: "Gush (block) boundaries" },
-  { name: "opendata:SUB_GUSH_ALL_ITM", title: "גושים (Israel TM)", description: "Gush boundaries in ITM" },
-  { name: "opendata:muni_il", title: "רשויות מוניציפאליות", description: "Municipal boundaries" },
-  { name: "opendata:Nikuz", title: "אגני ניקוז", description: "Drainage basins" },
+  {
+    name: "opendata:PARCEL_ALL",
+    title: "חלקות (WGS84)",
+    description: "National cadastral parcels",
+  },
+  {
+    name: "opendata:Parcels_ITM",
+    title: "חלקות (Israel TM)",
+    description: "National cadastral parcels in ITM",
+  },
+  {
+    name: "opendata:SUB_GUSH_ALL",
+    title: "גושים (WGS84)",
+    description: "Gush (block) boundaries",
+  },
+  {
+    name: "opendata:SUB_GUSH_ALL_ITM",
+    title: "גושים (Israel TM)",
+    description: "Gush boundaries in ITM",
+  },
+  {
+    name: "opendata:muni_il",
+    title: "רשויות מוניציפאליות",
+    description: "Municipal boundaries",
+  },
+  {
+    name: "opendata:Nikuz",
+    title: "אגני ניקוז",
+    description: "Drainage basins",
+  },
   { name: "opendata:nechalim1", title: "נחלים", description: "Streams" },
 ];
 
@@ -43,7 +66,7 @@ export interface GovMapQueryOptions {
 }
 
 export async function queryGovMap(
-  options: GovMapQueryOptions
+  options: GovMapQueryOptions,
 ): Promise<unknown> {
   const params = new URLSearchParams();
   params.set("service", "WFS");
@@ -73,7 +96,9 @@ export async function queryGovMap(
   const response = await fetch(url);
 
   if (!response.ok) {
-    throw new Error(`GovMap WFS error: ${response.status} ${response.statusText}`);
+    throw new Error(
+      `GovMap WFS error: ${response.status} ${response.statusText}`,
+    );
   }
 
   const text = await response.text();
@@ -83,7 +108,9 @@ export async function queryGovMap(
 
   const contentType = response.headers.get("content-type") || "";
   if (!contentType.includes("json")) {
-    throw new Error(`GovMap WFS returned non-JSON response: ${text.slice(0, 200)}`);
+    throw new Error(
+      `GovMap WFS returned non-JSON response: ${text.slice(0, 200)}`,
+    );
   }
 
   const data = JSON.parse(text) as {
@@ -94,7 +121,7 @@ export async function queryGovMap(
   // Client-side gush filter (CQL_FILTER is unreliable on this server)
   if (options.gushFilter !== undefined && data.features) {
     data.features = data.features.filter(
-      (f) => f.properties.GUSH_NUM === options.gushFilter
+      (f) => f.properties.GUSH_NUM === options.gushFilter,
     );
   }
 

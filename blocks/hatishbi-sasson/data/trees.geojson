@@ -1,0 +1,1652 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 21448,
+        "site_name": null,
+        "site_address": "קלמן 1",
+        "street_name": "קלמן",
+        "house_num": "1",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "הדר",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-21448",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.793029297891636, 32.0482869360564]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 21463,
+        "site_name": null,
+        "site_address": "שבתאי   1",
+        "street_name": "שבתאי  ",
+        "house_num": "1",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "צאלון נאה",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-21463",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.792691424631364, 32.048896451888616]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 21573,
+        "site_name": null,
+        "site_address": "בן חסד 2",
+        "street_name": "בן חסד",
+        "house_num": "2",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "ברכיטון אוסטרלי",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-21573",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.793084554415046, 32.048647372380714]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 21994,
+        "site_name": null,
+        "site_address": "קלמן 2",
+        "street_name": "קלמן",
+        "house_num": "2",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "הדר",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-21994",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79328220362347, 32.04826588796831]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 26402,
+        "site_name": null,
+        "site_address": "אצ\"\"ל 85",
+        "street_name": "אצ\"\"ל",
+        "house_num": "85",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "ברכיטון צפצפתי",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-26402",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79317319988777, 32.04846940265141]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 26583,
+        "site_name": null,
+        "site_address": "אצ\"\"ל 81",
+        "street_name": "אצ\"\"ל",
+        "house_num": "81",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "ברכיטון צפצפתי",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-26583",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79299558120963, 32.04877781652187]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 26812,
+        "site_name": null,
+        "site_address": "אצ\"\"ל 76",
+        "street_name": "אצ\"\"ל",
+        "house_num": "76",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "ברכיטון צפצפתי",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-26812",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79329368705401, 32.047966115290315]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 26906,
+        "site_name": null,
+        "site_address": "אצ\"\"ל 74",
+        "street_name": "אצ\"\"ל",
+        "house_num": "74",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "ברכיטון צפצפתי",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-26906",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79306735194142, 32.04817319921817]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 26946,
+        "site_name": null,
+        "site_address": "אצ\"\"ל 73",
+        "street_name": "אצ\"\"ל",
+        "house_num": "73",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "ברכיטון צפצפתי",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-26946",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79264349915878, 32.049360728277506]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 27108,
+        "site_name": null,
+        "site_address": "אצ\"\"ל 70",
+        "street_name": "אצ\"\"ל",
+        "house_num": "70",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "ברכיטון צפצפתי",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-27108",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.792835605840324, 32.04856943414983]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 27220,
+        "site_name": null,
+        "site_address": "אצ\"\"ל 68",
+        "street_name": "אצ\"\"ל",
+        "house_num": "68",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "ברכיטון צפצפתי",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-27220",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79270352378835, 32.048788348246056]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 27338,
+        "site_name": null,
+        "site_address": "אצ\"\"ל 66",
+        "street_name": "אצ\"\"ל",
+        "house_num": "66",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "ברכיטון צפצפתי",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-27338",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79269109613208, 32.048809004021514]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 28047,
+        "site_name": null,
+        "site_address": "שמחה  54",
+        "street_name": "שמחה ",
+        "house_num": "54",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "ברכיטון צפצפתי",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-28047",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79157648799118, 32.04764727966455]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 28050,
+        "site_name": null,
+        "site_address": "שמחה  54",
+        "street_name": "שמחה ",
+        "house_num": "54",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "פאלתפורום דביום",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-28050",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79157648799118, 32.04764727966455]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 28055,
+        "site_name": null,
+        "site_address": "שמחה  54",
+        "street_name": "שמחה ",
+        "house_num": "54",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "דקל וושינגטוניה",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-28055",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79157648799118, 32.04764727966455]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 28693,
+        "site_name": null,
+        "site_address": "לח\"\"י 47",
+        "street_name": "לח\"\"י",
+        "house_num": "47",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "ברכיטון דו גוני",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-28693",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79308351791121, 32.04763151788061]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 28891,
+        "site_name": null,
+        "site_address": "לח\"\"י 45",
+        "street_name": "לח\"\"י",
+        "house_num": "45",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "ברכיטון דו גוני",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-28891",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.7929824978848, 32.04761728445632]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 29214,
+        "site_name": null,
+        "site_address": "רוני   42",
+        "street_name": "רוני  ",
+        "house_num": "42",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "פיקוס הגומי",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-29214",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.791344489392316, 32.04839799660264]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 29349,
+        "site_name": null,
+        "site_address": "עזאי   41",
+        "street_name": "עזאי  ",
+        "house_num": "41",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "ברכיטון אוסטרלי",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-29349",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.791044442994796, 32.04932869628575]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 29435,
+        "site_name": null,
+        "site_address": "שמחה  40",
+        "street_name": "שמחה ",
+        "house_num": "40",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "חושחש",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-29435",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.791660894404004, 32.04830104735155]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 29459,
+        "site_name": null,
+        "site_address": "רוני   40",
+        "street_name": "רוני  ",
+        "house_num": "40",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "פיקוס בנימינה",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-29459",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79135728720331, 32.04849300604581]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 29633,
+        "site_name": null,
+        "site_address": "עזאי   39",
+        "street_name": "עזאי  ",
+        "house_num": "39",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "ברכיטון אוסטרלי",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-29633",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79105995661015, 32.04941778982463]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 30144,
+        "site_name": null,
+        "site_address": "רוני   35",
+        "street_name": "רוני  ",
+        "house_num": "35",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "פיקוס בנימינה",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-30144",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79162630273017, 32.04859129381947]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 30146,
+        "site_name": null,
+        "site_address": "רוני   35",
+        "street_name": "רוני  ",
+        "house_num": "35",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "פיקוס בנימינה",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-30146",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79162630273017, 32.04859129381947]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 31124,
+        "site_name": null,
+        "site_address": "רוני   29",
+        "street_name": "רוני  ",
+        "house_num": "29",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "פיקוס בנימינה מגוון",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-31124",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.791669205511084, 32.04890984733279]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 31239,
+        "site_name": null,
+        "site_address": "ששון 28",
+        "street_name": "ששון",
+        "house_num": "28",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "פיקוס בנימינה",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-31239",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.7920242957085, 32.0481080650061]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 31243,
+        "site_name": null,
+        "site_address": "ששון 28",
+        "street_name": "ששון",
+        "house_num": "28",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "פיקוס הגומי",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-31243",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.7920242957085, 32.0481080650061]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 32415,
+        "site_name": null,
+        "site_address": "תשבי 23",
+        "street_name": "תשבי",
+        "house_num": "23",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "פיקוס בנימינה",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-32415",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79253889866748, 32.048029595531965]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 32870,
+        "site_name": null,
+        "site_address": "תשבי 21",
+        "street_name": "תשבי",
+        "house_num": "21",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "פיקוס כינורי",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-32870",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79255259905588, 32.04813847736535]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 32879,
+        "site_name": null,
+        "site_address": "ששון 21",
+        "street_name": "ששון",
+        "house_num": "21",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "פיקוס בנימינה",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-32879",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79228233718311, 32.04812700305485]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 32902,
+        "site_name": null,
+        "site_address": "רוני   21",
+        "street_name": "רוני  ",
+        "house_num": "21",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "היבסקוס סתריה",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-32902",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79172474588202, 32.049321533964054]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 33085,
+        "site_name": null,
+        "site_address": "תשבי 20",
+        "street_name": "תשבי",
+        "house_num": "20",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "תמר מצוי",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-33085",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79228518551856, 32.04804427286133]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 33086,
+        "site_name": null,
+        "site_address": "תשבי 20",
+        "street_name": "תשבי",
+        "house_num": "20",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "פיקוס בנימינה",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-33086",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79228518551856, 32.04804427286133]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 33112,
+        "site_name": null,
+        "site_address": "רוני   20",
+        "street_name": "רוני  ",
+        "house_num": "20",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "פיקוס בנימינה",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-33112",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79148772736544, 32.049458673287575]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 33472,
+        "site_name": null,
+        "site_address": "עברי 19",
+        "street_name": "עברי",
+        "house_num": "19",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "אלביציה",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-33472",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.793437486941635, 32.04932532110091]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 33999,
+        "site_name": null,
+        "site_address": "קלמן 17",
+        "street_name": "קלמן",
+        "house_num": "17",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "אילנטה בלוטית",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-33999",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.7931645260503, 32.049405164408114]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 34005,
+        "site_name": null,
+        "site_address": "קלמן 17",
+        "street_name": "קלמן",
+        "house_num": "17",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "דקל קוקוס",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-34005",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.7931645260503, 32.049405164408114]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 34006,
+        "site_name": null,
+        "site_address": "קלמן 17",
+        "street_name": "קלמן",
+        "house_num": "17",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "כורזיה",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-34006",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.7931645260503, 32.049405164408114]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 34007,
+        "site_name": null,
+        "site_address": "קלמן 17",
+        "street_name": "קלמן",
+        "house_num": "17",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "ברכיטון אדרי",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-34007",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.7931645260503, 32.049405164408114]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 34190,
+        "site_name": null,
+        "site_address": "תשבי 16",
+        "street_name": "תשבי",
+        "house_num": "16",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "דקל וושינגטוניה",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-34190",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.792318893369284, 32.048312295929975]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 34191,
+        "site_name": null,
+        "site_address": "תשבי 16",
+        "street_name": "תשבי",
+        "house_num": "16",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "פיקוס בנימינה",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-34191",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.792318893369284, 32.048312295929975]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 34253,
+        "site_name": null,
+        "site_address": "קלמן 16",
+        "street_name": "קלמן",
+        "house_num": "16",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "ברכיטון אדרי",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-34253",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79342279743973, 32.04942328026611]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 34573,
+        "site_name": null,
+        "site_address": "תשבי 15",
+        "street_name": "תשבי",
+        "house_num": "15",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "דקל וושינגטוניה",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-34573",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.792593679190645, 32.04846513179604]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 34582,
+        "site_name": null,
+        "site_address": "ששון 15",
+        "street_name": "ששון",
+        "house_num": "15",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "פיקוס הגומי",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-34582",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79232569054504, 32.048465974423216]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 34639,
+        "site_name": null,
+        "site_address": "עברי 15",
+        "street_name": "עברי",
+        "house_num": "15",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "היבסקוס סתריה",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-34639",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79340089891717, 32.04903521314066]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 34849,
+        "site_name": null,
+        "site_address": "ששון 14",
+        "street_name": "ששון",
+        "house_num": "14",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "פיקוס בנימינה",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-34849",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79211914399924, 32.0488495746415]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 35993,
+        "site_name": null,
+        "site_address": "קלמן 11",
+        "street_name": "קלמן",
+        "house_num": "11",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "היבסקוס סתריה",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "ממוגן",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-35993",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79312058339658, 32.049059860864965]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 36233,
+        "site_name": null,
+        "site_address": "תרדיון 10",
+        "street_name": "תרדיון",
+        "house_num": "10",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "פיקוס בנימינה",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-36233",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79261058156084, 32.04830113262972]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 36770,
+        "site_name": null,
+        "site_address": "עברי 9",
+        "street_name": "עברי",
+        "house_num": "9",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "היבסקוס סתריה",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-36770",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79335254481941, 32.048674682115475]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 36970,
+        "site_name": null,
+        "site_address": "ששון 8",
+        "street_name": "ששון",
+        "house_num": "8",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "מגנוליה גדולת פרחים",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-36970",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79215979670462, 32.049167372180285]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 36988,
+        "site_name": null,
+        "site_address": "ששון 8",
+        "street_name": "ששון",
+        "house_num": "8",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "תות",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-36988",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79215979670462, 32.049167372180285]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 37344,
+        "site_name": null,
+        "site_address": "בן חסד 8",
+        "street_name": "בן חסד",
+        "house_num": "8",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "אזדרכת מצויה",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-37344",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79313408022943, 32.04907949157851]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 37483,
+        "site_name": null,
+        "site_address": "קלמן 7",
+        "street_name": "קלמן",
+        "house_num": "7",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "דקל קוקוס",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-37483",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.793090951964494, 32.0488244059564]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 37755,
+        "site_name": null,
+        "site_address": "תשבי 6",
+        "street_name": "תשבי",
+        "house_num": "6",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "אזדרכת מצויה",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-37755",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79240316913103, 32.04898234902835]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 37774,
+        "site_name": null,
+        "site_address": "תשבי 6",
+        "street_name": "תשבי",
+        "house_num": "6",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "פיקוס בנימינה",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-37774",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79240316913103, 32.04898234902835]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 37789,
+        "site_name": null,
+        "site_address": "שבתאי 6",
+        "street_name": "שבתאי",
+        "house_num": "6",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "ברכיטון דו גוני",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-37789",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79298558134987, 32.04917883816356]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 38155,
+        "site_name": null,
+        "site_address": "בן חסד 6",
+        "street_name": "בן חסד",
+        "house_num": "6",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "ברכיטון אדרי",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-38155",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79311757158892, 32.048935448844965]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 38160,
+        "site_name": null,
+        "site_address": "בן חסד 6",
+        "street_name": "בן חסד",
+        "house_num": "6",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "זית אירופי",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-38160",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79311757158892, 32.048935448844965]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 38584,
+        "site_name": null,
+        "site_address": "שבתאי 4",
+        "street_name": "שבתאי",
+        "house_num": "4",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "דקל וושינגטוניה",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-38584",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.792964721706355, 32.049025213277254]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 38790,
+        "site_name": null,
+        "site_address": "יונדב  4",
+        "street_name": "יונדב ",
+        "house_num": "4",
+        "location_type": "גינון",
+        "location_notes": "",
+        "tree_name": "פיקוס",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-38790",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.792997564428426, 32.04801259800704]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid": 38946,
+        "site_name": null,
+        "site_address": "בן חסד 4",
+        "street_name": "בן חסד",
+        "house_num": "4",
+        "location_type": "רחוב",
+        "location_notes": "",
+        "tree_name": "דקל קוקוס",
+        "scientific_name": null,
+        "tree_num": null,
+        "remarks": "",
+        "treatment": null,
+        "priority": null,
+        "electricity": "",
+        "date_": null,
+        "data_source": "Survey 2016",
+        "UniqueId": "628-38946",
+        "date_import": "21/08/2019 02:10:57"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79310106299758, 32.04879140610644]
+      }
+    }
+  ]
+}

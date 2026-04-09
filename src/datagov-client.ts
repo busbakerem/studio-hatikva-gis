@@ -26,7 +26,7 @@ export interface DataGovResult {
 }
 
 export async function searchDataGov(
-  options: DataGovSearchOptions
+  options: DataGovSearchOptions,
 ): Promise<DataGovResult> {
   const params = new URLSearchParams();
   params.set("resource_id", options.resourceId);
@@ -49,7 +49,7 @@ export async function searchDataGov(
 
   if (!response.ok) {
     throw new Error(
-      `data.gov.il API error: ${response.status} ${response.statusText}`
+      `data.gov.il API error: ${response.status} ${response.statusText}`,
     );
   }
 
@@ -61,7 +61,7 @@ export async function searchDataGov(
 
   if (!data.success) {
     throw new Error(
-      `data.gov.il API error: ${data.error?.message ?? "unknown"}`
+      `data.gov.il API error: ${data.error?.message ?? "unknown"}`,
     );
   }
 
@@ -74,7 +74,7 @@ export async function searchDataGov(
 export async function searchTabaPlans(
   query?: string,
   filters?: Record<string, string | number>,
-  limit?: number
+  limit?: number,
 ): Promise<DataGovResult> {
   return searchDataGov({
     resourceId: DATAGOV_RESOURCES.taba_plans,

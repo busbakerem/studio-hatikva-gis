@@ -5,42 +5,79 @@
  *
  * Usage: node scripts/build-map.mjs
  */
-import { readFileSync, writeFileSync } from 'fs';
-import { resolve, dirname } from 'path';
-import { fileURLToPath } from 'url';
+import { readFileSync, writeFileSync } from "fs";
+import { resolve, dirname } from "path";
+import { fileURLToPath } from "url";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
-const root = resolve(__dirname, '..');
+const root = resolve(__dirname, "..");
 
 // Read data files
-const parcels = readFileSync(resolve(root, 'research/ownership-parcellation/data/parcels.geojson'), 'utf8');
-const municipal = readFileSync(resolve(root, 'research/ownership-parcellation/data/municipal_land.geojson'), 'utf8');
-const planBoundariesV2 = readFileSync(resolve(root, 'research/ownership-parcellation/data/plan_boundaries_v2.geojson'), 'utf8');
-const plansDb = readFileSync(resolve(root, 'research/taba-plans/plans-database.json'), 'utf8');
+const parcels = readFileSync(
+  resolve(root, "research/ownership-parcellation/data/parcels.geojson"),
+  "utf8",
+);
+const municipal = readFileSync(
+  resolve(root, "research/ownership-parcellation/data/municipal_land.geojson"),
+  "utf8",
+);
+const planBoundariesV2 = readFileSync(
+  resolve(
+    root,
+    "research/ownership-parcellation/data/plan_boundaries_v2.geojson",
+  ),
+  "utf8",
+);
+const plansDb = readFileSync(
+  resolve(root, "research/taba-plans/plans-database.json"),
+  "utf8",
+);
 
-const moshaaAnalysis = readFileSync(resolve(root, 'research/ownership-parcellation/data/moshaa_analysis.json'), 'utf8');
+const moshaaAnalysis = readFileSync(
+  resolve(root, "research/ownership-parcellation/data/moshaa_analysis.json"),
+  "utf8",
+);
 
 let landUse;
 try {
-  landUse = readFileSync(resolve(root, 'research/ownership-parcellation/data/land_use.geojson'), 'utf8');
+  landUse = readFileSync(
+    resolve(root, "research/ownership-parcellation/data/land_use.geojson"),
+    "utf8",
+  );
 } catch (e) {
   landUse = '{"type":"FeatureCollection","features":[]}';
-  console.warn('Warning: land_use.geojson not found, using empty collection');
+  console.warn("Warning: land_use.geojson not found, using empty collection");
 }
 
 // Count features
 function countFeatures(json) {
-  try { return JSON.parse(json).features?.length ?? 0; } catch { return 0; }
+  try {
+    return JSON.parse(json).features?.length ?? 0;
+  } catch {
+    return 0;
+  }
 }
 function countItems(json) {
-  try { return JSON.parse(json).length ?? 0; } catch { return 0; }
+  try {
+    return JSON.parse(json).length ?? 0;
+  } catch {
+    return 0;
+  }
 }
 
-console.log('Feature counts:');
-console.log(`  parcels.geojson:              ${countFeatures(parcels)} features (${(Buffer.byteLength(parcels)/1024/1024).toFixed(1)} MB)`);
-console.log(`  municipal_land.geojson:       ${countFeatures(municipal)} features (${(Buffer.byteLength(municipal)/1024/1024).toFixed(1)} MB)`);
-console.log(`  plan_boundaries_v2.geojson:   ${countFeatures(planBoundariesV2)} features (${(Buffer.byteLength(planBoundariesV2)/1024).toFixed(0)} KB)`);
-console.log(`  land_use.geojson:             ${countFeatures(landUse)} features (${(Buffer.byteLength(landUse)/1024/1024).toFixed(1)} MB)`);
+console.log("Feature counts:");
+console.log(
+  `  parcels.geojson:              ${countFeatures(parcels)} features (${(Buffer.byteLength(parcels) / 1024 / 1024).toFixed(1)} MB)`,
+);
+console.log(
+  `  municipal_land.geojson:       ${countFeatures(municipal)} features (${(Buffer.byteLength(municipal) / 1024 / 1024).toFixed(1)} MB)`,
+);
+console.log(
+  `  plan_boundaries_v2.geojson:   ${countFeatures(planBoundariesV2)} features (${(Buffer.byteLength(planBoundariesV2) / 1024).toFixed(0)} KB)`,
+);
+console.log(
+  `  land_use.geojson:             ${countFeatures(landUse)} features (${(Buffer.byteLength(landUse) / 1024 / 1024).toFixed(1)} MB)`,
+);
 console.log(`  plans-database.json:          ${countItems(plansDb)} plans`);
 
 // Build HTML
@@ -851,7 +888,7 @@ legend.addTo(map);
 </body>
 </html>`;
 
-const outPath = resolve(root, 'research/ownership-parcellation/map.html');
-writeFileSync(outPath, html, 'utf8');
+const outPath = resolve(root, "research/ownership-parcellation/map.html");
+writeFileSync(outPath, html, "utf8");
 const sizeMB = (Buffer.byteLength(html) / 1024 / 1024).toFixed(1);
 console.log(`\nWritten: ${outPath} (${sizeMB} MB)`);

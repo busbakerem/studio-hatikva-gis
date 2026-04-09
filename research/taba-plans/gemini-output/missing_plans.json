@@ -58,10 +58,7 @@
     "units": null,
     "land_use": "מגורים / שצ״פ",
     "description_heb": "שינוי לתכנית 465, חלקות 232 ו-9 בגוש 6135. שטח 1,028 מ״ר.",
-    "key_provisions": [
-      "שינוי ייעוד למגורים ושצ״פ",
-      "שטח 1,028 מ״ר"
-    ],
+    "key_provisions": ["שינוי ייעוד למגורים ושצ״פ", "שטח 1,028 מ״ר"],
     "is_reparcellation": false,
     "parent_plan": "465",
     "overlapping_sites": [1, 2, 5],

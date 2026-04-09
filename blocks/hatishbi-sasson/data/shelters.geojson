@@ -1,0 +1,48 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "oid_mitkan": 169,
+        "ms_miklat": 811,
+        "k_sug": 1,
+        "t_sug": "מקלט ציבורי",
+        "k_rechov": 4001,
+        "shem_recho": "אצ\"ל",
+        "ms_bait": 76,
+        "knisa": "",
+        "Full_Address": "אצ\"ל 76",
+        "shem_rechov_eng": "ETSEL",
+        "shetach_mr": 180,
+        "k_sinon": 1,
+        "t_sinon": "מערכת סינון",
+        "hearot": "מדובר במקלט עם 4 כניסות החולש על 2 צידי הרחוב, 2 כניסות ויציאות בכל צד. הכניסות נמצאות ב- מול 76, מול 78, מול 91, מול 95. כל ארבע הכניסות מתוכננות להיות במפלס המדרכה ולהיפתח אוטומטית כלפי מעלה.",
+        "h_sug": "לא",
+        "x_coord": 180632.55317678,
+        "y_coord": 661713.65534485,
+        "lon": 34.793366,
+        "lat": 32.047984,
+        "shem_baalim": null,
+        "shem": "811",
+        "pail": "כשיר לשימוש",
+        "from_time": "",
+        "to_time": "",
+        "opening_times": "ייפתח בשעת אזעקה",
+        "url_tik": null,
+        "telephone_henion": null,
+        "maneger_name": null,
+        "email": null,
+        "celolar": null,
+        "is_open": "כן",
+        "UniqueId": "592-169",
+        "date_import": "04/04/2026 00:15:32",
+        "miklat_mungash": "לא נגיש"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79336654281576, 32.047985670619106]
+      }
+    }
+  ]
+}

@@ -2,41 +2,87 @@ import { readFile, writeFile } from "node:fs/promises";
 
 // ── Load all data ────────────────────────────────────────────────────────────
 
-const parcelsGJ = JSON.parse(await readFile("research/ownership-parcellation/data/parcels.geojson", "utf8"));
-const municipalGJ = JSON.parse(await readFile("research/ownership-parcellation/data/municipal_land.geojson", "utf8"));
-const landuseGJ = JSON.parse(await readFile("research/ownership-parcellation/data/land_use.geojson", "utf8"));
-const perSite = JSON.parse(await readFile("research/ownership-parcellation/data/_per_site_data.json", "utf8"));
-const planningContext = await readFile("research/ownership-parcellation/data/_planning_context.md", "utf8");
-const parcelAddresses = JSON.parse(await readFile("research/ownership-parcellation/data/_parcel_addresses.json", "utf8"));
-const crossRef = JSON.parse(await readFile("research/ownership-parcellation/data/_cross_reference.json", "utf8"));
-const govmapData = JSON.parse(await readFile("research/ownership-parcellation/data/_govmap_cadastre.json", "utf8"));
+const parcelsGJ = JSON.parse(
+  await readFile(
+    "research/ownership-parcellation/data/parcels.geojson",
+    "utf8",
+  ),
+);
+const municipalGJ = JSON.parse(
+  await readFile(
+    "research/ownership-parcellation/data/municipal_land.geojson",
+    "utf8",
+  ),
+);
+const landuseGJ = JSON.parse(
+  await readFile(
+    "research/ownership-parcellation/data/land_use.geojson",
+    "utf8",
+  ),
+);
+const perSite = JSON.parse(
+  await readFile(
+    "research/ownership-parcellation/data/_per_site_data.json",
+    "utf8",
+  ),
+);
+const planningContext = await readFile(
+  "research/ownership-parcellation/data/_planning_context.md",
+  "utf8",
+);
+const parcelAddresses = JSON.parse(
+  await readFile(
+    "research/ownership-parcellation/data/_parcel_addresses.json",
+    "utf8",
+  ),
+);
+const crossRef = JSON.parse(
+  await readFile(
+    "research/ownership-parcellation/data/_cross_reference.json",
+    "utf8",
+  ),
+);
+const govmapData = JSON.parse(
+  await readFile(
+    "research/ownership-parcellation/data/_govmap_cadastre.json",
+    "utf8",
+  ),
+);
 
 // Build a set of nationally-registered chelkas per gush
 const nationalChelkas = {};
 for (const [gush, parcels] of Object.entries(govmapData)) {
-  nationalChelkas[gush] = new Set(parcels.map(p => p.PARCEL));
+  nationalChelkas[gush] = new Set(parcels.map((p) => p.PARCEL));
 }
 
 // Mega-parcels that span multiple sites — should not be "owned" by any single site
 const MEGA_PARCELS = ["6135/3", "6135/4"];
-const MEGA_PARCEL_NOTE = "חלקת מושע שכונתית — חוצה מספר אתרים, אין לייחס לאתר בודד";
+const MEGA_PARCEL_NOTE =
+  "חלקת מושע שכונתית — חוצה מספר אתרים, אין לייחס לאתר בודד";
 
 // ── Geometry helpers ─────────────────────────────────────────────────────────
 
 function pointInRing(x, y, ring) {
   let inside = false;
   for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {
-    const xi = ring[i][0], yi = ring[i][1];
-    const xj = ring[j][0], yj = ring[j][1];
-    if (((yi > y) !== (yj > y)) && (x < (xj - xi) * (y - yi) / (yj - yi) + xi)) inside = !inside;
+    const xi = ring[i][0],
+      yi = ring[i][1];
+    const xj = ring[j][0],
+      yj = ring[j][1];
+    if (yi > y !== yj > y && x < ((xj - xi) * (y - yi)) / (yj - yi) + xi)
+      inside = !inside;
   }
   return inside;
 }
 
 function centroidOfRings(rings) {
   const pts = rings[0];
-  let cx = 0, cy = 0;
-  for (const p of pts) { cx += p[0]; cy += p[1]; }
+  let cx = 0,
+    cy = 0;
+  for (const p of pts) {
+    cx += p[0];
+    cy += p[1];
+  }
   return [cx / pts.length, cy / pts.length];
 }
 
@@ -97,12 +143,18 @@ const siteAddresses = {
 
 // ── Neighborhood-wide stats ──────────────────────────────────────────────────
 
-const parcels = parcelsGJ.features.map(f => f.properties);
+const parcels = parcelsGJ.features.map((f) => f.properties);
 const totalParcelArea = parcels.reduce((s, p) => s + (p.Shape_Area || 0), 0);
-const gushes = [...new Set(parcels.map(p => p.ms_gush))].sort((a, b) => a - b);
+const gushes = [...new Set(parcels.map((p) => p.ms_gush))].sort(
+  (a, b) => a - b,
+);
 
-const moshaaParcels = parcels.filter(p => (p.Shape_Area || 0) > MOSHAA_THRESHOLD);
-const regularParcels = parcels.filter(p => (p.Shape_Area || 0) <= MOSHAA_THRESHOLD);
+const moshaaParcels = parcels.filter(
+  (p) => (p.Shape_Area || 0) > MOSHAA_THRESHOLD,
+);
+const regularParcels = parcels.filter(
+  (p) => (p.Shape_Area || 0) <= MOSHAA_THRESHOLD,
+);
 const moshaaArea = moshaaParcels.reduce((s, p) => s + (p.Shape_Area || 0), 0);
 const regularArea = regularParcels.reduce((s, p) => s + (p.Shape_Area || 0), 0);
 
@@ -116,15 +168,22 @@ const sizeRanges = [
   { label: "2,500–5,000", min: 2500, max: 5000 },
 ];
 
-const sizeDist = sizeRanges.map(r => ({
+const sizeDist = sizeRanges.map((r) => ({
   label: r.label,
-  count: regularParcels.filter(p => (p.Shape_Area || 0) >= r.min && (p.Shape_Area || 0) < r.max).length,
-  area: regularParcels.filter(p => (p.Shape_Area || 0) >= r.min && (p.Shape_Area || 0) < r.max).reduce((s, p) => s + (p.Shape_Area || 0), 0),
+  count: regularParcels.filter(
+    (p) => (p.Shape_Area || 0) >= r.min && (p.Shape_Area || 0) < r.max,
+  ).length,
+  area: regularParcels
+    .filter((p) => (p.Shape_Area || 0) >= r.min && (p.Shape_Area || 0) < r.max)
+    .reduce((s, p) => s + (p.Shape_Area || 0), 0),
 }));
 
 // Municipal ownership
-const municipal = municipalGJ.features.map(f => f.properties);
-const totalMunicipalArea = municipal.reduce((s, m) => s + (m.Shape_Area || 0), 0);
+const municipal = municipalGJ.features.map((f) => f.properties);
+const totalMunicipalArea = municipal.reduce(
+  (s, m) => s + (m.Shape_Area || 0),
+  0,
+);
 const ownershipTypes = {};
 for (const m of municipal) {
   const t = m.t_sug || "אחר";
@@ -134,7 +193,7 @@ for (const m of municipal) {
 }
 
 // Land use
-const landuse = landuseGJ.features.map(f => f.properties);
+const landuse = landuseGJ.features.map((f) => f.properties);
 const zoningByType = {};
 for (const l of landuse) {
   const t = l.t_yeud_rashi || "אחר";
@@ -148,7 +207,8 @@ const totalZoningArea = landuse.reduce((s, l) => s + (l.Shape_Area || 0), 0);
 const parcelsByGush = {};
 for (const p of parcels) {
   const g = p.ms_gush;
-  if (!parcelsByGush[g]) parcelsByGush[g] = { count: 0, area: 0, moshaaCount: 0, moshaaArea: 0 };
+  if (!parcelsByGush[g])
+    parcelsByGush[g] = { count: 0, area: 0, moshaaCount: 0, moshaaArea: 0 };
   parcelsByGush[g].count++;
   parcelsByGush[g].area += p.Shape_Area || 0;
   if ((p.Shape_Area || 0) > MOSHAA_THRESHOLD) {
@@ -173,10 +233,14 @@ for (const [siteId, siteData] of Object.entries(perSite.sites)) {
   a.parcels = siteData.parcels || [];
   a.parcelCount = a.parcels.length;
   a.totalParcelArea = a.parcels.reduce((s, p) => s + (p.Shape_Area || 0), 0);
-  a.gushes = [...new Set(a.parcels.map(p => p.ms_gush))];
+  a.gushes = [...new Set(a.parcels.map((p) => p.ms_gush))];
 
-  a.moshaaParcels = a.parcels.filter(p => (p.Shape_Area || 0) > MOSHAA_THRESHOLD);
-  a.regularParcels = a.parcels.filter(p => (p.Shape_Area || 0) <= MOSHAA_THRESHOLD);
+  a.moshaaParcels = a.parcels.filter(
+    (p) => (p.Shape_Area || 0) > MOSHAA_THRESHOLD,
+  );
+  a.regularParcels = a.parcels.filter(
+    (p) => (p.Shape_Area || 0) <= MOSHAA_THRESHOLD,
+  );
 
   a.municipal = siteData.municipal || [];
   a.municipalArea = a.municipal.reduce((s, m) => s + (m.Shape_Area || 0), 0);
@@ -191,15 +255,20 @@ for (const [siteId, siteData] of Object.entries(perSite.sites)) {
   }
 
   a.permits = siteData.permits || [];
-  a.activePermits = a.permits.filter(p =>
-    p.building_stage === "בבניה" || p.building_stage === "בתהליך היתר" || p.building_stage === "קיים היתר"
+  a.activePermits = a.permits.filter(
+    (p) =>
+      p.building_stage === "בבניה" ||
+      p.building_stage === "בתהליך היתר" ||
+      p.building_stage === "קיים היתר",
   );
-  a.newConstruction = a.permits.filter(p => (p.sug_bakasha || "").includes("בניה חדשה"));
+  a.newConstruction = a.permits.filter((p) =>
+    (p.sug_bakasha || "").includes("בניה חדשה"),
+  );
 
   a.buildings = siteData.buildings || [];
 
   // Addresses from permits
-  a.addresses = [...new Set(a.permits.map(p => p.addresses).filter(Boolean))];
+  a.addresses = [...new Set(a.permits.map((p) => p.addresses).filter(Boolean))];
 
   // Try to map addresses to parcels via building_num matching
   // permits have building_num, and we can cross-ref
@@ -213,7 +282,10 @@ for (const [siteId, siteData] of Object.entries(perSite.sites)) {
 
 // ── Extract planning context sections ────────────────────────────────────────
 
-const planSections = planningContext.split(/^---$/m).map(s => s.trim()).filter(s => s.length > 0);
+const planSections = planningContext
+  .split(/^---$/m)
+  .map((s) => s.trim())
+  .filter((s) => s.length > 0);
 
 // ── Generate Markdown ────────────────────────────────────────────────────────
 
@@ -275,10 +347,10 @@ let md = `# בעלות קרקע ופרצלציה בשכונת התקווה
 |------|-----|
 | חלקות בבעלות עירייה | ${municipal.length} מתוך ${parcels.length} |
 | שטח עירוני | ${(totalMunicipalArea / 1000).toFixed(1)} דונם מתוך ${(totalParcelArea / 1000).toFixed(0)} |
-| אחוז עירוני מסך השטח | ${(totalMunicipalArea / totalParcelArea * 100).toFixed(1)}% |
+| אחוז עירוני מסך השטח | ${((totalMunicipalArea / totalParcelArea) * 100).toFixed(1)}% |
 | שטח לא-עירוני | ${((totalParcelArea - totalMunicipalArea) / 1000).toFixed(1)} דונם |
 
-> השטח הלא-עירוני (${((totalParcelArea - totalMunicipalArea) / totalParcelArea * 100).toFixed(1)}%) עשוי לכלול: קרקע רמ"י, קק"ל, בעלות פרטית רשומה, או מושע. **לא ניתן לקבוע מה-GIS בלבד.** ❌ UNVERIFIED
+> השטח הלא-עירוני (${(((totalParcelArea - totalMunicipalArea) / totalParcelArea) * 100).toFixed(1)}%) עשוי לכלול: קרקע רמ"י, קק"ל, בעלות פרטית רשומה, או מושע. **לא ניתן לקבוע מה-GIS בלבד.** ❌ UNVERIFIED
 
 #### סוגי בעלות עירונית
 
@@ -286,7 +358,9 @@ let md = `# בעלות קרקע ופרצלציה בשכונת התקווה
 |-----|--------|-----------|
 `;
 
-for (const [t, v] of Object.entries(ownershipTypes).sort((a, b) => b[1].area - a[1].area)) {
+for (const [t, v] of Object.entries(ownershipTypes).sort(
+  (a, b) => b[1].area - a[1].area,
+)) {
   md += `| ${t} | ${v.count} | ${(v.area / 1000).toFixed(1)} |\n`;
 }
 
@@ -330,7 +404,7 @@ for (const g of keyGushes) {
   const cr = crossRef.allGushes[g];
   if (cr) {
     const onlyTlv = cr.tlv - Math.min(cr.govmap, cr.tlv);
-    md += `| ${g} | ${cr.tlv} | ${cr.govmap} | ${onlyTlv > 0 ? onlyTlv : "—"} | ${cr.govmap === 0 ? "⚠️ לא רשום כלל" : (cr.allSettled ? "מוסדר" : "חלקי")} |\n`;
+    md += `| ${g} | ${cr.tlv} | ${cr.govmap} | ${onlyTlv > 0 ? onlyTlv : "—"} | ${cr.govmap === 0 ? "⚠️ לא רשום כלל" : cr.allSettled ? "מוסדר" : "חלקי"} |\n`;
   }
 }
 
@@ -365,7 +439,7 @@ md += `
 |--|--------------|-------------------|
 | כמות | ${regularParcels.length} | ${moshaaParcels.length} |
 | שטח כולל | ${(regularArea / 1000).toFixed(0)} דונם | ${(moshaaArea / 1000).toFixed(0)} דונם |
-| אחוז מהשטח | ${(regularArea / totalParcelArea * 100).toFixed(0)}% | ${(moshaaArea / totalParcelArea * 100).toFixed(0)}% |
+| אחוז מהשטח | ${((regularArea / totalParcelArea) * 100).toFixed(0)}% | ${((moshaaArea / totalParcelArea) * 100).toFixed(0)}% |
 
 ### 4.3 התפלגות גודל חלקות (ללא מושע) ✅ GIS_VERIFIED
 
@@ -374,12 +448,15 @@ md += `
 `;
 
 for (const r of sizeDist) {
-  md += `| ${r.label} | ${r.count} | ${(r.area / 1000).toFixed(1)} | ${regularArea > 0 ? (r.area / regularArea * 100).toFixed(1) : 0}% |\n`;
+  md += `| ${r.label} | ${r.count} | ${(r.area / 1000).toFixed(1)} | ${regularArea > 0 ? ((r.area / regularArea) * 100).toFixed(1) : 0}% |\n`;
 }
 
-const medianRegular = regularParcels.map(p => p.Shape_Area || 0).sort((a, b) => a - b);
+const medianRegular = regularParcels
+  .map((p) => p.Shape_Area || 0)
+  .sort((a, b) => a - b);
 const medianVal = medianRegular[Math.floor(medianRegular.length / 2)] || 0;
-const avgRegular = regularParcels.length > 0 ? regularArea / regularParcels.length : 0;
+const avgRegular =
+  regularParcels.length > 0 ? regularArea / regularParcels.length : 0;
 
 md += `
 > ממוצע (ללא מושע): ${avgRegular.toFixed(0)} מ"ר | חציון: ${medianVal.toFixed(0)} מ"ר
@@ -390,11 +467,14 @@ md += `
 |-----|------|----------|-------------|
 `;
 
-for (const p of moshaaParcels.sort((a, b) => (b.Shape_Area || 0) - (a.Shape_Area || 0)).slice(0, 25)) {
+for (const p of moshaaParcels
+  .sort((a, b) => (b.Shape_Area || 0) - (a.Shape_Area || 0))
+  .slice(0, 25)) {
   md += `| ${p.ms_gush} | ${p.ms_chelka} | ${(p.Shape_Area || 0).toFixed(0)} | ${p.heara || "—"} |\n`;
 }
 
-if (moshaaParcels.length > 25) md += `\n> מוצגות 25 מתוך ${moshaaParcels.length} חלקות\n`;
+if (moshaaParcels.length > 25)
+  md += `\n> מוצגות 25 מתוך ${moshaaParcels.length} חלקות\n`;
 
 md += `
 ---
@@ -408,8 +488,10 @@ md += `
 |-----------|--------|-----------|------|
 `;
 
-for (const [t, v] of Object.entries(zoningByType).sort((a, b) => b[1].area - a[1].area)) {
-  md += `| ${t} | ${v.count} | ${(v.area / 1000).toFixed(1)} | ${(v.area / totalZoningArea * 100).toFixed(1)}% |\n`;
+for (const [t, v] of Object.entries(zoningByType).sort(
+  (a, b) => b[1].area - a[1].area,
+)) {
+  md += `| ${t} | ${v.count} | ${(v.area / 1000).toFixed(1)} | ${((v.area / totalZoningArea) * 100).toFixed(1)}% |\n`;
 }
 
 md += `
@@ -476,7 +558,7 @@ md += `
 
 ### 5.8 ראיות נוספות לרה-פרצלציה ✅ GIS_VERIFIED
 
-> **מה-GIS:** ${parcels.filter(p => p.heara).length} חלקות מכילות הערות תת"ג/תצ"ר — תכניות חלוקה ורישום פעילות.
+> **מה-GIS:** ${parcels.filter((p) => p.heara).length} חלקות מכילות הערות תת"ג/תצ"ר — תכניות חלוקה ורישום פעילות.
 > **מהקדסטר הלאומי:** 168 חלקות בגוש 6135 ו-248 בגוש 6134 קיימות רק ב-GIS העירוני — עדות לחלוקות שטרם נרשמו.
 
 ### 5.9 השפעת תכניות על אתרי סטודיו
@@ -532,12 +614,14 @@ for (const [siteId, a] of Object.entries(siteAnalyses)) {
 
     for (const p of a.parcels.sort((x, y) => x.ms_chelka - y.ms_chelka)) {
       const key = `${p.ms_gush}/${p.ms_chelka}`;
-      const isMun = a.municipal.some(m => m.ms_gush === p.ms_gush && m.ms_chelka === p.ms_chelka);
+      const isMun = a.municipal.some(
+        (m) => m.ms_gush === p.ms_gush && m.ms_chelka === p.ms_chelka,
+      );
       const isMoshaa = (p.Shape_Area || 0) > MOSHAA_THRESHOLD;
       const isMega = MEGA_PARCELS.includes(key);
       const addrs = siteAddrMap[key] || [];
       const addrStr = addrs.length > 0 ? addrs.join(", ") : "—";
-      const moshaaLabel = isMega ? "⚠️ שכונתית" : (isMoshaa ? "⚠️ חשוד" : "—");
+      const moshaaLabel = isMega ? "⚠️ שכונתית" : isMoshaa ? "⚠️ חשוד" : "—";
       const gushSet = nationalChelkas[String(p.ms_gush)];
       const isRegistered = gushSet ? gushSet.has(p.ms_chelka) : false;
       const tabuLabel = isRegistered ? "✅ מוסדר" : "❌ לא רשום";
@@ -546,16 +630,25 @@ for (const [siteId, a] of Object.entries(siteAnalyses)) {
     }
 
     // Mega-parcel note
-    const hasMega = a.parcels.some(p => MEGA_PARCELS.includes(`${p.ms_gush}/${p.ms_chelka}`));
+    const hasMega = a.parcels.some((p) =>
+      MEGA_PARCELS.includes(`${p.ms_gush}/${p.ms_chelka}`),
+    );
     if (hasMega) {
       md += `\n> 🔶 **חלקות-על שכונתיות** (6135/3, 6135/4): ${MEGA_PARCEL_NOTE}\n`;
     }
 
     if (a.moshaaParcels.length > 0) {
-      const nonMega = a.moshaaParcels.filter(p => !MEGA_PARCELS.includes(`${p.ms_gush}/${p.ms_chelka}`));
+      const nonMega = a.moshaaParcels.filter(
+        (p) => !MEGA_PARCELS.includes(`${p.ms_gush}/${p.ms_chelka}`),
+      );
       if (nonMega.length > 0) {
         md += `\n> ⚠️ **${nonMega.length} חלקות נוספות חשודות כמושע** (> ${MOSHAA_THRESHOLD} מ"ר): `;
-        md += nonMega.map(p => `${p.ms_gush}/${p.ms_chelka} (${(p.Shape_Area || 0).toFixed(0)} מ"ר)`).join(", ");
+        md += nonMega
+          .map(
+            (p) =>
+              `${p.ms_gush}/${p.ms_chelka} (${(p.Shape_Area || 0).toFixed(0)} מ"ר)`,
+          )
+          .join(", ");
         md += `\n`;
       }
     }
@@ -566,7 +659,9 @@ for (const [siteId, a] of Object.entries(siteAnalyses)) {
   if (Object.keys(a.zoningBreakdown).length > 0) {
     md += `#### ייעודי קרקע ✅ GIS_VERIFIED\n\n`;
     md += `| ייעוד | מגרשים | שטח (מ"ר) |\n|-------|--------|----------|\n`;
-    for (const [t, v] of Object.entries(a.zoningBreakdown).sort((x, y) => y[1].area - x[1].area)) {
+    for (const [t, v] of Object.entries(a.zoningBreakdown).sort(
+      (x, y) => y[1].area - x[1].area,
+    )) {
       md += `| ${t} | ${v.count} | ${v.area.toFixed(0)} |\n`;
     }
     md += "\n";
@@ -621,13 +716,20 @@ console.log("MD written:", md.length, "chars");
 
 // ── Generate HTML ────────────────────────────────────────────────────────────
 
-function esc(s) { return String(s ?? "?").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;"); }
+function esc(s) {
+  return String(s ?? "?")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;");
+}
 function badge(level) {
   const badges = {
-    "GIS": '<span style="background:#198754;color:#fff;padding:0.1rem 0.4rem;border-radius:3px;font-size:0.7rem;font-weight:600">✅ GIS</span>',
-    "WEB": '<span style="background:#0d6efd;color:#fff;padding:0.1rem 0.4rem;border-radius:3px;font-size:0.7rem;font-weight:600">✅ WEB</span>',
-    "INFERRED": '<span style="background:#fd7e14;color:#fff;padding:0.1rem 0.4rem;border-radius:3px;font-size:0.7rem;font-weight:600">⚠️ INFERRED</span>',
-    "UNVERIFIED": '<span style="background:#dc3545;color:#fff;padding:0.1rem 0.4rem;border-radius:3px;font-size:0.7rem;font-weight:600">❌ UNVERIFIED</span>',
+    GIS: '<span style="background:#198754;color:#fff;padding:0.1rem 0.4rem;border-radius:3px;font-size:0.7rem;font-weight:600">✅ GIS</span>',
+    WEB: '<span style="background:#0d6efd;color:#fff;padding:0.1rem 0.4rem;border-radius:3px;font-size:0.7rem;font-weight:600">✅ WEB</span>',
+    INFERRED:
+      '<span style="background:#fd7e14;color:#fff;padding:0.1rem 0.4rem;border-radius:3px;font-size:0.7rem;font-weight:600">⚠️ INFERRED</span>',
+    UNVERIFIED:
+      '<span style="background:#dc3545;color:#fff;padding:0.1rem 0.4rem;border-radius:3px;font-size:0.7rem;font-weight:600">❌ UNVERIFIED</span>',
   };
   return badges[level] || level;
 }
@@ -638,7 +740,15 @@ function stageColor(s) {
   if (s === "קיים היתר") return "#2980b9";
   return "#7f8c8d";
 }
-function stageTag(s) { return '<span style="display:inline-block;padding:0.1rem 0.4rem;border-radius:3px;color:#fff;font-size:0.7rem;font-weight:600;background:' + stageColor(s) + '">' + esc(s) + '</span>'; }
+function stageTag(s) {
+  return (
+    '<span style="display:inline-block;padding:0.1rem 0.4rem;border-radius:3px;color:#fff;font-size:0.7rem;font-weight:600;background:' +
+    stageColor(s) +
+    '">' +
+    esc(s) +
+    "</span>"
+  );
+}
 
 const css = `
 :root{--bg:#f8f9fa;--card:#fff;--border:#dee2e6;--text:#212529;--muted:#6c757d;--accent:#0d6efd;--green:#198754;--red:#dc3545;--orange:#fd7e14;--warn:#ffc107}
@@ -697,7 +807,7 @@ let html = `<!DOCTYPE html>
 <div class="stat"><div class="n">${parcels.length.toLocaleString()}</div><div class="l">חלקות</div></div>
 <div class="stat"><div class="n">${(totalParcelArea / 1000).toFixed(0)}</div><div class="l">דונם סה"כ</div></div>
 <div class="stat"><div class="n">${municipal.length}</div><div class="l">חלקות עירייה</div></div>
-<div class="stat"><div class="n">${(totalMunicipalArea / totalParcelArea * 100).toFixed(0)}%</div><div class="l">עירוני מסך השטח</div></div>
+<div class="stat"><div class="n">${((totalMunicipalArea / totalParcelArea) * 100).toFixed(0)}%</div><div class="l">עירוני מסך השטח</div></div>
 <div class="stat"><div class="n">${((totalParcelArea - totalMunicipalArea) / 1000).toFixed(0)}</div><div class="l">דונם לא-עירוני</div></div>
 </div>
 
@@ -705,7 +815,9 @@ let html = `<!DOCTYPE html>
 <h4>סוגי בעלות עירונית ${badge("GIS")}</h4>
 <table><thead><tr><th>סוג</th><th>חלקות</th><th>דונם</th></tr></thead><tbody>
 `;
-for (const [t, v] of Object.entries(ownershipTypes).sort((a, b) => b[1].area - a[1].area)) {
+for (const [t, v] of Object.entries(ownershipTypes).sort(
+  (a, b) => b[1].area - a[1].area,
+)) {
   html += `<tr><td>${esc(t)}</td><td>${v.count}</td><td>${(v.area / 1000).toFixed(1)}</td></tr>\n`;
 }
 html += `</tbody></table></div>
@@ -719,7 +831,12 @@ for (const g of [6135, 6134, 6978, 6979, 6013, 6034, 6980]) {
   const cr = crossRef.allGushes[g];
   if (cr) {
     const onlyTlv = cr.tlv - Math.min(cr.govmap, cr.tlv);
-    const statusLabel = cr.govmap === 0 ? '<span style="color:var(--red)">⚠️ לא רשום כלל</span>' : (cr.allSettled ? "מוסדר" : "חלקי");
+    const statusLabel =
+      cr.govmap === 0
+        ? '<span style="color:var(--red)">⚠️ לא רשום כלל</span>'
+        : cr.allSettled
+          ? "מוסדר"
+          : "חלקי";
     html += `<tr><td>${g}</td><td>${cr.tlv}</td><td>${cr.govmap}</td><td>${onlyTlv > 0 ? onlyTlv : "—"}</td><td>${statusLabel}</td></tr>\n`;
   }
 }
@@ -728,7 +845,7 @@ html += `</tbody></table>
 </div>
 
 <h2>4. פרצלציה</h2>
-<div class="warn">⚠️ <strong>בעיית המושע:</strong> ${moshaaParcels.length} חלקות (${(moshaaArea / totalParcelArea * 100).toFixed(0)}% מהשטח) חשודות כמושע — שטח רשום כולל, בעלות משותפת של מספר בעלים. סף ${MOSHAA_THRESHOLD} מ"ר הוא <strong>היוריסטיקה שרירותית</strong> — אימות דורש נסח טאבו. ⚠️ INFERRED</div>
+<div class="warn">⚠️ <strong>בעיית המושע:</strong> ${moshaaParcels.length} חלקות (${((moshaaArea / totalParcelArea) * 100).toFixed(0)}% מהשטח) חשודות כמושע — שטח רשום כולל, בעלות משותפת של מספר בעלים. סף ${MOSHAA_THRESHOLD} מ"ר הוא <strong>היוריסטיקה שרירותית</strong> — אימות דורש נסח טאבו. ⚠️ INFERRED</div>
 <div class="warn">🔶 <strong>חלקות-על:</strong> 6135/3 (37,637 מ"ר) ו-6135/4 (37,396 מ"ר) חוצות מספר אתרי סטודיו — אין לייחס לאתר בודד.</div>
 
 <div class="stats">
@@ -741,7 +858,7 @@ html += `</tbody></table>
 <div class="card">
 <h4>התפלגות גודל חלקות — ללא מושע ${badge("GIS")}</h4>
 `;
-const maxSC = Math.max(...sizeDist.map(r => r.count));
+const maxSC = Math.max(...sizeDist.map((r) => r.count));
 for (const r of sizeDist) {
   const w = Math.round((r.count / maxSC) * 250);
   html += `<div class="bar-row"><span class="lbl">${r.label} מ"ר</span><div class="bar" style="width:${w}px;background:var(--accent)"></div><span class="val">${r.count} (${(r.area / 1000).toFixed(1)} ד')</span></div>\n`;
@@ -752,12 +869,22 @@ html += `<p style="margin-top:0.5rem;font-size:0.8rem;color:var(--muted)">ממו
 <h2>5. ייעודי קרקע ${badge("GIS")}</h2>
 <div class="card">
 `;
-const maxZ = Math.max(...Object.values(zoningByType).map(v => v.area));
-const zColors = {"מגורים":"#198754","תחבורה":"#6c757d","מבנים ומוסדות ציבור":"#0dcaf0","שטחים פתוחים":"#20c997","מסחר":"#ffc107","תעסוקה":"#6610f2","מגורים-תעסוקה מעורב":"#d63384"};
-for (const [t, v] of Object.entries(zoningByType).sort((a, b) => b[1].area - a[1].area)) {
+const maxZ = Math.max(...Object.values(zoningByType).map((v) => v.area));
+const zColors = {
+  מגורים: "#198754",
+  תחבורה: "#6c757d",
+  "מבנים ומוסדות ציבור": "#0dcaf0",
+  "שטחים פתוחים": "#20c997",
+  מסחר: "#ffc107",
+  תעסוקה: "#6610f2",
+  "מגורים-תעסוקה מעורב": "#d63384",
+};
+for (const [t, v] of Object.entries(zoningByType).sort(
+  (a, b) => b[1].area - a[1].area,
+)) {
   const w = Math.round((v.area / maxZ) * 250);
   const c = zColors[t] || "#0d6efd";
-  html += `<div class="bar-row"><span class="lbl">${esc(t)}</span><div class="bar" style="width:${w}px;background:${c}"></div><span class="val">${v.count} (${(v.area / 1000).toFixed(1)} ד', ${(v.area / totalZoningArea * 100).toFixed(0)}%)</span></div>\n`;
+  html += `<div class="bar-row"><span class="lbl">${esc(t)}</span><div class="bar" style="width:${w}px;background:${c}"></div><span class="val">${v.count} (${(v.area / 1000).toFixed(1)} ד', ${((v.area / totalZoningArea) * 100).toFixed(0)}%)</span></div>\n`;
 }
 html += `</div>
 
@@ -834,20 +961,32 @@ ${addr ? `<p style="font-size:0.82rem;color:var(--muted)"><strong>כתובות:<
 <table><thead><tr><th>גוש</th><th>חלקה</th><th>שטח</th><th>עירייה</th><th>טאבו</th><th>מושע?</th><th>כתובות</th></tr></thead><tbody>\n`;
     for (const p of a.parcels.sort((x, y) => x.ms_chelka - y.ms_chelka)) {
       const key = p.ms_gush + "/" + p.ms_chelka;
-      const isMun = a.municipal.some(m => m.ms_gush === p.ms_gush && m.ms_chelka === p.ms_chelka);
+      const isMun = a.municipal.some(
+        (m) => m.ms_gush === p.ms_gush && m.ms_chelka === p.ms_chelka,
+      );
       const isMoshaa = (p.Shape_Area || 0) > MOSHAA_THRESHOLD;
       const isMega = MEGA_PARCELS.includes(key);
       const addrs = siteAddrMapHtml[key] || [];
       const addrStr = addrs.length > 0 ? esc(addrs.join(", ")) : "—";
-      const moshaaLabel = isMega ? "🔶 שכונתית" : (isMoshaa ? "⚠️" : "—");
+      const moshaaLabel = isMega ? "🔶 שכונתית" : isMoshaa ? "⚠️" : "—";
       const gushSet = nationalChelkas[String(p.ms_gush)];
       const isRegistered = gushSet ? gushSet.has(p.ms_chelka) : false;
-      const tabuTag = isRegistered ? '<span style="color:#198754">✅</span>' : '<span style="color:#dc3545">❌</span>';
-      const cls = isMega ? ' class="moshaa" style="background:#ffe0cc"' : (isMoshaa ? ' class="moshaa"' : (!isRegistered ? ' style="background:#fff5f5"' : ""));
+      const tabuTag = isRegistered
+        ? '<span style="color:#198754">✅</span>'
+        : '<span style="color:#dc3545">❌</span>';
+      const cls = isMega
+        ? ' class="moshaa" style="background:#ffe0cc"'
+        : isMoshaa
+          ? ' class="moshaa"'
+          : !isRegistered
+            ? ' style="background:#fff5f5"'
+            : "";
       html += `<tr${cls}><td>${p.ms_gush}</td><td>${p.ms_chelka}</td><td>${(p.Shape_Area || 0).toFixed(0)}</td><td>${isMun ? "✅" : "—"}</td><td>${tabuTag}</td><td>${moshaaLabel}</td><td>${addrStr}</td></tr>\n`;
     }
     html += `</tbody></table>\n`;
-    const hasMega = a.parcels.some(p => MEGA_PARCELS.includes(p.ms_gush + "/" + p.ms_chelka));
+    const hasMega = a.parcels.some((p) =>
+      MEGA_PARCELS.includes(p.ms_gush + "/" + p.ms_chelka),
+    );
     if (hasMega) {
       html += `<p class="warn">🔶 <strong>חלקות-על שכונתיות</strong> (6135/3, 6135/4): ${esc(MEGA_PARCEL_NOTE)}</p>\n`;
     }
@@ -856,7 +995,9 @@ ${addr ? `<p style="font-size:0.82rem;color:var(--muted)"><strong>כתובות:<
   // Zoning
   if (Object.keys(a.zoningBreakdown).length > 0) {
     html += `<h4>ייעודי קרקע</h4><table><thead><tr><th>ייעוד</th><th>מגרשים</th><th>שטח</th></tr></thead><tbody>\n`;
-    for (const [t, v] of Object.entries(a.zoningBreakdown).sort((x, y) => y[1].area - x[1].area)) {
+    for (const [t, v] of Object.entries(a.zoningBreakdown).sort(
+      (x, y) => y[1].area - x[1].area,
+    )) {
       html += `<tr><td>${esc(t)}</td><td>${v.count}</td><td>${v.area.toFixed(0)}</td></tr>\n`;
     }
     html += `</tbody></table>\n`;
@@ -905,6 +1046,9 @@ html += `<h2>7. שאלות פתוחות ${badge("UNVERIFIED")}</h2>
 </body>
 </html>`;
 
-await writeFile("research/ownership-parcellation/neighborhood-report.html", html);
+await writeFile(
+  "research/ownership-parcellation/neighborhood-report.html",
+  html,
+);
 console.log("HTML written:", html.length, "chars");
 console.log("Done.");

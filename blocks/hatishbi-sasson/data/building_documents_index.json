@@ -1,0 +1,234 @@
+[
+  {
+    "address": "ששון 1",
+    "documents": [
+      {
+        "request_num": 20191027,
+        "url": null,
+        "type": "",
+        "date": 1594080000000,
+        "stage": "בבניה"
+      },
+      {
+        "request_num": 20230998,
+        "url": null,
+        "type": "",
+        "date": 1746712140000,
+        "stage": "בבניה"
+      },
+      {
+        "request_num": 20250863,
+        "url": null,
+        "type": "פירוט המבוקש במרתפים: ללא מרתף\n",
+        "date": 1749481920000,
+        "stage": "בבניה"
+      },
+      {
+        "request_num": 20210567,
+        "url": null,
+        "type": "מספר קומות להריסה (סה\"כ הקומות במבנה או מספר מבנים על המגרש): 1, שטח הריסה (מ\"ר): 52.86, \r\nבמרתפים: מרתף אחד בלבד, אחר: חלל משחקים, \r\nבקומת הקרקע: אחר: ביתן אשפה. בלוני גז שעוני מים ופילר חשמל, \r\nבקומות: כמות קומות מגורים: 3, כמות יח\"ד מבוקשות: 2, \r\nעל הגג: חדרי יציאה, קולטי שמש, \r\nבחצר: גינה, שטחים מרוצפים, גדר בגבולות מגרש בגובה (מטר): 1, \r\n\r\nגן ילדים: קיים ממ\"ד: לא",
+        "date": 1657049880000,
+        "stage": "בבניה"
+      }
+    ],
+    "document_count": 4
+  },
+  {
+    "address": "ששון 2",
+    "documents": [],
+    "document_count": 0
+  },
+  {
+    "address": "ששון 3",
+    "documents": [],
+    "document_count": 0
+  },
+  {
+    "address": "ששון 4",
+    "documents": [],
+    "document_count": 0
+  },
+  {
+    "address": "ששון 5",
+    "documents": [],
+    "document_count": 0
+  },
+  {
+    "address": "ששון 6",
+    "documents": [],
+    "document_count": 0
+  },
+  {
+    "address": "ששון 8",
+    "documents": [],
+    "document_count": 0
+  },
+  {
+    "address": "ששון 10",
+    "documents": [],
+    "document_count": 0
+  },
+  {
+    "address": "ששון 11",
+    "documents": [],
+    "document_count": 0
+  },
+  {
+    "address": "ששון 14",
+    "documents": [],
+    "document_count": 0
+  },
+  {
+    "address": "ששון 15",
+    "documents": [],
+    "document_count": 0
+  },
+  {
+    "address": "ששון 16",
+    "documents": [],
+    "document_count": 0
+  },
+  {
+    "address": "ששון 17",
+    "documents": [
+      {
+        "request_num": 20250863,
+        "url": null,
+        "type": "פירוט המבוקש במרתפים: ללא מרתף\n",
+        "date": 1749481920000,
+        "stage": "בבניה"
+      },
+      {
+        "request_num": 20210567,
+        "url": null,
+        "type": "מספר קומות להריסה (סה\"כ הקומות במבנה או מספר מבנים על המגרש): 1, שטח הריסה (מ\"ר): 52.86, \r\nבמרתפים: מרתף אחד בלבד, אחר: חלל משחקים, \r\nבקומת הקרקע: אחר: ביתן אשפה. בלוני גז שעוני מים ופילר חשמל, \r\nבקומות: כמות קומות מגורים: 3, כמות יח\"ד מבוקשות: 2, \r\nעל הגג: חדרי יציאה, קולטי שמש, \r\nבחצר: גינה, שטחים מרוצפים, גדר בגבולות מגרש בגובה (מטר): 1, \r\n\r\nגן ילדים: קיים ממ\"ד: לא",
+        "date": 1657049880000,
+        "stage": "בבניה"
+      }
+    ],
+    "document_count": 2
+  },
+  {
+    "address": "ששון 18",
+    "documents": [],
+    "document_count": 0
+  },
+  {
+    "address": "ששון 19",
+    "documents": [],
+    "document_count": 0
+  },
+  {
+    "address": "התשבי 1",
+    "documents": [],
+    "document_count": 0
+  },
+  {
+    "address": "התשבי 2",
+    "documents": [],
+    "document_count": 0
+  },
+  {
+    "address": "התשבי 3",
+    "documents": [
+      {
+        "request_num": 20201646,
+        "url": null,
+        "type": "מספר קומות להריסה (סה\"כ הקומות במבנה או מספר מבנים על המגרש): 1, שטח הריסה (מ\"ר): 82.73, \r\nבמרתפים: מרתף אחד בלבד, מחסן, אחר: חלל משחקים, \r\nבקומת הקרקע: אחר: ביתן אשפה. בלוני גז שעוני מים ופילר חשמל, \r\nבקומות: כמות קומות מגורים: 3, כמות יח\"ד מבוקשות: 2, \r\nעל הגג: חדרי יציאה, קולטי שמש, \r\nבחצר: גינה, שטחים מרוצפים, גדר בגבולות מגרש בגובה (מטר): 1, \r\nהעבודות המבוקשות בהיתר אינן כוללות הוספת צובר גז חדש, או העתקה של צובר קיים, \r\nגן ילדים: קיים ממ\"ד: לא",
+        "date": 1671369300000,
+        "stage": "קיים היתר"
+      }
+    ],
+    "document_count": 1
+  },
+  {
+    "address": "התשבי 5",
+    "documents": [],
+    "document_count": 0
+  },
+  {
+    "address": "התשבי 7",
+    "documents": [],
+    "document_count": 0
+  },
+  {
+    "address": "התשבי 8",
+    "documents": [
+      {
+        "request_num": 20191027,
+        "url": null,
+        "type": "",
+        "date": 1594080000000,
+        "stage": "בבניה"
+      },
+      {
+        "request_num": 20230998,
+        "url": null,
+        "type": "",
+        "date": 1746712140000,
+        "stage": "בבניה"
+      }
+    ],
+    "document_count": 2
+  },
+  {
+    "address": "התשבי 9",
+    "documents": [],
+    "document_count": 0
+  },
+  {
+    "address": "התשבי 10",
+    "documents": [],
+    "document_count": 0
+  },
+  {
+    "address": "התשבי 11",
+    "documents": [],
+    "document_count": 0
+  },
+  {
+    "address": "התשבי 12",
+    "documents": [],
+    "document_count": 0
+  },
+  {
+    "address": "התשבי 13",
+    "documents": [],
+    "document_count": 0
+  },
+  {
+    "address": "התשבי 14",
+    "documents": [],
+    "document_count": 0
+  },
+  {
+    "address": "התשבי 15",
+    "documents": [],
+    "document_count": 0
+  },
+  {
+    "address": "התשבי 19",
+    "documents": [],
+    "document_count": 0
+  },
+  {
+    "address": "אצ\"ל 60",
+    "documents": [],
+    "document_count": 0
+  },
+  {
+    "address": "אצ\"ל 62",
+    "documents": [],
+    "document_count": 0
+  },
+  {
+    "address": "אצ\"ל 64",
+    "documents": [],
+    "document_count": 0
+  },
+  {
+    "address": "אצ\"ל 66",
+    "documents": [],
+    "document_count": 0
+  }
+]

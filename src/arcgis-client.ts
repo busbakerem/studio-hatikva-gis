@@ -2,8 +2,10 @@
  * ArcGIS REST API client for Tel Aviv Municipality GIS server.
  */
 
-const BASE_URL = "https://gisn.tel-aviv.gov.il/arcgis/rest/services/IView2/MapServer";
-const WM_BASE_URL = "https://gisn.tel-aviv.gov.il/arcgis/rest/services/WM/IView2WM/MapServer";
+const BASE_URL =
+  "https://gisn.tel-aviv.gov.il/arcgis/rest/services/IView2/MapServer";
+const WM_BASE_URL =
+  "https://gisn.tel-aviv.gov.il/arcgis/rest/services/WM/IView2WM/MapServer";
 
 export interface BBox {
   xmin: number;
@@ -98,9 +100,15 @@ export async function queryLayer(options: QueryOptions): Promise<unknown> {
   return data;
 }
 
-export async function identifyAtPoint(options: PointQueryOptions): Promise<unknown> {
+export async function identifyAtPoint(
+  options: PointQueryOptions,
+): Promise<unknown> {
   // Use individual layer queries with point geometry for more reliable results
-  const results: { layerId: number; layerName?: string; features: unknown[] }[] = [];
+  const results: {
+    layerId: number;
+    layerName?: string;
+    features: unknown[];
+  }[] = [];
 
   for (const layerId of options.layerIds) {
     const params = new URLSearchParams();
@@ -138,12 +146,17 @@ export async function identifyAtPoint(options: PointQueryOptions): Promise<unkno
   return results;
 }
 
-export async function exportMapImage(options: ExportMapOptions): Promise<string> {
+export async function exportMapImage(
+  options: ExportMapOptions,
+): Promise<string> {
   const params = new URLSearchParams();
   const bboxSR = options.bboxSR ?? 2039;
   const size = options.size ?? { width: 1024, height: 1024 };
 
-  params.set("bbox", `${options.bbox.xmin},${options.bbox.ymin},${options.bbox.xmax},${options.bbox.ymax}`);
+  params.set(
+    "bbox",
+    `${options.bbox.xmin},${options.bbox.ymin},${options.bbox.xmax},${options.bbox.ymax}`,
+  );
   params.set("bboxSR", String(bboxSR));
   params.set("imageSR", String(bboxSR));
   params.set("size", `${size.width},${size.height}`);
@@ -184,7 +197,7 @@ interface EsriQueryResult {
 
 function esriGeometryToGeoJSON(
   geom: EsriFeature["geometry"],
-  geometryType?: string
+  geometryType?: string,
 ): unknown {
   if (!geom) return null;
 
@@ -208,7 +221,7 @@ function esriGeometryToGeoJSON(
 
 export async function queryLayerAllFeatures(
   layerId: number,
-  bbox: BBox
+  bbox: BBox,
 ): Promise<GeoJSONCollection> {
   const allFeatures: GeoJSONFeature[] = [];
   let offset = 0;

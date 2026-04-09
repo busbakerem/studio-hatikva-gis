@@ -1,0 +1,4452 @@
+{
+  "scanDate": "2026-04-04T12:57:05.843Z",
+  "parcel": "6135_110",
+  "totalFolders": 15,
+  "uniqueDocuments": 626,
+  "folders": [
+    {
+      "folderId": "38430370",
+      "href": "https://handasa.tel-aviv.gov.il/Pages/searchResultsAnonPageNew.aspx?block=6135_110&folderId=38430370"
+    },
+    {
+      "folderId": "40010640",
+      "href": "https://handasa.tel-aviv.gov.il/Pages/searchResultsAnonPageNew.aspx?block=6135_110&folderId=40010640"
+    },
+    {
+      "folderId": "40470030",
+      "href": "https://handasa.tel-aviv.gov.il/Pages/searchResultsAnonPageNew.aspx?block=6135_110&folderId=40470030"
+    },
+    {
+      "folderId": "40470070",
+      "href": "https://handasa.tel-aviv.gov.il/Pages/searchResultsAnonPageNew.aspx?block=6135_110&folderId=40470070"
+    },
+    {
+      "folderId": "40470110",
+      "href": "https://handasa.tel-aviv.gov.il/Pages/searchResultsAnonPageNew.aspx?block=6135_110&folderId=40470110"
+    },
+    {
+      "folderId": "40470130",
+      "href": "https://handasa.tel-aviv.gov.il/Pages/searchResultsAnonPageNew.aspx?block=6135_110&folderId=40470130"
+    },
+    {
+      "folderId": "40470150",
+      "href": "https://handasa.tel-aviv.gov.il/Pages/searchResultsAnonPageNew.aspx?block=6135_110&folderId=40470150"
+    },
+    {
+      "folderId": "40470170",
+      "href": "https://handasa.tel-aviv.gov.il/Pages/searchResultsAnonPageNew.aspx?block=6135_110&folderId=40470170"
+    },
+    {
+      "folderId": "40470190",
+      "href": "https://handasa.tel-aviv.gov.il/Pages/searchResultsAnonPageNew.aspx?block=6135_110&folderId=40470190"
+    },
+    {
+      "folderId": "40470210",
+      "href": "https://handasa.tel-aviv.gov.il/Pages/searchResultsAnonPageNew.aspx?block=6135_110&folderId=40470210"
+    },
+    {
+      "folderId": "40470250",
+      "href": "https://handasa.tel-aviv.gov.il/Pages/searchResultsAnonPageNew.aspx?block=6135_110&folderId=40470250"
+    },
+    {
+      "folderId": "40470270",
+      "href": "https://handasa.tel-aviv.gov.il/Pages/searchResultsAnonPageNew.aspx?block=6135_110&folderId=40470270"
+    },
+    {
+      "folderId": "40470290",
+      "href": "https://handasa.tel-aviv.gov.il/Pages/searchResultsAnonPageNew.aspx?block=6135_110&folderId=40470290"
+    },
+    {
+      "folderId": "40480100",
+      "href": "https://handasa.tel-aviv.gov.il/Pages/searchResultsAnonPageNew.aspx?block=6135_110&folderId=40480100"
+    },
+    {
+      "folderId": "40480160",
+      "href": "https://handasa.tel-aviv.gov.il/Pages/searchResultsAnonPageNew.aspx?block=6135_110&folderId=40480160"
+    }
+  ],
+  "documents": [
+    {
+      "folderId": "38430370",
+      "title": "בקשה להתקנת ביתן אשפה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=4F48C3F3-B2FA-4C43-BA6B-6ECFA8929A3B",
+      "docId": "4F48C3F3-B2FA-4C43-BA6B-6ECFA8929A3B",
+      "date": "13/6/2017"
+    },
+    {
+      "folderId": "38430370",
+      "title": "החלטת ועדה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=80A66E4F-563D-4B54-9AC5-B9132E581584",
+      "docId": "80A66E4F-563D-4B54-9AC5-B9132E581584",
+      "date": "28/4/2017"
+    },
+    {
+      "folderId": "38430370",
+      "title": "טופס 4",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=A6CD592B-246D-4B48-9271-188057DA8DB8",
+      "docId": "A6CD592B-246D-4B48-9271-188057DA8DB8",
+      "date": "18/11/2002"
+    },
+    {
+      "folderId": "38430370",
+      "title": "טופס 4",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=6004FCA5-6524-4D93-B4A5-A4B0E3358AB0",
+      "docId": "6004FCA5-6524-4D93-B4A5-A4B0E3358AB0",
+      "date": "18/11/2002"
+    },
+    {
+      "folderId": "38430370",
+      "title": "תעודת גמר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=9105AC94-A9FF-466F-A3A0-75791944C8C6",
+      "docId": "9105AC94-A9FF-466F-A3A0-75791944C8C6",
+      "date": "18/11/2002"
+    },
+    {
+      "folderId": "38430370",
+      "title": "תעודת גמר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=CFF41796-C63A-463C-91A7-20AF4CE8EC43",
+      "docId": "CFF41796-C63A-463C-91A7-20AF4CE8EC43",
+      "date": "18/11/2002"
+    },
+    {
+      "folderId": "38430370",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=2B71D902-2D6F-4C9C-8135-467EF24B2942",
+      "docId": "2B71D902-2D6F-4C9C-8135-467EF24B2942",
+      "date": "17/11/2002"
+    },
+    {
+      "folderId": "38430370",
+      "title": "תיק תעודת גמר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=3A89E255-6EFF-47A1-A5B0-58EA707ADF8C",
+      "docId": "3A89E255-6EFF-47A1-A5B0-58EA707ADF8C",
+      "date": "17/11/2002"
+    },
+    {
+      "folderId": "38430370",
+      "title": "תיק תעודת גמר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=0B4F3D48-97B4-44CC-A846-160AEF99DDB9",
+      "docId": "0B4F3D48-97B4-44CC-A846-160AEF99DDB9",
+      "date": "17/11/2002"
+    },
+    {
+      "folderId": "38430370",
+      "title": "תיק תעודת גמר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=D9D2ADFD-192B-4A7F-A7D3-A2AA7B5C6046",
+      "docId": "D9D2ADFD-192B-4A7F-A7D3-A2AA7B5C6046",
+      "date": "17/11/2002"
+    },
+    {
+      "folderId": "38430370",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=49423F35-8DC2-4240-9DAB-EF4818B76D5D",
+      "docId": "49423F35-8DC2-4240-9DAB-EF4818B76D5D",
+      "date": "3/11/2002"
+    },
+    {
+      "folderId": "38430370",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=7C38D12D-AEB8-43B4-8246-6E29763959E8",
+      "docId": "7C38D12D-AEB8-43B4-8246-6E29763959E8",
+      "date": "15/4/2002"
+    },
+    {
+      "folderId": "38430370",
+      "title": "תיק תעודת גמר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=1E7C1CA6-309C-4D1C-98F2-DCB36C07128D",
+      "docId": "1E7C1CA6-309C-4D1C-98F2-DCB36C07128D",
+      "date": "14/4/2002"
+    },
+    {
+      "folderId": "38430370",
+      "title": "תיק תעודת גמר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=2161E771-5A72-4070-95D7-8ED814A09E83",
+      "docId": "2161E771-5A72-4070-95D7-8ED814A09E83",
+      "date": "4/4/2002"
+    },
+    {
+      "folderId": "38430370",
+      "title": "חשבון יציבות,תצהיר מהנדס",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=C34FE481-38AD-4002-A6EF-5E276E346663",
+      "docId": "C34FE481-38AD-4002-A6EF-5E276E346663",
+      "date": "28/1/2002"
+    },
+    {
+      "folderId": "38430370",
+      "title": "היתר-תכנית חתומה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=6504B7CE-D824-45DD-8B46-F404408AFCA2",
+      "docId": "6504B7CE-D824-45DD-8B46-F404408AFCA2",
+      "date": "26/1/2002"
+    },
+    {
+      "folderId": "38430370",
+      "title": "תיק תעודת גמר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=E5A6F840-FC97-4AE7-9377-4ED459D71C04",
+      "docId": "E5A6F840-FC97-4AE7-9377-4ED459D71C04",
+      "date": "10/1/2002"
+    },
+    {
+      "folderId": "38430370",
+      "title": "היתר מילולי חתום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=26181437-020F-4092-B7CF-C31D00AF9E95",
+      "docId": "26181437-020F-4092-B7CF-C31D00AF9E95",
+      "date": "3/1/2002"
+    },
+    {
+      "folderId": "38430370",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=9E21832C-021A-4D81-A086-F163D99E8152",
+      "docId": "9E21832C-021A-4D81-A086-F163D99E8152",
+      "date": "1/1/2002"
+    },
+    {
+      "folderId": "38430370",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=71C417D5-6457-4420-89B0-E2BAE4BD730D",
+      "docId": "71C417D5-6457-4420-89B0-E2BAE4BD730D",
+      "date": "1/1/2002"
+    },
+    {
+      "folderId": "38430370",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=20E1D931-5E59-465D-BBD7-8638DC67EA7D",
+      "docId": "20E1D931-5E59-465D-BBD7-8638DC67EA7D",
+      "date": "1/1/2002"
+    },
+    {
+      "folderId": "38430370",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=EA84E6FC-4628-46F5-A0D3-B2F6694699BE",
+      "docId": "EA84E6FC-4628-46F5-A0D3-B2F6694699BE",
+      "date": "31/12/2001"
+    },
+    {
+      "folderId": "38430370",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=4F616CCA-0573-4232-B0D0-CBAC7E5E0BF1",
+      "docId": "4F616CCA-0573-4232-B0D0-CBAC7E5E0BF1",
+      "date": "31/12/2001"
+    },
+    {
+      "folderId": "38430370",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=17B239CA-1F76-4A0E-8651-DF1B6A59B321",
+      "docId": "17B239CA-1F76-4A0E-8651-DF1B6A59B321",
+      "date": "31/12/2001"
+    },
+    {
+      "folderId": "38430370",
+      "title": "בקשה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=C4BE0EEF-21D8-411B-BDA9-CFBBFEDE279F",
+      "docId": "C4BE0EEF-21D8-411B-BDA9-CFBBFEDE279F",
+      "date": "20/11/2001"
+    },
+    {
+      "folderId": "38430370",
+      "title": "ועדת ערר,ועדת משנה,רשות רישוי,ועדה מחוזית",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=B7A23B18-9663-4F02-BBCC-28FFE25779A9",
+      "docId": "B7A23B18-9663-4F02-BBCC-28FFE25779A9",
+      "date": "11/11/2001"
+    },
+    {
+      "folderId": "38430370",
+      "title": "ועדת ערר,ועדת משנה,רשות רישוי,ועדה מחוזית",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=2A7E5FC4-E5CA-4E9D-9E4D-3E772B401769",
+      "docId": "2A7E5FC4-E5CA-4E9D-9E4D-3E772B401769",
+      "date": "10/7/2001"
+    },
+    {
+      "folderId": "38430370",
+      "title": "ועדת ערר,ועדת משנה,רשות רישוי,ועדה מחוזית",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=07BDEA56-62A8-46F6-A606-329113F304ED",
+      "docId": "07BDEA56-62A8-46F6-A606-329113F304ED",
+      "date": "10/7/2001"
+    },
+    {
+      "folderId": "38430370",
+      "title": "ועדת ערר,ועדת משנה,רשות רישוי,ועדה מחוזית",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=AD755BDF-980F-4C11-9D51-6B1EB75EC34E",
+      "docId": "AD755BDF-980F-4C11-9D51-6B1EB75EC34E",
+      "date": "10/7/2001"
+    },
+    {
+      "folderId": "38430370",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=3552C65B-0659-4FFF-BB9E-7BAE28083C6F",
+      "docId": "3552C65B-0659-4FFF-BB9E-7BAE28083C6F",
+      "date": "9/7/2001"
+    },
+    {
+      "folderId": "38430370",
+      "title": "רישוי-אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=D6F8159B-B702-48EA-BA13-10DC22DB093E",
+      "docId": "D6F8159B-B702-48EA-BA13-10DC22DB093E",
+      "date": "9/7/2001"
+    },
+    {
+      "folderId": "38430370",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=F329D804-0856-4012-B4CA-74AA66EBE4DD",
+      "docId": "F329D804-0856-4012-B4CA-74AA66EBE4DD",
+      "date": "9/7/2001"
+    },
+    {
+      "folderId": "38430370",
+      "title": "בקשה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=2FB97487-1CD5-4A1C-A9EA-3BCE34406EAE",
+      "docId": "2FB97487-1CD5-4A1C-A9EA-3BCE34406EAE",
+      "date": "9/7/2001"
+    },
+    {
+      "folderId": "38430370",
+      "title": "בקשה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=07411A9E-9A0E-4777-8C5A-3713C6B85591",
+      "docId": "07411A9E-9A0E-4777-8C5A-3713C6B85591",
+      "date": "9/7/2001"
+    },
+    {
+      "folderId": "38430370",
+      "title": "חשבון יציבות,תצהיר מהנדס",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=70E84BFF-93DD-4138-9F5A-524CF5084BC4",
+      "docId": "70E84BFF-93DD-4138-9F5A-524CF5084BC4",
+      "date": "9/7/2001"
+    },
+    {
+      "folderId": "38430370",
+      "title": "תוכניות לא חתומות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=F1BBFB97-85EA-4FD2-81C9-E235135FD098",
+      "docId": "F1BBFB97-85EA-4FD2-81C9-E235135FD098",
+      "date": "1/7/2001"
+    },
+    {
+      "folderId": "38430370",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=B5573570-4325-48C3-851C-2EE23284CF39",
+      "docId": "B5573570-4325-48C3-851C-2EE23284CF39",
+      "date": "1/7/2001"
+    },
+    {
+      "folderId": "38430370",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=39739BB7-5575-44C1-A1C1-72D1631676BB",
+      "docId": "39739BB7-5575-44C1-A1C1-72D1631676BB",
+      "date": "22/6/2001"
+    },
+    {
+      "folderId": "38430370",
+      "title": "חשבון יציבות,תצהיר מהנדס",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=475C2500-41CD-497A-BEC5-459A1DAD323A",
+      "docId": "475C2500-41CD-497A-BEC5-459A1DAD323A",
+      "date": "15/6/2001"
+    },
+    {
+      "folderId": "38430370",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=C93BB70B-E6EF-4462-A11D-8DFD904665CA",
+      "docId": "C93BB70B-E6EF-4462-A11D-8DFD904665CA",
+      "date": "22/6/1999"
+    },
+    {
+      "folderId": "38430370",
+      "title": "חשבון יציבות,תצהיר מהנדס",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=B74B6ADE-4F40-4940-AFFF-0D9CB27F348C",
+      "docId": "B74B6ADE-4F40-4940-AFFF-0D9CB27F348C",
+      "date": "11/5/1999"
+    },
+    {
+      "folderId": "38430370",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=26761945-02F7-4334-A971-A61CA0F97EDA",
+      "docId": "26761945-02F7-4334-A971-A61CA0F97EDA",
+      "date": "12/4/1999"
+    },
+    {
+      "folderId": "38430370",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=016EE674-48E8-4B27-8A13-5EC12F58AF80",
+      "docId": "016EE674-48E8-4B27-8A13-5EC12F58AF80",
+      "date": "8/4/1999"
+    },
+    {
+      "folderId": "38430370",
+      "title": "חשבון יציבות,תצהיר מהנדס",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=79BB5401-53FC-4145-ACF7-601CEE626431",
+      "docId": "79BB5401-53FC-4145-ACF7-601CEE626431",
+      "date": "23/3/1999"
+    },
+    {
+      "folderId": "38430370",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=CF5B8FB6-D47F-4DEC-8987-EFD5A07A5B4A",
+      "docId": "CF5B8FB6-D47F-4DEC-8987-EFD5A07A5B4A",
+      "date": "11/3/1999"
+    },
+    {
+      "folderId": "38430370",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=35B17728-EA4B-4E3E-9C88-541B3A544225",
+      "docId": "35B17728-EA4B-4E3E-9C88-541B3A544225",
+      "date": "11/3/1999"
+    },
+    {
+      "folderId": "38430370",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=1E72AE7C-5BEC-403C-B22C-A62E509E6914",
+      "docId": "1E72AE7C-5BEC-403C-B22C-A62E509E6914",
+      "date": "11/3/1999"
+    },
+    {
+      "folderId": "38430370",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=0751D218-CB57-4DB2-B4D4-E93B1656B2C4",
+      "docId": "0751D218-CB57-4DB2-B4D4-E93B1656B2C4",
+      "date": "11/3/1999"
+    },
+    {
+      "folderId": "38430370",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=3AC8326E-322A-45C3-A011-D98E636AD217",
+      "docId": "3AC8326E-322A-45C3-A011-D98E636AD217",
+      "date": "9/3/1999"
+    },
+    {
+      "folderId": "38430370",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=988BC2CB-C159-4545-8EAD-4BC82DD1EA64",
+      "docId": "988BC2CB-C159-4545-8EAD-4BC82DD1EA64",
+      "date": "8/3/1999"
+    },
+    {
+      "folderId": "40010640",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=95093393-A2C1-4ED9-B536-C7E69109E993",
+      "docId": "95093393-A2C1-4ED9-B536-C7E69109E993",
+      "date": "8/7/2014"
+    },
+    {
+      "folderId": "40010640",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=C2576101-757A-4594-A821-FBFB0F531139",
+      "docId": "C2576101-757A-4594-A821-FBFB0F531139",
+      "date": "27/3/2014"
+    },
+    {
+      "folderId": "40010640",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=AF6C799F-547C-4BF7-8122-2AD8EA744CC0",
+      "docId": "AF6C799F-547C-4BF7-8122-2AD8EA744CC0",
+      "date": "20/3/2014"
+    },
+    {
+      "folderId": "40010640",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=33E6B731-8E5C-4205-B414-EFEED15C7C5B",
+      "docId": "33E6B731-8E5C-4205-B414-EFEED15C7C5B",
+      "date": "14/5/2009"
+    },
+    {
+      "folderId": "40010640",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=4B4BB254-920B-4587-B0A3-1F551983AC23",
+      "docId": "4B4BB254-920B-4587-B0A3-1F551983AC23",
+      "date": "26/4/2009"
+    },
+    {
+      "folderId": "40010640",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=8B06617F-8741-4451-B042-B5F9ACEBBC88",
+      "docId": "8B06617F-8741-4451-B042-B5F9ACEBBC88",
+      "date": "16/1/2009"
+    },
+    {
+      "folderId": "40010640",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=47A91C67-09D0-4CE9-9314-50CF5AB40589",
+      "docId": "47A91C67-09D0-4CE9-9314-50CF5AB40589",
+      "date": "1/1/2009"
+    },
+    {
+      "folderId": "40010640",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=51FBCEE1-B258-4E35-98A5-087C59F37EDB",
+      "docId": "51FBCEE1-B258-4E35-98A5-087C59F37EDB",
+      "date": "30/12/2008"
+    },
+    {
+      "folderId": "40010640",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=172DF62D-7630-4750-85E5-699BA9753131",
+      "docId": "172DF62D-7630-4750-85E5-699BA9753131",
+      "date": "30/12/2008"
+    },
+    {
+      "folderId": "40010640",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=ECFFCC3A-6BFB-45FF-B7FB-207AFF3C06EE",
+      "docId": "ECFFCC3A-6BFB-45FF-B7FB-207AFF3C06EE",
+      "date": "30/12/2008"
+    },
+    {
+      "folderId": "40010640",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=5B29F0F3-6798-4608-8AE2-9C656A02F273",
+      "docId": "5B29F0F3-6798-4608-8AE2-9C656A02F273",
+      "date": "30/12/2008"
+    },
+    {
+      "folderId": "40010640",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=DE60C2A7-B2FF-42BD-A908-B616920547C8",
+      "docId": "DE60C2A7-B2FF-42BD-A908-B616920547C8",
+      "date": "29/12/2008"
+    },
+    {
+      "folderId": "40010640",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=BCC96B6C-DB62-456F-9F38-D18EBFB7764F",
+      "docId": "BCC96B6C-DB62-456F-9F38-D18EBFB7764F",
+      "date": "29/12/2008"
+    },
+    {
+      "folderId": "40010640",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=B02E443F-DE72-49CA-8EF0-FC18642C5F3B",
+      "docId": "B02E443F-DE72-49CA-8EF0-FC18642C5F3B",
+      "date": "29/12/2008"
+    },
+    {
+      "folderId": "40010640",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=F7F189DF-4A51-4671-9666-188928C9CA77",
+      "docId": "F7F189DF-4A51-4671-9666-188928C9CA77",
+      "date": "29/12/2008"
+    },
+    {
+      "folderId": "40010640",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=39AEDA21-786E-48A2-8CF4-EA2D2F974D5B",
+      "docId": "39AEDA21-786E-48A2-8CF4-EA2D2F974D5B",
+      "date": "29/12/2008"
+    },
+    {
+      "folderId": "40010640",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=C1A19039-97F3-4407-BA73-BDC99CEA7F86",
+      "docId": "C1A19039-97F3-4407-BA73-BDC99CEA7F86",
+      "date": "29/12/2008"
+    },
+    {
+      "folderId": "40010640",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=E98D2871-5EFF-46E7-ADF7-9E5D69C75AA1",
+      "docId": "E98D2871-5EFF-46E7-ADF7-9E5D69C75AA1",
+      "date": "29/12/2008"
+    },
+    {
+      "folderId": "40010640",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=8EEEC1A0-5F8C-416A-B55F-9829BF487790",
+      "docId": "8EEEC1A0-5F8C-416A-B55F-9829BF487790",
+      "date": "29/12/2008"
+    },
+    {
+      "folderId": "40010640",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=7C293681-1801-493E-A230-D9F9B47DD26D",
+      "docId": "7C293681-1801-493E-A230-D9F9B47DD26D",
+      "date": "29/12/2008"
+    },
+    {
+      "folderId": "40010640",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=8B9DCE39-7C77-4461-B7B2-739DD367F276",
+      "docId": "8B9DCE39-7C77-4461-B7B2-739DD367F276",
+      "date": "29/12/2008"
+    },
+    {
+      "folderId": "40010640",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=9CB5A9B6-9176-4A3C-8144-B0A437ED21D0",
+      "docId": "9CB5A9B6-9176-4A3C-8144-B0A437ED21D0",
+      "date": "24/12/2008"
+    },
+    {
+      "folderId": "40010640",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=C6AB9811-BA30-407A-8EEF-2AA359D459C2",
+      "docId": "C6AB9811-BA30-407A-8EEF-2AA359D459C2",
+      "date": "16/2/2005"
+    },
+    {
+      "folderId": "40010640",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=14E2FAAE-4DAC-443D-826B-B3B07CAB085B",
+      "docId": "14E2FAAE-4DAC-443D-826B-B3B07CAB085B",
+      "date": "18/5/1999"
+    },
+    {
+      "folderId": "40010640",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=8BA5C2C3-A677-4031-9378-94C1DD234C57",
+      "docId": "8BA5C2C3-A677-4031-9378-94C1DD234C57",
+      "date": "7/6/1996"
+    },
+    {
+      "folderId": "40010640",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=AC80C386-17BC-4DDA-9A43-84D783278FAA",
+      "docId": "AC80C386-17BC-4DDA-9A43-84D783278FAA",
+      "date": "4/6/1996"
+    },
+    {
+      "folderId": "40010640",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=AA2AAA09-AA4F-4363-ACBF-7477F97AEFEE",
+      "docId": "AA2AAA09-AA4F-4363-ACBF-7477F97AEFEE",
+      "date": "4/6/1996"
+    },
+    {
+      "folderId": "40010640",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=1A3EE772-CA8F-481F-A9C6-6C025FE78731",
+      "docId": "1A3EE772-CA8F-481F-A9C6-6C025FE78731",
+      "date": "4/6/1996"
+    },
+    {
+      "folderId": "40010640",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=4244C147-6447-4187-A46A-DDDF4EA9C317",
+      "docId": "4244C147-6447-4187-A46A-DDDF4EA9C317",
+      "date": "4/6/1996"
+    },
+    {
+      "folderId": "40010640",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=918F836B-A3D1-411C-8A28-85CD0FDD5C59",
+      "docId": "918F836B-A3D1-411C-8A28-85CD0FDD5C59",
+      "date": "28/5/1996"
+    },
+    {
+      "folderId": "40010640",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=A1C645CF-FE66-4919-A425-182D12CA43EC",
+      "docId": "A1C645CF-FE66-4919-A425-182D12CA43EC",
+      "date": "28/5/1996"
+    },
+    {
+      "folderId": "40010640",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=D6446C8B-43D2-49EC-8E0B-BB334DF04ADC",
+      "docId": "D6446C8B-43D2-49EC-8E0B-BB334DF04ADC",
+      "date": "28/5/1996"
+    },
+    {
+      "folderId": "40010640",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=76ED25F5-3156-438B-9635-B982BC53AFDD",
+      "docId": "76ED25F5-3156-438B-9635-B982BC53AFDD",
+      "date": "28/5/1996"
+    },
+    {
+      "folderId": "40010640",
+      "title": "רישוי עסקים-כללי",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=372EC21F-4B74-4C94-91D6-2FC4AD5BFFBD",
+      "docId": "372EC21F-4B74-4C94-91D6-2FC4AD5BFFBD",
+      "date": "8/5/1996"
+    },
+    {
+      "folderId": "40010640",
+      "title": "מפות מדידה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=677B43DC-08F0-4FC3-AC46-CFF8445A0251",
+      "docId": "677B43DC-08F0-4FC3-AC46-CFF8445A0251",
+      "date": "27/12/1993"
+    },
+    {
+      "folderId": "40010640",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=3E0B9891-7803-4AED-B177-540861A94D81",
+      "docId": "3E0B9891-7803-4AED-B177-540861A94D81",
+      "date": "9/12/1993"
+    },
+    {
+      "folderId": "40010640",
+      "title": "מפות מדידה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=5C13CE46-318F-426A-9857-0C4DFC6A5029",
+      "docId": "5C13CE46-318F-426A-9857-0C4DFC6A5029",
+      "date": "25/11/1993"
+    },
+    {
+      "folderId": "40010640",
+      "title": "מפות מדידה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=2141FDED-A9DE-43EA-A6DB-DAE936313582",
+      "docId": "2141FDED-A9DE-43EA-A6DB-DAE936313582",
+      "date": "25/11/1993"
+    },
+    {
+      "folderId": "40010640",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=DFF503E9-6B46-46BA-96CB-9275C945A633",
+      "docId": "DFF503E9-6B46-46BA-96CB-9275C945A633",
+      "date": "18/1/1993"
+    },
+    {
+      "folderId": "40010640",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=71CEDB2F-EFFB-4AD0-A241-31CC56B15B46",
+      "docId": "71CEDB2F-EFFB-4AD0-A241-31CC56B15B46",
+      "date": "18/1/1993"
+    },
+    {
+      "folderId": "40010640",
+      "title": "רישוי עסקים-כללי",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=8EE9CCA8-F942-4605-BB8A-AC950273D9E1",
+      "docId": "8EE9CCA8-F942-4605-BB8A-AC950273D9E1",
+      "date": "17/9/1992"
+    },
+    {
+      "folderId": "40010640",
+      "title": "רישוי עסקים-כללי",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=36537B85-0E83-43B0-B04A-55AFA02DC7C9",
+      "docId": "36537B85-0E83-43B0-B04A-55AFA02DC7C9",
+      "date": "21/5/1990"
+    },
+    {
+      "folderId": "40010640",
+      "title": "רישוי עסקים-כללי",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=7778CD29-CF2A-4340-97AA-E78A6947923D",
+      "docId": "7778CD29-CF2A-4340-97AA-E78A6947923D",
+      "date": "26/4/1990"
+    },
+    {
+      "folderId": "40010640",
+      "title": "רישוי עסקים-כללי",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=3C8E69CB-63F4-4B92-BA26-4D5F578A2E4F",
+      "docId": "3C8E69CB-63F4-4B92-BA26-4D5F578A2E4F",
+      "date": "17/4/1990"
+    },
+    {
+      "folderId": "40010640",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=8E260F73-5A08-4A01-A205-6926160BF454",
+      "docId": "8E260F73-5A08-4A01-A205-6926160BF454",
+      "date": "10/9/1989"
+    },
+    {
+      "folderId": "40010640",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=EA2FFD0A-EB46-4AE8-A086-3EF4275229C4",
+      "docId": "EA2FFD0A-EB46-4AE8-A086-3EF4275229C4",
+      "date": "10/9/1989"
+    },
+    {
+      "folderId": "40010640",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=A97104B5-E5C6-4D1F-8940-FBF87D807D47",
+      "docId": "A97104B5-E5C6-4D1F-8940-FBF87D807D47",
+      "date": "10/9/1989"
+    },
+    {
+      "folderId": "40010640",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=C45AA78C-69EE-400A-AEFB-3C99F6AAAB68",
+      "docId": "C45AA78C-69EE-400A-AEFB-3C99F6AAAB68",
+      "date": "10/9/1989"
+    },
+    {
+      "folderId": "40010640",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=0F57C491-ACA8-413B-8B21-D0ADC03B8921",
+      "docId": "0F57C491-ACA8-413B-8B21-D0ADC03B8921",
+      "date": "10/9/1989"
+    },
+    {
+      "folderId": "40010640",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=3041BF31-EEED-4684-BAB7-8BE331737A86",
+      "docId": "3041BF31-EEED-4684-BAB7-8BE331737A86",
+      "date": "15/6/1989"
+    },
+    {
+      "folderId": "40470030",
+      "title": "היתר (תכנית ומילולי) חתום דיגיטלית",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=B57CA754-F5DD-4A8C-A417-86C95F1E0194",
+      "docId": "B57CA754-F5DD-4A8C-A417-86C95F1E0194",
+      "date": "18/12/2022"
+    },
+    {
+      "folderId": "40470030",
+      "title": "תקנה 27-תשריט לטאבו",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=326CE360-C67E-4A7E-83CE-C716BE4F57AC",
+      "docId": "326CE360-C67E-4A7E-83CE-C716BE4F57AC",
+      "date": "18/12/2022"
+    },
+    {
+      "folderId": "40470030",
+      "title": "טופס חתום של הבקשה להיתר – אחרי ועדה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=CD5BFCCD-323E-442A-832F-774EF425BD42",
+      "docId": "CD5BFCCD-323E-442A-832F-774EF425BD42",
+      "date": "9/3/2022"
+    },
+    {
+      "folderId": "40470030",
+      "title": "נספח תברואה-ביוב",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=DB12D3C8-F156-48A6-8E99-9C8B6B0CA6E5",
+      "docId": "DB12D3C8-F156-48A6-8E99-9C8B6B0CA6E5",
+      "date": "21/11/2021"
+    },
+    {
+      "folderId": "40470030",
+      "title": "נספח יציבות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=CD79C847-D2AF-4E10-9BB6-62362C66FEC2",
+      "docId": "CD79C847-D2AF-4E10-9BB6-62362C66FEC2",
+      "date": "5/9/2021"
+    },
+    {
+      "folderId": "40470030",
+      "title": "מסמכי בטיחות אש – אחרי ועדה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=B7FBDB7E-4404-40A2-B1A2-00F4A28C660C",
+      "docId": "B7FBDB7E-4404-40A2-B1A2-00F4A28C660C",
+      "date": "11/8/2021"
+    },
+    {
+      "folderId": "40470030",
+      "title": "מסמכי בטיחות אש – אחרי ועדה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=BFDD8620-F681-45AF-9A3B-9A2D3C3D987D",
+      "docId": "BFDD8620-F681-45AF-9A3B-9A2D3C3D987D",
+      "date": "11/8/2021"
+    },
+    {
+      "folderId": "40470030",
+      "title": "אישור פיקוד העורף אחרי ועדה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=E4EBB0B4-E8C8-44A4-A378-0C437683B1CB",
+      "docId": "E4EBB0B4-E8C8-44A4-A378-0C437683B1CB",
+      "date": "11/8/2021"
+    },
+    {
+      "folderId": "40470030",
+      "title": "רישום לפי תקנה 27",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=24C06612-8513-4784-9D70-16D2CF1B1BDF",
+      "docId": "24C06612-8513-4784-9D70-16D2CF1B1BDF",
+      "date": "8/8/2021"
+    },
+    {
+      "folderId": "40470030",
+      "title": "תכנית מתוקנת (אדריכלות)",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=0F611C82-4C18-4344-AAB9-174630C7F4C1",
+      "docId": "0F611C82-4C18-4344-AAB9-174630C7F4C1",
+      "date": "14/6/2021"
+    },
+    {
+      "folderId": "40470030",
+      "title": "נספח אשפה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=42CF4322-BC59-4A5D-B6D4-5232AB60EEB6",
+      "docId": "42CF4322-BC59-4A5D-B6D4-5232AB60EEB6",
+      "date": "14/6/2021"
+    },
+    {
+      "folderId": "40470030",
+      "title": "תיק מידע",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=0458E71E-A7BC-4483-AD5E-1FD00EEA67F8",
+      "docId": "0458E71E-A7BC-4483-AD5E-1FD00EEA67F8",
+      "date": "22/9/2020"
+    },
+    {
+      "folderId": "40470030",
+      "title": "תיק מידע",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=598FDECA-7D18-4E9D-8D0B-69AB716C0B50",
+      "docId": "598FDECA-7D18-4E9D-8D0B-69AB716C0B50",
+      "date": "22/9/2020"
+    },
+    {
+      "folderId": "40470030",
+      "title": "מפת מדידה להיתר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=6B91D052-2182-411C-B6B9-0EED81A57B95",
+      "docId": "6B91D052-2182-411C-B6B9-0EED81A57B95",
+      "date": "22/9/2020"
+    },
+    {
+      "folderId": "40470030",
+      "title": "מסמכי חשמל",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=33032038-B2DB-4E3E-A5CF-E94577BC14FC",
+      "docId": "33032038-B2DB-4E3E-A5CF-E94577BC14FC",
+      "date": "17/6/2020"
+    },
+    {
+      "folderId": "40470030",
+      "title": "נספח אשפה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=77696D3B-4C1C-4792-9A9B-1E525E46B27F",
+      "docId": "77696D3B-4C1C-4792-9A9B-1E525E46B27F",
+      "date": "16/6/2020"
+    },
+    {
+      "folderId": "40470030",
+      "title": "נספח גנים ונוף",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=868EC564-C711-4D21-A2DC-3B48719EAA50",
+      "docId": "868EC564-C711-4D21-A2DC-3B48719EAA50",
+      "date": "16/6/2020"
+    },
+    {
+      "folderId": "40470030",
+      "title": "נספח תנועה וחניה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=FE6B5815-B1EF-416B-8C2E-C8A4D6EC5E58",
+      "docId": "FE6B5815-B1EF-416B-8C2E-C8A4D6EC5E58",
+      "date": "16/6/2020"
+    },
+    {
+      "folderId": "40470030",
+      "title": "נספח תנועה וחניה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=7E1ADA8E-A6B4-4D55-A43F-23DDD3338444",
+      "docId": "7E1ADA8E-A6B4-4D55-A43F-23DDD3338444",
+      "date": "16/6/2020"
+    },
+    {
+      "folderId": "40470030",
+      "title": "מסמכי חשמל",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=2595587A-8D66-4232-9D11-F35D01DC7EAB",
+      "docId": "2595587A-8D66-4232-9D11-F35D01DC7EAB",
+      "date": "16/6/2020"
+    },
+    {
+      "folderId": "40470030",
+      "title": "חישוב שטחים",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=4756A899-CE92-438D-A2A8-A954F37CA7A9",
+      "docId": "4756A899-CE92-438D-A2A8-A954F37CA7A9",
+      "date": "29/4/2020"
+    },
+    {
+      "folderId": "40470030",
+      "title": "החלטת ועדה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=AD88974B-8F01-4190-B414-A33CDEFE5A10",
+      "docId": "AD88974B-8F01-4190-B414-A33CDEFE5A10",
+      "date": "27/4/2017"
+    },
+    {
+      "folderId": "40470030",
+      "title": "תיק מידע",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=810A998F-1D1E-4C5A-B663-662DBA33CA55",
+      "docId": "810A998F-1D1E-4C5A-B663-662DBA33CA55",
+      "date": "29/5/2008"
+    },
+    {
+      "folderId": "40470030",
+      "title": "מפות מדידה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=A935B99E-7845-43B5-B7E7-5CEB7220E1C6",
+      "docId": "A935B99E-7845-43B5-B7E7-5CEB7220E1C6",
+      "date": "25/5/2008"
+    },
+    {
+      "folderId": "40470030",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=D0543168-BF00-4DCA-A870-D2F9D480C6CD",
+      "docId": "D0543168-BF00-4DCA-A870-D2F9D480C6CD",
+      "date": "30/4/2008"
+    },
+    {
+      "folderId": "40470030",
+      "title": "תיק מידע",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=74355579-71E3-42DB-AC86-BE1705B2099A",
+      "docId": "74355579-71E3-42DB-AC86-BE1705B2099A",
+      "date": "28/4/2008"
+    },
+    {
+      "folderId": "40470030",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=B85A4974-D6FC-4CA4-A43B-4226FB5BB9CF",
+      "docId": "B85A4974-D6FC-4CA4-A43B-4226FB5BB9CF",
+      "date": "16/9/2007"
+    },
+    {
+      "folderId": "40470030",
+      "title": "תיק מידע",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=33CF9EBE-F291-4CC9-9041-923392CEF65E",
+      "docId": "33CF9EBE-F291-4CC9-9041-923392CEF65E",
+      "date": "7/11/2001"
+    },
+    {
+      "folderId": "40470030",
+      "title": "תיק מידע",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=4C7D6B34-E3F5-4B83-87E3-E9C21548F63C",
+      "docId": "4C7D6B34-E3F5-4B83-87E3-E9C21548F63C",
+      "date": "5/11/2001"
+    },
+    {
+      "folderId": "40470030",
+      "title": "תיק מידע",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=D337F917-F53F-4D49-8348-35C26321A000",
+      "docId": "D337F917-F53F-4D49-8348-35C26321A000",
+      "date": "5/11/2001"
+    },
+    {
+      "folderId": "40470030",
+      "title": "תיק מידע",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=00E45C6D-A5DE-4857-B997-2A41BD98A372",
+      "docId": "00E45C6D-A5DE-4857-B997-2A41BD98A372",
+      "date": "31/10/2001"
+    },
+    {
+      "folderId": "40470030",
+      "title": "תיק מידע",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=BD696FF5-9B2E-4550-840A-FD5CFBDB2208",
+      "docId": "BD696FF5-9B2E-4550-840A-FD5CFBDB2208",
+      "date": "31/10/2001"
+    },
+    {
+      "folderId": "40470030",
+      "title": "תיק מידע",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=4462E983-CED9-4CE8-8112-7E7F0D1B0096",
+      "docId": "4462E983-CED9-4CE8-8112-7E7F0D1B0096",
+      "date": "22/10/2001"
+    },
+    {
+      "folderId": "40470030",
+      "title": "תיק מידע",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=D28FD812-AFCC-422A-AC46-2F6A5822FBFF",
+      "docId": "D28FD812-AFCC-422A-AC46-2F6A5822FBFF",
+      "date": "22/10/2001"
+    },
+    {
+      "folderId": "40470030",
+      "title": "תיק מידע",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=84E31CB3-7F2C-4604-B4AE-3A0B59586D10",
+      "docId": "84E31CB3-7F2C-4604-B4AE-3A0B59586D10",
+      "date": "17/10/2001"
+    },
+    {
+      "folderId": "40470030",
+      "title": "תיק מידע",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=AA3680D5-6E7B-41B4-AE24-7EF1E910B34C",
+      "docId": "AA3680D5-6E7B-41B4-AE24-7EF1E910B34C",
+      "date": "16/10/2001"
+    },
+    {
+      "folderId": "40470030",
+      "title": "תיק מידע",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=F32F51BE-5AFA-4D6E-B005-A2C63AA8EB38",
+      "docId": "F32F51BE-5AFA-4D6E-B005-A2C63AA8EB38",
+      "date": "16/10/2001"
+    },
+    {
+      "folderId": "40470030",
+      "title": "תיק מידע",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=57735BFC-1480-4CD1-8D88-B5259F5BFAAA",
+      "docId": "57735BFC-1480-4CD1-8D88-B5259F5BFAAA",
+      "date": "5/9/2001"
+    },
+    {
+      "folderId": "40470030",
+      "title": "תיק מידע",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=37435A8B-9598-4792-AFF8-61520A8B17FF",
+      "docId": "37435A8B-9598-4792-AFF8-61520A8B17FF",
+      "date": "20/6/2001"
+    },
+    {
+      "folderId": "40470030",
+      "title": "תיק מידע",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=14FA9EA1-C435-4FBA-A86F-4144EFCA042D",
+      "docId": "14FA9EA1-C435-4FBA-A86F-4144EFCA042D",
+      "date": "19/6/2001"
+    },
+    {
+      "folderId": "40470030",
+      "title": "מפות מדידה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=F923F959-EF13-476D-9AC2-6FEFF7C6F485",
+      "docId": "F923F959-EF13-476D-9AC2-6FEFF7C6F485",
+      "date": "19/6/2001"
+    },
+    {
+      "folderId": "40470030",
+      "title": "מפות מדידה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=939863CB-2C6C-47D8-A7F6-61A6F9BDF866",
+      "docId": "939863CB-2C6C-47D8-A7F6-61A6F9BDF866",
+      "date": "19/6/2001"
+    },
+    {
+      "folderId": "40470030",
+      "title": "מפות מדידה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=9DDD4420-07F3-42DD-A4B8-3BA06D2F54AD",
+      "docId": "9DDD4420-07F3-42DD-A4B8-3BA06D2F54AD",
+      "date": "19/6/2001"
+    },
+    {
+      "folderId": "40470030",
+      "title": "תיק מידע",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=461C1DD9-F1E3-467E-A2DB-76A900A95225",
+      "docId": "461C1DD9-F1E3-467E-A2DB-76A900A95225",
+      "date": "13/6/2001"
+    },
+    {
+      "folderId": "40470030",
+      "title": "תיק מידע",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=7593672F-CA94-41F6-82DB-D95453A00807",
+      "docId": "7593672F-CA94-41F6-82DB-D95453A00807",
+      "date": "13/6/2001"
+    },
+    {
+      "folderId": "40470030",
+      "title": "תיק מידע",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=7DE4C984-BE76-4678-9A14-FA17FB7772BF",
+      "docId": "7DE4C984-BE76-4678-9A14-FA17FB7772BF",
+      "date": "13/6/2001"
+    },
+    {
+      "folderId": "40470030",
+      "title": "תיק מידע",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=1B2A1CD7-1D04-41F8-9964-4F60A663E13A",
+      "docId": "1B2A1CD7-1D04-41F8-9964-4F60A663E13A",
+      "date": "10/6/2001"
+    },
+    {
+      "folderId": "40470030",
+      "title": "תיק מידע",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=E446EE91-E43E-41AF-816D-492661E5E27E",
+      "docId": "E446EE91-E43E-41AF-816D-492661E5E27E",
+      "date": "10/6/2001"
+    },
+    {
+      "folderId": "40470030",
+      "title": "תיק מידע",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=3BBC3BCF-0830-45F0-BBFF-E8E5D85FA703",
+      "docId": "3BBC3BCF-0830-45F0-BBFF-E8E5D85FA703",
+      "date": "10/6/2001"
+    },
+    {
+      "folderId": "40470030",
+      "title": "תיק מידע",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=60E77CE1-E5A1-48BB-BDEC-D01EEC6DC6ED",
+      "docId": "60E77CE1-E5A1-48BB-BDEC-D01EEC6DC6ED",
+      "date": "10/6/2001"
+    },
+    {
+      "folderId": "40470070",
+      "title": "החלטת ועדה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=9B294537-D6AD-4029-A1CE-DDB916B1AEF8",
+      "docId": "9B294537-D6AD-4029-A1CE-DDB916B1AEF8",
+      "date": "28/4/2017"
+    },
+    {
+      "folderId": "40470070",
+      "title": "החלטת ועדה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=2D1359D3-7ECE-4200-8B10-E1B67F494DF0",
+      "docId": "2D1359D3-7ECE-4200-8B10-E1B67F494DF0",
+      "date": "28/4/2017"
+    },
+    {
+      "folderId": "40470070",
+      "title": "החלטת ועדה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=F6C0AED3-9E7B-475C-B1E2-D42502CB5CFF",
+      "docId": "F6C0AED3-9E7B-475C-B1E2-D42502CB5CFF",
+      "date": "27/4/2017"
+    },
+    {
+      "folderId": "40470070",
+      "title": "החלטת ועדה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=8B77D34B-214A-4CD2-B601-EC713841CD63",
+      "docId": "8B77D34B-214A-4CD2-B601-EC713841CD63",
+      "date": "27/4/2017"
+    },
+    {
+      "folderId": "40470070",
+      "title": "החלטת ועדה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=709E2772-AAA5-4900-80DE-28AE21189009",
+      "docId": "709E2772-AAA5-4900-80DE-28AE21189009",
+      "date": "27/4/2017"
+    },
+    {
+      "folderId": "40470070",
+      "title": "תיק תעודת גמר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=B975F156-C493-4DCE-9D7E-49D675FEDABD",
+      "docId": "B975F156-C493-4DCE-9D7E-49D675FEDABD",
+      "date": "15/1/2012"
+    },
+    {
+      "folderId": "40470070",
+      "title": "טופס 4",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=34B979FD-8AE0-4ACA-97FE-4835441BB756",
+      "docId": "34B979FD-8AE0-4ACA-97FE-4835441BB756",
+      "date": "3/1/2012"
+    },
+    {
+      "folderId": "40470070",
+      "title": "טופס 4",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=C6B033DC-568C-4598-B641-1AF5CCC33FA8",
+      "docId": "C6B033DC-568C-4598-B641-1AF5CCC33FA8",
+      "date": "29/12/2011"
+    },
+    {
+      "folderId": "40470070",
+      "title": "תיק תעודת גמר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=20D92E94-B447-4FE3-9A1B-D31FA32A8FC0",
+      "docId": "20D92E94-B447-4FE3-9A1B-D31FA32A8FC0",
+      "date": "28/12/2011"
+    },
+    {
+      "folderId": "40470070",
+      "title": "היתר מילולי חתום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=5E888B0C-F8F4-4AE5-B470-581FF29C8BAE",
+      "docId": "5E888B0C-F8F4-4AE5-B470-581FF29C8BAE",
+      "date": "21/8/2011"
+    },
+    {
+      "folderId": "40470070",
+      "title": "היתר מילולי חתום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=06201414-7631-4976-8A1A-CC3357802DFD",
+      "docId": "06201414-7631-4976-8A1A-CC3357802DFD",
+      "date": "8/8/2011"
+    },
+    {
+      "folderId": "40470070",
+      "title": "היתר-תכנית חתומה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=2EFA201A-86C0-46AF-8EC5-105FD9E3CFB5",
+      "docId": "2EFA201A-86C0-46AF-8EC5-105FD9E3CFB5",
+      "date": "8/8/2011"
+    },
+    {
+      "folderId": "40470070",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=05BA9534-EFB0-4188-A10D-2CC9CB206DE5",
+      "docId": "05BA9534-EFB0-4188-A10D-2CC9CB206DE5",
+      "date": "31/7/2011"
+    },
+    {
+      "folderId": "40470070",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=FDD16979-3169-4895-BE7D-0CFE4DC6CC05",
+      "docId": "FDD16979-3169-4895-BE7D-0CFE4DC6CC05",
+      "date": "31/7/2011"
+    },
+    {
+      "folderId": "40470070",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=85BAA368-9D9D-4908-BE8E-563FBA1F2DD7",
+      "docId": "85BAA368-9D9D-4908-BE8E-563FBA1F2DD7",
+      "date": "27/7/2011"
+    },
+    {
+      "folderId": "40470070",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=71479504-CB7F-4CED-8A60-BC048F439784",
+      "docId": "71479504-CB7F-4CED-8A60-BC048F439784",
+      "date": "25/7/2011"
+    },
+    {
+      "folderId": "40470070",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=F0040F2B-D5FD-4D09-A5D2-00E9845BB251",
+      "docId": "F0040F2B-D5FD-4D09-A5D2-00E9845BB251",
+      "date": "25/7/2011"
+    },
+    {
+      "folderId": "40470070",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=BD698B49-6BB6-49A2-A076-7010E545C912",
+      "docId": "BD698B49-6BB6-49A2-A076-7010E545C912",
+      "date": "5/7/2011"
+    },
+    {
+      "folderId": "40470070",
+      "title": "תוכנית סניטרית/חיבור ביוב",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=43E1ABD7-860F-4F70-8169-E578008EC9FD",
+      "docId": "43E1ABD7-860F-4F70-8169-E578008EC9FD",
+      "date": "17/2/2011"
+    },
+    {
+      "folderId": "40470070",
+      "title": "בקשה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=34E3CBA9-D05A-4635-9D10-53445AD71410",
+      "docId": "34E3CBA9-D05A-4635-9D10-53445AD71410",
+      "date": "17/2/2011"
+    },
+    {
+      "folderId": "40470070",
+      "title": "רישוי-אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=9A8EFE7D-B13F-45FC-B058-785CAAA2BE5A",
+      "docId": "9A8EFE7D-B13F-45FC-B058-785CAAA2BE5A",
+      "date": "17/2/2011"
+    },
+    {
+      "folderId": "40470070",
+      "title": "ועדת ערר,ועדת משנה,רשות רישוי,ועדה מחוזית",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=0A90E5D9-2641-472F-96E5-BC19BE2206C5",
+      "docId": "0A90E5D9-2641-472F-96E5-BC19BE2206C5",
+      "date": "17/2/2011"
+    },
+    {
+      "folderId": "40470070",
+      "title": "חשבון יציבות,תצהיר מהנדס",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=113ADB96-4675-479A-93D6-0FF49193AFC3",
+      "docId": "113ADB96-4675-479A-93D6-0FF49193AFC3",
+      "date": "17/2/2011"
+    },
+    {
+      "folderId": "40470070",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=BA2A0C59-CBB7-4A24-9102-C0DE8F781B6F",
+      "docId": "BA2A0C59-CBB7-4A24-9102-C0DE8F781B6F",
+      "date": "17/2/2011"
+    },
+    {
+      "folderId": "40470070",
+      "title": "ועדת ערר,ועדת משנה,רשות רישוי,ועדה מחוזית",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=2AF682CB-C216-4E37-8214-2EAF28460F94",
+      "docId": "2AF682CB-C216-4E37-8214-2EAF28460F94",
+      "date": "26/1/2011"
+    },
+    {
+      "folderId": "40470070",
+      "title": "ועדת ערר,ועדת משנה,רשות רישוי,ועדה מחוזית",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=DAAB13AA-1481-44EC-834A-9E58BD9D4AE4",
+      "docId": "DAAB13AA-1481-44EC-834A-9E58BD9D4AE4",
+      "date": "1/11/2010"
+    },
+    {
+      "folderId": "40470070",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=04FBD51B-E671-415B-B857-6D506554ECCC",
+      "docId": "04FBD51B-E671-415B-B857-6D506554ECCC",
+      "date": "22/10/2010"
+    },
+    {
+      "folderId": "40470070",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=E58A709E-2223-41E5-9C23-4043903B8F0C",
+      "docId": "E58A709E-2223-41E5-9C23-4043903B8F0C",
+      "date": "12/7/2010"
+    },
+    {
+      "folderId": "40470070",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=155F1220-925B-413C-B647-0BD4824A5523",
+      "docId": "155F1220-925B-413C-B647-0BD4824A5523",
+      "date": "11/7/2010"
+    },
+    {
+      "folderId": "40470070",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=5533085B-D27B-4F38-81CB-526D6B0620EA",
+      "docId": "5533085B-D27B-4F38-81CB-526D6B0620EA",
+      "date": "21/6/2010"
+    },
+    {
+      "folderId": "40470070",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=A001BF2D-3474-4AE0-A59E-8FFC50E03E32",
+      "docId": "A001BF2D-3474-4AE0-A59E-8FFC50E03E32",
+      "date": "21/6/2010"
+    },
+    {
+      "folderId": "40470070",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=511F83AF-F491-46BA-995A-A9A7F11194D5",
+      "docId": "511F83AF-F491-46BA-995A-A9A7F11194D5",
+      "date": "21/6/2010"
+    },
+    {
+      "folderId": "40470070",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=C804988E-DFB7-4DEA-8CB0-76DF872CFEEC",
+      "docId": "C804988E-DFB7-4DEA-8CB0-76DF872CFEEC",
+      "date": "21/6/2010"
+    },
+    {
+      "folderId": "40470070",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=2CA325D0-708F-4D77-8FF9-C30B3D84CD3C",
+      "docId": "2CA325D0-708F-4D77-8FF9-C30B3D84CD3C",
+      "date": "21/6/2010"
+    },
+    {
+      "folderId": "40470070",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=98BDD0D9-8552-42D5-8081-D6FAD73D4E65",
+      "docId": "98BDD0D9-8552-42D5-8081-D6FAD73D4E65",
+      "date": "21/6/2010"
+    },
+    {
+      "folderId": "40470070",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=1220630C-06DD-480C-A148-2CB6F2162758",
+      "docId": "1220630C-06DD-480C-A148-2CB6F2162758",
+      "date": "21/6/2010"
+    },
+    {
+      "folderId": "40470070",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=58B95DC4-7B84-46B5-B68C-A3ACB11F8B02",
+      "docId": "58B95DC4-7B84-46B5-B68C-A3ACB11F8B02",
+      "date": "21/6/2010"
+    },
+    {
+      "folderId": "40470070",
+      "title": "ועדת ערר,ועדת משנה,רשות רישוי,ועדה מחוזית",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=886FA8A2-3DD8-4C58-A73F-C471743FB189",
+      "docId": "886FA8A2-3DD8-4C58-A73F-C471743FB189",
+      "date": "14/6/2010"
+    },
+    {
+      "folderId": "40470070",
+      "title": "רישוי-אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=8C0BFEB4-BB1F-4C02-9843-FA92EFE105A3",
+      "docId": "8C0BFEB4-BB1F-4C02-9843-FA92EFE105A3",
+      "date": "14/6/2010"
+    },
+    {
+      "folderId": "40470070",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=B1361243-5DFC-467D-B2B0-73DBDB0FC246",
+      "docId": "B1361243-5DFC-467D-B2B0-73DBDB0FC246",
+      "date": "13/6/2010"
+    },
+    {
+      "folderId": "40470070",
+      "title": "תיק מידע",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=FBD3C51E-D9D8-49FA-ADDF-D302E7A7B181",
+      "docId": "FBD3C51E-D9D8-49FA-ADDF-D302E7A7B181",
+      "date": "13/6/2010"
+    },
+    {
+      "folderId": "40470070",
+      "title": "אישורי תחנות-על גבי מסמכי A4 ועל גבי תוכניות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=D30FA073-8698-436A-BCA9-FF99FBC0942B",
+      "docId": "D30FA073-8698-436A-BCA9-FF99FBC0942B",
+      "date": "13/6/2010"
+    },
+    {
+      "folderId": "40470070",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=6CC715B0-1E00-4519-8A1C-DD9BDA2B6EBA",
+      "docId": "6CC715B0-1E00-4519-8A1C-DD9BDA2B6EBA",
+      "date": "13/6/2010"
+    },
+    {
+      "folderId": "40470070",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=935ADD19-626F-4712-B22A-1FC766559CDD",
+      "docId": "935ADD19-626F-4712-B22A-1FC766559CDD",
+      "date": "20/5/2010"
+    },
+    {
+      "folderId": "40470070",
+      "title": "תיק תעודת גמר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=4CBA3E2A-EA09-4D15-8785-662F09CE4F4B",
+      "docId": "4CBA3E2A-EA09-4D15-8785-662F09CE4F4B",
+      "date": "9/5/2010"
+    },
+    {
+      "folderId": "40470070",
+      "title": "ועדת ערר,ועדת משנה,רשות רישוי,ועדה מחוזית",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=87E418A6-073D-4285-B103-3C31C7D3E144",
+      "docId": "87E418A6-073D-4285-B103-3C31C7D3E144",
+      "date": "8/3/2010"
+    },
+    {
+      "folderId": "40470070",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=1793C335-0A2E-44AF-8CEE-60C1E368BD93",
+      "docId": "1793C335-0A2E-44AF-8CEE-60C1E368BD93",
+      "date": "30/11/2009"
+    },
+    {
+      "folderId": "40470070",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=92872E68-0D66-4B5E-8B38-3F38A1026B0B",
+      "docId": "92872E68-0D66-4B5E-8B38-3F38A1026B0B",
+      "date": "30/11/2009"
+    },
+    {
+      "folderId": "40470070",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=1C5EF90B-709F-4494-8376-9455B1BA3225",
+      "docId": "1C5EF90B-709F-4494-8376-9455B1BA3225",
+      "date": "30/11/2009"
+    },
+    {
+      "folderId": "40470070",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=8A4FC895-A0E4-4CEB-9685-42C4F544DC00",
+      "docId": "8A4FC895-A0E4-4CEB-9685-42C4F544DC00",
+      "date": "30/11/2009"
+    },
+    {
+      "folderId": "40470110",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=B256BE7E-93DC-48FF-8ED0-FB1CBA7C9BBE",
+      "docId": "B256BE7E-93DC-48FF-8ED0-FB1CBA7C9BBE",
+      "date": "19/1/2023"
+    },
+    {
+      "folderId": "40470110",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=FAD1BB29-F866-406F-AC80-5E47C7F66624",
+      "docId": "FAD1BB29-F866-406F-AC80-5E47C7F66624",
+      "date": "9/11/2022"
+    },
+    {
+      "folderId": "40470110",
+      "title": "ועדת ערר,ועדת משנה,רשות רישוי,ועדה מחוזית",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=AB7DB40E-B08F-41B5-9DC2-2A1363AF3451",
+      "docId": "AB7DB40E-B08F-41B5-9DC2-2A1363AF3451",
+      "date": "28/3/2004"
+    },
+    {
+      "folderId": "40470110",
+      "title": "תיק מידע",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=285640A5-A9D9-4EF3-ADC0-D7E9C524F703",
+      "docId": "285640A5-A9D9-4EF3-ADC0-D7E9C524F703",
+      "date": "23/12/2003"
+    },
+    {
+      "folderId": "40470110",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=8F3FA8DD-EC5E-4483-ADB4-60E93E664152",
+      "docId": "8F3FA8DD-EC5E-4483-ADB4-60E93E664152",
+      "date": "26/10/2003"
+    },
+    {
+      "folderId": "40470110",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=B228FA71-0B07-4FEA-AB5E-09158F0EB1A1",
+      "docId": "B228FA71-0B07-4FEA-AB5E-09158F0EB1A1",
+      "date": "26/10/2003"
+    },
+    {
+      "folderId": "40470110",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=10D1FFB2-E7F5-446D-9E8B-FE98E516A56F",
+      "docId": "10D1FFB2-E7F5-446D-9E8B-FE98E516A56F",
+      "date": "28/7/2003"
+    },
+    {
+      "folderId": "40470110",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=56B5BEAF-2E97-4170-A8F1-14692950836C",
+      "docId": "56B5BEAF-2E97-4170-A8F1-14692950836C",
+      "date": "28/7/2003"
+    },
+    {
+      "folderId": "40470110",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=C2DA12CF-B415-4ACF-BDCF-5BDDC451D2AC",
+      "docId": "C2DA12CF-B415-4ACF-BDCF-5BDDC451D2AC",
+      "date": "28/7/2003"
+    },
+    {
+      "folderId": "40470110",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=115DA64C-AA51-43E1-A9C6-6D7EDD2FAE63",
+      "docId": "115DA64C-AA51-43E1-A9C6-6D7EDD2FAE63",
+      "date": "28/7/2003"
+    },
+    {
+      "folderId": "40470110",
+      "title": "ועדת ערר,ועדת משנה,רשות רישוי,ועדה מחוזית",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=95ED90D4-5D88-475D-A264-5F8AC8E967B8",
+      "docId": "95ED90D4-5D88-475D-A264-5F8AC8E967B8",
+      "date": "20/7/2003"
+    },
+    {
+      "folderId": "40470110",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=3A946798-FCE4-42D3-A41F-642624C2CBAB",
+      "docId": "3A946798-FCE4-42D3-A41F-642624C2CBAB",
+      "date": "17/7/2003"
+    },
+    {
+      "folderId": "40470110",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=CC0CAA84-0428-46D0-8602-A62A49B94A46",
+      "docId": "CC0CAA84-0428-46D0-8602-A62A49B94A46",
+      "date": "17/7/2003"
+    },
+    {
+      "folderId": "40470110",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=7ED9B0F0-3870-4D55-B30D-2CC0E06E1A57",
+      "docId": "7ED9B0F0-3870-4D55-B30D-2CC0E06E1A57",
+      "date": "17/7/2003"
+    },
+    {
+      "folderId": "40470110",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=A87F9E22-5132-44FE-8495-14FEC0AD1990",
+      "docId": "A87F9E22-5132-44FE-8495-14FEC0AD1990",
+      "date": "17/7/2003"
+    },
+    {
+      "folderId": "40470110",
+      "title": "תיק מידע",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=D8B8BCCB-A28C-420F-B7E9-20B4865BCB52",
+      "docId": "D8B8BCCB-A28C-420F-B7E9-20B4865BCB52",
+      "date": "17/7/2003"
+    },
+    {
+      "folderId": "40470110",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=81E6CC4D-E1AC-4B04-9DE5-4B809A6E6046",
+      "docId": "81E6CC4D-E1AC-4B04-9DE5-4B809A6E6046",
+      "date": "17/7/2003"
+    },
+    {
+      "folderId": "40470110",
+      "title": "רישוי-אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=EDD41BA9-6441-46A4-8242-EDF2131C4664",
+      "docId": "EDD41BA9-6441-46A4-8242-EDF2131C4664",
+      "date": "17/7/2003"
+    },
+    {
+      "folderId": "40470110",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=2A7FFE0D-EBA3-49ED-9670-AC773CD8F9F8",
+      "docId": "2A7FFE0D-EBA3-49ED-9670-AC773CD8F9F8",
+      "date": "17/7/2003"
+    },
+    {
+      "folderId": "40470110",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=F025E6EC-E309-4A3C-885F-8AFEEF90D741",
+      "docId": "F025E6EC-E309-4A3C-885F-8AFEEF90D741",
+      "date": "17/7/2003"
+    },
+    {
+      "folderId": "40470110",
+      "title": "בקשה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=FEA413F6-4E7B-4412-989A-BCF85F0E4BBB",
+      "docId": "FEA413F6-4E7B-4412-989A-BCF85F0E4BBB",
+      "date": "17/7/2003"
+    },
+    {
+      "folderId": "40470110",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=43CF7024-4350-4A35-A5DA-65F72A002D8B",
+      "docId": "43CF7024-4350-4A35-A5DA-65F72A002D8B",
+      "date": "17/7/2003"
+    },
+    {
+      "folderId": "40470110",
+      "title": "מפות מדידה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=E2267DA1-73B2-4F84-9F6B-FE4946085F6B",
+      "docId": "E2267DA1-73B2-4F84-9F6B-FE4946085F6B",
+      "date": "22/6/2003"
+    },
+    {
+      "folderId": "40470110",
+      "title": "תיק מידע",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=38E95151-CDAF-4BBC-9EBD-8AEE87940A59",
+      "docId": "38E95151-CDAF-4BBC-9EBD-8AEE87940A59",
+      "date": "29/4/2003"
+    },
+    {
+      "folderId": "40470110",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=47427BB6-210A-4BA3-8980-D63DFB309D50",
+      "docId": "47427BB6-210A-4BA3-8980-D63DFB309D50",
+      "date": "17/3/2003"
+    },
+    {
+      "folderId": "40470110",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=93CC63B0-D297-4769-9903-1B3B66F1D7B6",
+      "docId": "93CC63B0-D297-4769-9903-1B3B66F1D7B6",
+      "date": "3/2/2003"
+    },
+    {
+      "folderId": "40470110",
+      "title": "אישורי תחנות-על גבי מסמכי A4 ועל גבי תוכניות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=0A6FC7E4-6D6C-4B1C-A764-A350843D3747",
+      "docId": "0A6FC7E4-6D6C-4B1C-A764-A350843D3747",
+      "date": "6/11/2001"
+    },
+    {
+      "folderId": "40470110",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=EABC16EF-A33D-421B-AF2A-1930724836F0",
+      "docId": "EABC16EF-A33D-421B-AF2A-1930724836F0",
+      "date": "19/2/2001"
+    },
+    {
+      "folderId": "40470110",
+      "title": "תיק מידע",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=B7336280-3BF5-4EF6-B83B-0B40B90C8F43",
+      "docId": "B7336280-3BF5-4EF6-B83B-0B40B90C8F43",
+      "date": "13/8/1997"
+    },
+    {
+      "folderId": "40470110",
+      "title": "תיק מידע",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=79690C1D-0C9E-46F3-8F36-080A25F1D1F5",
+      "docId": "79690C1D-0C9E-46F3-8F36-080A25F1D1F5",
+      "date": "10/8/1997"
+    },
+    {
+      "folderId": "40470110",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=4ACD7E99-BA1A-486B-B679-4F51A31AFC3A",
+      "docId": "4ACD7E99-BA1A-486B-B679-4F51A31AFC3A",
+      "date": "21/5/1991"
+    },
+    {
+      "folderId": "40470110",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=7BDDC44F-D329-464E-A599-BAD9D6ECB8F1",
+      "docId": "7BDDC44F-D329-464E-A599-BAD9D6ECB8F1",
+      "date": "5/5/1987"
+    },
+    {
+      "folderId": "40470110",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=C2B37F3A-B0A4-44EB-9DA4-9392C2256817",
+      "docId": "C2B37F3A-B0A4-44EB-9DA4-9392C2256817",
+      "date": "20/11/1986"
+    },
+    {
+      "folderId": "40470110",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=071B84F7-ACD9-41D2-B77A-EFC7E5C5BE1C",
+      "docId": "071B84F7-ACD9-41D2-B77A-EFC7E5C5BE1C",
+      "date": "24/3/1986"
+    },
+    {
+      "folderId": "40470110",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=A0FF5F88-8DB1-4223-8299-4C1A7394A6AC",
+      "docId": "A0FF5F88-8DB1-4223-8299-4C1A7394A6AC",
+      "date": "24/3/1986"
+    },
+    {
+      "folderId": "40470110",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=62A46F7A-38CE-4ED5-9F68-B7A1F43283BC",
+      "docId": "62A46F7A-38CE-4ED5-9F68-B7A1F43283BC",
+      "date": "20/3/1986"
+    },
+    {
+      "folderId": "40470110",
+      "title": "תוכניות לא חתומות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=B22262ED-A2FB-430F-BBF6-07D0BA29A5C6",
+      "docId": "B22262ED-A2FB-430F-BBF6-07D0BA29A5C6",
+      "date": "20/3/1986"
+    },
+    {
+      "folderId": "40470110",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=C9C155B9-806E-4911-A55A-8321DDF107C7",
+      "docId": "C9C155B9-806E-4911-A55A-8321DDF107C7",
+      "date": "19/3/1986"
+    },
+    {
+      "folderId": "40470110",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=AA107894-28D3-4FAB-8C2E-326ECDDE652C",
+      "docId": "AA107894-28D3-4FAB-8C2E-326ECDDE652C",
+      "date": "16/4/1985"
+    },
+    {
+      "folderId": "40470110",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=0B92794E-1196-44B5-A42C-05F5A08EDF46",
+      "docId": "0B92794E-1196-44B5-A42C-05F5A08EDF46",
+      "date": "6/11/1984"
+    },
+    {
+      "folderId": "40470110",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=238B156D-9D6E-41D0-8884-9C80464B56DD",
+      "docId": "238B156D-9D6E-41D0-8884-9C80464B56DD",
+      "date": "6/11/1984"
+    },
+    {
+      "folderId": "40470110",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=18BC45EF-4202-473F-9199-713ADEF6BE37",
+      "docId": "18BC45EF-4202-473F-9199-713ADEF6BE37",
+      "date": "6/11/1984"
+    },
+    {
+      "folderId": "40470110",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=875EE5B5-D47D-4181-AC2A-595499A9CD50",
+      "docId": "875EE5B5-D47D-4181-AC2A-595499A9CD50",
+      "date": "6/11/1984"
+    },
+    {
+      "folderId": "40470110",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=930A517B-1BA3-4A91-8CB5-57E2F7AB53DB",
+      "docId": "930A517B-1BA3-4A91-8CB5-57E2F7AB53DB",
+      "date": "6/11/1984"
+    },
+    {
+      "folderId": "40470110",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=E68ECFDF-8CB9-447A-B0EE-E6F66DD6B566",
+      "docId": "E68ECFDF-8CB9-447A-B0EE-E6F66DD6B566",
+      "date": "6/11/1984"
+    },
+    {
+      "folderId": "40470110",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=E8CAA11C-37B1-40F2-A0D7-985F31C235F7",
+      "docId": "E8CAA11C-37B1-40F2-A0D7-985F31C235F7",
+      "date": "6/11/1984"
+    },
+    {
+      "folderId": "40470110",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=8A24D2F0-5EE8-4473-8975-3E1B215E5750",
+      "docId": "8A24D2F0-5EE8-4473-8975-3E1B215E5750",
+      "date": "17/9/1979"
+    },
+    {
+      "folderId": "40470110",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=D0F4187E-D68A-442D-919A-E40F61B71B81",
+      "docId": "D0F4187E-D68A-442D-919A-E40F61B71B81",
+      "date": "17/9/1979"
+    },
+    {
+      "folderId": "40470110",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=1F8B6D45-D2E2-4CF0-B628-2922DEF37DFE",
+      "docId": "1F8B6D45-D2E2-4CF0-B628-2922DEF37DFE",
+      "date": "13/9/1979"
+    },
+    {
+      "folderId": "40470110",
+      "title": "רישוי-אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=B01DAB83-F91A-4729-9731-2E6ED8561D1D",
+      "docId": "B01DAB83-F91A-4729-9731-2E6ED8561D1D",
+      "date": "19/3/1979"
+    },
+    {
+      "folderId": "40470130",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=17342E63-F3F1-4645-90C8-5C0263DFACF7",
+      "docId": "17342E63-F3F1-4645-90C8-5C0263DFACF7",
+      "date": "27/1/2005"
+    },
+    {
+      "folderId": "40470130",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=A768039C-B556-4403-8F4D-0EA2093A873D",
+      "docId": "A768039C-B556-4403-8F4D-0EA2093A873D",
+      "date": "9/1/2005"
+    },
+    {
+      "folderId": "40470130",
+      "title": "היתר-תכנית חתומה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=DAAF330E-328A-4BB1-A106-016F2411E5BE",
+      "docId": "DAAF330E-328A-4BB1-A106-016F2411E5BE",
+      "date": "28/9/2004"
+    },
+    {
+      "folderId": "40470130",
+      "title": "היתר מילולי חתום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=8941E411-2A57-44D3-AF20-6F3C83A368E7",
+      "docId": "8941E411-2A57-44D3-AF20-6F3C83A368E7",
+      "date": "28/9/2004"
+    },
+    {
+      "folderId": "40470130",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=B0656D93-BA17-4DA6-BF2E-B0DA2600C114",
+      "docId": "B0656D93-BA17-4DA6-BF2E-B0DA2600C114",
+      "date": "19/9/2004"
+    },
+    {
+      "folderId": "40470130",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=D733A3B4-68E8-4965-85DD-7DFAAF3517BA",
+      "docId": "D733A3B4-68E8-4965-85DD-7DFAAF3517BA",
+      "date": "19/9/2004"
+    },
+    {
+      "folderId": "40470130",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=363D1279-3CAC-40CE-BCFD-F393C858BA46",
+      "docId": "363D1279-3CAC-40CE-BCFD-F393C858BA46",
+      "date": "19/9/2004"
+    },
+    {
+      "folderId": "40470130",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=4334DBE2-28B0-40AE-B6EC-279903C705AC",
+      "docId": "4334DBE2-28B0-40AE-B6EC-279903C705AC",
+      "date": "19/9/2004"
+    },
+    {
+      "folderId": "40470130",
+      "title": "חשבון יציבות,תצהיר מהנדס",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=27BA77F3-8E06-4920-912E-283F53FE8943",
+      "docId": "27BA77F3-8E06-4920-912E-283F53FE8943",
+      "date": "18/8/2004"
+    },
+    {
+      "folderId": "40470130",
+      "title": "חשבון יציבות,תצהיר מהנדס",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=989658A5-E436-4DBA-902A-AD4322E20422",
+      "docId": "989658A5-E436-4DBA-902A-AD4322E20422",
+      "date": "18/8/2004"
+    },
+    {
+      "folderId": "40470130",
+      "title": "ועדת ערר,ועדת משנה,רשות רישוי,ועדה מחוזית",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=65EA68B7-E49D-4686-918F-B28C3EAFACC7",
+      "docId": "65EA68B7-E49D-4686-918F-B28C3EAFACC7",
+      "date": "1/6/2004"
+    },
+    {
+      "folderId": "40470130",
+      "title": "ועדת ערר,ועדת משנה,רשות רישוי,ועדה מחוזית",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=48EA3B4D-F4FB-4508-9A43-F625892EE95E",
+      "docId": "48EA3B4D-F4FB-4508-9A43-F625892EE95E",
+      "date": "1/6/2004"
+    },
+    {
+      "folderId": "40470130",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=37308474-13BE-47B6-9C32-38B3AB6AB29D",
+      "docId": "37308474-13BE-47B6-9C32-38B3AB6AB29D",
+      "date": "31/5/2004"
+    },
+    {
+      "folderId": "40470130",
+      "title": "תוכנית סניטרית/חיבור ביוב",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=AEBDDAF6-2576-4E9E-B3B9-7628DE8D57C5",
+      "docId": "AEBDDAF6-2576-4E9E-B3B9-7628DE8D57C5",
+      "date": "18/5/2004"
+    },
+    {
+      "folderId": "40470130",
+      "title": "אישורי תחנות-על גבי מסמכי A4 ועל גבי תוכניות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=AD54BF93-7A6A-475A-AB07-85C9FCAF3CC8",
+      "docId": "AD54BF93-7A6A-475A-AB07-85C9FCAF3CC8",
+      "date": "16/5/2004"
+    },
+    {
+      "folderId": "40470130",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=7731EA47-1FFF-4629-B330-243CF1F639AA",
+      "docId": "7731EA47-1FFF-4629-B330-243CF1F639AA",
+      "date": "16/5/2004"
+    },
+    {
+      "folderId": "40470130",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=EAD1F5E3-77D3-41F8-A85D-5EE79DEE18E8",
+      "docId": "EAD1F5E3-77D3-41F8-A85D-5EE79DEE18E8",
+      "date": "16/5/2004"
+    },
+    {
+      "folderId": "40470130",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=7080FF48-B139-4E79-8945-4A06C6295C49",
+      "docId": "7080FF48-B139-4E79-8945-4A06C6295C49",
+      "date": "16/5/2004"
+    },
+    {
+      "folderId": "40470130",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=6918C1F0-E437-4A76-A4C8-66F3C43A2827",
+      "docId": "6918C1F0-E437-4A76-A4C8-66F3C43A2827",
+      "date": "16/5/2004"
+    },
+    {
+      "folderId": "40470130",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=69502F60-0D1E-4FFD-A10B-86BC2031F23F",
+      "docId": "69502F60-0D1E-4FFD-A10B-86BC2031F23F",
+      "date": "16/5/2004"
+    },
+    {
+      "folderId": "40470130",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=8539E358-4DEC-423D-92A9-4950FA94508E",
+      "docId": "8539E358-4DEC-423D-92A9-4950FA94508E",
+      "date": "16/5/2004"
+    },
+    {
+      "folderId": "40470130",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=F2FB85DB-BB67-4C19-9F7A-12CA5190AE86",
+      "docId": "F2FB85DB-BB67-4C19-9F7A-12CA5190AE86",
+      "date": "31/3/2004"
+    },
+    {
+      "folderId": "40470130",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=7C252C75-3504-4224-A822-CF67247EA522",
+      "docId": "7C252C75-3504-4224-A822-CF67247EA522",
+      "date": "31/3/2004"
+    },
+    {
+      "folderId": "40470130",
+      "title": "אישורי תחנות-על גבי מסמכי A4 ועל גבי תוכניות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=7D456B75-C314-4891-9233-FBE497399E9E",
+      "docId": "7D456B75-C314-4891-9233-FBE497399E9E",
+      "date": "23/3/2004"
+    },
+    {
+      "folderId": "40470130",
+      "title": "רישוי-אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=26AAFC63-0AD1-4834-B7FE-AC272A4B0A1D",
+      "docId": "26AAFC63-0AD1-4834-B7FE-AC272A4B0A1D",
+      "date": "23/3/2004"
+    },
+    {
+      "folderId": "40470130",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=285157CF-83B3-491B-B41C-719FD70542D4",
+      "docId": "285157CF-83B3-491B-B41C-719FD70542D4",
+      "date": "23/3/2004"
+    },
+    {
+      "folderId": "40470130",
+      "title": "רישוי-אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=A415605E-E0AC-4481-9240-ADA82525E080",
+      "docId": "A415605E-E0AC-4481-9240-ADA82525E080",
+      "date": "23/3/2004"
+    },
+    {
+      "folderId": "40470130",
+      "title": "בקשה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=4DCC252C-2229-4992-8ABD-57CBA31ED7A6",
+      "docId": "4DCC252C-2229-4992-8ABD-57CBA31ED7A6",
+      "date": "23/3/2004"
+    },
+    {
+      "folderId": "40470130",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=4EE20060-DD17-4061-B5B4-AC239395A5B9",
+      "docId": "4EE20060-DD17-4061-B5B4-AC239395A5B9",
+      "date": "18/3/2004"
+    },
+    {
+      "folderId": "40470130",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=0FEFF0FA-BC6A-4851-AE9B-5FD3A45E2AE2",
+      "docId": "0FEFF0FA-BC6A-4851-AE9B-5FD3A45E2AE2",
+      "date": "18/3/2004"
+    },
+    {
+      "folderId": "40470130",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=4C8A0585-BECE-4A30-B54E-D6016F0ABE3B",
+      "docId": "4C8A0585-BECE-4A30-B54E-D6016F0ABE3B",
+      "date": "18/3/2004"
+    },
+    {
+      "folderId": "40470130",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=394E5CF6-E3A1-4CA6-B2DF-26268A8A413D",
+      "docId": "394E5CF6-E3A1-4CA6-B2DF-26268A8A413D",
+      "date": "17/2/2004"
+    },
+    {
+      "folderId": "40470130",
+      "title": "תיק מידע",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=71C03608-FC86-4371-A7E1-49D43C662DB3",
+      "docId": "71C03608-FC86-4371-A7E1-49D43C662DB3",
+      "date": "2/2/2004"
+    },
+    {
+      "folderId": "40470130",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=F418B58A-6FFC-4246-8EF6-85676EC04F5E",
+      "docId": "F418B58A-6FFC-4246-8EF6-85676EC04F5E",
+      "date": "27/1/2004"
+    },
+    {
+      "folderId": "40470130",
+      "title": "תיק מידע",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=0E471254-964A-4FF5-9D51-7984A9F31256",
+      "docId": "0E471254-964A-4FF5-9D51-7984A9F31256",
+      "date": "18/1/2004"
+    },
+    {
+      "folderId": "40470130",
+      "title": "מפות מדידה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=3D639159-22AE-44AE-91D0-3DDC2FF61BB0",
+      "docId": "3D639159-22AE-44AE-91D0-3DDC2FF61BB0",
+      "date": "25/12/2003"
+    },
+    {
+      "folderId": "40470130",
+      "title": "תיק מידע",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=E692FB5D-14C8-4B41-8ED7-F40D0F3A846F",
+      "docId": "E692FB5D-14C8-4B41-8ED7-F40D0F3A846F",
+      "date": "25/12/2003"
+    },
+    {
+      "folderId": "40470130",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=4BF93974-3748-4188-9E15-DDD2A25526E7",
+      "docId": "4BF93974-3748-4188-9E15-DDD2A25526E7",
+      "date": "25/12/2003"
+    },
+    {
+      "folderId": "40470130",
+      "title": "תיק מידע",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=804FCB7D-7D07-4034-A613-A51672BD5805",
+      "docId": "804FCB7D-7D07-4034-A613-A51672BD5805",
+      "date": "24/4/2002"
+    },
+    {
+      "folderId": "40470130",
+      "title": "תיק מידע",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=2D4E6377-A8FB-4E09-8E1E-C45E6DB183E7",
+      "docId": "2D4E6377-A8FB-4E09-8E1E-C45E6DB183E7",
+      "date": "19/3/2002"
+    },
+    {
+      "folderId": "40470130",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=427E4C56-A478-407E-AA87-9DD9D1F2F86C",
+      "docId": "427E4C56-A478-407E-AA87-9DD9D1F2F86C",
+      "date": "19/3/2002"
+    },
+    {
+      "folderId": "40470130",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=F43A7351-85A0-4623-ADEF-1CA38DE5E1CA",
+      "docId": "F43A7351-85A0-4623-ADEF-1CA38DE5E1CA",
+      "date": "23/2/1999"
+    },
+    {
+      "folderId": "40470130",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=CB15929D-42CC-4D60-BB88-B5ED126BAABE",
+      "docId": "CB15929D-42CC-4D60-BB88-B5ED126BAABE",
+      "date": "6/7/1994"
+    },
+    {
+      "folderId": "40470130",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=DB444649-E0D7-4883-8488-342D480D75EE",
+      "docId": "DB444649-E0D7-4883-8488-342D480D75EE",
+      "date": "26/6/1994"
+    },
+    {
+      "folderId": "40470130",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=0697BC92-7FAD-45AA-98A2-42A0A9720925",
+      "docId": "0697BC92-7FAD-45AA-98A2-42A0A9720925",
+      "date": "26/6/1994"
+    },
+    {
+      "folderId": "40470130",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=1F482B80-E7BD-4788-B0A6-65574C361266",
+      "docId": "1F482B80-E7BD-4788-B0A6-65574C361266",
+      "date": "15/11/1992"
+    },
+    {
+      "folderId": "40470130",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=79A6BA20-D0D3-41E3-807D-7FC366E3BEA4",
+      "docId": "79A6BA20-D0D3-41E3-807D-7FC366E3BEA4",
+      "date": "16/10/1992"
+    },
+    {
+      "folderId": "40470130",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=80E96C5F-16F9-4756-B43C-0E6468BC6654",
+      "docId": "80E96C5F-16F9-4756-B43C-0E6468BC6654",
+      "date": "12/5/1992"
+    },
+    {
+      "folderId": "40470130",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=75E68A95-CFC3-4A6A-AB61-E85232E263E2",
+      "docId": "75E68A95-CFC3-4A6A-AB61-E85232E263E2",
+      "date": "12/5/1992"
+    },
+    {
+      "folderId": "40470130",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=7B5375C1-F224-4D5A-A302-BAE195C46707",
+      "docId": "7B5375C1-F224-4D5A-A302-BAE195C46707",
+      "date": "9/5/1989"
+    },
+    {
+      "folderId": "40470150",
+      "title": "בקשה להתקנת ביתן אשפה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=F41F7110-CCF1-4184-818A-595CE51821FB",
+      "docId": "F41F7110-CCF1-4184-818A-595CE51821FB",
+      "date": "18/7/2022"
+    },
+    {
+      "folderId": "40470150",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=6EFC3510-23F4-4959-BC54-DE91FEE3E5C2",
+      "docId": "6EFC3510-23F4-4959-BC54-DE91FEE3E5C2",
+      "date": "13/11/1972"
+    },
+    {
+      "folderId": "40470150",
+      "title": "רישוי-אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=AC08C449-27EC-4E0C-B63A-C6ADD2EF93E5",
+      "docId": "AC08C449-27EC-4E0C-B63A-C6ADD2EF93E5",
+      "date": "1/1/1900"
+    },
+    {
+      "folderId": "40470170",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=927FDC47-FE58-4C64-8EF4-A1ACFE9301C3",
+      "docId": "927FDC47-FE58-4C64-8EF4-A1ACFE9301C3",
+      "date": "4/7/2002"
+    },
+    {
+      "folderId": "40470170",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=6F007D05-017A-4B0D-A3A9-668AEEB9C67B",
+      "docId": "6F007D05-017A-4B0D-A3A9-668AEEB9C67B",
+      "date": "16/10/1973"
+    },
+    {
+      "folderId": "40470170",
+      "title": "בקשה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=0CE5A50D-6F68-4625-9852-9A0CEFB1F74E",
+      "docId": "0CE5A50D-6F68-4625-9852-9A0CEFB1F74E",
+      "date": "28/1/1973"
+    },
+    {
+      "folderId": "40470170",
+      "title": "תוכניות לא חתומות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=292C8FE1-F96C-4C7F-A266-DC82B1F28EBF",
+      "docId": "292C8FE1-F96C-4C7F-A266-DC82B1F28EBF",
+      "date": "28/1/1973"
+    },
+    {
+      "folderId": "40470170",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=C48F2D44-919C-43F4-A06D-7C1483F7226B",
+      "docId": "C48F2D44-919C-43F4-A06D-7C1483F7226B",
+      "date": "8/1/1973"
+    },
+    {
+      "folderId": "40470170",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=6328D77E-099D-466E-9579-3B9824A3ADB9",
+      "docId": "6328D77E-099D-466E-9579-3B9824A3ADB9",
+      "date": "8/11/1972"
+    },
+    {
+      "folderId": "40470170",
+      "title": "רישוי-אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=F20A099B-4687-4AB4-B57C-D71021876048",
+      "docId": "F20A099B-4687-4AB4-B57C-D71021876048",
+      "date": "12/2/1933"
+    },
+    {
+      "folderId": "40470170",
+      "title": "בקשה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=95DFC8B9-9D4E-43EA-8415-24D378F305B2",
+      "docId": "95DFC8B9-9D4E-43EA-8415-24D378F305B2",
+      "date": "1/1/1900"
+    },
+    {
+      "folderId": "40470170",
+      "title": "תוכניות לא חתומות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=93EBAF58-CF64-4E89-B1C5-32BB60825D54",
+      "docId": "93EBAF58-CF64-4E89-B1C5-32BB60825D54",
+      "date": "1/1/1900"
+    },
+    {
+      "folderId": "40470170",
+      "title": "תוכניות לא חתומות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=54F3EE45-BBB7-4606-9691-D1822BD81B98",
+      "docId": "54F3EE45-BBB7-4606-9691-D1822BD81B98",
+      "date": "1/1/1900"
+    },
+    {
+      "folderId": "40470170",
+      "title": "תוכניות לא חתומות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=07F1F0EC-1D62-4E7D-9443-6263B358D1F3",
+      "docId": "07F1F0EC-1D62-4E7D-9443-6263B358D1F3",
+      "date": "1/1/1900"
+    },
+    {
+      "folderId": "40470170",
+      "title": "בקשה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=EEC7B676-0271-4C94-8706-2D596F7C38FC",
+      "docId": "EEC7B676-0271-4C94-8706-2D596F7C38FC",
+      "date": "1/1/1900"
+    },
+    {
+      "folderId": "40470190",
+      "title": "בקשה להתקנת ביתן אשפה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=6515D20A-87DD-4C5E-989B-2B808BB3719B",
+      "docId": "6515D20A-87DD-4C5E-989B-2B808BB3719B",
+      "date": "19/12/2021"
+    },
+    {
+      "folderId": "40470190",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=A3297405-FB1B-4F18-9938-5D4CB7702F94",
+      "docId": "A3297405-FB1B-4F18-9938-5D4CB7702F94",
+      "date": "11/4/1999"
+    },
+    {
+      "folderId": "40470190",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=AC39CC4B-7517-4CEF-8448-F363184F27A7",
+      "docId": "AC39CC4B-7517-4CEF-8448-F363184F27A7",
+      "date": "25/3/1999"
+    },
+    {
+      "folderId": "40470190",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=8E4C2617-D71B-43F5-B02F-4226C8D4623B",
+      "docId": "8E4C2617-D71B-43F5-B02F-4226C8D4623B",
+      "date": "10/3/1999"
+    },
+    {
+      "folderId": "40470190",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=1C3C7FBD-99BD-47F5-9B7C-95CCAEB39363",
+      "docId": "1C3C7FBD-99BD-47F5-9B7C-95CCAEB39363",
+      "date": "10/3/1999"
+    },
+    {
+      "folderId": "40470190",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=98B84204-568C-4C02-AC21-57A566AB917B",
+      "docId": "98B84204-568C-4C02-AC21-57A566AB917B",
+      "date": "10/3/1999"
+    },
+    {
+      "folderId": "40470190",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=76C6B8C9-2EA2-40DC-85A9-798B3C26F00E",
+      "docId": "76C6B8C9-2EA2-40DC-85A9-798B3C26F00E",
+      "date": "20/12/1995"
+    },
+    {
+      "folderId": "40470190",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=60E028C1-D9DF-4310-8512-7DF9EA1AEF4F",
+      "docId": "60E028C1-D9DF-4310-8512-7DF9EA1AEF4F",
+      "date": "10/12/1995"
+    },
+    {
+      "folderId": "40470190",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=C1C71E2D-C0E4-48A0-B2FB-1F648AD9D9F7",
+      "docId": "C1C71E2D-C0E4-48A0-B2FB-1F648AD9D9F7",
+      "date": "10/12/1995"
+    },
+    {
+      "folderId": "40470190",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=C0E09813-8E07-4406-BF36-F9FCF053F859",
+      "docId": "C0E09813-8E07-4406-BF36-F9FCF053F859",
+      "date": "10/12/1995"
+    },
+    {
+      "folderId": "40470190",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=349D3125-4F79-4050-B924-987CAA1A2EEE",
+      "docId": "349D3125-4F79-4050-B924-987CAA1A2EEE",
+      "date": "10/12/1995"
+    },
+    {
+      "folderId": "40470190",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=ADA943BF-C061-4118-84E3-6AA9C9A76E5D",
+      "docId": "ADA943BF-C061-4118-84E3-6AA9C9A76E5D",
+      "date": "10/12/1995"
+    },
+    {
+      "folderId": "40470190",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=86BDAF9A-3B74-4D7A-BF1B-C61CA1466108",
+      "docId": "86BDAF9A-3B74-4D7A-BF1B-C61CA1466108",
+      "date": "1/11/1995"
+    },
+    {
+      "folderId": "40470190",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=509B2E1C-BE3F-48F4-87F2-FB01BF742DE4",
+      "docId": "509B2E1C-BE3F-48F4-87F2-FB01BF742DE4",
+      "date": "31/1/1995"
+    },
+    {
+      "folderId": "40470190",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=0C99C0C1-A967-48A5-8E9E-56F19B921B0A",
+      "docId": "0C99C0C1-A967-48A5-8E9E-56F19B921B0A",
+      "date": "18/2/1991"
+    },
+    {
+      "folderId": "40470190",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=FE35C03B-9388-4D16-96B0-79FFF2937A35",
+      "docId": "FE35C03B-9388-4D16-96B0-79FFF2937A35",
+      "date": "31/1/1991"
+    },
+    {
+      "folderId": "40470190",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=D3B08413-3C9C-4530-A4FC-02800A46026E",
+      "docId": "D3B08413-3C9C-4530-A4FC-02800A46026E",
+      "date": "31/1/1991"
+    },
+    {
+      "folderId": "40470190",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=EBEBDB19-0691-4F54-B99D-07BE712D8956",
+      "docId": "EBEBDB19-0691-4F54-B99D-07BE712D8956",
+      "date": "31/1/1991"
+    },
+    {
+      "folderId": "40470190",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=85276182-5B80-450E-AAF6-B8E4C3B81002",
+      "docId": "85276182-5B80-450E-AAF6-B8E4C3B81002",
+      "date": "22/1/1991"
+    },
+    {
+      "folderId": "40470190",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=A46D28F6-D613-4D6D-AA4A-3865301A9FA2",
+      "docId": "A46D28F6-D613-4D6D-AA4A-3865301A9FA2",
+      "date": "31/5/1989"
+    },
+    {
+      "folderId": "40470190",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=35F7CCA4-A9D3-4017-A728-934E311B6A0A",
+      "docId": "35F7CCA4-A9D3-4017-A728-934E311B6A0A",
+      "date": "31/5/1989"
+    },
+    {
+      "folderId": "40470190",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=EB76F1E4-2E8E-4805-8228-99124CCBBBD5",
+      "docId": "EB76F1E4-2E8E-4805-8228-99124CCBBBD5",
+      "date": "31/5/1989"
+    },
+    {
+      "folderId": "40470190",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=E21A729D-DA36-4190-9953-02A1B7795994",
+      "docId": "E21A729D-DA36-4190-9953-02A1B7795994",
+      "date": "31/5/1989"
+    },
+    {
+      "folderId": "40470190",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=DB3D0309-66CA-44B1-8F2A-48C0D62149FE",
+      "docId": "DB3D0309-66CA-44B1-8F2A-48C0D62149FE",
+      "date": "17/2/1989"
+    },
+    {
+      "folderId": "40470190",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=EA0F7149-DABE-4E49-80E6-91420FC8ED87",
+      "docId": "EA0F7149-DABE-4E49-80E6-91420FC8ED87",
+      "date": "7/2/1989"
+    },
+    {
+      "folderId": "40470190",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=0859C1FD-C05E-4C74-A3AB-A102CB02ECF7",
+      "docId": "0859C1FD-C05E-4C74-A3AB-A102CB02ECF7",
+      "date": "1/1/1900"
+    },
+    {
+      "folderId": "40470190",
+      "title": "תוכניות לא חתומות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=30DF55AA-01B7-487B-A42C-CBB279C64C88",
+      "docId": "30DF55AA-01B7-487B-A42C-CBB279C64C88",
+      "date": "1/1/1900"
+    },
+    {
+      "folderId": "40470190",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=203D6364-5229-4D3F-9D3F-EB2B4631C785",
+      "docId": "203D6364-5229-4D3F-9D3F-EB2B4631C785",
+      "date": "1/1/1900"
+    },
+    {
+      "folderId": "40470190",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=280DD5F0-D5A4-4C63-A6F7-069DA40EC1AE",
+      "docId": "280DD5F0-D5A4-4C63-A6F7-069DA40EC1AE",
+      "date": "1/1/1900"
+    },
+    {
+      "folderId": "40470190",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=50B1E72E-1088-4ADE-ACDA-F8CF99F9F0BF",
+      "docId": "50B1E72E-1088-4ADE-ACDA-F8CF99F9F0BF",
+      "date": "1/1/1900"
+    },
+    {
+      "folderId": "40470190",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=4A0266D6-46AF-4442-96F8-3D6F5AA315DB",
+      "docId": "4A0266D6-46AF-4442-96F8-3D6F5AA315DB",
+      "date": "1/1/1900"
+    },
+    {
+      "folderId": "40470190",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=CA848DB1-90BA-4DFE-BB7C-0D12FAFAFCD8",
+      "docId": "CA848DB1-90BA-4DFE-BB7C-0D12FAFAFCD8",
+      "date": "1/1/1900"
+    },
+    {
+      "folderId": "40470190",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=86AB7137-EF85-4DC7-9B4F-F62D92493CBD",
+      "docId": "86AB7137-EF85-4DC7-9B4F-F62D92493CBD",
+      "date": "1/1/1900"
+    },
+    {
+      "folderId": "40470190",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=A3D3F77A-CCE4-42EF-807C-A07E72E597F4",
+      "docId": "A3D3F77A-CCE4-42EF-807C-A07E72E597F4",
+      "date": "1/1/1900"
+    },
+    {
+      "folderId": "40470190",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=D433B4DB-8AE2-42CF-890E-40E59AA72545",
+      "docId": "D433B4DB-8AE2-42CF-890E-40E59AA72545",
+      "date": "1/1/1900"
+    },
+    {
+      "folderId": "40470190",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=528EBD16-D2A1-488C-A77D-3A75D5875F90",
+      "docId": "528EBD16-D2A1-488C-A77D-3A75D5875F90",
+      "date": "1/1/1900"
+    },
+    {
+      "folderId": "40470190",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=F4370362-B526-4645-AD6E-282B35B2F497",
+      "docId": "F4370362-B526-4645-AD6E-282B35B2F497",
+      "date": "1/1/1900"
+    },
+    {
+      "folderId": "40470190",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=1100BDA5-C96C-4D71-BAD6-86B8DF419CDA",
+      "docId": "1100BDA5-C96C-4D71-BAD6-86B8DF419CDA",
+      "date": "1/1/1900"
+    },
+    {
+      "folderId": "40470210",
+      "title": "החלטת ועדה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=D23ECDF6-A3B3-402A-BAD5-70B1E4C848B0",
+      "docId": "D23ECDF6-A3B3-402A-BAD5-70B1E4C848B0",
+      "date": "27/4/2017"
+    },
+    {
+      "folderId": "40470210",
+      "title": "החלטת ועדה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=22942E9E-7920-4BC9-83B2-458C31D7A706",
+      "docId": "22942E9E-7920-4BC9-83B2-458C31D7A706",
+      "date": "27/4/2017"
+    },
+    {
+      "folderId": "40470210",
+      "title": "החלטת ועדה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=462E82C3-513B-4FDE-AC25-5FCEF40A987D",
+      "docId": "462E82C3-513B-4FDE-AC25-5FCEF40A987D",
+      "date": "27/4/2017"
+    },
+    {
+      "folderId": "40470210",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=C8318996-8E36-4D8F-83B2-12135CF14FBE",
+      "docId": "C8318996-8E36-4D8F-83B2-12135CF14FBE",
+      "date": "18/8/1996"
+    },
+    {
+      "folderId": "40470210",
+      "title": "ועדת ערר,ועדת משנה,רשות רישוי,ועדה מחוזית",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=7455908F-159C-4442-9E7E-9B96EF6FC92B",
+      "docId": "7455908F-159C-4442-9E7E-9B96EF6FC92B",
+      "date": "8/8/1996"
+    },
+    {
+      "folderId": "40470210",
+      "title": "ועדת ערר,ועדת משנה,רשות רישוי,ועדה מחוזית",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=B36DFD11-A8CF-466A-9176-591B5E2A5600",
+      "docId": "B36DFD11-A8CF-466A-9176-591B5E2A5600",
+      "date": "8/8/1996"
+    },
+    {
+      "folderId": "40470210",
+      "title": "ועדת ערר,ועדת משנה,רשות רישוי,ועדה מחוזית",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=8767E799-CB01-416B-8172-26BEB02AF0CB",
+      "docId": "8767E799-CB01-416B-8172-26BEB02AF0CB",
+      "date": "30/7/1996"
+    },
+    {
+      "folderId": "40470210",
+      "title": "תיק תעודת גמר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=65B864D3-B045-46C5-A6EE-C19816FCD7A7",
+      "docId": "65B864D3-B045-46C5-A6EE-C19816FCD7A7",
+      "date": "18/7/1996"
+    },
+    {
+      "folderId": "40470210",
+      "title": "ועדת ערר,ועדת משנה,רשות רישוי,ועדה מחוזית",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=E16E95BF-ED2D-47C5-A99F-E14FF745FE1E",
+      "docId": "E16E95BF-ED2D-47C5-A99F-E14FF745FE1E",
+      "date": "5/7/1996"
+    },
+    {
+      "folderId": "40470210",
+      "title": "ועדת ערר,ועדת משנה,רשות רישוי,ועדה מחוזית",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=5ECD25D0-660D-4DC5-B5C0-96FC0C36ADC6",
+      "docId": "5ECD25D0-660D-4DC5-B5C0-96FC0C36ADC6",
+      "date": "25/6/1996"
+    },
+    {
+      "folderId": "40470210",
+      "title": "ועדת ערר,ועדת משנה,רשות רישוי,ועדה מחוזית",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=F594F2EC-4BA7-4C71-9818-C81CCFEFA072",
+      "docId": "F594F2EC-4BA7-4C71-9818-C81CCFEFA072",
+      "date": "2/6/1996"
+    },
+    {
+      "folderId": "40470210",
+      "title": "ועדת ערר,ועדת משנה,רשות רישוי,ועדה מחוזית",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=0E17B208-F194-4B47-A0B1-6891F22C8BDB",
+      "docId": "0E17B208-F194-4B47-A0B1-6891F22C8BDB",
+      "date": "22/5/1996"
+    },
+    {
+      "folderId": "40470210",
+      "title": "ועדת ערר,ועדת משנה,רשות רישוי,ועדה מחוזית",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=F5E7AF67-5AE4-4988-877A-9CB6F45814EE",
+      "docId": "F5E7AF67-5AE4-4988-877A-9CB6F45814EE",
+      "date": "20/5/1996"
+    },
+    {
+      "folderId": "40470210",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=28EF5F45-3FA9-4430-A50D-2599D6CECC3D",
+      "docId": "28EF5F45-3FA9-4430-A50D-2599D6CECC3D",
+      "date": "30/4/1996"
+    },
+    {
+      "folderId": "40470210",
+      "title": "בקשה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=F3695382-3EBB-40A8-96CF-BA2CC3EA0104",
+      "docId": "F3695382-3EBB-40A8-96CF-BA2CC3EA0104",
+      "date": "30/4/1996"
+    },
+    {
+      "folderId": "40470210",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=24A03EF0-F5FD-4CCD-ADBA-BE20BAD9457C",
+      "docId": "24A03EF0-F5FD-4CCD-ADBA-BE20BAD9457C",
+      "date": "28/4/1996"
+    },
+    {
+      "folderId": "40470210",
+      "title": "רישוי-אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=3D36A003-7AB4-435A-89CC-6ED4663DEA9B",
+      "docId": "3D36A003-7AB4-435A-89CC-6ED4663DEA9B",
+      "date": "20/4/1996"
+    },
+    {
+      "folderId": "40470210",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=8BECEC2A-F92E-49CF-B67C-66A0CCFA9262",
+      "docId": "8BECEC2A-F92E-49CF-B67C-66A0CCFA9262",
+      "date": "17/4/1996"
+    },
+    {
+      "folderId": "40470210",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=02E2175B-D13D-40BC-A2DC-D859DB0DBA46",
+      "docId": "02E2175B-D13D-40BC-A2DC-D859DB0DBA46",
+      "date": "17/4/1996"
+    },
+    {
+      "folderId": "40470210",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=732835E8-ACB6-4ABD-9CD4-89E197630ACA",
+      "docId": "732835E8-ACB6-4ABD-9CD4-89E197630ACA",
+      "date": "16/4/1996"
+    },
+    {
+      "folderId": "40470210",
+      "title": "רישוי-אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=68E4F4BB-19DF-4183-85B9-C6C085E58CD9",
+      "docId": "68E4F4BB-19DF-4183-85B9-C6C085E58CD9",
+      "date": "2/4/1996"
+    },
+    {
+      "folderId": "40470210",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=9E3A5EDB-AFCE-4F66-83C3-7E6764E3B496",
+      "docId": "9E3A5EDB-AFCE-4F66-83C3-7E6764E3B496",
+      "date": "2/4/1996"
+    },
+    {
+      "folderId": "40470210",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=040F767F-3701-4D94-A3B9-4DDD38235005",
+      "docId": "040F767F-3701-4D94-A3B9-4DDD38235005",
+      "date": "2/4/1996"
+    },
+    {
+      "folderId": "40470210",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=2C946FF0-FF87-4E21-A843-43EBC0812E27",
+      "docId": "2C946FF0-FF87-4E21-A843-43EBC0812E27",
+      "date": "2/4/1996"
+    },
+    {
+      "folderId": "40470210",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=62E2CE9A-2C99-4E5A-9FCA-CAC4E4A79648",
+      "docId": "62E2CE9A-2C99-4E5A-9FCA-CAC4E4A79648",
+      "date": "2/4/1996"
+    },
+    {
+      "folderId": "40470210",
+      "title": "אישורי תחנות-על גבי מסמכי A4 ועל גבי תוכניות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=AA560479-921C-4202-AC3D-9B117AEA6778",
+      "docId": "AA560479-921C-4202-AC3D-9B117AEA6778",
+      "date": "2/4/1996"
+    },
+    {
+      "folderId": "40470210",
+      "title": "בקשה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=C94673F2-0672-4113-A418-78344802FED9",
+      "docId": "C94673F2-0672-4113-A418-78344802FED9",
+      "date": "2/4/1996"
+    },
+    {
+      "folderId": "40470210",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=33390D7E-D955-49CA-BCAE-9B4004FE4B14",
+      "docId": "33390D7E-D955-49CA-BCAE-9B4004FE4B14",
+      "date": "28/3/1996"
+    },
+    {
+      "folderId": "40470210",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=E4CEA7F4-EA73-4530-8FD9-5285ABDDC405",
+      "docId": "E4CEA7F4-EA73-4530-8FD9-5285ABDDC405",
+      "date": "19/3/1996"
+    },
+    {
+      "folderId": "40470210",
+      "title": "מפות מדידה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=9E43365E-7D93-45CC-AC57-2D1D3874F1D2",
+      "docId": "9E43365E-7D93-45CC-AC57-2D1D3874F1D2",
+      "date": "1/2/1996"
+    },
+    {
+      "folderId": "40470210",
+      "title": "מפות מדידה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=DE013562-CBE0-4E2B-BD70-6F471414399A",
+      "docId": "DE013562-CBE0-4E2B-BD70-6F471414399A",
+      "date": "1/2/1996"
+    },
+    {
+      "folderId": "40470210",
+      "title": "מפות מדידה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=30D6791F-0256-4A94-9675-F6CB0624BE52",
+      "docId": "30D6791F-0256-4A94-9675-F6CB0624BE52",
+      "date": "1/2/1996"
+    },
+    {
+      "folderId": "40470210",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=DC6F7CFD-3F2B-4FCC-B4AF-030C9C478B08",
+      "docId": "DC6F7CFD-3F2B-4FCC-B4AF-030C9C478B08",
+      "date": "29/11/1995"
+    },
+    {
+      "folderId": "40470210",
+      "title": "אישורי תחנות-על גבי מסמכי A4 ועל גבי תוכניות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=9A2E5620-59E8-4D31-B541-620B4D470A43",
+      "docId": "9A2E5620-59E8-4D31-B541-620B4D470A43",
+      "date": "17/11/1995"
+    },
+    {
+      "folderId": "40470210",
+      "title": "תיק מידע",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=26FECBD9-6550-456D-A93C-ADD1904BA9D8",
+      "docId": "26FECBD9-6550-456D-A93C-ADD1904BA9D8",
+      "date": "14/11/1995"
+    },
+    {
+      "folderId": "40470210",
+      "title": "תוכניות לא חתומות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=1CFC7FD5-9F50-422D-83DA-314AB9FD9F38",
+      "docId": "1CFC7FD5-9F50-422D-83DA-314AB9FD9F38",
+      "date": "29/8/1995"
+    },
+    {
+      "folderId": "40470210",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=61EB3E93-7584-489E-9D29-55066CB78924",
+      "docId": "61EB3E93-7584-489E-9D29-55066CB78924",
+      "date": "29/8/1995"
+    },
+    {
+      "folderId": "40470210",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=9BCC6428-A6E3-44BC-AA26-3F6B980E6074",
+      "docId": "9BCC6428-A6E3-44BC-AA26-3F6B980E6074",
+      "date": "15/6/1993"
+    },
+    {
+      "folderId": "40470210",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=5FAE0681-FA18-40DF-8845-7796544E4C5B",
+      "docId": "5FAE0681-FA18-40DF-8845-7796544E4C5B",
+      "date": "31/5/1993"
+    },
+    {
+      "folderId": "40470210",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=800778B7-1E90-4188-91E4-6AB0027811D7",
+      "docId": "800778B7-1E90-4188-91E4-6AB0027811D7",
+      "date": "30/5/1993"
+    },
+    {
+      "folderId": "40470210",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=45EC83A8-CE7E-46A7-9F03-4D49004E5A99",
+      "docId": "45EC83A8-CE7E-46A7-9F03-4D49004E5A99",
+      "date": "30/5/1993"
+    },
+    {
+      "folderId": "40470210",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=BD96E352-9C1C-4329-87DD-B991D1409399",
+      "docId": "BD96E352-9C1C-4329-87DD-B991D1409399",
+      "date": "30/5/1993"
+    },
+    {
+      "folderId": "40470210",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=E7670D04-E8F9-4212-93E5-60094818C706",
+      "docId": "E7670D04-E8F9-4212-93E5-60094818C706",
+      "date": "25/2/1993"
+    },
+    {
+      "folderId": "40470210",
+      "title": "בקשה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=5AE4D072-893D-45A8-9987-E3E474D3504B",
+      "docId": "5AE4D072-893D-45A8-9987-E3E474D3504B",
+      "date": "4/2/1993"
+    },
+    {
+      "folderId": "40470210",
+      "title": "היתר-תכנית חתומה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=D3FDFFE1-0857-48C4-9625-CCC9DEE3D2F0",
+      "docId": "D3FDFFE1-0857-48C4-9625-CCC9DEE3D2F0",
+      "date": "26/1/1993"
+    },
+    {
+      "folderId": "40470210",
+      "title": "היתר מילולי חתום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=7792BF4E-5742-4857-85E6-29E81DE941D4",
+      "docId": "7792BF4E-5742-4857-85E6-29E81DE941D4",
+      "date": "26/1/1993"
+    },
+    {
+      "folderId": "40470210",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=7B9CDD67-A164-47CF-9CA1-5119A9C1BF59",
+      "docId": "7B9CDD67-A164-47CF-9CA1-5119A9C1BF59",
+      "date": "21/1/1993"
+    },
+    {
+      "folderId": "40470210",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=793DB12B-2B8F-4363-B4D4-C2A02C2D6FA3",
+      "docId": "793DB12B-2B8F-4363-B4D4-C2A02C2D6FA3",
+      "date": "18/1/1993"
+    },
+    {
+      "folderId": "40470210",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=83B5A227-85C6-48AF-90B5-CF579C5C0B49",
+      "docId": "83B5A227-85C6-48AF-90B5-CF579C5C0B49",
+      "date": "10/1/1993"
+    },
+    {
+      "folderId": "40470210",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=D9F566DD-11C9-4D7D-BA26-6E8C0A404E2F",
+      "docId": "D9F566DD-11C9-4D7D-BA26-6E8C0A404E2F",
+      "date": "8/1/1993"
+    },
+    {
+      "folderId": "40470250",
+      "title": "החלטת ועדה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=BD25A195-4BD0-456A-8CE1-CFC129B81012",
+      "docId": "BD25A195-4BD0-456A-8CE1-CFC129B81012",
+      "date": "27/4/2017"
+    },
+    {
+      "folderId": "40470250",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=D399B4F3-3900-4459-875C-375E89019C83",
+      "docId": "D399B4F3-3900-4459-875C-375E89019C83",
+      "date": "22/4/2012"
+    },
+    {
+      "folderId": "40470250",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=98E64772-7F0B-482E-865D-900DA545A174",
+      "docId": "98E64772-7F0B-482E-865D-900DA545A174",
+      "date": "30/4/1995"
+    },
+    {
+      "folderId": "40470250",
+      "title": "אישורי תחנות-על גבי מסמכי A4 ועל גבי תוכניות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=DF84D1DB-922B-4006-A1DB-FD122BBC28B5",
+      "docId": "DF84D1DB-922B-4006-A1DB-FD122BBC28B5",
+      "date": "18/5/1994"
+    },
+    {
+      "folderId": "40470250",
+      "title": "ועדת ערר,ועדת משנה,רשות רישוי,ועדה מחוזית",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=8904EE80-F701-48BB-A7D5-08E478773B0A",
+      "docId": "8904EE80-F701-48BB-A7D5-08E478773B0A",
+      "date": "27/4/1994"
+    },
+    {
+      "folderId": "40470250",
+      "title": "תוכנית סניטרית/חיבור ביוב",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=65C20F83-ECCF-4D7B-97A2-B6CA0E594B11",
+      "docId": "65C20F83-ECCF-4D7B-97A2-B6CA0E594B11",
+      "date": "5/4/1994"
+    },
+    {
+      "folderId": "40470250",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=2FF990B3-448C-4F21-A138-F1CC0B44B1F9",
+      "docId": "2FF990B3-448C-4F21-A138-F1CC0B44B1F9",
+      "date": "2/3/1994"
+    },
+    {
+      "folderId": "40470250",
+      "title": "אישורי תחנות-על גבי מסמכי A4 ועל גבי תוכניות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=A64BB3C2-DA74-4815-928D-5DBF50A3A33E",
+      "docId": "A64BB3C2-DA74-4815-928D-5DBF50A3A33E",
+      "date": "21/2/1994"
+    },
+    {
+      "folderId": "40470250",
+      "title": "בקשה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=09530025-9260-46EE-9616-49A6805668E4",
+      "docId": "09530025-9260-46EE-9616-49A6805668E4",
+      "date": "21/2/1994"
+    },
+    {
+      "folderId": "40470250",
+      "title": "רישוי-אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=7A25691B-4D3F-4914-AC4A-4AC195BC4CC1",
+      "docId": "7A25691B-4D3F-4914-AC4A-4AC195BC4CC1",
+      "date": "21/2/1994"
+    },
+    {
+      "folderId": "40470250",
+      "title": "ועדת ערר,ועדת משנה,רשות רישוי,ועדה מחוזית",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=688E31DF-6BC5-4E17-A24F-72C64F38E264",
+      "docId": "688E31DF-6BC5-4E17-A24F-72C64F38E264",
+      "date": "21/2/1994"
+    },
+    {
+      "folderId": "40470250",
+      "title": "רישוי-אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=B59D09B5-95DC-4F43-BF12-83E9FDCBEAE7",
+      "docId": "B59D09B5-95DC-4F43-BF12-83E9FDCBEAE7",
+      "date": "20/2/1994"
+    },
+    {
+      "folderId": "40470250",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=FD593D31-236A-4610-BC44-00BA5A1AC321",
+      "docId": "FD593D31-236A-4610-BC44-00BA5A1AC321",
+      "date": "27/1/1994"
+    },
+    {
+      "folderId": "40470250",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=4DC8FDB6-F70B-44BA-B169-9070926CB851",
+      "docId": "4DC8FDB6-F70B-44BA-B169-9070926CB851",
+      "date": "13/1/1994"
+    },
+    {
+      "folderId": "40470250",
+      "title": "תוכנית סניטרית/חיבור ביוב",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=18B95749-5114-4733-85C9-83FD7AA7950A",
+      "docId": "18B95749-5114-4733-85C9-83FD7AA7950A",
+      "date": "5/1/1994"
+    },
+    {
+      "folderId": "40470250",
+      "title": "מפות מדידה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=6B25EE24-6F74-4C05-8283-0AC40B1821E0",
+      "docId": "6B25EE24-6F74-4C05-8283-0AC40B1821E0",
+      "date": "27/12/1993"
+    },
+    {
+      "folderId": "40470250",
+      "title": "אישורי תחנות-על גבי מסמכי A4 ועל גבי תוכניות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=442439CC-9645-48A5-9E79-9F1C6F9A9A52",
+      "docId": "442439CC-9645-48A5-9E79-9F1C6F9A9A52",
+      "date": "22/12/1993"
+    },
+    {
+      "folderId": "40470250",
+      "title": "תיק מידע",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=E0A285E5-B9C7-4C40-99AE-1472211DC55D",
+      "docId": "E0A285E5-B9C7-4C40-99AE-1472211DC55D",
+      "date": "29/11/1993"
+    },
+    {
+      "folderId": "40470250",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=70B375C6-9ADE-41E0-85EC-C73549EA8FF0",
+      "docId": "70B375C6-9ADE-41E0-85EC-C73549EA8FF0",
+      "date": "1/4/1993"
+    },
+    {
+      "folderId": "40470250",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=BC97CF9F-65A1-47B9-8C9F-B6F94240A40B",
+      "docId": "BC97CF9F-65A1-47B9-8C9F-B6F94240A40B",
+      "date": "18/1/1993"
+    },
+    {
+      "folderId": "40470250",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=4E505C9F-0C36-4F7E-B31A-6D5345546F3E",
+      "docId": "4E505C9F-0C36-4F7E-B31A-6D5345546F3E",
+      "date": "1/1/1900"
+    },
+    {
+      "folderId": "40470250",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=263415F3-D50C-4A16-905E-ADE4733A99AD",
+      "docId": "263415F3-D50C-4A16-905E-ADE4733A99AD",
+      "date": "1/1/1900"
+    },
+    {
+      "folderId": "40470250",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=C7A2DBFA-A9EE-4A9B-BC70-EE50DE804214",
+      "docId": "C7A2DBFA-A9EE-4A9B-BC70-EE50DE804214",
+      "date": "1/1/1900"
+    },
+    {
+      "folderId": "40470270",
+      "title": "תעודת גמר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=1533761F-0718-430B-BE6C-EF9F91C5E651",
+      "docId": "1533761F-0718-430B-BE6C-EF9F91C5E651",
+      "date": "20/6/2005"
+    },
+    {
+      "folderId": "40470270",
+      "title": "תיק תעודת גמר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=2FC575E2-A259-4FE3-BFE2-CE78929F5557",
+      "docId": "2FC575E2-A259-4FE3-BFE2-CE78929F5557",
+      "date": "16/6/2005"
+    },
+    {
+      "folderId": "40470270",
+      "title": "טופס 4",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=05EB573B-B6D1-4959-B159-A784D4A833D1",
+      "docId": "05EB573B-B6D1-4959-B159-A784D4A833D1",
+      "date": "18/4/2005"
+    },
+    {
+      "folderId": "40470270",
+      "title": "תיק תעודת גמר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=2D687062-894E-4FED-8C0C-3A6BFA421F89",
+      "docId": "2D687062-894E-4FED-8C0C-3A6BFA421F89",
+      "date": "18/4/2005"
+    },
+    {
+      "folderId": "40470270",
+      "title": "טופס 4",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=D6183D53-9C6E-45A9-8B4C-FB799CB7D66B",
+      "docId": "D6183D53-9C6E-45A9-8B4C-FB799CB7D66B",
+      "date": "18/4/2005"
+    },
+    {
+      "folderId": "40470270",
+      "title": "תיק תעודת גמר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=783DB040-7260-4F9C-98A3-524BF03526A4",
+      "docId": "783DB040-7260-4F9C-98A3-524BF03526A4",
+      "date": "17/4/2005"
+    },
+    {
+      "folderId": "40470270",
+      "title": "תיק תעודת גמר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=8D5169E6-F48C-40AB-B5D9-5D5CFEA4CF10",
+      "docId": "8D5169E6-F48C-40AB-B5D9-5D5CFEA4CF10",
+      "date": "10/4/2005"
+    },
+    {
+      "folderId": "40470270",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=DC157DC3-66C7-4FB6-AB0B-80A95D10F3C8",
+      "docId": "DC157DC3-66C7-4FB6-AB0B-80A95D10F3C8",
+      "date": "4/4/2005"
+    },
+    {
+      "folderId": "40470270",
+      "title": "תיק תעודת גמר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=1A6FB5AB-6171-4DFB-B913-18A844FD1D77",
+      "docId": "1A6FB5AB-6171-4DFB-B913-18A844FD1D77",
+      "date": "4/4/2005"
+    },
+    {
+      "folderId": "40470270",
+      "title": "תיק תעודת גמר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=AA057797-5E25-4E8A-A199-53C6FFA0E4C6",
+      "docId": "AA057797-5E25-4E8A-A199-53C6FFA0E4C6",
+      "date": "30/3/2005"
+    },
+    {
+      "folderId": "40470270",
+      "title": "תיק תעודת גמר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=3CD31240-47BA-456C-8796-6EE18AE11F18",
+      "docId": "3CD31240-47BA-456C-8796-6EE18AE11F18",
+      "date": "28/3/2005"
+    },
+    {
+      "folderId": "40470270",
+      "title": "תיק תעודת גמר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=D659D4CA-EBD9-493B-83B5-CBD877B1CD27",
+      "docId": "D659D4CA-EBD9-493B-83B5-CBD877B1CD27",
+      "date": "24/3/2005"
+    },
+    {
+      "folderId": "40470270",
+      "title": "תיק תעודת גמר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=BDFF0672-D790-4C6F-83A9-DDEAD103424C",
+      "docId": "BDFF0672-D790-4C6F-83A9-DDEAD103424C",
+      "date": "9/3/2005"
+    },
+    {
+      "folderId": "40470270",
+      "title": "מפות מדידה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=8393C166-2774-4303-9791-D281B9996261",
+      "docId": "8393C166-2774-4303-9791-D281B9996261",
+      "date": "9/3/2005"
+    },
+    {
+      "folderId": "40470270",
+      "title": "מפות מדידה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=7B872BFF-DC1A-4ED2-A33A-03B3D8E68A3C",
+      "docId": "7B872BFF-DC1A-4ED2-A33A-03B3D8E68A3C",
+      "date": "9/3/2005"
+    },
+    {
+      "folderId": "40470270",
+      "title": "תיק תעודת גמר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=53011361-E5E5-4A4C-B797-B416B284E662",
+      "docId": "53011361-E5E5-4A4C-B797-B416B284E662",
+      "date": "28/2/2005"
+    },
+    {
+      "folderId": "40470270",
+      "title": "תיק תעודת גמר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=BEF87DAA-E546-4541-BB00-E0309245B081",
+      "docId": "BEF87DAA-E546-4541-BB00-E0309245B081",
+      "date": "22/2/2005"
+    },
+    {
+      "folderId": "40470270",
+      "title": "תיק תעודת גמר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=D571B430-24B6-458F-B42A-211687C487F1",
+      "docId": "D571B430-24B6-458F-B42A-211687C487F1",
+      "date": "17/2/2005"
+    },
+    {
+      "folderId": "40470270",
+      "title": "חשבון יציבות,תצהיר מהנדס",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=C7C318B3-4BC8-4C3B-84B1-FF2F2396B7D7",
+      "docId": "C7C318B3-4BC8-4C3B-84B1-FF2F2396B7D7",
+      "date": "1/2/2005"
+    },
+    {
+      "folderId": "40470270",
+      "title": "תיק תעודת גמר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=04B54050-3E4C-438A-A748-6F10881CA281",
+      "docId": "04B54050-3E4C-438A-A748-6F10881CA281",
+      "date": "31/1/2005"
+    },
+    {
+      "folderId": "40470270",
+      "title": "אישורי תחנות-על גבי מסמכי A4 ועל גבי תוכניות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=52AF7765-EA5F-4989-A949-3148CB6124C3",
+      "docId": "52AF7765-EA5F-4989-A949-3148CB6124C3",
+      "date": "31/1/2005"
+    },
+    {
+      "folderId": "40470270",
+      "title": "היתר-תכנית חתומה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=0A705AC0-7C51-4191-8388-B0C68DE8B179",
+      "docId": "0A705AC0-7C51-4191-8388-B0C68DE8B179",
+      "date": "31/7/2002"
+    },
+    {
+      "folderId": "40470270",
+      "title": "היתר-תכנית חתומה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=043DD2BA-AB04-4DEA-8D49-A98A19D3BABE",
+      "docId": "043DD2BA-AB04-4DEA-8D49-A98A19D3BABE",
+      "date": "31/7/2002"
+    },
+    {
+      "folderId": "40470270",
+      "title": "היתר מילולי חתום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=62AC6033-59EE-42F0-B21C-30D86DF66315",
+      "docId": "62AC6033-59EE-42F0-B21C-30D86DF66315",
+      "date": "31/7/2002"
+    },
+    {
+      "folderId": "40470270",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=FB10DAEA-E464-4A54-AD8E-F94207692B9E",
+      "docId": "FB10DAEA-E464-4A54-AD8E-F94207692B9E",
+      "date": "31/7/2002"
+    },
+    {
+      "folderId": "40470270",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=DA48E0C5-10FE-471E-BF08-16E8EF702516",
+      "docId": "DA48E0C5-10FE-471E-BF08-16E8EF702516",
+      "date": "25/6/2002"
+    },
+    {
+      "folderId": "40470270",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=57CD698B-F634-4087-9BF1-26CAC542B0B6",
+      "docId": "57CD698B-F634-4087-9BF1-26CAC542B0B6",
+      "date": "23/6/2002"
+    },
+    {
+      "folderId": "40470270",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=C24DF48F-95AE-42D8-980B-71C181752F2B",
+      "docId": "C24DF48F-95AE-42D8-980B-71C181752F2B",
+      "date": "27/5/2002"
+    },
+    {
+      "folderId": "40470270",
+      "title": "חשבון יציבות,תצהיר מהנדס",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=ACEEE33F-2776-401E-9A5B-D2DAAC3DBC2C",
+      "docId": "ACEEE33F-2776-401E-9A5B-D2DAAC3DBC2C",
+      "date": "4/4/2002"
+    },
+    {
+      "folderId": "40470270",
+      "title": "אישורי תחנות-על גבי מסמכי A4 ועל גבי תוכניות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=9252D822-A8E3-4431-A497-A080559BB718",
+      "docId": "9252D822-A8E3-4431-A497-A080559BB718",
+      "date": "4/4/2002"
+    },
+    {
+      "folderId": "40470270",
+      "title": "אישורי תחנות-על גבי מסמכי A4 ועל גבי תוכניות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=8E2A6ECD-DC08-4314-A466-A7920AA2C17D",
+      "docId": "8E2A6ECD-DC08-4314-A466-A7920AA2C17D",
+      "date": "4/4/2002"
+    },
+    {
+      "folderId": "40470270",
+      "title": "אישורי תחנות-על גבי מסמכי A4 ועל גבי תוכניות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=FE67E7B8-3AAE-4582-A61C-11B0C303DD09",
+      "docId": "FE67E7B8-3AAE-4582-A61C-11B0C303DD09",
+      "date": "4/4/2002"
+    },
+    {
+      "folderId": "40470270",
+      "title": "אישורי תחנות-על גבי מסמכי A4 ועל גבי תוכניות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=CB9FB63A-1776-46EF-9F52-2FEF55C626C9",
+      "docId": "CB9FB63A-1776-46EF-9F52-2FEF55C626C9",
+      "date": "5/2/2002"
+    },
+    {
+      "folderId": "40470270",
+      "title": "תוכנית סניטרית/חיבור ביוב",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=E8EBBA68-989E-428A-9BBE-4F8B822A43FA",
+      "docId": "E8EBBA68-989E-428A-9BBE-4F8B822A43FA",
+      "date": "7/1/2002"
+    },
+    {
+      "folderId": "40470270",
+      "title": "ועדת ערר,ועדת משנה,רשות רישוי,ועדה מחוזית",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=04676D1D-80B1-445E-90C8-4055DD951124",
+      "docId": "04676D1D-80B1-445E-90C8-4055DD951124",
+      "date": "12/12/2001"
+    },
+    {
+      "folderId": "40470270",
+      "title": "אישורי תחנות-על גבי מסמכי A4 ועל גבי תוכניות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=E73D9E6F-1D4E-4781-90B5-1C483CEFC10C",
+      "docId": "E73D9E6F-1D4E-4781-90B5-1C483CEFC10C",
+      "date": "11/11/2001"
+    },
+    {
+      "folderId": "40470270",
+      "title": "ועדת ערר,ועדת משנה,רשות רישוי,ועדה מחוזית",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=C26292C6-A3CA-4402-972C-6C20967F84C8",
+      "docId": "C26292C6-A3CA-4402-972C-6C20967F84C8",
+      "date": "25/9/2001"
+    },
+    {
+      "folderId": "40470270",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=550ADD5E-9555-4EFC-BF0D-D64027A962BF",
+      "docId": "550ADD5E-9555-4EFC-BF0D-D64027A962BF",
+      "date": "5/8/2001"
+    },
+    {
+      "folderId": "40470270",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=D731B4F8-1EBD-4057-8C31-ACAC7D0C3E8C",
+      "docId": "D731B4F8-1EBD-4057-8C31-ACAC7D0C3E8C",
+      "date": "5/8/2001"
+    },
+    {
+      "folderId": "40470270",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=0868CA1F-A7EA-4A98-A727-6893D590B102",
+      "docId": "0868CA1F-A7EA-4A98-A727-6893D590B102",
+      "date": "2/8/2001"
+    },
+    {
+      "folderId": "40470270",
+      "title": "אישורי תחנות-על גבי מסמכי A4 ועל גבי תוכניות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=BE640EFA-23BF-48C1-999D-E6C7B9F70EA7",
+      "docId": "BE640EFA-23BF-48C1-999D-E6C7B9F70EA7",
+      "date": "1/8/2001"
+    },
+    {
+      "folderId": "40470270",
+      "title": "אישורי תחנות-על גבי מסמכי A4 ועל גבי תוכניות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=DBDF4853-B0B1-483D-80E1-E04723AF949D",
+      "docId": "DBDF4853-B0B1-483D-80E1-E04723AF949D",
+      "date": "1/8/2001"
+    },
+    {
+      "folderId": "40470270",
+      "title": "תיק מידע",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=F6B21CDB-81C3-40EE-A240-17942ED0AA47",
+      "docId": "F6B21CDB-81C3-40EE-A240-17942ED0AA47",
+      "date": "1/8/2001"
+    },
+    {
+      "folderId": "40470270",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=8917442B-C0E8-4A5D-8DF3-8C7E86E02570",
+      "docId": "8917442B-C0E8-4A5D-8DF3-8C7E86E02570",
+      "date": "1/8/2001"
+    },
+    {
+      "folderId": "40470270",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=AD1F426D-C17F-4372-87E1-17AE9CF6A3FD",
+      "docId": "AD1F426D-C17F-4372-87E1-17AE9CF6A3FD",
+      "date": "1/8/2001"
+    },
+    {
+      "folderId": "40470270",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=E98D9CEB-4E69-498B-A23C-CDB6C3FC0B73",
+      "docId": "E98D9CEB-4E69-498B-A23C-CDB6C3FC0B73",
+      "date": "1/8/2001"
+    },
+    {
+      "folderId": "40470270",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=99DA3C73-39F8-44C5-BEB1-D07178545DF6",
+      "docId": "99DA3C73-39F8-44C5-BEB1-D07178545DF6",
+      "date": "1/8/2001"
+    },
+    {
+      "folderId": "40470270",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=A5E85E58-6156-422D-A3F1-B016B26F8149",
+      "docId": "A5E85E58-6156-422D-A3F1-B016B26F8149",
+      "date": "1/8/2001"
+    },
+    {
+      "folderId": "40470270",
+      "title": "רישוי-אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=EA9F547B-BF1E-4E0B-BBC6-F95A014C814D",
+      "docId": "EA9F547B-BF1E-4E0B-BBC6-F95A014C814D",
+      "date": "1/8/2001"
+    },
+    {
+      "folderId": "40470270",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=F69B213B-5C03-4952-B0FF-3B03D0C0E874",
+      "docId": "F69B213B-5C03-4952-B0FF-3B03D0C0E874",
+      "date": "1/8/2001"
+    },
+    {
+      "folderId": "40470290",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=B5A3A092-B243-45C0-B3A0-1935812B3609",
+      "docId": "B5A3A092-B243-45C0-B3A0-1935812B3609",
+      "date": "14/5/2008"
+    },
+    {
+      "folderId": "40470290",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=F44FD83F-35E5-4D3E-AC1A-DED7B3729C11",
+      "docId": "F44FD83F-35E5-4D3E-AC1A-DED7B3729C11",
+      "date": "14/5/2008"
+    },
+    {
+      "folderId": "40470290",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=EE8B552D-AFD9-4547-BE1E-8F0F2210218B",
+      "docId": "EE8B552D-AFD9-4547-BE1E-8F0F2210218B",
+      "date": "27/4/2008"
+    },
+    {
+      "folderId": "40470290",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=2485B596-DB4B-4DF3-9A4F-F78E0BD5B832",
+      "docId": "2485B596-DB4B-4DF3-9A4F-F78E0BD5B832",
+      "date": "27/4/2008"
+    },
+    {
+      "folderId": "40470290",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=CDEC5CE0-7DAF-4086-B529-D7A9486A9D1E",
+      "docId": "CDEC5CE0-7DAF-4086-B529-D7A9486A9D1E",
+      "date": "30/3/2008"
+    },
+    {
+      "folderId": "40470290",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=12D27E18-9EB0-4323-AAF2-350EA9488FD3",
+      "docId": "12D27E18-9EB0-4323-AAF2-350EA9488FD3",
+      "date": "29/2/2008"
+    },
+    {
+      "folderId": "40470290",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=52DDA70D-EF9E-4A14-8001-7B1C30F177AE",
+      "docId": "52DDA70D-EF9E-4A14-8001-7B1C30F177AE",
+      "date": "21/11/2005"
+    },
+    {
+      "folderId": "40470290",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=37A6751B-2737-4BC8-96F0-774FC7233704",
+      "docId": "37A6751B-2737-4BC8-96F0-774FC7233704",
+      "date": "20/11/2005"
+    },
+    {
+      "folderId": "40470290",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=832F8027-B896-48AD-BCCF-6D347611F99C",
+      "docId": "832F8027-B896-48AD-BCCF-6D347611F99C",
+      "date": "20/9/2005"
+    },
+    {
+      "folderId": "40470290",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=C29EBD56-3DE3-4CB9-B21B-F4906CF1FBBD",
+      "docId": "C29EBD56-3DE3-4CB9-B21B-F4906CF1FBBD",
+      "date": "25/8/2005"
+    },
+    {
+      "folderId": "40470290",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=27F9B031-8B7A-41B9-9B5E-5C103D5224B9",
+      "docId": "27F9B031-8B7A-41B9-9B5E-5C103D5224B9",
+      "date": "26/7/2005"
+    },
+    {
+      "folderId": "40470290",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=396D5097-2E87-47AB-971D-50D6B8E4FEFF",
+      "docId": "396D5097-2E87-47AB-971D-50D6B8E4FEFF",
+      "date": "24/7/2005"
+    },
+    {
+      "folderId": "40470290",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=C2D94D82-94F4-40C4-98EF-E5A5EDCA365A",
+      "docId": "C2D94D82-94F4-40C4-98EF-E5A5EDCA365A",
+      "date": "12/7/2005"
+    },
+    {
+      "folderId": "40470290",
+      "title": "תיק מבנים מסוכנים 4,3, 4ג,7",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=2A1973CE-B5D6-4503-A964-D06AEFC297B8",
+      "docId": "2A1973CE-B5D6-4503-A964-D06AEFC297B8",
+      "date": "11/7/2005"
+    },
+    {
+      "folderId": "40470290",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=DCB9AC74-9855-4CE8-A936-521545C52650",
+      "docId": "DCB9AC74-9855-4CE8-A936-521545C52650",
+      "date": "11/7/2005"
+    },
+    {
+      "folderId": "40470290",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=ECD1E416-DA5F-4ECA-B53B-E7DCCB4AB835",
+      "docId": "ECD1E416-DA5F-4ECA-B53B-E7DCCB4AB835",
+      "date": "11/7/2005"
+    },
+    {
+      "folderId": "40470290",
+      "title": "ועדת ערר,ועדת משנה,רשות רישוי,ועדה מחוזית",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=7FD7DBAB-A5A1-44F9-B09C-A763808EAA65",
+      "docId": "7FD7DBAB-A5A1-44F9-B09C-A763808EAA65",
+      "date": "12/12/2001"
+    },
+    {
+      "folderId": "40470290",
+      "title": "ועדת ערר,ועדת משנה,רשות רישוי,ועדה מחוזית",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=1ED3DEDF-7059-4333-A2B4-3AAED929E64F",
+      "docId": "1ED3DEDF-7059-4333-A2B4-3AAED929E64F",
+      "date": "28/10/2001"
+    },
+    {
+      "folderId": "40470290",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=676CA4AC-5387-4D81-B5E2-CA621F5C5586",
+      "docId": "676CA4AC-5387-4D81-B5E2-CA621F5C5586",
+      "date": "21/10/2001"
+    },
+    {
+      "folderId": "40470290",
+      "title": "תיק מידע",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=8F031C77-A711-468F-8091-C8936395897B",
+      "docId": "8F031C77-A711-468F-8091-C8936395897B",
+      "date": "13/8/2001"
+    },
+    {
+      "folderId": "40470290",
+      "title": "אישורי תחנות-על גבי מסמכי A4 ועל גבי תוכניות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=91DB2BAE-5FCE-401B-82E2-39769643D124",
+      "docId": "91DB2BAE-5FCE-401B-82E2-39769643D124",
+      "date": "5/6/2001"
+    },
+    {
+      "folderId": "40470290",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=F64EE08E-012D-4737-A80A-F212AFED8468",
+      "docId": "F64EE08E-012D-4737-A80A-F212AFED8468",
+      "date": "31/5/2001"
+    },
+    {
+      "folderId": "40470290",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=F9B54012-5671-4892-B997-4FC72A96B4FA",
+      "docId": "F9B54012-5671-4892-B997-4FC72A96B4FA",
+      "date": "23/5/2001"
+    },
+    {
+      "folderId": "40470290",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=37B7AEA9-7C90-4BFE-8705-7E28CFF6DA77",
+      "docId": "37B7AEA9-7C90-4BFE-8705-7E28CFF6DA77",
+      "date": "23/5/2001"
+    },
+    {
+      "folderId": "40470290",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=F01464CD-62D8-4A53-BB82-3DDBC4DFBC58",
+      "docId": "F01464CD-62D8-4A53-BB82-3DDBC4DFBC58",
+      "date": "23/5/2001"
+    },
+    {
+      "folderId": "40470290",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=B6A48F8B-4102-4940-BD03-FB1A001F6E60",
+      "docId": "B6A48F8B-4102-4940-BD03-FB1A001F6E60",
+      "date": "23/5/2001"
+    },
+    {
+      "folderId": "40470290",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=16E9EC87-E196-4FD5-9375-34F0AFAF4EF4",
+      "docId": "16E9EC87-E196-4FD5-9375-34F0AFAF4EF4",
+      "date": "20/5/2001"
+    },
+    {
+      "folderId": "40470290",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=37964573-538F-4A54-A00D-BC32F5F98E75",
+      "docId": "37964573-538F-4A54-A00D-BC32F5F98E75",
+      "date": "20/5/2001"
+    },
+    {
+      "folderId": "40470290",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=9A153861-6F12-4654-9864-919B8C0D3BD3",
+      "docId": "9A153861-6F12-4654-9864-919B8C0D3BD3",
+      "date": "20/5/2001"
+    },
+    {
+      "folderId": "40470290",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=535C51AC-3226-48AF-BC47-2F9BAD7F664E",
+      "docId": "535C51AC-3226-48AF-BC47-2F9BAD7F664E",
+      "date": "20/5/2001"
+    },
+    {
+      "folderId": "40470290",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=7FBE5618-42C8-46BF-9511-794C609BB6CA",
+      "docId": "7FBE5618-42C8-46BF-9511-794C609BB6CA",
+      "date": "13/5/2001"
+    },
+    {
+      "folderId": "40470290",
+      "title": "תיק מידע",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=1240238F-96B9-449E-A6C6-261E9BC29D18",
+      "docId": "1240238F-96B9-449E-A6C6-261E9BC29D18",
+      "date": "13/5/2001"
+    },
+    {
+      "folderId": "40470290",
+      "title": "רישוי-אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=BB2456F0-1940-4B04-933C-59C23D2649D7",
+      "docId": "BB2456F0-1940-4B04-933C-59C23D2649D7",
+      "date": "13/5/2001"
+    },
+    {
+      "folderId": "40470290",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=0C411098-A0A9-417A-AAE6-8F645FC86D2D",
+      "docId": "0C411098-A0A9-417A-AAE6-8F645FC86D2D",
+      "date": "13/5/2001"
+    },
+    {
+      "folderId": "40470290",
+      "title": "בקשה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=51CC9ABF-4568-4E0B-B474-280907FA3B02",
+      "docId": "51CC9ABF-4568-4E0B-B474-280907FA3B02",
+      "date": "13/5/2001"
+    },
+    {
+      "folderId": "40470290",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=1F1B5FB0-BBDC-482A-89AC-FB773D5B0952",
+      "docId": "1F1B5FB0-BBDC-482A-89AC-FB773D5B0952",
+      "date": "13/5/2001"
+    },
+    {
+      "folderId": "40470290",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=91EAC429-A66D-4267-A82E-100545401AC1",
+      "docId": "91EAC429-A66D-4267-A82E-100545401AC1",
+      "date": "13/5/2001"
+    },
+    {
+      "folderId": "40470290",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=51AF1435-801E-4672-B688-A48E6FB79FCC",
+      "docId": "51AF1435-801E-4672-B688-A48E6FB79FCC",
+      "date": "13/5/2001"
+    },
+    {
+      "folderId": "40470290",
+      "title": "אישורי תחנות-על גבי מסמכי A4 ועל גבי תוכניות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=34497CC2-C026-444C-AC3E-1161D71B064F",
+      "docId": "34497CC2-C026-444C-AC3E-1161D71B064F",
+      "date": "13/5/2001"
+    },
+    {
+      "folderId": "40470290",
+      "title": "תיק מידע",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=5BCEB53A-621F-4344-B430-8CEFFB7342B3",
+      "docId": "5BCEB53A-621F-4344-B430-8CEFFB7342B3",
+      "date": "25/3/2001"
+    },
+    {
+      "folderId": "40470290",
+      "title": "תיק מידע",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=C868C122-A10E-4411-AD16-8BA4FE2A894B",
+      "docId": "C868C122-A10E-4411-AD16-8BA4FE2A894B",
+      "date": "21/3/2001"
+    },
+    {
+      "folderId": "40470290",
+      "title": "אישורי תחנות-על גבי מסמכי A4 ועל גבי תוכניות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=B6FBE777-8400-455C-91E5-4EDB64462623",
+      "docId": "B6FBE777-8400-455C-91E5-4EDB64462623",
+      "date": "14/3/2001"
+    },
+    {
+      "folderId": "40470290",
+      "title": "תיק מידע",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=0FC67B78-4F9D-4850-81FC-669942690E3E",
+      "docId": "0FC67B78-4F9D-4850-81FC-669942690E3E",
+      "date": "6/3/2001"
+    },
+    {
+      "folderId": "40470290",
+      "title": "תיק מידע",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=BC2457E6-91B5-437E-88F5-D52D455F7F7F",
+      "docId": "BC2457E6-91B5-437E-88F5-D52D455F7F7F",
+      "date": "1/3/2001"
+    },
+    {
+      "folderId": "40470290",
+      "title": "תיק מידע",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=A9609B3D-D32D-491E-872B-C9F88447E181",
+      "docId": "A9609B3D-D32D-491E-872B-C9F88447E181",
+      "date": "28/2/2001"
+    },
+    {
+      "folderId": "40470290",
+      "title": "תיק מידע",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=078C177B-EC15-4F54-98EB-3EDFCF2D89FC",
+      "docId": "078C177B-EC15-4F54-98EB-3EDFCF2D89FC",
+      "date": "26/2/2001"
+    },
+    {
+      "folderId": "40470290",
+      "title": "תיק מידע",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=AAE0B353-40EF-497C-A6F5-5A56A04CD3C7",
+      "docId": "AAE0B353-40EF-497C-A6F5-5A56A04CD3C7",
+      "date": "25/2/2001"
+    },
+    {
+      "folderId": "40470290",
+      "title": "מפות מדידה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=61060482-4C3A-47E8-9324-48EEFFB24C0C",
+      "docId": "61060482-4C3A-47E8-9324-48EEFFB24C0C",
+      "date": "22/2/2001"
+    },
+    {
+      "folderId": "40470290",
+      "title": "מפות מדידה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=2D58B188-96C7-42BA-9803-685ED7FFD8BF",
+      "docId": "2D58B188-96C7-42BA-9803-685ED7FFD8BF",
+      "date": "22/2/2001"
+    },
+    {
+      "folderId": "40470290",
+      "title": "תיק מידע",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=90591691-2437-41DC-8955-F0B8BCB98628",
+      "docId": "90591691-2437-41DC-8955-F0B8BCB98628",
+      "date": "13/2/2001"
+    },
+    {
+      "folderId": "40480100",
+      "title": "בקשה להתקנת ביתן אשפה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=54629254-EE25-44EA-BAA7-8E262A96F9F6",
+      "docId": "54629254-EE25-44EA-BAA7-8E262A96F9F6",
+      "date": "25/7/2018"
+    },
+    {
+      "folderId": "40480100",
+      "title": "תיק תעודת גמר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=2A38C72B-96F7-48BF-BE7C-A9108D313D42",
+      "docId": "2A38C72B-96F7-48BF-BE7C-A9108D313D42",
+      "date": "1/10/1995"
+    },
+    {
+      "folderId": "40480100",
+      "title": "תיק תעודת גמר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=86BBE7B1-EFE2-4C2E-B394-6E2883AB46ED",
+      "docId": "86BBE7B1-EFE2-4C2E-B394-6E2883AB46ED",
+      "date": "1/10/1995"
+    },
+    {
+      "folderId": "40480100",
+      "title": "רישוי-אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=1DFE0E11-AFC6-4ADB-A8C3-E7119E29A512",
+      "docId": "1DFE0E11-AFC6-4ADB-A8C3-E7119E29A512",
+      "date": "29/8/1995"
+    },
+    {
+      "folderId": "40480100",
+      "title": "רישוי-אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=AC55A4A1-FB91-4BB7-81C9-C441E3DC5A1D",
+      "docId": "AC55A4A1-FB91-4BB7-81C9-C441E3DC5A1D",
+      "date": "1/10/1981"
+    },
+    {
+      "folderId": "40480100",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=64E7C279-5601-4056-8861-355A75E98E36",
+      "docId": "64E7C279-5601-4056-8861-355A75E98E36",
+      "date": "2/2/1978"
+    },
+    {
+      "folderId": "40480100",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=48E01D19-82CB-4D89-AA57-65A094CC5CE3",
+      "docId": "48E01D19-82CB-4D89-AA57-65A094CC5CE3",
+      "date": "2/2/1978"
+    },
+    {
+      "folderId": "40480100",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=054B4441-50DF-4226-BA37-71EDD833128B",
+      "docId": "054B4441-50DF-4226-BA37-71EDD833128B",
+      "date": "24/1/1978"
+    },
+    {
+      "folderId": "40480100",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=0DE6E68C-A640-4B72-8A9C-355A52D2BDDD",
+      "docId": "0DE6E68C-A640-4B72-8A9C-355A52D2BDDD",
+      "date": "24/1/1978"
+    },
+    {
+      "folderId": "40480100",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=BD31626D-E34C-4FE8-B727-08AE83F196F0",
+      "docId": "BD31626D-E34C-4FE8-B727-08AE83F196F0",
+      "date": "19/1/1978"
+    },
+    {
+      "folderId": "40480100",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=05019673-A0C4-4BB3-9DAF-8C4CFE9BF7CC",
+      "docId": "05019673-A0C4-4BB3-9DAF-8C4CFE9BF7CC",
+      "date": "18/1/1978"
+    },
+    {
+      "folderId": "40480100",
+      "title": "היתר-תכנית חתומה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=C4727F17-5D4C-4EE0-BA40-5074AEF2C043",
+      "docId": "C4727F17-5D4C-4EE0-BA40-5074AEF2C043",
+      "date": "16/1/1974"
+    },
+    {
+      "folderId": "40480100",
+      "title": "היתר-תכנית חתומה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=51937D79-1975-4156-BB94-AB11524C6C87",
+      "docId": "51937D79-1975-4156-BB94-AB11524C6C87",
+      "date": "16/1/1974"
+    },
+    {
+      "folderId": "40480100",
+      "title": "בקשה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=000EE151-6B1E-45FE-9E71-E376B477AA66",
+      "docId": "000EE151-6B1E-45FE-9E71-E376B477AA66",
+      "date": "8/1/1974"
+    },
+    {
+      "folderId": "40480100",
+      "title": "בקשה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=92BDE494-434F-4E1A-A371-18805CEC6AE8",
+      "docId": "92BDE494-434F-4E1A-A371-18805CEC6AE8",
+      "date": "8/1/1974"
+    },
+    {
+      "folderId": "40480100",
+      "title": "בקשה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=58BC8539-A7B2-4E01-B15A-CB274C8FA4BC",
+      "docId": "58BC8539-A7B2-4E01-B15A-CB274C8FA4BC",
+      "date": "8/1/1974"
+    },
+    {
+      "folderId": "40480100",
+      "title": "בקשה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=651C12F3-4EE8-420C-8412-935A9A59F292",
+      "docId": "651C12F3-4EE8-420C-8412-935A9A59F292",
+      "date": "8/1/1974"
+    },
+    {
+      "folderId": "40480100",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=EFD2E659-492C-4F39-BD0A-74F0B1A1D877",
+      "docId": "EFD2E659-492C-4F39-BD0A-74F0B1A1D877",
+      "date": "7/1/1974"
+    },
+    {
+      "folderId": "40480100",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=2C2C318A-A307-4D88-8EF4-71C1F7138BC9",
+      "docId": "2C2C318A-A307-4D88-8EF4-71C1F7138BC9",
+      "date": "4/1/1974"
+    },
+    {
+      "folderId": "40480100",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=22C10BDA-B35E-4FE6-BCF7-53EC366FBAF9",
+      "docId": "22C10BDA-B35E-4FE6-BCF7-53EC366FBAF9",
+      "date": "4/1/1974"
+    },
+    {
+      "folderId": "40480100",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=50F01CDF-4D79-4BF4-89A5-EE46218CE6C0",
+      "docId": "50F01CDF-4D79-4BF4-89A5-EE46218CE6C0",
+      "date": "4/1/1974"
+    },
+    {
+      "folderId": "40480100",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=E1471FBF-D51D-48A5-B500-BC5131EEF257",
+      "docId": "E1471FBF-D51D-48A5-B500-BC5131EEF257",
+      "date": "2/1/1974"
+    },
+    {
+      "folderId": "40480100",
+      "title": "היתר מילולי חתום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=0F766872-A1EB-4E39-A9D4-328DF8CBACB5",
+      "docId": "0F766872-A1EB-4E39-A9D4-328DF8CBACB5",
+      "date": "14/12/1973"
+    },
+    {
+      "folderId": "40480100",
+      "title": "ועדת ערר,ועדת משנה,רשות רישוי,ועדה מחוזית",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=47CCD41E-2EFC-4AC6-86CB-9C5A35A71D2A",
+      "docId": "47CCD41E-2EFC-4AC6-86CB-9C5A35A71D2A",
+      "date": "14/12/1973"
+    },
+    {
+      "folderId": "40480100",
+      "title": "רישוי-אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=30E787B0-C9D4-4F90-BB7D-3AAFCE138F3A",
+      "docId": "30E787B0-C9D4-4F90-BB7D-3AAFCE138F3A",
+      "date": "5/9/1973"
+    },
+    {
+      "folderId": "40480100",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=33F114D7-1134-4A8A-9A7A-B9AF8A39FA91",
+      "docId": "33F114D7-1134-4A8A-9A7A-B9AF8A39FA91",
+      "date": "27/8/1973"
+    },
+    {
+      "folderId": "40480100",
+      "title": "בקשה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=C05E58D4-F687-4A95-96A3-7BDA25136D10",
+      "docId": "C05E58D4-F687-4A95-96A3-7BDA25136D10",
+      "date": "27/8/1973"
+    },
+    {
+      "folderId": "40480100",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=D0F8E915-DBCA-4CF2-9920-C9F7A76FAFEE",
+      "docId": "D0F8E915-DBCA-4CF2-9920-C9F7A76FAFEE",
+      "date": "27/8/1973"
+    },
+    {
+      "folderId": "40480100",
+      "title": "בקשה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=20D995F5-10C1-41A1-B6ED-0A2F6794B759",
+      "docId": "20D995F5-10C1-41A1-B6ED-0A2F6794B759",
+      "date": "27/8/1973"
+    },
+    {
+      "folderId": "40480100",
+      "title": "ועדת ערר,ועדת משנה,רשות רישוי,ועדה מחוזית",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=735F64FE-0588-4852-9528-31EA5DD33587",
+      "docId": "735F64FE-0588-4852-9528-31EA5DD33587",
+      "date": "26/2/1973"
+    },
+    {
+      "folderId": "40480100",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=12C198D5-A181-4794-BF3B-A6739BD40A58",
+      "docId": "12C198D5-A181-4794-BF3B-A6739BD40A58",
+      "date": "18/10/1969"
+    },
+    {
+      "folderId": "40480100",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=B3637B42-B504-4446-AA64-EEC18F2A7F44",
+      "docId": "B3637B42-B504-4446-AA64-EEC18F2A7F44",
+      "date": "28/9/1969"
+    },
+    {
+      "folderId": "40480100",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=B88F0B8D-626E-441A-91D9-EED5535224BA",
+      "docId": "B88F0B8D-626E-441A-91D9-EED5535224BA",
+      "date": "26/9/1969"
+    },
+    {
+      "folderId": "40480100",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=818C2897-0FF8-4E3C-BC70-C87F31279AEC",
+      "docId": "818C2897-0FF8-4E3C-BC70-C87F31279AEC",
+      "date": "26/9/1969"
+    },
+    {
+      "folderId": "40480100",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=0192F8F5-6541-425C-B0DF-EE34DD806267",
+      "docId": "0192F8F5-6541-425C-B0DF-EE34DD806267",
+      "date": "24/9/1969"
+    },
+    {
+      "folderId": "40480100",
+      "title": "ועדת ערר,ועדת משנה,רשות רישוי,ועדה מחוזית",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=56B8CFBC-8DF9-410F-BD16-F9C1C36AA665",
+      "docId": "56B8CFBC-8DF9-410F-BD16-F9C1C36AA665",
+      "date": "18/9/1969"
+    },
+    {
+      "folderId": "40480100",
+      "title": "ועדת ערר,ועדת משנה,רשות רישוי,ועדה מחוזית",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=6123CED2-83A4-4867-B060-2B12D1D89BD2",
+      "docId": "6123CED2-83A4-4867-B060-2B12D1D89BD2",
+      "date": "18/9/1969"
+    },
+    {
+      "folderId": "40480100",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=4CE3EBD8-D66B-43B3-9B0A-F2666FC2E78F",
+      "docId": "4CE3EBD8-D66B-43B3-9B0A-F2666FC2E78F",
+      "date": "18/4/1967"
+    },
+    {
+      "folderId": "40480100",
+      "title": "ועדת ערר,ועדת משנה,רשות רישוי,ועדה מחוזית",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=FE69EDF7-D725-464F-9DB3-75CBFD31B5E5",
+      "docId": "FE69EDF7-D725-464F-9DB3-75CBFD31B5E5",
+      "date": "9/2/1964"
+    },
+    {
+      "folderId": "40480100",
+      "title": "רישוי-אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=A561FCAF-B022-46EE-8879-45095779D9FB",
+      "docId": "A561FCAF-B022-46EE-8879-45095779D9FB",
+      "date": "4/2/1964"
+    },
+    {
+      "folderId": "40480100",
+      "title": "רישוי-אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=5F91F001-86DB-460B-86AA-F9750E76170F",
+      "docId": "5F91F001-86DB-460B-86AA-F9750E76170F",
+      "date": "4/2/1964"
+    },
+    {
+      "folderId": "40480100",
+      "title": "רישוי-אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=FD7B11D9-683C-4332-A81D-69D57712B772",
+      "docId": "FD7B11D9-683C-4332-A81D-69D57712B772",
+      "date": "4/2/1964"
+    },
+    {
+      "folderId": "40480100",
+      "title": "ועדת ערר,ועדת משנה,רשות רישוי,ועדה מחוזית",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=6286D6DB-1B0D-441C-A8E3-8E3F49B4E7F6",
+      "docId": "6286D6DB-1B0D-441C-A8E3-8E3F49B4E7F6",
+      "date": "4/2/1964"
+    },
+    {
+      "folderId": "40480100",
+      "title": "ועדת ערר,ועדת משנה,רשות רישוי,ועדה מחוזית",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=9A8B99C6-9434-4266-BCBD-05B9A5235DCF",
+      "docId": "9A8B99C6-9434-4266-BCBD-05B9A5235DCF",
+      "date": "22/12/1963"
+    },
+    {
+      "folderId": "40480100",
+      "title": "ועדת ערר,ועדת משנה,רשות רישוי,ועדה מחוזית",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=297DD51C-3262-45F6-A0FA-0A9CA9FE228C",
+      "docId": "297DD51C-3262-45F6-A0FA-0A9CA9FE228C",
+      "date": "20/10/1963"
+    },
+    {
+      "folderId": "40480100",
+      "title": "ועדת ערר,ועדת משנה,רשות רישוי,ועדה מחוזית",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=F48C62FB-607C-4C00-BC83-C7DDE34AFBC6",
+      "docId": "F48C62FB-607C-4C00-BC83-C7DDE34AFBC6",
+      "date": "20/10/1963"
+    },
+    {
+      "folderId": "40480100",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=C2CEF0D1-F5E1-4B26-916B-7F384893943F",
+      "docId": "C2CEF0D1-F5E1-4B26-916B-7F384893943F",
+      "date": "17/10/1963"
+    },
+    {
+      "folderId": "40480100",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=0BB90CAC-B59C-476E-96F8-91ACA4172388",
+      "docId": "0BB90CAC-B59C-476E-96F8-91ACA4172388",
+      "date": "16/10/1963"
+    },
+    {
+      "folderId": "40480100",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=1A8A814F-EE4C-42FE-BA89-8D95945EC214",
+      "docId": "1A8A814F-EE4C-42FE-BA89-8D95945EC214",
+      "date": "21/7/1963"
+    },
+    {
+      "folderId": "40480100",
+      "title": "ועדת ערר,ועדת משנה,רשות רישוי,ועדה מחוזית",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=424DD1BC-CF13-4CF2-9C78-46B342E53204",
+      "docId": "424DD1BC-CF13-4CF2-9C78-46B342E53204",
+      "date": "21/7/1963"
+    },
+    {
+      "folderId": "40480160",
+      "title": "תכנית מתוקנת (אדריכלות)",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=43327952-8788-428B-A946-DDB22F3A71BD",
+      "docId": "43327952-8788-428B-A946-DDB22F3A71BD",
+      "date": "12/8/2020"
+    },
+    {
+      "folderId": "40480160",
+      "title": "טופס 1",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=AE971BA0-240B-4242-8897-7A8834F9885A",
+      "docId": "AE971BA0-240B-4242-8897-7A8834F9885A",
+      "date": "18/6/2019"
+    },
+    {
+      "folderId": "40480160",
+      "title": "חישוב שטחים",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=A38A3026-91E5-4E1A-B7CE-B032E2EA8600",
+      "docId": "A38A3026-91E5-4E1A-B7CE-B032E2EA8600",
+      "date": "18/6/2019"
+    },
+    {
+      "folderId": "40480160",
+      "title": "תכנית מתוקנת (אדריכלות)",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=E83A8860-D35B-48CF-A183-746E8FC5EA1A",
+      "docId": "E83A8860-D35B-48CF-A183-746E8FC5EA1A",
+      "date": "18/6/2019"
+    },
+    {
+      "folderId": "40480160",
+      "title": "טופס 1",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=7FEC4306-5ECA-4178-8C74-8CEEDC9DCD93",
+      "docId": "7FEC4306-5ECA-4178-8C74-8CEEDC9DCD93",
+      "date": "17/6/2018"
+    },
+    {
+      "folderId": "40480160",
+      "title": "חישוב שטחים",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=81241569-C7BD-478F-B24E-2B50DF851653",
+      "docId": "81241569-C7BD-478F-B24E-2B50DF851653",
+      "date": "31/5/2018"
+    },
+    {
+      "folderId": "40480160",
+      "title": "תכנית הבקשה להיתר (אדריכלות)",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=BDF077B9-0C15-4A73-BBD0-855545A158EA",
+      "docId": "BDF077B9-0C15-4A73-BBD0-855545A158EA",
+      "date": "31/5/2018"
+    },
+    {
+      "folderId": "40480160",
+      "title": "תוכנית סניטרית/חיבור ביוב",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=1E967E71-713E-40A1-B89C-C2A4C03BFFDB",
+      "docId": "1E967E71-713E-40A1-B89C-C2A4C03BFFDB",
+      "date": "8/11/2016"
+    },
+    {
+      "folderId": "40480160",
+      "title": "היתר מילולי חתום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=DDFF71C4-37A5-4E41-AB4C-1C0E2E3708F6",
+      "docId": "DDFF71C4-37A5-4E41-AB4C-1C0E2E3708F6",
+      "date": "16/5/2016"
+    },
+    {
+      "folderId": "40480160",
+      "title": "היתר מילולי חתום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=495F1D2D-9458-4F70-949C-9A6537171CE0",
+      "docId": "495F1D2D-9458-4F70-949C-9A6537171CE0",
+      "date": "16/5/2016"
+    },
+    {
+      "folderId": "40480160",
+      "title": "היתר-תכנית חתומה",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=A307DB76-33FF-459A-9696-4D095CA9C5FA",
+      "docId": "A307DB76-33FF-459A-9696-4D095CA9C5FA",
+      "date": "5/5/2016"
+    },
+    {
+      "folderId": "40480160",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=94B3B174-12E2-4596-8D08-E158BDA6198C",
+      "docId": "94B3B174-12E2-4596-8D08-E158BDA6198C",
+      "date": "6/3/2016"
+    },
+    {
+      "folderId": "40480160",
+      "title": "אישורי תחנות-על גבי מסמכי A4 ועל גבי תוכניות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=1D0E4938-27A2-44B1-B767-5D01FBFE6A09",
+      "docId": "1D0E4938-27A2-44B1-B767-5D01FBFE6A09",
+      "date": "28/12/2015"
+    },
+    {
+      "folderId": "40480160",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=57630B7E-250E-4355-8F63-4B3EC2A6654E",
+      "docId": "57630B7E-250E-4355-8F63-4B3EC2A6654E",
+      "date": "8/12/2015"
+    },
+    {
+      "folderId": "40480160",
+      "title": "אישורי תחנות-על גבי מסמכי A4 ועל גבי תוכניות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=7C31D1CD-7455-4784-AF5F-30644C9AAC66",
+      "docId": "7C31D1CD-7455-4784-AF5F-30644C9AAC66",
+      "date": "18/10/2015"
+    },
+    {
+      "folderId": "40480160",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=915A21CC-1AC7-44E0-90B9-09304F1D06CF",
+      "docId": "915A21CC-1AC7-44E0-90B9-09304F1D06CF",
+      "date": "6/10/2015"
+    },
+    {
+      "folderId": "40480160",
+      "title": "חשבון יציבות,תצהיר מהנדס",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=25405451-7B36-49BE-BAD5-D633515C0C5E",
+      "docId": "25405451-7B36-49BE-BAD5-D633515C0C5E",
+      "date": "1/10/2015"
+    },
+    {
+      "folderId": "40480160",
+      "title": "תוכנית סניטרית/חיבור ביוב",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=8F936F5A-6B1A-4E06-9E6E-C7B38B4E7F43",
+      "docId": "8F936F5A-6B1A-4E06-9E6E-C7B38B4E7F43",
+      "date": "1/8/2015"
+    },
+    {
+      "folderId": "40480160",
+      "title": "רישוי-אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=A9D93CCE-D454-42E8-8872-AF60BA9F069D",
+      "docId": "A9D93CCE-D454-42E8-8872-AF60BA9F069D",
+      "date": "12/7/2015"
+    },
+    {
+      "folderId": "40480160",
+      "title": "אישורי תחנות-על גבי מסמכי A4 ועל גבי תוכניות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=606D081F-1939-4CB2-A061-CC2EFF305E5B",
+      "docId": "606D081F-1939-4CB2-A061-CC2EFF305E5B",
+      "date": "7/6/2015"
+    },
+    {
+      "folderId": "40480160",
+      "title": "אישורי תחנות-על גבי מסמכי A4 ועל גבי תוכניות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=2276E461-4986-413D-A8D0-D05C7A279297",
+      "docId": "2276E461-4986-413D-A8D0-D05C7A279297",
+      "date": "31/3/2015"
+    },
+    {
+      "folderId": "40480160",
+      "title": "אישורי תחנות-על גבי מסמכי A4 ועל גבי תוכניות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=5BE4BAA3-DB1F-490D-A4B3-14BD6D3F30A5",
+      "docId": "5BE4BAA3-DB1F-490D-A4B3-14BD6D3F30A5",
+      "date": "18/2/2015"
+    },
+    {
+      "folderId": "40480160",
+      "title": "אישורי תחנות-על גבי מסמכי A4 ועל גבי תוכניות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=49CE6EE2-9C3E-47B3-BEA5-4CC385BB44C6",
+      "docId": "49CE6EE2-9C3E-47B3-BEA5-4CC385BB44C6",
+      "date": "15/12/2014"
+    },
+    {
+      "folderId": "40480160",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=329B7644-0E9B-40E7-BF30-50F7B4EFB340",
+      "docId": "329B7644-0E9B-40E7-BF30-50F7B4EFB340",
+      "date": "4/12/2014"
+    },
+    {
+      "folderId": "40480160",
+      "title": "ועדת ערר,ועדת משנה,רשות רישוי,ועדה מחוזית",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=5B88F798-517A-4D65-BD65-5E266441FC2F",
+      "docId": "5B88F798-517A-4D65-BD65-5E266441FC2F",
+      "date": "20/11/2014"
+    },
+    {
+      "folderId": "40480160",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=B297472E-B351-4916-8C65-70B96EF6C208",
+      "docId": "B297472E-B351-4916-8C65-70B96EF6C208",
+      "date": "23/7/2014"
+    },
+    {
+      "folderId": "40480160",
+      "title": "רישוי-אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=052D18C5-DE08-417D-A000-10DD4762CCBA",
+      "docId": "052D18C5-DE08-417D-A000-10DD4762CCBA",
+      "date": "12/5/2014"
+    },
+    {
+      "folderId": "40480160",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=5343EBC5-C0BC-42C9-87F0-C9E451318966",
+      "docId": "5343EBC5-C0BC-42C9-87F0-C9E451318966",
+      "date": "4/5/2014"
+    },
+    {
+      "folderId": "40480160",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=26EC21E6-B2EB-43E6-9E84-BCCEB1904B81",
+      "docId": "26EC21E6-B2EB-43E6-9E84-BCCEB1904B81",
+      "date": "1/5/2014"
+    },
+    {
+      "folderId": "40480160",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=A3165BE2-8D97-4DDD-96CF-764EE327DDF4",
+      "docId": "A3165BE2-8D97-4DDD-96CF-764EE327DDF4",
+      "date": "3/3/2014"
+    },
+    {
+      "folderId": "40480160",
+      "title": "אישורי תחנות-על גבי מסמכי A4 ועל גבי תוכניות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=727D95AA-4320-4A0A-83A7-9090A54B24DD",
+      "docId": "727D95AA-4320-4A0A-83A7-9090A54B24DD",
+      "date": "11/2/2014"
+    },
+    {
+      "folderId": "40480160",
+      "title": "תכנית הבקשה להיתר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=284BA276-CE99-4632-A40E-AB5F7D93E047",
+      "docId": "284BA276-CE99-4632-A40E-AB5F7D93E047",
+      "date": "11/2/2014"
+    },
+    {
+      "folderId": "40480160",
+      "title": "מכתבים/פניות,תכתובת פנימית,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=64676FA0-DDE9-420F-8A4E-9733A34F3B6C",
+      "docId": "64676FA0-DDE9-420F-8A4E-9733A34F3B6C",
+      "date": "9/2/2014"
+    },
+    {
+      "folderId": "40480160",
+      "title": "אישורי תחנות-על גבי מסמכי A4 ועל גבי תוכניות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=81554E54-0D7E-4469-8378-04FF57D8334B",
+      "docId": "81554E54-0D7E-4469-8378-04FF57D8334B",
+      "date": "6/2/2014"
+    },
+    {
+      "folderId": "40480160",
+      "title": "מכתב נכנס/יוצא, מכתבי התנגדות, הודעות לזכאים,התפטרות",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=27B57B53-9D1B-45BC-BAF7-65CD5191D850",
+      "docId": "27B57B53-9D1B-45BC-BAF7-65CD5191D850",
+      "date": "5/2/2014"
+    },
+    {
+      "folderId": "40480160",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=D21ACB6E-A6B3-4AFC-913E-E29A061997D2",
+      "docId": "D21ACB6E-A6B3-4AFC-913E-E29A061997D2",
+      "date": "5/2/2014"
+    },
+    {
+      "folderId": "40480160",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=B8360897-FB8D-49F4-9A3F-1F3CA330F108",
+      "docId": "B8360897-FB8D-49F4-9A3F-1F3CA330F108",
+      "date": "5/2/2014"
+    },
+    {
+      "folderId": "40480160",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=843962B0-9CEA-4DD5-8610-DF82B8419691",
+      "docId": "843962B0-9CEA-4DD5-8610-DF82B8419691",
+      "date": "5/2/2014"
+    },
+    {
+      "folderId": "40480160",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=B010197A-6356-43B6-B998-2FECEFAAE5FF",
+      "docId": "B010197A-6356-43B6-B998-2FECEFAAE5FF",
+      "date": "5/2/2014"
+    },
+    {
+      "folderId": "40480160",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=A65361FF-80F3-47B2-BC2F-292F4E6279BC",
+      "docId": "A65361FF-80F3-47B2-BC2F-292F4E6279BC",
+      "date": "5/2/2014"
+    },
+    {
+      "folderId": "40480160",
+      "title": "הודעת שומה על היטל השבחה,אגרות בניה,שוברי תשלום",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=031B091B-D279-4424-8DCC-23621C48A893",
+      "docId": "031B091B-D279-4424-8DCC-23621C48A893",
+      "date": "5/2/2014"
+    },
+    {
+      "folderId": "40480160",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=94DE9270-53DC-4BD3-A5E6-878E36625C3E",
+      "docId": "94DE9270-53DC-4BD3-A5E6-878E36625C3E",
+      "date": "5/2/2014"
+    },
+    {
+      "folderId": "40480160",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=416674AA-6CD6-44E5-81C5-A5A26BF1973E",
+      "docId": "416674AA-6CD6-44E5-81C5-A5A26BF1973E",
+      "date": "5/2/2014"
+    },
+    {
+      "folderId": "40480160",
+      "title": "חשבון יציבות,תצהיר מהנדס",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=D9258753-A6B9-4479-BF9C-A33EFA5501F3",
+      "docId": "D9258753-A6B9-4479-BF9C-A33EFA5501F3",
+      "date": "5/2/2014"
+    },
+    {
+      "folderId": "40480160",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=F368862B-C949-4CF7-AFD3-EA3F9B71E25D",
+      "docId": "F368862B-C949-4CF7-AFD3-EA3F9B71E25D",
+      "date": "5/2/2014"
+    },
+    {
+      "folderId": "40480160",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=76A6AC94-6BEE-4998-AA03-DCE6B89EF577",
+      "docId": "76A6AC94-6BEE-4998-AA03-DCE6B89EF577",
+      "date": "29/12/2013"
+    },
+    {
+      "folderId": "40480160",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=CFBFB30E-A467-4FF7-8C6A-8D7768AC6F56",
+      "docId": "CFBFB30E-A467-4FF7-8C6A-8D7768AC6F56",
+      "date": "9/12/2013"
+    },
+    {
+      "folderId": "40480160",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=D6A73834-D568-4481-AB1C-E047C08D8847",
+      "docId": "D6A73834-D568-4481-AB1C-E047C08D8847",
+      "date": "1/9/2013"
+    },
+    {
+      "folderId": "40480160",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=5B85BC6B-E84C-4B16-B136-8ADAE6ECF3D7",
+      "docId": "5B85BC6B-E84C-4B16-B136-8ADAE6ECF3D7",
+      "date": "30/8/2013"
+    },
+    {
+      "folderId": "40480160",
+      "title": "נסח טאבו,מסמכי זיהוי,פרסומים,תצהירים,אחר",
+      "downloadUrl": "https://handasa.tel-aviv.gov.il/api/files?id=5935FDDB-A210-4B0C-B5C6-80C61D500E5F",
+      "docId": "5935FDDB-A210-4B0C-B5C6-80C61D500E5F",
+      "date": "21/8/2013"
+    }
+  ]
+}

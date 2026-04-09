@@ -1,7 +1,7 @@
 import { readFile, writeFile } from "node:fs/promises";
 
 const data = JSON.parse(
-  await readFile("blocks/hatishbi-sasson/_inventory.json", "utf-8")
+  await readFile("blocks/hatishbi-sasson/_inventory.json", "utf-8"),
 );
 const inv = data.inventory as Array<{
   chelka: number;
@@ -95,11 +95,11 @@ function esc(s: string | number | null | undefined): string {
 }
 
 const sortedYears = Object.entries(yearCounts).sort(
-  (a, b) => Number(a[0]) - Number(b[0])
+  (a, b) => Number(a[0]) - Number(b[0]),
 );
 const maxYearCount = Math.max(...sortedYears.map((e) => e[1]));
 const sortedFloors = Object.entries(floorCounts).sort(
-  (a, b) => Number(a[0]) - Number(b[0])
+  (a, b) => Number(a[0]) - Number(b[0]),
 );
 const maxFloor = Math.max(...sortedFloors.map((e) => e[1]));
 
@@ -153,7 +153,7 @@ let html = `<!DOCTYPE html>
 const statsItems: [string | number, string][] = [
   [inv.length, "חלקות"],
   [totalBuildings, "מבנים"],
-  [totalArea.toFixed(0) + " מ\"ר", "שטח טביעות רגל"],
+  [totalArea.toFixed(0) + ' מ"ר', "שטח טביעות רגל"],
   [totalPermits, "היתרים"],
   [activeSites.length, "אתרים פעילים"],
   [data.conservation, "מבנים לשימור"],
@@ -170,8 +170,7 @@ for (const [y, c] of sortedYears) {
   const w = Math.round((c / maxYearCount) * 200);
   html += `<div class="year-bar"><span class="yr">${y}</span><div class="bar" style="width:${w}px"></div><span class="cnt">${c}</span></div>\n`;
 }
-const unknownYear =
-  totalBuildings - sortedYears.reduce((s, e) => s + e[1], 0);
+const unknownYear = totalBuildings - sortedYears.reduce((s, e) => s + e[1], 0);
 if (unknownYear > 0) {
   const w = Math.round((unknownYear / maxYearCount) * 200);
   html += `<div class="year-bar"><span class="yr">?</span><div class="bar" style="width:${w}px;background:#adb5bd"></div><span class="cnt">${unknownYear}</span></div>\n`;

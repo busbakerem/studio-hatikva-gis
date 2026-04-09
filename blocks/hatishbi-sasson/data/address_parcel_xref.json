@@ -1,0 +1,745 @@
+[
+  {
+    "gush": 6135,
+    "chelka": 38,
+    "registered_area_sqm": 3035,
+    "gis_area_sqm": 3042,
+    "likely_moshaa": true,
+    "addresses": [
+      "אצ\"ל 70",
+      "אצ\"ל 83",
+      "בן חסד 10",
+      "בן חסד 2",
+      "בן חסד 4",
+      "בן חסד 6",
+      "בן חסד 8",
+      "יונדב 6",
+      "צלפחד 4",
+      "צלפחד 4",
+      "צלפחד 5",
+      "צלפחד 6",
+      "תרדיון 3"
+    ],
+    "building_count": 7,
+    "buildings_summary": {
+      "total_footprint_sqm": 681,
+      "floors_range": "1-3",
+      "year_range": "1949-1997"
+    },
+    "municipal_ownership": null,
+    "permit_count": 0,
+    "conservation": false,
+    "dangerous": false
+  },
+  {
+    "gush": 6135,
+    "chelka": 43,
+    "registered_area_sqm": 3575,
+    "gis_area_sqm": 3521,
+    "likely_moshaa": true,
+    "addresses": [
+      "אצ\"ל 62",
+      "ששון 13",
+      "תשבי 10",
+      "תשבי 12",
+      "תשבי 14",
+      "תשבי 16",
+      "תשבי 2",
+      "תשבי 20",
+      "תשבי 24",
+      "תשבי 26",
+      "תשבי 4",
+      "תשבי 6",
+      "תשבי 8"
+    ],
+    "building_count": 9,
+    "buildings_summary": {
+      "total_footprint_sqm": 593,
+      "floors_range": "1-3",
+      "year_range": "1949-1998"
+    },
+    "municipal_ownership": {
+      "type": "בעלות חלקית",
+      "share": "224/3575",
+      "nature": "ב"
+    },
+    "permit_count": 2,
+    "conservation": false,
+    "dangerous": false
+  },
+  {
+    "gush": 6135,
+    "chelka": 44,
+    "registered_area_sqm": 11476,
+    "gis_area_sqm": 11584,
+    "likely_moshaa": true,
+    "addresses": [
+      "אצ\"ל 60",
+      "ששון 1",
+      "ששון 10",
+      "ששון 11",
+      "ששון 12",
+      "ששון 12",
+      "ששון 14",
+      "ששון 14",
+      "ששון 15",
+      "ששון 16",
+      "ששון 17",
+      "ששון 18",
+      "ששון 19",
+      "ששון 2",
+      "ששון 20",
+      "ששון 21",
+      "ששון 22",
+      "ששון 23",
+      "ששון 24",
+      "ששון 25",
+      "ששון 26",
+      "ששון 27",
+      "ששון 28",
+      "ששון 3",
+      "ששון 30",
+      "ששון 32",
+      "ששון 33",
+      "ששון 34",
+      "ששון 35",
+      "ששון 36",
+      "ששון 38",
+      "ששון 4",
+      "ששון 5",
+      "ששון 6",
+      "ששון 7",
+      "ששון 8",
+      "ששון 9",
+      "תשבי 18",
+      "תשבי 22"
+    ],
+    "building_count": 25,
+    "buildings_summary": {
+      "total_footprint_sqm": 1510,
+      "floors_range": "1-3",
+      "year_range": "1947-1993"
+    },
+    "municipal_ownership": {
+      "type": "בעלות חלקית",
+      "share": "338/11476",
+      "nature": "ב"
+    },
+    "permit_count": 2,
+    "conservation": false,
+    "dangerous": false
+  },
+  {
+    "gush": 6135,
+    "chelka": 45,
+    "registered_area_sqm": 9821,
+    "gis_area_sqm": 9862,
+    "likely_moshaa": true,
+    "addresses": [
+      "שמחה 11",
+      "שמחה 13",
+      "שמחה 15",
+      "שמחה 17",
+      "שמחה 19",
+      "שמחה 21",
+      "שמחה 23",
+      "שמחה 25",
+      "שמחה 27",
+      "שמחה 29",
+      "שמחה 31",
+      "שמחה 33",
+      "שמחה 35",
+      "שמחה 37",
+      "שמחה 39",
+      "שמחה 41",
+      "שמחה 43",
+      "שמחה 45",
+      "שמחה 47",
+      "שמחה 49",
+      "שמחה 51",
+      "שמחה 53",
+      "שמחה 7",
+      "שמחה 9"
+    ],
+    "building_count": 19,
+    "buildings_summary": {
+      "total_footprint_sqm": 1428,
+      "floors_range": "1-3",
+      "year_range": "1948-2023"
+    },
+    "municipal_ownership": {
+      "type": "בעלות חלקית",
+      "share": "100/9821",
+      "nature": "ב"
+    },
+    "permit_count": 3,
+    "conservation": false,
+    "dangerous": false
+  },
+  {
+    "gush": 6135,
+    "chelka": 46,
+    "registered_area_sqm": 6752,
+    "gis_area_sqm": 6685,
+    "likely_moshaa": true,
+    "addresses": [
+      "רוני 31",
+      "רוני 33",
+      "שמחה 14",
+      "שמחה 16",
+      "שמחה 18",
+      "שמחה 20",
+      "שמחה 22",
+      "שמחה 24",
+      "שמחה 26",
+      "שמחה 28",
+      "שמחה 30",
+      "שמחה 32",
+      "שמחה 34",
+      "שמחה 36",
+      "שמחה 38",
+      "שמחה 40",
+      "שמחה 42",
+      "שמחה 44",
+      "שמחה 46",
+      "שמחה 48",
+      "שמחה 50",
+      "שמחה 52",
+      "שמחה 54",
+      "שמחה 56",
+      "שמחה 56"
+    ],
+    "building_count": 12,
+    "buildings_summary": {
+      "total_footprint_sqm": 1132,
+      "floors_range": "1-3",
+      "year_range": "1945-1997"
+    },
+    "municipal_ownership": {
+      "type": "בעלות חלקית",
+      "share": "503/6752",
+      "nature": "ב"
+    },
+    "permit_count": 0,
+    "conservation": false,
+    "dangerous": false
+  },
+  {
+    "gush": 6135,
+    "chelka": 47,
+    "registered_area_sqm": 11831,
+    "gis_area_sqm": 11917,
+    "likely_moshaa": true,
+    "addresses": [
+      "רוני 19",
+      "רוני 21",
+      "רוני 22",
+      "רוני 23",
+      "רוני 24",
+      "רוני 25",
+      "רוני 26",
+      "רוני 27",
+      "רוני 28",
+      "רוני 29",
+      "רוני 29",
+      "רוני 30",
+      "רוני 32",
+      "רוני 35",
+      "רוני 36",
+      "רוני 37",
+      "רוני 38",
+      "רוני 39",
+      "רוני 40",
+      "רוני 40",
+      "רוני 41",
+      "רוני 42",
+      "רוני 43",
+      "רוני 44",
+      "רוני 45",
+      "רוני 46",
+      "רוני 47",
+      "רוני 48",
+      "רוני 49",
+      "רוני 50",
+      "רוני 51",
+      "רוני 52",
+      "רוני 52",
+      "רוני 53",
+      "רוני 54",
+      "רוני 55",
+      "רוני 56",
+      "רוני 58",
+      "רוני 60"
+    ],
+    "building_count": 28,
+    "buildings_summary": {
+      "total_footprint_sqm": 1839,
+      "floors_range": "1-3",
+      "year_range": "1949-1982"
+    },
+    "municipal_ownership": {
+      "type": "בעלות חלקית",
+      "share": "253/11831",
+      "nature": "ב"
+    },
+    "permit_count": 4,
+    "conservation": false,
+    "dangerous": false
+  },
+  {
+    "gush": 6135,
+    "chelka": 48,
+    "registered_area_sqm": 4913,
+    "gis_area_sqm": 4977,
+    "likely_moshaa": true,
+    "addresses": [
+      "קמואל 37",
+      "קמואל 39",
+      "קמואל 41",
+      "קמואל 43",
+      "קמואל 45",
+      "קמואל 47",
+      "קמואל 49",
+      "קמואל 51",
+      "קמואל 53",
+      "קמואל 55",
+      "קמואל 57",
+      "קמואל 61",
+      "קמואל 63",
+      "קמואל 65",
+      "קמואל 67",
+      "קמואל 75",
+      "רוני 42"
+    ],
+    "building_count": 6,
+    "buildings_summary": {
+      "total_footprint_sqm": 537,
+      "floors_range": "1-2",
+      "year_range": "1949-1949"
+    },
+    "municipal_ownership": {
+      "type": "בעלות חלקית",
+      "share": "367/4913",
+      "nature": "ב"
+    },
+    "permit_count": 0,
+    "conservation": false,
+    "dangerous": false
+  },
+  {
+    "gush": 6135,
+    "chelka": 70,
+    "registered_area_sqm": 3188,
+    "gis_area_sqm": 3233,
+    "likely_moshaa": true,
+    "addresses": ["אצ\"ל 79", "שבתאי 1", "שבתאי 3"],
+    "building_count": 1,
+    "buildings_summary": {
+      "total_footprint_sqm": 227,
+      "floors_range": "1-1",
+      "year_range": "1949-1949"
+    },
+    "municipal_ownership": {
+      "type": "בעלות חלקית",
+      "share": "653/3188",
+      "nature": "ב"
+    },
+    "permit_count": 0,
+    "conservation": false,
+    "dangerous": false
+  },
+  {
+    "gush": 6135,
+    "chelka": 71,
+    "registered_area_sqm": 1991,
+    "gis_area_sqm": 1984,
+    "likely_moshaa": false,
+    "addresses": [
+      "אצ\"ל 66",
+      "תרדיון 10",
+      "תרדיון 12",
+      "תרדיון 14",
+      "תרדיון 16",
+      "תרדיון 18",
+      "תרדיון 2",
+      "תרדיון 20",
+      "תרדיון 22",
+      "תרדיון 4",
+      "תרדיון 4",
+      "תרדיון 6",
+      "תרדיון 8"
+    ],
+    "building_count": 9,
+    "buildings_summary": {
+      "total_footprint_sqm": 716,
+      "floors_range": "1-2",
+      "year_range": "1900-2016"
+    },
+    "municipal_ownership": {
+      "type": "בעלות חלקית",
+      "share": "168/1991",
+      "nature": "ב"
+    },
+    "permit_count": 1,
+    "conservation": false,
+    "dangerous": false
+  },
+  {
+    "gush": 6135,
+    "chelka": 72,
+    "registered_area_sqm": 512,
+    "gis_area_sqm": 516,
+    "likely_moshaa": false,
+    "addresses": [],
+    "building_count": 0,
+    "buildings_summary": {
+      "total_footprint_sqm": 0,
+      "floors_range": null,
+      "year_range": null
+    },
+    "municipal_ownership": null,
+    "permit_count": 0,
+    "conservation": false,
+    "dangerous": false
+  },
+  {
+    "gush": 6135,
+    "chelka": 73,
+    "registered_area_sqm": 2729,
+    "gis_area_sqm": 2682,
+    "likely_moshaa": true,
+    "addresses": [
+      "אצ\"ל 81",
+      "בן חסד 1",
+      "שבתאי 2",
+      "שבתאי 4",
+      "שבתאי 6",
+      "שבתאי 8"
+    ],
+    "building_count": 3,
+    "buildings_summary": {
+      "total_footprint_sqm": 404,
+      "floors_range": "0-1",
+      "year_range": "1949-2013"
+    },
+    "municipal_ownership": null,
+    "permit_count": 0,
+    "conservation": false,
+    "dangerous": false
+  },
+  {
+    "gush": 6135,
+    "chelka": 74,
+    "registered_area_sqm": 1359,
+    "gis_area_sqm": 1386,
+    "likely_moshaa": false,
+    "addresses": [
+      "אצ\"ל 68",
+      "לח\"י 41",
+      "תרדיון 11",
+      "תרדיון 13",
+      "תרדיון 13",
+      "תרדיון 5",
+      "תרדיון 9"
+    ],
+    "building_count": 4,
+    "buildings_summary": {
+      "total_footprint_sqm": 541,
+      "floors_range": "1-3",
+      "year_range": "1949-1949"
+    },
+    "municipal_ownership": null,
+    "permit_count": 0,
+    "conservation": false,
+    "dangerous": false
+  },
+  {
+    "gush": 6135,
+    "chelka": 75,
+    "registered_area_sqm": 486,
+    "gis_area_sqm": 468,
+    "likely_moshaa": false,
+    "addresses": [],
+    "building_count": 0,
+    "buildings_summary": {
+      "total_footprint_sqm": 0,
+      "floors_range": null,
+      "year_range": null
+    },
+    "municipal_ownership": null,
+    "permit_count": 0,
+    "conservation": false,
+    "dangerous": false
+  },
+  {
+    "gush": 6135,
+    "chelka": 76,
+    "registered_area_sqm": 872,
+    "gis_area_sqm": 869,
+    "likely_moshaa": false,
+    "addresses": [],
+    "building_count": 0,
+    "buildings_summary": {
+      "total_footprint_sqm": 0,
+      "floors_range": null,
+      "year_range": null
+    },
+    "municipal_ownership": null,
+    "permit_count": 0,
+    "conservation": false,
+    "dangerous": false
+  },
+  {
+    "gush": 6135,
+    "chelka": 77,
+    "registered_area_sqm": 170,
+    "gis_area_sqm": 168,
+    "likely_moshaa": false,
+    "addresses": [],
+    "building_count": 0,
+    "buildings_summary": {
+      "total_footprint_sqm": 0,
+      "floors_range": null,
+      "year_range": null
+    },
+    "municipal_ownership": null,
+    "permit_count": 0,
+    "conservation": false,
+    "dangerous": false
+  },
+  {
+    "gush": 6135,
+    "chelka": 78,
+    "registered_area_sqm": 589,
+    "gis_area_sqm": 580,
+    "likely_moshaa": false,
+    "addresses": [],
+    "building_count": 1,
+    "buildings_summary": {
+      "total_footprint_sqm": 80,
+      "floors_range": "0-0",
+      "year_range": "1953-1953"
+    },
+    "municipal_ownership": null,
+    "permit_count": 0,
+    "conservation": false,
+    "dangerous": false
+  },
+  {
+    "gush": 6135,
+    "chelka": 79,
+    "registered_area_sqm": 4347,
+    "gis_area_sqm": 4365,
+    "likely_moshaa": true,
+    "addresses": [
+      "אצ\"ל 87",
+      "זבד 14",
+      "קלמן 10",
+      "קלמן 12",
+      "קלמן 12",
+      "קלמן 14",
+      "קלמן 2",
+      "קלמן 4",
+      "קלמן 6",
+      "קלמן 8"
+    ],
+    "building_count": 4,
+    "buildings_summary": {
+      "total_footprint_sqm": 277,
+      "floors_range": "1-2",
+      "year_range": "1950-1950"
+    },
+    "municipal_ownership": null,
+    "permit_count": 1,
+    "conservation": false,
+    "dangerous": false
+  },
+  {
+    "gush": 6135,
+    "chelka": 80,
+    "registered_area_sqm": 541,
+    "gis_area_sqm": 559,
+    "likely_moshaa": false,
+    "addresses": [],
+    "building_count": 0,
+    "buildings_summary": {
+      "total_footprint_sqm": 0,
+      "floors_range": null,
+      "year_range": null
+    },
+    "municipal_ownership": null,
+    "permit_count": 0,
+    "conservation": false,
+    "dangerous": false
+  },
+  {
+    "gush": 6135,
+    "chelka": 81,
+    "registered_area_sqm": 996,
+    "gis_area_sqm": 991,
+    "likely_moshaa": false,
+    "addresses": [
+      "אצ\"ל 74",
+      "יונדב 1",
+      "יונדב 2",
+      "יונדב 3",
+      "יונדב 5",
+      "יונדב 5",
+      "יונדב 6",
+      "יונדב 6",
+      "יונדב 7",
+      "יונדב 8",
+      "לח\"י 45",
+      "לח\"י 47"
+    ],
+    "building_count": 4,
+    "buildings_summary": {
+      "total_footprint_sqm": 463,
+      "floors_range": "1-2",
+      "year_range": "1949-2015"
+    },
+    "municipal_ownership": null,
+    "permit_count": 0,
+    "conservation": false,
+    "dangerous": false
+  },
+  {
+    "gush": 6135,
+    "chelka": 84,
+    "registered_area_sqm": 880,
+    "gis_area_sqm": 884,
+    "likely_moshaa": false,
+    "addresses": ["אצ\"ל 76", "לח\"י 49"],
+    "building_count": 0,
+    "buildings_summary": {
+      "total_footprint_sqm": 0,
+      "floors_range": null,
+      "year_range": null
+    },
+    "municipal_ownership": null,
+    "permit_count": 0,
+    "conservation": false,
+    "dangerous": false
+  },
+  {
+    "gush": 6135,
+    "chelka": 105,
+    "registered_area_sqm": 1881,
+    "gis_area_sqm": 1900,
+    "likely_moshaa": false,
+    "addresses": [
+      "אצ\"ל 85",
+      "קלמן 11",
+      "קלמן 13",
+      "קלמן 15",
+      "קלמן 17",
+      "קלמן 19",
+      "קלמן 3",
+      "קלמן 5",
+      "קלמן 9"
+    ],
+    "building_count": 3,
+    "buildings_summary": {
+      "total_footprint_sqm": 308,
+      "floors_range": "1-3",
+      "year_range": "1949-1950"
+    },
+    "municipal_ownership": null,
+    "permit_count": 0,
+    "conservation": false,
+    "dangerous": false
+  },
+  {
+    "gush": 6135,
+    "chelka": 106,
+    "registered_area_sqm": 276,
+    "gis_area_sqm": 282,
+    "likely_moshaa": false,
+    "addresses": [],
+    "building_count": 0,
+    "buildings_summary": {
+      "total_footprint_sqm": 0,
+      "floors_range": null,
+      "year_range": null
+    },
+    "municipal_ownership": null,
+    "permit_count": 0,
+    "conservation": false,
+    "dangerous": false
+  },
+  {
+    "gush": 6135,
+    "chelka": 107,
+    "registered_area_sqm": 584,
+    "gis_area_sqm": 597,
+    "likely_moshaa": false,
+    "addresses": ["אצ\"ל 72", "יונדב 4"],
+    "building_count": 1,
+    "buildings_summary": {
+      "total_footprint_sqm": 194,
+      "floors_range": "2-2",
+      "year_range": "1949-1949"
+    },
+    "municipal_ownership": null,
+    "permit_count": 0,
+    "conservation": false,
+    "dangerous": false
+  },
+  {
+    "gush": 6135,
+    "chelka": 109,
+    "registered_area_sqm": 547,
+    "gis_area_sqm": 552,
+    "likely_moshaa": false,
+    "addresses": [],
+    "building_count": 0,
+    "buildings_summary": {
+      "total_footprint_sqm": 0,
+      "floors_range": null,
+      "year_range": null
+    },
+    "municipal_ownership": null,
+    "permit_count": 0,
+    "conservation": false,
+    "dangerous": false
+  },
+  {
+    "gush": 6135,
+    "chelka": 110,
+    "registered_area_sqm": 2443,
+    "gis_area_sqm": 2478,
+    "likely_moshaa": true,
+    "addresses": [
+      "אצ\"ל 64",
+      "תשבי 1",
+      "תשבי 11",
+      "תשבי 13",
+      "תשבי 15",
+      "תשבי 17",
+      "תשבי 19",
+      "תשבי 21",
+      "תשבי 25",
+      "תשבי 27",
+      "תשבי 29",
+      "תשבי 3",
+      "תשבי 31",
+      "תשבי 5",
+      "תשבי 7",
+      "תשבי 9"
+    ],
+    "building_count": 13,
+    "buildings_summary": {
+      "total_footprint_sqm": 934,
+      "floors_range": "1-3",
+      "year_range": "1949-2011"
+    },
+    "municipal_ownership": {
+      "type": "בעלות חלקית",
+      "share": "350/2443",
+      "nature": "ב"
+    },
+    "permit_count": 1,
+    "conservation": false,
+    "dangerous": false
+  }
+]

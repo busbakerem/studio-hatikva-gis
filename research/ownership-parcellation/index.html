@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>מפת מחקר — שכונת התקווה | סטודיו בצלאל 2026</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <div id="side-panel">
+        <div id="panel-header">
+          <div>
+            <div class="title">שכונת התקווה</div>
+            <div class="subtitle">מחקר אורבני — סטודיו בצלאל 2026</div>
+          </div>
+        </div>
+        <div id="tabs">
+          <div class="tab active" data-tab="info">מידע</div>
+          <div class="tab" data-tab="reparcellation">רה-פרצלציה</div>
+          <div class="tab" data-tab="plans">תכניות</div>
+          <div class="tab" data-tab="stats">סטטיסטיקות</div>
+        </div>
+        <div id="tab-info" class="tab-content active">
+          <div class="empty-state">
+            <div class="icon">&#128205;</div>
+            <p>לחצו על אלמנט במפה לצפייה במידע</p>
+          </div>
+        </div>
+        <div id="tab-reparcellation" class="tab-content"></div>
+        <div id="tab-plans" class="tab-content"></div>
+        <div id="tab-stats" class="tab-content"></div>
+      </div>
+      <div id="map-container">
+        <div id="map"></div>
+        <div id="loading">
+          <div class="spinner"></div>
+          טוען נתונים...
+        </div>
+        <button id="btn-show-all">הצג הכל</button>
+        <button id="btn-about">אודות</button>
+        <button id="btn-framework">תכניות מסגרת</button>
+      </div>
+    </div>
+
+    <div id="about-overlay">
+      <div id="about-box">
+        <h2>מחקר אורבני — שכונת התקווה</h2>
+        <p>ניתוח מרחבי של בעלויות, תכניות בניין עיר, ואדמות מושע</p>
+        <p>סטודיו אדריכלות, בצלאל 2026</p>
+        <p style="font-size: 11px; color: #999; margin-top: 8px">
+          מקורות: GIS עיריית ת"א, GovMap, מאגר תכניות מבא"ת
+        </p>
+        <button class="close-btn" id="btn-about-close">סגור</button>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="https://unpkg.com/@turf/turf@7/turf.min.js"></script>
+    <script src="config.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

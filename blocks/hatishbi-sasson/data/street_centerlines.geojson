@@ -1,0 +1,636 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "oid_rechov": 2641,
+        "k_rechov": 4044,
+        "t_rechov": "רוני",
+        "shem_angli": "RONI",
+        "ms_lamas": 2775,
+        "t_sug": "רחוב",
+        "k_kivun": 1,
+        "UniqueId": "507-13194",
+        "k_reka": 100
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [34.7918585866023, 32.05044322091724],
+            [34.7917391872546, 32.05035828931227],
+            [34.791593639911916, 32.04929835040006]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid_rechov": 2642,
+        "k_rechov": 4215,
+        "t_rechov": "גלעזר אליהו",
+        "shem_angli": "GALEZER ELIYAHU",
+        "ms_lamas": 4634,
+        "t_sug": "רחוב",
+        "k_kivun": 0,
+        "UniqueId": "507-13195",
+        "k_reka": 100
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [34.791593639911916, 32.04929835040006],
+            [34.791915091816236, 32.04927981067535]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid_rechov": 2643,
+        "k_rechov": 4045,
+        "t_rechov": "שמחה",
+        "shem_angli": "SIMCHA",
+        "ms_lamas": 2774,
+        "t_sug": "רחוב",
+        "k_kivun": 1,
+        "UniqueId": "507-13196",
+        "k_reka": 100
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [34.79201960499173, 32.05012008620865],
+            [34.79204210500743, 32.049990948819655],
+            [34.792020843776776, 32.04993592715536],
+            [34.791915091816236, 32.04927981067535]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid_rechov": 2646,
+        "k_rechov": 4215,
+        "t_rechov": "גלעזר אליהו",
+        "shem_angli": "GALEZER ELIYAHU",
+        "ms_lamas": 4634,
+        "t_sug": "רחוב",
+        "k_kivun": 0,
+        "UniqueId": "507-13199",
+        "k_reka": 100
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [34.791915091816236, 32.04927981067535],
+            [34.79209819328228, 32.049252225284484]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid_rechov": 2647,
+        "k_rechov": 4001,
+        "t_rechov": "אצ\"ל",
+        "shem_angli": "ETSEL",
+        "ms_lamas": 2731,
+        "t_sug": "רחוב",
+        "k_kivun": 0,
+        "UniqueId": "507-13200",
+        "k_reka": 100
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [34.79232863492807, 32.04958818781765],
+            [34.79254187802513, 32.04929495331442]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid_rechov": 2648,
+        "k_rechov": 4063,
+        "t_rechov": "וילון",
+        "shem_angli": "VILON",
+        "ms_lamas": 2738,
+        "t_sug": "רחוב",
+        "k_kivun": 0,
+        "UniqueId": "507-13201",
+        "k_reka": 100
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [34.79254187802513, 32.04929495331442],
+            [34.79255322093698, 32.04944040416082],
+            [34.79266995473215, 32.05017616599169]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid_rechov": 2653,
+        "k_rechov": 4065,
+        "t_rechov": "שבתאי",
+        "shem_angli": "SHABTAY",
+        "ms_lamas": 2740,
+        "t_sug": "רחוב",
+        "k_kivun": 0,
+        "UniqueId": "507-13206",
+        "k_reka": 100
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [34.7928123205306, 32.04884479389061],
+            [34.79298986113468, 32.050152264599284]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid_rechov": 2654,
+        "k_rechov": 4001,
+        "t_rechov": "אצ\"ל",
+        "shem_angli": "ETSEL",
+        "ms_lamas": 2731,
+        "t_sug": "רחוב",
+        "k_kivun": 0,
+        "UniqueId": "507-13207",
+        "k_reka": 100
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [34.79254187802513, 32.04929495331442],
+            [34.7928123205306, 32.04884479389061]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid_rechov": 2655,
+        "k_rechov": 4001,
+        "t_rechov": "אצ\"ל",
+        "shem_angli": "ETSEL",
+        "ms_lamas": 2731,
+        "t_sug": "רחוב",
+        "k_kivun": 0,
+        "UniqueId": "507-13208",
+        "k_reka": 100
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [34.7928123205306, 32.04884479389061],
+            [34.79295282845943, 32.04861191121056]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid_rechov": 2656,
+        "k_rechov": 4066,
+        "t_rechov": "בן חסד",
+        "shem_angli": "BEN CHESED",
+        "ms_lamas": 2739,
+        "t_sug": "רחוב",
+        "k_kivun": 0,
+        "UniqueId": "507-13209",
+        "k_reka": 100
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [34.79295282845943, 32.04861191121056],
+            [34.793128454329285, 32.05014425998765]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid_rechov": 2657,
+        "k_rechov": 4068,
+        "t_rechov": "עברי",
+        "shem_angli": "IVRI",
+        "ms_lamas": 2742,
+        "t_sug": "רחוב",
+        "k_kivun": 2,
+        "UniqueId": "507-13210",
+        "k_reka": 100
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [34.79339391104642, 32.048033236015385],
+            [34.793523139883106, 32.04899124570321]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid_rechov": 2658,
+        "k_rechov": 4001,
+        "t_rechov": "אצ\"ל",
+        "shem_angli": "ETSEL",
+        "ms_lamas": 2731,
+        "t_sug": "רחוב",
+        "k_kivun": 0,
+        "UniqueId": "507-13211",
+        "k_reka": 100
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [34.79339391104642, 32.048033236015385],
+            [34.79374783240734, 32.04778145806543]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid_rechov": 2766,
+        "k_rechov": 4041,
+        "t_rechov": "קמואל",
+        "shem_angli": "KEMU'EL",
+        "ms_lamas": 2776,
+        "t_sug": "רחוב",
+        "k_kivun": 1,
+        "UniqueId": "507-13344",
+        "k_reka": 100
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [34.7914313282538, 32.050425344169824],
+            [34.790962172953535, 32.04738040696313]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid_rechov": 3421,
+        "k_rechov": 4074,
+        "t_rechov": "זבד",
+        "shem_angli": "ZEVED",
+        "ms_lamas": 2750,
+        "t_sug": "רחוב",
+        "k_kivun": 2,
+        "UniqueId": "507-14156",
+        "k_reka": 100
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [34.793523139883106, 32.04899124570321],
+            [34.79324294080251, 32.04901570019111]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid_rechov": 3422,
+        "k_rechov": 4067,
+        "t_rechov": "קלמן",
+        "shem_angli": "KALMAN",
+        "ms_lamas": 2741,
+        "t_sug": "רחוב",
+        "k_kivun": 0,
+        "UniqueId": "507-14157",
+        "k_reka": 100
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [34.79324294080251, 32.04901570019111],
+            [34.793273343578086, 32.049264637551815],
+            [34.793388585322205, 32.05011325953386]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid_rechov": 3423,
+        "k_rechov": 4067,
+        "t_rechov": "קלמן",
+        "shem_angli": "KALMAN",
+        "ms_lamas": 2741,
+        "t_sug": "רחוב",
+        "k_kivun": 0,
+        "UniqueId": "507-14158",
+        "k_reka": 100
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [34.79315312346501, 32.04825353499916],
+            [34.79322724586101, 32.04889968420707],
+            [34.79324294080251, 32.04901570019111]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid_rechov": 3424,
+        "k_rechov": 4050,
+        "t_rechov": "יונדב",
+        "shem_angli": "YONADAV",
+        "ms_lamas": 2769,
+        "t_sug": "רחוב",
+        "k_kivun": 0,
+        "UniqueId": "507-14159",
+        "k_reka": 100
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [34.79315312346501, 32.04825353499916],
+            [34.79306830457851, 32.04752083571554]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid_rechov": 3425,
+        "k_rechov": 4001,
+        "t_rechov": "אצ\"ל",
+        "shem_angli": "ETSEL",
+        "ms_lamas": 2731,
+        "t_sug": "רחוב",
+        "k_kivun": 0,
+        "UniqueId": "507-14160",
+        "k_reka": 100
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [34.79315312346501, 32.04825353499916],
+            [34.79339391104642, 32.048033236015385]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid_rechov": 3429,
+        "k_rechov": 4045,
+        "t_rechov": "שמחה",
+        "shem_angli": "SIMCHA",
+        "ms_lamas": 2774,
+        "t_sug": "רחוב",
+        "k_kivun": 1,
+        "UniqueId": "507-14166",
+        "k_reka": 100
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [34.791915091816236, 32.04927981067535],
+            [34.791671350121824, 32.047392016935326]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid_rechov": 3430,
+        "k_rechov": 4044,
+        "t_rechov": "רוני",
+        "shem_angli": "RONI",
+        "ms_lamas": 2775,
+        "t_sug": "רחוב",
+        "k_kivun": 1,
+        "UniqueId": "507-14167",
+        "k_reka": 100
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [34.791593639911916, 32.04929835040006],
+            [34.791334997198035, 32.04737795823576]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid_rechov": 3711,
+        "k_rechov": 4046,
+        "t_rechov": "ששון",
+        "shem_angli": "SASSON",
+        "ms_lamas": 2773,
+        "t_sug": "רחוב",
+        "k_kivun": 2,
+        "UniqueId": "507-14549",
+        "k_reka": 100
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [34.79232863492807, 32.04958818781765],
+            [34.79233004575612, 32.04947631426],
+            [34.79229302429168, 32.04920974227482]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid_rechov": 3712,
+        "k_rechov": 4046,
+        "t_rechov": "ששון",
+        "shem_angli": "SASSON",
+        "ms_lamas": 2773,
+        "t_sug": "רחוב",
+        "k_kivun": 2,
+        "UniqueId": "507-14550",
+        "k_reka": 100
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [34.79229302429168, 32.04920974227482],
+            [34.7920623778534, 32.04740667551898]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid_rechov": 4700,
+        "k_rechov": 4048,
+        "t_rechov": "תרדיון",
+        "shem_angli": "TARDI'YON",
+        "ms_lamas": 2771,
+        "t_sug": "רחוב",
+        "k_kivun": 2,
+        "UniqueId": "507-15715",
+        "k_reka": 100
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [34.7928123205306, 32.04884479389061],
+            [34.7927250330095, 32.048202125003336],
+            [34.792645659007306, 32.04747338756935]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid_rechov": 4824,
+        "k_rechov": 4047,
+        "t_rechov": "תשבי",
+        "shem_angli": "TISHBI",
+        "ms_lamas": 2772,
+        "t_sug": "רחוב",
+        "k_kivun": 2,
+        "UniqueId": "507-15864",
+        "k_reka": 100
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [34.79254187802513, 32.04929495331442],
+            [34.79255251919691, 32.04915380058392],
+            [34.792337097092165, 32.04744110457373]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid_rechov": 7299,
+        "k_rechov": 4001,
+        "t_rechov": "אצ\"ל",
+        "shem_angli": "ETSEL",
+        "ms_lamas": 2731,
+        "t_sug": "רחוב",
+        "k_kivun": 0,
+        "UniqueId": "507-20414",
+        "k_reka": 100
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [34.79295282845943, 32.04861191121056],
+            [34.793061738052124, 32.04841704551021]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid_rechov": 7300,
+        "k_rechov": 4001,
+        "t_rechov": "אצ\"ל",
+        "shem_angli": "ETSEL",
+        "ms_lamas": 2731,
+        "t_sug": "רחוב",
+        "k_kivun": 0,
+        "UniqueId": "507-20415",
+        "k_reka": 100
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [34.793061738052124, 32.04841704551021],
+            [34.79315312346501, 32.04825353499916]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "oid_rechov": 7304,
+        "k_rechov": 4049,
+        "t_rechov": "צלפחד",
+        "shem_angli": "ZELOFHAD",
+        "ms_lamas": 2770,
+        "t_sug": "רחוב",
+        "k_kivun": 0,
+        "UniqueId": "507-20416",
+        "k_reka": 100
+      },
+      "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [34.793061738052124, 32.04841704551021],
+            [34.79294370030329, 32.04750178411542],
+            [34.79282274729828, 32.047489723218774]
+          ]
+        ]
+      }
+    }
+  ]
+}

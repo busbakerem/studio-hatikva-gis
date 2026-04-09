@@ -1,0 +1,1083 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id_esek": 1037409,
+        "shimush": "מסחר בפירות וירקות",
+        "shem_rechov": "אצ\"ל",
+        "ms_bayit": "77",
+        "tr_hakama": 7776000000,
+        "sw_taun_rishui": 1,
+        "shetach": 66,
+        "x_coord": 180566.04,
+        "y_coord": 661862.51,
+        "date_import": "02/04/2026 01:25:18",
+        "OBJECTID": 18977,
+        "shem_machzik_rashi": "",
+        "ms_mezahe_machzik_rashi": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79265629819311, 32.04932572620056]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_esek": 1037410,
+        "shimush": "קופות חולים",
+        "shem_rechov": "אצ\"ל",
+        "ms_bayit": "79",
+        "tr_hakama": 1251763200000,
+        "sw_taun_rishui": 0,
+        "shetach": 415,
+        "x_coord": 180577.74,
+        "y_coord": 661845.09,
+        "date_import": "02/04/2026 01:25:18",
+        "OBJECTID": 18978,
+        "shem_machzik_rashi": "קופת חולים לאומית",
+        "ms_mezahe_machzik_rashi": "589916006"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79278088148403, 32.04916903855037]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_esek": 1037414,
+        "shimush": "מסחר קמעוני כללי",
+        "shem_rechov": "אצ\"ל",
+        "ms_bayit": "75",
+        "tr_hakama": 1086048000000,
+        "sw_taun_rishui": 0,
+        "shetach": 9,
+        "x_coord": 180562.05,
+        "y_coord": 661870.11,
+        "date_import": "02/04/2026 01:25:18",
+        "OBJECTID": 18981,
+        "shem_machzik_rashi": "",
+        "ms_mezahe_machzik_rashi": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.7926137449949, 32.04939412419866]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_esek": 1037420,
+        "shimush": "מחסנים כלליים",
+        "shem_rechov": "אצ\"ל",
+        "ms_bayit": "81",
+        "tr_hakama": 1459641600000,
+        "sw_taun_rishui": 0,
+        "shetach": 8,
+        "x_coord": 180591.05,
+        "y_coord": 661816.2,
+        "date_import": "02/04/2026 01:25:18",
+        "OBJECTID": 18983,
+        "shem_machzik_rashi": "",
+        "ms_mezahe_machzik_rashi": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.792922973852654, 32.04890897202436]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_esek": 1037421,
+        "shimush": "תיקון אופניים",
+        "shem_rechov": "אצ\"ל",
+        "ms_bayit": "81",
+        "tr_hakama": 7776000000,
+        "sw_taun_rishui": 0,
+        "shetach": 12,
+        "x_coord": 180591.05,
+        "y_coord": 661816.2,
+        "date_import": "02/04/2026 01:25:18",
+        "OBJECTID": 18984,
+        "shem_machzik_rashi": "",
+        "ms_mezahe_machzik_rashi": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.792922973852654, 32.04890897202436]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_esek": 1037428,
+        "shimush": "חנות מכולת",
+        "shem_rechov": "עברי",
+        "ms_bayit": "1",
+        "tr_hakama": 1407715200000,
+        "sw_taun_rishui": 1,
+        "shetach": 146,
+        "x_coord": 180635.72,
+        "y_coord": 661751.75,
+        "date_import": "02/04/2026 01:25:18",
+        "OBJECTID": 18985,
+        "shem_machzik_rashi": "",
+        "ms_mezahe_machzik_rashi": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79339853729828, 32.04832930947143]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_esek": 1037430,
+        "shimush": "בתי כנסת",
+        "shem_rechov": "קלמן",
+        "ms_bayit": "4",
+        "tr_hakama": 7776000000,
+        "sw_taun_rishui": 0,
+        "shetach": 50,
+        "x_coord": 180621.98,
+        "y_coord": 661793.53,
+        "date_import": "02/04/2026 01:25:18",
+        "OBJECTID": 18986,
+        "shem_machzik_rashi": "",
+        "ms_mezahe_machzik_rashi": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79325137468001, 32.04870560115862]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_esek": 1037435,
+        "shimush": "מסגריות",
+        "shem_rechov": "אצ\"ל",
+        "ms_bayit": "91",
+        "tr_hakama": 1353974400000,
+        "sw_taun_rishui": 1,
+        "shetach": 39,
+        "x_coord": 180643.72,
+        "y_coord": 661729.31,
+        "date_import": "02/04/2026 01:25:18",
+        "OBJECTID": 18990,
+        "shem_machzik_rashi": "",
+        "ms_mezahe_machzik_rashi": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79348414494466, 32.04812722475061]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_esek": 1037558,
+        "shimush": "שרותים כללי",
+        "shem_rechov": "קמואל",
+        "ms_bayit": "43",
+        "tr_hakama": 1107216000000,
+        "sw_taun_rishui": 0,
+        "shetach": 208,
+        "x_coord": 180440.88,
+        "y_coord": 661850.51,
+        "date_import": "02/04/2026 01:25:18",
+        "OBJECTID": 19066,
+        "shem_machzik_rashi": "עמותת לילך - התנדבות מכל הלב (ע\"ר)",
+        "ms_mezahe_machzik_rashi": "580277382"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79133158436926, 32.04921320180263]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_esek": 1037559,
+        "shimush": "בתי כנסת",
+        "shem_rechov": "רוני",
+        "ms_bayit": "22",
+        "tr_hakama": 7776000000,
+        "sw_taun_rishui": 0,
+        "shetach": 127,
+        "x_coord": 180459.63,
+        "y_coord": 661876.3,
+        "date_import": "02/04/2026 01:25:18",
+        "OBJECTID": 19067,
+        "shem_machzik_rashi": "",
+        "ms_mezahe_machzik_rashi": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79152906584524, 32.04944641729722]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_esek": 1037561,
+        "shimush": "תעשיה ומלאכה - סגור",
+        "shem_rechov": "רוני",
+        "ms_bayit": "30",
+        "tr_hakama": 1290902400000,
+        "sw_taun_rishui": 1,
+        "shetach": 100,
+        "x_coord": 180451.67,
+        "y_coord": 661822.94,
+        "date_import": "02/04/2026 01:25:18",
+        "OBJECTID": 19068,
+        "shem_machzik_rashi": "",
+        "ms_mezahe_machzik_rashi": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.791446945667964, 32.04896495351268]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_esek": 1037565,
+        "shimush": "בתי כנסת",
+        "shem_rechov": "שמחה",
+        "ms_bayit": "56",
+        "tr_hakama": 7776000000,
+        "sw_taun_rishui": 0,
+        "shetach": 55,
+        "x_coord": 180467.87,
+        "y_coord": 661682.69,
+        "date_import": "02/04/2026 01:25:18",
+        "OBJECTID": 19072,
+        "shem_machzik_rashi": "",
+        "ms_mezahe_machzik_rashi": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.791624148071826, 32.04770076685182]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_esek": 1037566,
+        "shimush": "שרותים כללי",
+        "shem_rechov": "שמחה",
+        "ms_bayit": "38",
+        "tr_hakama": 1483228800000,
+        "sw_taun_rishui": 0,
+        "shetach": 49,
+        "x_coord": 180482.57,
+        "y_coord": 661774.23,
+        "date_import": "02/04/2026 01:25:18",
+        "OBJECTID": 19073,
+        "shem_machzik_rashi": "פי. אייץ'. איי נטוורקס (2015) שו",
+        "ms_mezahe_machzik_rashi": "550258842"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.791776085886006, 32.048526762183414]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_esek": 1037581,
+        "shimush": "מסחר בכלי תחבורה",
+        "shem_rechov": "אצ\"ל",
+        "ms_bayit": "60",
+        "tr_hakama": 1560988800000,
+        "sw_taun_rishui": 1,
+        "shetach": 30,
+        "x_coord": 180541.39,
+        "y_coord": 661861.15,
+        "date_import": "02/04/2026 01:25:18",
+        "OBJECTID": 19081,
+        "shem_machzik_rashi": "",
+        "ms_mezahe_machzik_rashi": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.792395357771944, 32.04931261407363]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_esek": 1037582,
+        "shimush": "מסחר במזון",
+        "shem_rechov": "תשבי",
+        "ms_bayit": "2",
+        "tr_hakama": 407548800000,
+        "sw_taun_rishui": 1,
+        "shetach": 57,
+        "x_coord": 180548.64,
+        "y_coord": 661828.44,
+        "date_import": "02/04/2026 01:25:18",
+        "OBJECTID": 19082,
+        "shem_machzik_rashi": "",
+        "ms_mezahe_machzik_rashi": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.792473442378586, 32.04901789156741]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_esek": 1037583,
+        "shimush": "מספרה",
+        "shem_rechov": "אצ\"ל",
+        "ms_bayit": "64",
+        "tr_hakama": 1136073600000,
+        "sw_taun_rishui": 1,
+        "shetach": 13,
+        "x_coord": 180559.71,
+        "y_coord": 661820.58,
+        "date_import": "02/04/2026 01:25:18",
+        "OBJECTID": 19083,
+        "shem_machzik_rashi": "",
+        "ms_mezahe_machzik_rashi": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79259096907175, 32.04894739251073]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_esek": 1037586,
+        "shimush": "מסחר קמעוני כללי",
+        "shem_rechov": "אצ\"ל",
+        "ms_bayit": "66",
+        "tr_hakama": 886291200000,
+        "sw_taun_rishui": 0,
+        "shetach": 6,
+        "x_coord": 180568.19,
+        "y_coord": 661800.98,
+        "date_import": "02/04/2026 01:25:18",
+        "OBJECTID": 19084,
+        "shem_machzik_rashi": "",
+        "ms_mezahe_machzik_rashi": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79268154665042, 32.04877093540918]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_esek": 1037592,
+        "shimush": "קרקע תפוסה",
+        "shem_rechov": "אצ\"ל",
+        "ms_bayit": "68",
+        "tr_hakama": 1434326400000,
+        "sw_taun_rishui": 0,
+        "shetach": 42,
+        "x_coord": 180585.06,
+        "y_coord": 661765.03,
+        "date_import": "02/04/2026 01:25:18",
+        "OBJECTID": 19085,
+        "shem_machzik_rashi": "",
+        "ms_mezahe_machzik_rashi": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79286161668904, 32.04844732572173]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_esek": 1037593,
+        "shimush": "שרותים כללי",
+        "shem_rechov": "אצ\"ל",
+        "ms_bayit": "70",
+        "tr_hakama": 1404172800000,
+        "sw_taun_rishui": 0,
+        "shetach": 15,
+        "x_coord": 180592.93,
+        "y_coord": 661742.23,
+        "date_import": "02/04/2026 01:25:18",
+        "OBJECTID": 19086,
+        "shem_machzik_rashi": "פלאפון תקשורת בע\"מ PELEPHONE COMMUNICATIONS LTD.",
+        "ms_mezahe_machzik_rashi": "511076572"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79294586371838, 32.04824199050533]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_esek": 1037594,
+        "shimush": "בתי קפה ומסעדות",
+        "shem_rechov": "אצ\"ל",
+        "ms_bayit": "72",
+        "tr_hakama": 1301616000000,
+        "sw_taun_rishui": 1,
+        "shetach": 70,
+        "x_coord": 180602.81,
+        "y_coord": 661733.06,
+        "date_import": "02/04/2026 01:25:18",
+        "OBJECTID": 19087,
+        "shem_machzik_rashi": "",
+        "ms_mezahe_machzik_rashi": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79305084227615, 32.04815963680095]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_esek": 1037595,
+        "shimush": "מחסנים כלליים",
+        "shem_rechov": "אצ\"ל",
+        "ms_bayit": "72",
+        "tr_hakama": 260236800000,
+        "sw_taun_rishui": 1,
+        "shetach": 62,
+        "x_coord": 180602.81,
+        "y_coord": 661733.06,
+        "date_import": "02/04/2026 01:25:18",
+        "OBJECTID": 19088,
+        "shem_machzik_rashi": "",
+        "ms_mezahe_machzik_rashi": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79305084227615, 32.04815963680095]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_esek": 1037596,
+        "shimush": "חנויות דגים ואיטליזים",
+        "shem_rechov": "אצ\"ל",
+        "ms_bayit": "70",
+        "tr_hakama": 1242000000000,
+        "sw_taun_rishui": 1,
+        "shetach": 63,
+        "x_coord": 180592.93,
+        "y_coord": 661742.23,
+        "date_import": "02/04/2026 01:25:18",
+        "OBJECTID": 19089,
+        "shem_machzik_rashi": "",
+        "ms_mezahe_machzik_rashi": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79294586371838, 32.04824199050533]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_esek": 1037597,
+        "shimush": "משרד מחשוב וטכנולוגיה",
+        "shem_rechov": "אצ\"ל",
+        "ms_bayit": "70",
+        "tr_hakama": 854755200000,
+        "sw_taun_rishui": 0,
+        "shetach": 15,
+        "x_coord": 180592.93,
+        "y_coord": 661742.23,
+        "date_import": "02/04/2026 01:25:18",
+        "OBJECTID": 19090,
+        "shem_machzik_rashi": "סלקום ישראל בע\"מ CELLCOM ISRAEL LTD.",
+        "ms_mezahe_machzik_rashi": "511930125"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79294586371838, 32.04824199050533]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_esek": 1037598,
+        "shimush": "בתי קפה ומסעדות",
+        "shem_rechov": "אצ\"ל",
+        "ms_bayit": "72",
+        "tr_hakama": 1406851200000,
+        "sw_taun_rishui": 1,
+        "shetach": 32,
+        "x_coord": 180602.81,
+        "y_coord": 661733.06,
+        "date_import": "02/04/2026 01:25:18",
+        "OBJECTID": 19091,
+        "shem_machzik_rashi": "",
+        "ms_mezahe_machzik_rashi": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79305084227615, 32.04815963680095]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_esek": 1037600,
+        "shimush": "בתי כנסת",
+        "shem_rechov": "יונדב",
+        "ms_bayit": "5",
+        "tr_hakama": 47174400000,
+        "sw_taun_rishui": 0,
+        "shetach": 65,
+        "x_coord": 180611.92,
+        "y_coord": 661686.53,
+        "date_import": "02/04/2026 01:25:18",
+        "OBJECTID": 19093,
+        "shem_machzik_rashi": "",
+        "ms_mezahe_machzik_rashi": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79314917451591, 32.0477403517826]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_esek": 1037601,
+        "shimush": "משרד תיווך",
+        "shem_rechov": "אצ\"ל",
+        "ms_bayit": "76",
+        "tr_hakama": 1560124800000,
+        "sw_taun_rishui": 0,
+        "shetach": 15,
+        "x_coord": 180623.76,
+        "y_coord": 661704.11,
+        "date_import": "02/04/2026 01:25:18",
+        "OBJECTID": 19094,
+        "shem_machzik_rashi": "",
+        "ms_mezahe_machzik_rashi": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79327382614607, 32.04789929118919]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_esek": 1037607,
+        "shimush": "יצור דברי מאפה",
+        "shem_rechov": "אצ\"ל",
+        "ms_bayit": "76",
+        "tr_hakama": 423273600000,
+        "sw_taun_rishui": 1,
+        "shetach": 54,
+        "x_coord": 180623.76,
+        "y_coord": 661704.11,
+        "date_import": "02/04/2026 01:25:18",
+        "OBJECTID": 19096,
+        "shem_machzik_rashi": "",
+        "ms_mezahe_machzik_rashi": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79327382614607, 32.04789929118919]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_esek": 1037608,
+        "shimush": "בית דפוס",
+        "shem_rechov": "אצ\"ל",
+        "ms_bayit": "76",
+        "tr_hakama": 667785600000,
+        "sw_taun_rishui": 1,
+        "shetach": 14,
+        "x_coord": 180623.76,
+        "y_coord": 661704.11,
+        "date_import": "02/04/2026 01:25:18",
+        "OBJECTID": 19097,
+        "shem_machzik_rashi": "",
+        "ms_mezahe_machzik_rashi": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79327382614607, 32.04789929118919]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_esek": 1037609,
+        "shimush": "תעשייה ומלאכה",
+        "shem_rechov": "אצ\"ל",
+        "ms_bayit": "76",
+        "tr_hakama": 1347667200000,
+        "sw_taun_rishui": 1,
+        "shetach": 15,
+        "x_coord": 180623.76,
+        "y_coord": 661704.11,
+        "date_import": "02/04/2026 01:25:18",
+        "OBJECTID": 19098,
+        "shem_machzik_rashi": "",
+        "ms_mezahe_machzik_rashi": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79327382614607, 32.04789929118919]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_esek": 1043064,
+        "shimush": "קיוסקים",
+        "shem_rechov": "אצ\"ל",
+        "ms_bayit": "75",
+        "tr_hakama": 1572566400000,
+        "sw_taun_rishui": 1,
+        "shetach": 3,
+        "x_coord": 180562.05,
+        "y_coord": 661870.11,
+        "date_import": "02/04/2026 01:25:18",
+        "OBJECTID": 20441,
+        "shem_machzik_rashi": "",
+        "ms_mezahe_machzik_rashi": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.7926137449949, 32.04939412419866]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_esek": 1044012,
+        "shimush": "מסחר במחשבים וטלפונים",
+        "shem_rechov": "אצ\"ל",
+        "ms_bayit": "74",
+        "tr_hakama": 1604966400000,
+        "sw_taun_rishui": 0,
+        "shetach": 44,
+        "x_coord": 180614.48,
+        "y_coord": 661721.15,
+        "date_import": "02/04/2026 01:25:18",
+        "OBJECTID": 20739,
+        "shem_machzik_rashi": "",
+        "ms_mezahe_machzik_rashi": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79317488348028, 32.048052635728546]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_esek": 1045491,
+        "shimush": "מספרה",
+        "shem_rechov": "אצ\"ל",
+        "ms_bayit": "64",
+        "tr_hakama": 1609459200000,
+        "sw_taun_rishui": 1,
+        "shetach": 21,
+        "x_coord": 180559.71,
+        "y_coord": 661820.58,
+        "date_import": "02/04/2026 01:25:18",
+        "OBJECTID": 21183,
+        "shem_machzik_rashi": "",
+        "ms_mezahe_machzik_rashi": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79259096907175, 32.04894739251073]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_esek": 1045627,
+        "shimush": "מכוני יופי",
+        "shem_rechov": "אצ\"ל",
+        "ms_bayit": "64",
+        "tr_hakama": 1609459200000,
+        "sw_taun_rishui": 1,
+        "shetach": 13,
+        "x_coord": 180559.71,
+        "y_coord": 661820.58,
+        "date_import": "02/04/2026 01:25:18",
+        "OBJECTID": 21217,
+        "shem_machzik_rashi": "",
+        "ms_mezahe_machzik_rashi": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79259096907175, 32.04894739251073]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_esek": 1050644,
+        "shimush": "מכוני יופי",
+        "shem_rechov": "אצ\"ל",
+        "ms_bayit": "66",
+        "tr_hakama": 1631664000000,
+        "sw_taun_rishui": 1,
+        "shetach": 30,
+        "x_coord": 180568.19,
+        "y_coord": 661800.98,
+        "date_import": "02/04/2026 01:25:18",
+        "OBJECTID": 22777,
+        "shem_machzik_rashi": "",
+        "ms_mezahe_machzik_rashi": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79268154665042, 32.04877093540918]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_esek": 1052856,
+        "shimush": "חדר טרנספורמציה",
+        "shem_rechov": "ששון",
+        "ms_bayit": "4",
+        "tr_hakama": 1609459200000,
+        "sw_taun_rishui": 0,
+        "shetach": 27,
+        "x_coord": 180525.92,
+        "y_coord": 661864.8,
+        "date_import": "02/04/2026 01:25:18",
+        "OBJECTID": 23695,
+        "shem_machzik_rashi": "חברת החשמל לישראל בעמ",
+        "ms_mezahe_machzik_rashi": "520000472"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.792231413182954, 32.04934499658594]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_esek": 1059425,
+        "shimush": "חנויות דגים ואיטליזים",
+        "shem_rechov": "אצ\"ל",
+        "ms_bayit": "64",
+        "tr_hakama": 1673136000000,
+        "sw_taun_rishui": 1,
+        "shetach": 16,
+        "x_coord": 180559.71,
+        "y_coord": 661820.58,
+        "date_import": "02/04/2026 01:25:18",
+        "OBJECTID": 26311,
+        "shem_machzik_rashi": "",
+        "ms_mezahe_machzik_rashi": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79259096907175, 32.04894739251073]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_esek": 1062821,
+        "shimush": "בתי קפה ומסעדות",
+        "shem_rechov": "אצ\"ל",
+        "ms_bayit": "83",
+        "tr_hakama": 1686441600000,
+        "sw_taun_rishui": 1,
+        "shetach": 27,
+        "x_coord": 180600.39,
+        "y_coord": 661796.72,
+        "date_import": "02/04/2026 01:25:18",
+        "OBJECTID": 27690,
+        "shem_machzik_rashi": "",
+        "ms_mezahe_machzik_rashi": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.793022651580195, 32.04873362636114]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_esek": 1064420,
+        "shimush": "משרד לשירותים פיננסים",
+        "shem_rechov": "אצ\"ל",
+        "ms_bayit": "66",
+        "tr_hakama": 1703548800000,
+        "sw_taun_rishui": 0,
+        "shetach": 41,
+        "x_coord": 180568.19,
+        "y_coord": 661800.98,
+        "date_import": "02/04/2026 01:25:18",
+        "OBJECTID": 28470,
+        "shem_machzik_rashi": "טן ג'ובס בע\"מ",
+        "ms_mezahe_machzik_rashi": "515866838"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79268154665042, 32.04877093540918]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_esek": 1065299,
+        "shimush": "סופר מרקט",
+        "shem_rechov": "אצ\"ל",
+        "ms_bayit": "68",
+        "tr_hakama": 1709251200000,
+        "sw_taun_rishui": 1,
+        "shetach": 221,
+        "x_coord": 180585.06,
+        "y_coord": 661765.03,
+        "date_import": "02/04/2026 01:25:18",
+        "OBJECTID": 28913,
+        "shem_machzik_rashi": "ש.לשם שיווק מזון בע\"מ",
+        "ms_mezahe_machzik_rashi": "516882875"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79286161668904, 32.04844732572173]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_esek": 1070803,
+        "shimush": "מספרה",
+        "shem_rechov": "אצ\"ל",
+        "ms_bayit": "68",
+        "tr_hakama": 1736640000000,
+        "sw_taun_rishui": 1,
+        "shetach": 10,
+        "x_coord": 180585.06,
+        "y_coord": 661765.03,
+        "date_import": "02/04/2026 01:25:18",
+        "OBJECTID": 32205,
+        "shem_machzik_rashi": "",
+        "ms_mezahe_machzik_rashi": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79286161668904, 32.04844732572173]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_esek": 1071758,
+        "shimush": "מסחר במזון",
+        "shem_rechov": "אצ\"ל",
+        "ms_bayit": "64",
+        "tr_hakama": 1738022400000,
+        "sw_taun_rishui": 1,
+        "shetach": 13,
+        "x_coord": 180559.71,
+        "y_coord": 661820.58,
+        "date_import": "02/04/2026 01:25:18",
+        "OBJECTID": 32830,
+        "shem_machzik_rashi": "",
+        "ms_mezahe_machzik_rashi": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79259096907175, 32.04894739251073]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_esek": 1072061,
+        "shimush": "מחסנים כלליים",
+        "shem_rechov": "אצ\"ל",
+        "ms_bayit": "91",
+        "tr_hakama": 1409529600000,
+        "sw_taun_rishui": 0,
+        "shetach": 20,
+        "x_coord": 180643.72,
+        "y_coord": 661729.31,
+        "date_import": "02/04/2026 01:25:18",
+        "OBJECTID": 33087,
+        "shem_machzik_rashi": "",
+        "ms_mezahe_machzik_rashi": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79348414494466, 32.04812722475061]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_esek": 1073114,
+        "shimush": "מסחר קמעוני כללי",
+        "shem_rechov": "תשבי",
+        "ms_bayit": "2",
+        "tr_hakama": 1751328000000,
+        "sw_taun_rishui": 0,
+        "shetach": 54,
+        "x_coord": 180548.64,
+        "y_coord": 661828.44,
+        "date_import": "02/04/2026 01:25:18",
+        "OBJECTID": 33811,
+        "shem_machzik_rashi": "",
+        "ms_mezahe_machzik_rashi": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.792473442378586, 32.04901789156741]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_esek": 1074136,
+        "shimush": "מסחר קמעוני כללי",
+        "shem_rechov": "אצ\"ל",
+        "ms_bayit": "81",
+        "tr_hakama": 1754006400000,
+        "sw_taun_rishui": 0,
+        "shetach": 9,
+        "x_coord": 180591.05,
+        "y_coord": 661816.2,
+        "date_import": "02/04/2026 01:25:18",
+        "OBJECTID": 34552,
+        "shem_machzik_rashi": "",
+        "ms_mezahe_machzik_rashi": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.792922973852654, 32.04890897202436]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_esek": 1074561,
+        "shimush": "מחסנים כלליים",
+        "shem_rechov": "אצ\"ל",
+        "ms_bayit": "60",
+        "tr_hakama": 1756684800000,
+        "sw_taun_rishui": 0,
+        "shetach": 32,
+        "x_coord": 180541.38,
+        "y_coord": 661861.15,
+        "date_import": "02/04/2026 01:25:18",
+        "OBJECTID": 34894,
+        "shem_machzik_rashi": "",
+        "ms_mezahe_machzik_rashi": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79239525189147, 32.04931261372953]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_esek": 1074661,
+        "shimush": "מכוני יופי",
+        "shem_rechov": "אצ\"ל",
+        "ms_bayit": "81",
+        "tr_hakama": 1757462400000,
+        "sw_taun_rishui": 1,
+        "shetach": 10,
+        "x_coord": 180591.05,
+        "y_coord": 661816.2,
+        "date_import": "02/04/2026 01:25:18",
+        "OBJECTID": 34979,
+        "shem_machzik_rashi": "",
+        "ms_mezahe_machzik_rashi": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.792922973852654, 32.04890897202436]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_esek": 1075032,
+        "shimush": "בתי קפה ומסעדות",
+        "shem_rechov": "אצ\"ל",
+        "ms_bayit": "85",
+        "tr_hakama": 1762732800000,
+        "sw_taun_rishui": 1,
+        "shetach": 116,
+        "x_coord": 180608.17,
+        "y_coord": 661783.94,
+        "date_import": "02/04/2026 01:25:18",
+        "OBJECTID": 35276,
+        "shem_machzik_rashi": "",
+        "ms_mezahe_machzik_rashi": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.793105541492075, 32.048618646239156]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_esek": 1076152,
+        "shimush": "מסחר בביגוד וטקסטיל",
+        "shem_rechov": "אצ\"ל",
+        "ms_bayit": "76",
+        "tr_hakama": 1768435200000,
+        "sw_taun_rishui": 0,
+        "shetach": 13,
+        "x_coord": 180623.76,
+        "y_coord": 661704.11,
+        "date_import": "02/04/2026 01:25:18",
+        "OBJECTID": 36255,
+        "shem_machzik_rashi": "",
+        "ms_mezahe_machzik_rashi": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.79327382614607, 32.04789929118919]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id_esek": 1076901,
+        "shimush": "קיוסקים",
+        "shem_rechov": "אצ\"ל",
+        "ms_bayit": "81",
+        "tr_hakama": 1772323200000,
+        "sw_taun_rishui": 1,
+        "shetach": 40,
+        "x_coord": 180591.05,
+        "y_coord": 661816.2,
+        "date_import": "02/04/2026 01:25:18",
+        "OBJECTID": 36959,
+        "shem_machzik_rashi": "",
+        "ms_mezahe_machzik_rashi": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.792922973852654, 32.04890897202436]
+      }
+    }
+  ]
+}

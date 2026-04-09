@@ -1,54 +1,59 @@
 import { readFile, writeFile } from "node:fs/promises";
-const data = JSON.parse(await readFile("blocks/hatishbi-sasson/_inventory.json", "utf-8"));
+const data = JSON.parse(
+  await readFile("blocks/hatishbi-sasson/_inventory.json", "utf-8"),
+);
 const inv = data.inventory;
 // --- Aggregate stats ---
-let totalBuildings = 0, totalArea = 0, totalPermits = 0;
+let totalBuildings = 0,
+  totalArea = 0,
+  totalPermits = 0;
 const yearCounts = {};
 const floorCounts = {};
 const activeSites = [];
 for (const parcel of inv) {
-    totalPermits += parcel.permits.length;
-    for (const b of parcel.buildings) {
-        totalBuildings++;
-        totalArea += b.footprintArea;
-        if (b.year)
-            yearCounts[b.year] = (yearCounts[b.year] || 0) + 1;
-        const f = String(b.floors ?? "unknown");
-        floorCounts[f] = (floorCounts[f] || 0) + 1;
+  totalPermits += parcel.permits.length;
+  for (const b of parcel.buildings) {
+    totalBuildings++;
+    totalArea += b.footprintArea;
+    if (b.year) yearCounts[b.year] = (yearCounts[b.year] || 0) + 1;
+    const f = String(b.floors ?? "unknown");
+    floorCounts[f] = (floorCounts[f] || 0) + 1;
+  }
+  for (const p of parcel.permits) {
+    if (
+      p.stage === "בבניה" ||
+      p.stage === "בתהליך היתר" ||
+      p.type.includes("בניה חדשה") ||
+      p.type.includes("הריסה")
+    ) {
+      activeSites.push({ chelka: parcel.chelka, ...p });
     }
-    for (const p of parcel.permits) {
-        if (p.stage === "בבניה" ||
-            p.stage === "בתהליך היתר" ||
-            p.type.includes("בניה חדשה") ||
-            p.type.includes("הריסה")) {
-            activeSites.push({ chelka: parcel.chelka, ...p });
-        }
-    }
+  }
 }
 function stageColor(stage) {
-    if (stage === "בבניה")
-        return "#e67e22";
-    if (stage === "בתהליך היתר")
-        return "#e74c3c";
-    if (stage.includes("תעודת גמר"))
-        return "#27ae60";
-    if (stage === "קיים היתר")
-        return "#2980b9";
-    return "#7f8c8d";
+  if (stage === "בבניה") return "#e67e22";
+  if (stage === "בתהליך היתר") return "#e74c3c";
+  if (stage.includes("תעודת גמר")) return "#27ae60";
+  if (stage === "קיים היתר") return "#2980b9";
+  return "#7f8c8d";
 }
 function stageTag(stage) {
-    return `<span class="tag" style="background:${stageColor(stage)}">${stage}</span>`;
+  return `<span class="tag" style="background:${stageColor(stage)}">${stage}</span>`;
 }
 function esc(s) {
-    return String(s ?? "?")
-        .replace(/&/g, "&amp;")
-        .replace(/</g, "&lt;")
-        .replace(/>/g, "&gt;")
-        .replace(/"/g, "&quot;");
+  return String(s ?? "?")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
 }
-const sortedYears = Object.entries(yearCounts).sort((a, b) => Number(a[0]) - Number(b[0]));
+const sortedYears = Object.entries(yearCounts).sort(
+  (a, b) => Number(a[0]) - Number(b[0]),
+);
 const maxYearCount = Math.max(...sortedYears.map((e) => e[1]));
-const sortedFloors = Object.entries(floorCounts).sort((a, b) => Number(a[0]) - Number(b[0]));
+const sortedFloors = Object.entries(floorCounts).sort(
+  (a, b) => Number(a[0]) - Number(b[0]),
+);
 const maxFloor = Math.max(...sortedFloors.map((e) => e[1]));
 const css = `
 :root { --bg: #f8f9fa; --card: #fff; --border: #dee2e6; --text: #212529; --muted: #6c757d; --accent: #0d6efd; }
@@ -96,83 +101,81 @@ let html = `<!DOCTYPE html>
 <div class="stats">
 `;
 const statsItems = [
-    [inv.length, "חלקות"],
-    [totalBuildings, "מבנים"],
-    [totalArea.toFixed(0) + " מ\"ר", "שטח טביעות רגל"],
-    [totalPermits, "היתרים"],
-    [activeSites.length, "אתרים פעילים"],
-    [data.conservation, "מבנים לשימור"],
-    [data.dangerous, "מבנים מסוכנים"],
+  [inv.length, "חלקות"],
+  [totalBuildings, "מבנים"],
+  [totalArea.toFixed(0) + ' מ"ר', "שטח טביעות רגל"],
+  [totalPermits, "היתרים"],
+  [activeSites.length, "אתרים פעילים"],
+  [data.conservation, "מבנים לשימור"],
+  [data.dangerous, "מבנים מסוכנים"],
 ];
 for (const [num, label] of statsItems) {
-    html += `<div class="stat"><div class="num">${num}</div><div class="label">${label}</div></div>\n`;
+  html += `<div class="stat"><div class="num">${num}</div><div class="label">${label}</div></div>\n`;
 }
 html += `</div>\n`;
 // Year distribution
 html += `<h2>התפלגות שנות בניה</h2>\n<div class="card">\n`;
 for (const [y, c] of sortedYears) {
-    const w = Math.round((c / maxYearCount) * 200);
-    html += `<div class="year-bar"><span class="yr">${y}</span><div class="bar" style="width:${w}px"></div><span class="cnt">${c}</span></div>\n`;
+  const w = Math.round((c / maxYearCount) * 200);
+  html += `<div class="year-bar"><span class="yr">${y}</span><div class="bar" style="width:${w}px"></div><span class="cnt">${c}</span></div>\n`;
 }
 const unknownYear = totalBuildings - sortedYears.reduce((s, e) => s + e[1], 0);
 if (unknownYear > 0) {
-    const w = Math.round((unknownYear / maxYearCount) * 200);
-    html += `<div class="year-bar"><span class="yr">?</span><div class="bar" style="width:${w}px;background:#adb5bd"></div><span class="cnt">${unknownYear}</span></div>\n`;
+  const w = Math.round((unknownYear / maxYearCount) * 200);
+  html += `<div class="year-bar"><span class="yr">?</span><div class="bar" style="width:${w}px;background:#adb5bd"></div><span class="cnt">${unknownYear}</span></div>\n`;
 }
 html += `</div>\n`;
 // Floor distribution
 html += `<h2>התפלגות קומות</h2>\n<div class="card">\n`;
 for (const [f, c] of sortedFloors) {
-    const w = Math.round((c / maxFloor) * 200);
-    const label = f === "null" || f === "unknown" || f === "0" ? "?" : f;
-    html += `<div class="year-bar"><span class="yr">${label}</span><div class="bar" style="width:${w}px;background:#198754"></div><span class="cnt">${c}</span></div>\n`;
+  const w = Math.round((c / maxFloor) * 200);
+  const label = f === "null" || f === "unknown" || f === "0" ? "?" : f;
+  html += `<div class="year-bar"><span class="yr">${label}</span><div class="bar" style="width:${w}px;background:#198754"></div><span class="cnt">${c}</span></div>\n`;
 }
 html += `</div>\n`;
 // Active sites
 html += `<h2>אתרים פעילים — בניה והריסה</h2>\n`;
 if (activeSites.length === 0) {
-    html += `<p>לא נמצאו אתרים פעילים.</p>\n`;
-}
-else {
-    for (const s of activeSites) {
-        const content = (s.content || "")
-            .replace(/\r\n/g, " ")
-            .replace(/\n/g, " ")
-            .trim();
-        html += `<div class="card active-site">
+  html += `<p>לא נמצאו אתרים פעילים.</p>\n`;
+} else {
+  for (const s of activeSites) {
+    const content = (s.content || "")
+      .replace(/\r\n/g, " ")
+      .replace(/\n/g, " ")
+      .trim();
+    html += `<div class="card active-site">
 <h3>חלקה ${s.chelka} — ${esc(s.address)}</h3>
 <p>${stageTag(s.stage)} <strong>${esc(s.type)}</strong></p>
 <p>תאריך היתר: ${s.date || "טרם ניתן"} | תוקף: ${s.expiryDate || "?"} | יח"ד: ${s.housingUnits || 0}</p>
 ${s.docUrl ? `<p><a href="${s.docUrl}" target="_blank">קישור למסמכים</a></p>` : ""}
 ${content ? `<p style="font-size:0.8rem;color:var(--muted);margin-top:0.3rem">${esc(content).slice(0, 400)}</p>` : ""}
 </div>\n`;
-    }
+  }
 }
 // Per-parcel detail
 html += `<h2>פירוט לפי חלקה</h2>\n`;
 for (const parcel of inv) {
-    if (parcel.buildings.length === 0 && parcel.permits.length === 0)
-        continue;
-    html += `<div class="card">
+  if (parcel.buildings.length === 0 && parcel.permits.length === 0) continue;
+  html += `<div class="card">
 <h3>חלקה ${parcel.chelka} <span style="color:var(--muted);font-weight:400">(שטח רשום: ${parcel.registeredArea || "?"} מ"ר | גרפי: ${parcel.parcelArea?.toFixed(0) || "?"} מ"ר)</span></h3>\n`;
-    if (parcel.buildings.length > 0) {
-        html += `<table><thead><tr><th>#</th><th>סוג</th><th>קומות</th><th>גובה</th><th>שנה</th><th>שטח מ"ר</th><th>עמודים</th></tr></thead><tbody>\n`;
-        for (const b of parcel.buildings) {
-            html += `<tr><td>${b.id}</td><td>${esc(b.type)}</td><td>${b.floors ?? "?"}</td><td>${b.height?.toFixed(1) ?? "?"}</td><td>${b.year || "?"}</td><td>${b.footprintArea.toFixed(0)}</td><td>${esc(b.onPillars)}</td></tr>\n`;
-        }
-        html += `</tbody></table>\n`;
+  if (parcel.buildings.length > 0) {
+    html += `<table><thead><tr><th>#</th><th>סוג</th><th>קומות</th><th>גובה</th><th>שנה</th><th>שטח מ"ר</th><th>עמודים</th></tr></thead><tbody>\n`;
+    for (const b of parcel.buildings) {
+      html += `<tr><td>${b.id}</td><td>${esc(b.type)}</td><td>${b.floors ?? "?"}</td><td>${b.height?.toFixed(1) ?? "?"}</td><td>${b.year || "?"}</td><td>${b.footprintArea.toFixed(0)}</td><td>${esc(b.onPillars)}</td></tr>\n`;
     }
-    if (parcel.permits.length > 0) {
-        html += `<div style="margin-top:0.5rem"><strong>היתרים:</strong></div>\n`;
-        for (const p of parcel.permits) {
-            html += `<div class="permit-card">
+    html += `</tbody></table>\n`;
+  }
+  if (parcel.permits.length > 0) {
+    html += `<div style="margin-top:0.5rem"><strong>היתרים:</strong></div>\n`;
+    for (const p of parcel.permits) {
+      html += `<div class="permit-card">
 <p><strong>${esc(p.address)}</strong> — ${esc(p.type)} ${stageTag(p.stage)}</p>
 <p style="font-size:0.8rem">היתר: ${p.date || "טרם"} | תוקף: ${p.expiryDate || "?"} | יח"ד: ${p.housingUnits || 0} | מסלול: ${esc(p.licensingTrack)}</p>
 ${p.docUrl ? `<p style="font-size:0.8rem"><a href="${p.docUrl}" target="_blank">מסמכים</a></p>` : ""}
 </div>\n`;
-        }
     }
-    html += `</div>\n`;
+  }
+  html += `</div>\n`;
 }
 html += `</body>\n</html>`;
 await writeFile("blocks/hatishbi-sasson/building-inventory.html", html);

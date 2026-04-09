@@ -1,0 +1,429 @@
+[
+  {
+    "plan_id": "תא/מק/4581",
+    "mavat_id": null,
+    "plan_name": "רה פרצלציה — שכונת התקווה",
+    "year": null,
+    "status": "מאושר_להפקדה",
+    "gushim": [6135],
+    "chelkot": [],
+    "area_dunam": null,
+    "management": {
+      "company": null,
+      "architects": [],
+      "contact": {
+        "name": "בת אל אונגר",
+        "phone": "03-7247259",
+        "email": "ungar_b@mail.tel-aviv.gov.il"
+      }
+    },
+    "description_heb": null,
+    "key_provisions": [],
+    "streets": [],
+    "units": null,
+    "is_reparcellation": true,
+    "parent_plan": "תא/2215",
+    "source_links": {},
+    "overlapping_sites": [],
+    "notes": "תכנית קטנה בצפון-מרכז השכונה. סטטוס ירוק (מאושר להפקדה) במפת הסטטוסים. חסר PDF."
+  },
+  {
+    "plan_id": "תא/מק/4691",
+    "mavat_id": "507-0726463",
+    "plan_name": "רה פרצלציה 6979/1, שכונת התקווה",
+    "year": 2024,
+    "status": "מאושרת",
+    "gushim": [6979],
+    "chelkot": [1],
+    "area_dunam": 12.62,
+    "management": {
+      "company": "איילה רונאל",
+      "architects": ["יוני שקד", "מיכל בראייר"],
+      "contact": {
+        "name": "בת אל אונגר",
+        "phone": "03-7247259",
+        "email": "ungar_b@mail.tel-aviv.gov.il"
+      }
+    },
+    "description_heb": "התכנית הינה תכנית במתווה רה-פרצלציה המיועדת להסדרת הבעלויות בחלקות המושע",
+    "key_provisions": [
+      "קביעת יעוד דרך התואמת את הוראות תכנית 2215",
+      "קביעת עקרונות החלוקה לתאי השטח בתכנית זו",
+      "הגדרת קווי בניין, הוראות בינוי ותנאים ומגבלות לאיחוד חלקות"
+    ],
+    "streets": [
+      "דרך ההגנה",
+      "רחוב דעואל",
+      "רחוב הרותם",
+      "חנוך",
+      "רחוב מושיע",
+      "רחוב האקליפטוס"
+    ],
+    "units": null,
+    "is_reparcellation": true,
+    "parent_plan": "תא/2215",
+    "source_links": {
+      "תכנית": "../taba-plans/reparcellation/4691-רה-פרצלציה-6979.pdf",
+      "דיון התנגדויות": "../taba-plans/reparcellation/4691-דיון-התנגדויות-6979-1.pdf"
+    },
+    "overlapping_sites": [1],
+    "notes": null
+  },
+  {
+    "plan_id": "תא/מק/4692",
+    "mavat_id": "507-0720755",
+    "plan_name": "רה פרצלציה 6135/3, שכונת התקווה",
+    "year": 2023,
+    "status": "לקראת_דיון_בהפקדה",
+    "gushim": [6135],
+    "chelkot": [3],
+    "area_dunam": 37.471,
+    "management": {
+      "company": "אילה רונאל",
+      "architects": ["גנות-לרמן אדריכלים", "פיק אדריכלים"],
+      "contact": {
+        "name": "גלית אציל",
+        "phone": "",
+        "email": ""
+      }
+    },
+    "description_heb": "הודעה על הכנת תכנית לפי סעיף 77 לשכונת התקווה להסדרת רישום חלקות ובעלויות, הפקעה ומימוש הפקעות קיימות, והגדרת קווי בניין ותנאים לאיחוד חלקות במצב של מושע (ללא פרצלציה מוסדרת).",
+    "key_provisions": [
+      "הסדרת רישום חלקות ובעלויות",
+      "איזון זכויות במטרה להביא להתחדשות עירונית",
+      "הפקעה ומימוש הפקעה קיימת בתכניות מאושרות",
+      "הגדרת קווי בניין, הוראות בינוי ותנאים ומגבלות לאיחוד חלקות",
+      "לא יותרו היתרי בניה במגרשים ריקים"
+    ],
+    "streets": ["ההגנה", "רשף", "מושיע", "שלמון", "האצ\"ל"],
+    "units": null,
+    "is_reparcellation": true,
+    "parent_plan": "תא/2215",
+    "source_links": {
+      "תכנית": "../taba-plans/reparcellation/4692-רה-פרצלציה-6135-3.pdf"
+    },
+    "overlapping_sites": [1, 3, 4, 5],
+    "notes": null
+  },
+  {
+    "plan_id": "תא/מק/4763",
+    "mavat_id": null,
+    "plan_name": "רה פרצלציה — שכונת התקווה (מערב-מרכז)",
+    "year": null,
+    "status": "לקראת_דיון_בהפקדה",
+    "gushim": [6135],
+    "chelkot": [],
+    "area_dunam": null,
+    "management": {
+      "company": "חושן",
+      "architects": ["אורנות שפירא"],
+      "contact": {
+        "name": "לירון ארבל",
+        "phone": "09-8996472",
+        "email": "liron@hoshen-pm.co.il"
+      }
+    },
+    "description_heb": null,
+    "key_provisions": [],
+    "streets": [],
+    "units": null,
+    "is_reparcellation": true,
+    "parent_plan": "תא/2215",
+    "source_links": {},
+    "overlapping_sites": [],
+    "notes": "סטטוס כחול (לקראת דיון בהפקדה) במפת הסטטוסים. חסר PDF."
+  },
+  {
+    "plan_id": "תא/מק/4764",
+    "mavat_id": "507-0724013",
+    "plan_name": "הסדרת מגרשים בתחום הרחובות לח\"י-התקווה-חנוך-קמואל, שכונת התקווה",
+    "year": 2023,
+    "status": "לקראת_דיון_בהפקדה",
+    "gushim": [6135],
+    "chelkot": [48, 49, 50, 51, 53, 68, 69],
+    "area_dunam": 75.6,
+    "management": {
+      "company": "אתמוס",
+      "architects": ["סיגל סרוסי", "דלית איטקין"],
+      "contact": {
+        "name": "ארז כהן",
+        "phone": "",
+        "email": ""
+      }
+    },
+    "description_heb": "תכנית להסדרת רישום חלקות ובעלויות המצויות בבעלות משותפת (מושע), תוך איזון זכויות במטרה להביא להתחדשות עירונית במרכז שכונת התקווה. התכנית קובעת תנאים מגבילים להוצאת היתרי בנייה.",
+    "key_provisions": [
+      "הסדרת רישום חלקות ובעלויות",
+      "איזון זכויות במטרה להביא להתחדשות עירונית",
+      "הפקעה ומימוש הפקעה קיימת בתכניות מאושרות",
+      "הגדרת קווי בניין, הוראות בינוי ותנאים לאיחוד חלקות",
+      "לא יותרו היתרי בניה במגרשים ריקים ולא יותרו הקלות בתחום התכנית"
+    ],
+    "streets": ["חנוך", "הלח\"י", "רוני", "קמואל", "התקוה"],
+    "units": null,
+    "is_reparcellation": true,
+    "parent_plan": "תא/2215",
+    "source_links": {},
+    "overlapping_sites": [1, 5],
+    "notes": null
+  },
+  {
+    "plan_id": "תא/מק/4765",
+    "mavat_id": null,
+    "plan_name": "רה פרצלציה — שכונת התקווה (מזרח)",
+    "year": 2021,
+    "status": "לקראת_דיון_בהפקדה",
+    "gushim": [6135],
+    "chelkot": [],
+    "area_dunam": 11.2,
+    "management": {
+      "company": null,
+      "architects": ["דורי גלוב"],
+      "contact": {
+        "name": "בת אל אונגר",
+        "phone": "03-7247259",
+        "email": "ungar_b@mail.tel-aviv.gov.il"
+      }
+    },
+    "description_heb": "הסדרת מגרשים בשכונת התקווה, רה-פרצלציה",
+    "key_provisions": [],
+    "streets": ["מושיע", "שבתאי", "נדב", "בועז", "הרן"],
+    "units": null,
+    "is_reparcellation": true,
+    "parent_plan": "תא/2215",
+    "source_links": {},
+    "overlapping_sites": [1, 2, 5],
+    "notes": "קיים ב-plans-database.json הישן. סטטוס כחול במפת הסטטוסים."
+  },
+  {
+    "plan_id": "תא/מק/4766",
+    "mavat_id": null,
+    "plan_name": "רה פרצלציה — שכונת התקווה (מזרח-דרום)",
+    "year": 2022,
+    "status": "לקראת_דיון_בהפקדה",
+    "gushim": [6135],
+    "chelkot": [],
+    "area_dunam": 31.6,
+    "management": {
+      "company": "אתמוס",
+      "architects": ["ליאת מיינהרט"],
+      "contact": {
+        "name": "אלעד וייסמן",
+        "phone": "03-7503655",
+        "email": "eladv@ethos-group.co.il"
+      }
+    },
+    "description_heb": "הסדרת מגרשים בשכונת התקווה, רה-פרצלציה",
+    "key_provisions": [],
+    "streets": [],
+    "units": null,
+    "is_reparcellation": true,
+    "parent_plan": "תא/2215",
+    "source_links": {},
+    "overlapping_sites": [1, 2, 3, 4, 5],
+    "notes": "קיים ב-plans-database.json הישן. סטטוס כחול במפת הסטטוסים."
+  },
+  {
+    "plan_id": "תא/מק/4899",
+    "mavat_id": "507-0884080",
+    "plan_name": "רה פרצלציה בגוש 7069, שכונת התקווה",
+    "year": 2023,
+    "status": "לקראת_דיון_בהפקדה",
+    "gushim": [7069],
+    "chelkot": [81, 139],
+    "area_dunam": 8.2,
+    "management": {
+      "company": null,
+      "architects": ["מיכל מרצולדו", "אנפנון מנדלר"],
+      "contact": {
+        "name": "בת אל אונגר",
+        "phone": "03-7247259",
+        "email": "ungar_b@mail.tel-aviv.gov.il"
+      }
+    },
+    "description_heb": "תכנית רה פרצלציה אשר עיקרה חלוקה ורישום של מגרשי מגורים, קביעת שטח ציבורי פתוח ודרכים",
+    "key_provisions": [
+      "חלוקה ורישום מגרשי מגורים",
+      "קביעת שטח ציבורי פתוח ודרכים"
+    ],
+    "streets": ["חנוך", "יקותיאל", "הרותם", "תדהר"],
+    "units": null,
+    "is_reparcellation": true,
+    "parent_plan": "תא/2215",
+    "source_links": {},
+    "overlapping_sites": [],
+    "notes": "קיים ב-plans-database.json הישן. סטטוס צהוב במפת הסטטוסים."
+  },
+  {
+    "plan_id": "תא/מק/4900",
+    "mavat_id": null,
+    "plan_name": "רה פרצלציה — שכונת התקווה (מרכז-מערב)",
+    "year": null,
+    "status": "תחילת_תכנון",
+    "gushim": [6135],
+    "chelkot": [],
+    "area_dunam": null,
+    "management": {
+      "company": "איילה רונאל",
+      "architects": ["אנפנון מנדלר", "שימרי בורנשטיין"],
+      "contact": {
+        "name": "נועה שריקי",
+        "phone": "03-5248806",
+        "email": "noa@ayalaronel.com"
+      }
+    },
+    "description_heb": null,
+    "key_provisions": [],
+    "streets": [],
+    "units": null,
+    "is_reparcellation": true,
+    "parent_plan": "תא/2215",
+    "source_links": {},
+    "overlapping_sites": [],
+    "notes": "סטטוס ורוד (תחילת תכנון) במפת הסטטוסים. חסר PDF."
+  },
+  {
+    "plan_id": "תא/מק/4901",
+    "mavat_id": "507-0807792",
+    "plan_name": "רה פרצלציה בגוש 6135 - שכונת התקווה",
+    "year": 2023,
+    "status": "לקראת_דיון_בהפקדה",
+    "gushim": [6135],
+    "chelkot": [43, 44, 45, 46, 47, 48],
+    "area_dunam": 26.0,
+    "management": {
+      "company": "חושן",
+      "architects": ["מהנדס העיר"],
+      "contact": {
+        "name": "לירון ארבל",
+        "phone": "09-8996472",
+        "email": "liron@hoshen-pm.co.il"
+      }
+    },
+    "description_heb": "הסדרת רישום חלקות ובעלויות במושע, תוך איזון זכויות במטרה להביא להתחדשות עירונית, פיתוח, שמירה וחיזוק הקהילה והבינוי הקיימים בשכונת התקווה.",
+    "key_provisions": [
+      "לא יותרו היתרי בניה במגרשים ריקים",
+      "לא יותרו איחוד וחלוקת מגרשים בתחום התכנית",
+      "בחינה מחודשת של רוחב זכות הדרך והגדרת קווי בניין"
+    ],
+    "streets": ["מושיע", "וילון", "תשבי", "לח\"י", "קמואל"],
+    "units": null,
+    "is_reparcellation": true,
+    "parent_plan": "תא/2215",
+    "source_links": {
+      "תכנית": "../taba-plans/reparcellation/4901-רה-פרצלציה-6135-77-78.pdf"
+    },
+    "overlapping_sites": [1, 2, 5],
+    "notes": null
+  },
+  {
+    "plan_id": "תא/מק/4902",
+    "mavat_id": "507-0807834",
+    "plan_name": "רה פרצלציה בגוש 6135 בשכונת התקווה",
+    "year": 2023,
+    "status": "לקראת_דיון_בהפקדה",
+    "gushim": [6135],
+    "chelkot": [
+      38, 70, 71, 72, 73, 74, 75, 76, 77, 78, 81, 84, 103, 107, 108, 109, 110
+    ],
+    "area_dunam": 29.92,
+    "management": {
+      "company": "חושן",
+      "architects": ["מהנדס העיר"],
+      "contact": {
+        "name": "לירון ארבל",
+        "phone": "09-8996472",
+        "email": "liron@hoshen-pm.co.il"
+      }
+    },
+    "description_heb": "הסדרת רישום חלקות ובעלויות במושע, איזון זכויות, ופתרון לבעלי זכויות בנסח טאבו ללא חזקה בפועל, לעידוד התחדשות ופיתוח במערב שכונת התקווה.",
+    "key_provisions": [
+      "לא יותרו היתרי בניה במגרשים ריקים",
+      "לא יותרו איחוד וחלוקת מגרשים בתחום התכנית",
+      "התאמת תחום הדרך בהתאם למצב קיים תוך בחינת הצורך בהפקעה"
+    ],
+    "streets": ["מושיע", "שבתאי", "אצ\"ל", "לח\"י", "תשבי", "וילון"],
+    "units": null,
+    "is_reparcellation": true,
+    "parent_plan": "תא/2215",
+    "source_links": {
+      "תכנית": "../taba-plans/reparcellation/4902-רה-פרצלציה-6135-77-78.pdf"
+    },
+    "overlapping_sites": [2, 5],
+    "notes": null
+  },
+  {
+    "plan_id": "תא/מק/4903",
+    "mavat_id": null,
+    "plan_name": "רה פרצלציה — שכונת התקווה (מרכז)",
+    "year": null,
+    "status": "תחילת_תכנון",
+    "gushim": [6135],
+    "chelkot": [],
+    "area_dunam": null,
+    "management": {
+      "company": "איילה רונאל",
+      "architects": ["אנפנון מנדלר", "סינובי בורנשטיין"],
+      "contact": {
+        "name": "נועה שריקי",
+        "phone": "03-5248806",
+        "email": "noa@ayalaronel.com"
+      }
+    },
+    "description_heb": null,
+    "key_provisions": [],
+    "streets": [],
+    "units": null,
+    "is_reparcellation": true,
+    "parent_plan": "תא/2215",
+    "source_links": {},
+    "overlapping_sites": [],
+    "notes": "סטטוס ורוד (תחילת תכנון) במפת הסטטוסים. חסר PDF."
+  },
+  {
+    "plan_id": "תא/מק/4968",
+    "mavat_id": "507-0924282",
+    "plan_name": "רה פרצלציה שכונת התקווה",
+    "year": 2023,
+    "status": "מופקדת",
+    "gushim": [6135],
+    "chelkot": [27, 28, 29, 31, 32],
+    "area_dunam": 12.4,
+    "management": {
+      "company": "חושן",
+      "architects": ["רותי שפירא", "אורנת שפירא"],
+      "contact": {
+        "name": "דליה אביב",
+        "phone": "",
+        "email": ""
+      }
+    },
+    "description_heb": "התכנית הינה תכנית במתווה רה-פרצלציה המיועדת להסדרת הבעלויות בחלקות המושע, תוך הקצאת תאי שטח לבעלים השונים והסדרת הדרכים. התכנית היא תכנית איחוד וחלוקה חדשה ללא הסכמת הבעלים.",
+    "key_provisions": [
+      "הסדרת רישום חלקות ובעלויות",
+      "איזון זכויות לטובת התחדשות עירונית",
+      "קביעת יעוד דרך התואמת את הוראות תכנית 2215",
+      "קביעת רוחב זכויות הדרכים בגבולות התכנית",
+      "הגדרת קווי בניין והוראות בינוי"
+    ],
+    "streets": [
+      "הרן",
+      "נדב",
+      "בועז",
+      "לח\"י",
+      "רזי",
+      "נעמן",
+      "אבימלך",
+      "ב'חוס"
+    ],
+    "units": null,
+    "is_reparcellation": true,
+    "parent_plan": "תא/2215",
+    "source_links": {
+      "תכנית": "../taba-plans/reparcellation/4968-רה-פרצלציה-6135-27-29-31-32.pdf",
+      "דיון התנגדויות": "../taba-plans/reparcellation/4968-דיון-התנגדויות.pdf"
+    },
+    "overlapping_sites": [],
+    "notes": null
+  }
+]

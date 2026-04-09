@@ -24,7 +24,10 @@ server.tool(
   "query_building_permits",
   "Query building permits (layer 772) by address, building number, or spatial bounding box. Returns permit details including request number, status, housing units, TAMA 38 status, and document links.",
   {
-    address: z.string().optional().describe("Address to search for (Hebrew), e.g. 'התקווה 44'"),
+    address: z
+      .string()
+      .optional()
+      .describe("Address to search for (Hebrew), e.g. 'התקווה 44'"),
     building_num: z.number().optional().describe("Building code number"),
     bbox: z
       .object({
@@ -35,7 +38,11 @@ server.tool(
       })
       .optional()
       .describe("Bounding box in Israel TM Grid (EPSG:2039)"),
-    max_results: z.number().optional().default(50).describe("Maximum number of results to return"),
+    max_results: z
+      .number()
+      .optional()
+      .default(50)
+      .describe("Maximum number of results to return"),
   },
   async ({ address, building_num, bbox, max_results }) => {
     let where = "1=1";
@@ -58,7 +65,7 @@ server.tool(
     return {
       content: [{ type: "text" as const, text: JSON.stringify(data, null, 2) }],
     };
-  }
+  },
 );
 
 // ── Tool 2: query_layer ─────────────────────────────────────────────────────
@@ -68,7 +75,11 @@ server.tool(
   "Generic query on any Tel Aviv GIS layer by ID. Use get_layer_list to find available layers. Supports SQL WHERE clauses, spatial bounding boxes, and field selection.",
   {
     layer_id: z.number().describe("The layer ID to query"),
-    where: z.string().optional().default("1=1").describe("SQL WHERE clause, e.g. \"shem_rechov LIKE '%דיזנגוף%'\""),
+    where: z
+      .string()
+      .optional()
+      .default("1=1")
+      .describe("SQL WHERE clause, e.g. \"shem_rechov LIKE '%דיזנגוף%'\""),
     bbox: z
       .object({
         xmin: z.number(),
@@ -78,11 +89,30 @@ server.tool(
       })
       .optional()
       .describe("Bounding box in Israel TM Grid (EPSG:2039)"),
-    out_fields: z.string().optional().default("*").describe("Comma-separated field names, or * for all"),
-    return_geometry: z.boolean().optional().default(true).describe("Whether to return geometry"),
-    max_results: z.number().optional().default(100).describe("Maximum number of results"),
+    out_fields: z
+      .string()
+      .optional()
+      .default("*")
+      .describe("Comma-separated field names, or * for all"),
+    return_geometry: z
+      .boolean()
+      .optional()
+      .default(true)
+      .describe("Whether to return geometry"),
+    max_results: z
+      .number()
+      .optional()
+      .default(100)
+      .describe("Maximum number of results"),
   },
-  async ({ layer_id, where, bbox, out_fields, return_geometry, max_results }) => {
+  async ({
+    layer_id,
+    where,
+    bbox,
+    out_fields,
+    return_geometry,
+    max_results,
+  }) => {
     const data = await queryLayer({
       layerId: layer_id,
       where,
@@ -95,7 +125,7 @@ server.tool(
     return {
       content: [{ type: "text" as const, text: JSON.stringify(data, null, 2) }],
     };
-  }
+  },
 );
 
 // ── Tool 3: get_building_documents ──────────────────────────────────────────
@@ -110,7 +140,12 @@ server.tool(
   async ({ address, building_num }) => {
     if (!address && !building_num) {
       return {
-        content: [{ type: "text" as const, text: "Error: provide either address or building_num" }],
+        content: [
+          {
+            type: "text" as const,
+            text: "Error: provide either address or building_num",
+          },
+        ],
         isError: true,
       };
     }
@@ -125,7 +160,8 @@ server.tool(
     const data = (await queryLayer({
       layerId: 772,
       where,
-      outFields: "request_num,addresses,tochen_bakasha,url_hadmaya,building_stage",
+      outFields:
+        "request_num,addresses,tochen_bakasha,url_hadmaya,building_stage",
       returnGeometry: false,
     })) as { features?: { attributes: Record<string, unknown> }[] };
 
@@ -150,7 +186,7 @@ server.tool(
         },
       ],
     };
-  }
+  },
 );
 
 // ── Tool 4: export_map_image ────────────────────────────────────────────────
@@ -168,8 +204,16 @@ server.tool(
       })
       .describe("Bounding box in Israel TM Grid (EPSG:2039)"),
     layers: z.array(z.number()).describe("Array of layer IDs to display"),
-    width: z.number().optional().default(1024).describe("Image width in pixels"),
-    height: z.number().optional().default(1024).describe("Image height in pixels"),
+    width: z
+      .number()
+      .optional()
+      .default(1024)
+      .describe("Image width in pixels"),
+    height: z
+      .number()
+      .optional()
+      .default(1024)
+      .describe("Image height in pixels"),
   },
   async ({ bbox, layers, width, height }) => {
     const imageUrl = await exportMapImage({
@@ -181,7 +225,7 @@ server.tool(
     return {
       content: [{ type: "text" as const, text: `Map image URL:\n${imageUrl}` }],
     };
-  }
+  },
 );
 
 // ── Tool 5: get_layer_list ──────────────────────────────────────────────────
@@ -192,7 +236,13 @@ server.tool(
   {},
   async () => {
     const data = (await getLayerList()) as {
-      layers?: { id: number; name: string; type: string; geometryType?: string; subLayerIds?: number[] }[];
+      layers?: {
+        id: number;
+        name: string;
+        type: string;
+        geometryType?: string;
+        subLayerIds?: number[];
+      }[];
     };
 
     const layers = (data.layers || []).map((l) => ({
@@ -204,9 +254,11 @@ server.tool(
     }));
 
     return {
-      content: [{ type: "text" as const, text: JSON.stringify(layers, null, 2) }],
+      content: [
+        { type: "text" as const, text: JSON.stringify(layers, null, 2) },
+      ],
     };
-  }
+  },
 );
 
 // ── Tool 6: identify_at_point ───────────────────────────────────────────────
@@ -215,14 +267,32 @@ server.tool(
   "identify_at_point",
   "Identify all features at a given point across multiple layers. Useful for finding what exists at a specific location (buildings, zoning, infrastructure, etc.).",
   {
-    x: z.number().describe("X coordinate (longitude if using WGS84/4326, or easting in Israel TM/2039)"),
-    y: z.number().describe("Y coordinate (latitude if using WGS84/4326, or northing in Israel TM/2039)"),
-    sr: z.number().optional().default(4326).describe("Spatial reference WKID (4326 for WGS84, 2039 for Israel TM)"),
+    x: z
+      .number()
+      .describe(
+        "X coordinate (longitude if using WGS84/4326, or easting in Israel TM/2039)",
+      ),
+    y: z
+      .number()
+      .describe(
+        "Y coordinate (latitude if using WGS84/4326, or northing in Israel TM/2039)",
+      ),
+    sr: z
+      .number()
+      .optional()
+      .default(4326)
+      .describe("Spatial reference WKID (4326 for WGS84, 2039 for Israel TM)"),
     layers: z
       .array(z.number())
       .optional()
-      .describe("Layer IDs to query. Defaults to common layers: building permits (772), construction sites (499), trees (628), streets (806)"),
-    tolerance: z.number().optional().default(10).describe("Search tolerance in meters"),
+      .describe(
+        "Layer IDs to query. Defaults to common layers: building permits (772), construction sites (499), trees (628), streets (806)",
+      ),
+    tolerance: z
+      .number()
+      .optional()
+      .default(10)
+      .describe("Search tolerance in meters"),
   },
   async ({ x, y, sr, layers, tolerance }) => {
     const layerIds = layers || [772, 499, 628, 806];
@@ -238,7 +308,7 @@ server.tool(
     return {
       content: [{ type: "text" as const, text: JSON.stringify(data, null, 2) }],
     };
-  }
+  },
 );
 
 // ── Tool 7: export_geojson ──────────────────────────────────────────────────
@@ -247,7 +317,11 @@ server.tool(
   "export_geojson",
   "Export all features from a layer within a bounding box as a GeoJSON file. Fetches all pages of results and saves to disk. Geometry is output in WGS84 (EPSG:4326).",
   {
-    layer_id: z.number().describe("The layer ID to export (e.g. 513 for buildings, 524 for parcels)"),
+    layer_id: z
+      .number()
+      .describe(
+        "The layer ID to export (e.g. 513 for buildings, 524 for parcels)",
+      ),
     bbox: z
       .object({
         xmin: z.number(),
@@ -272,7 +346,7 @@ server.tool(
         },
       ],
     };
-  }
+  },
 );
 
 // ── Tool 8: query_govmap ────────────────────────────────────────────────────
@@ -299,8 +373,17 @@ server.tool(
       })
       .optional()
       .describe("Bounding box in WGS84 (lon/lat)"),
-    gush_num: z.number().optional().describe("Filter results to a specific gush number (e.g. 6135). Applied client-side."),
-    max_features: z.number().optional().default(500).describe("Maximum features to return"),
+    gush_num: z
+      .number()
+      .optional()
+      .describe(
+        "Filter results to a specific gush number (e.g. 6135). Applied client-side.",
+      ),
+    max_features: z
+      .number()
+      .optional()
+      .default(500)
+      .describe("Maximum features to return"),
   },
   async ({ layer, bbox, gush_num, max_features }) => {
     const data = await queryGovMap({
@@ -313,17 +396,20 @@ server.tool(
     return {
       content: [{ type: "text" as const, text: JSON.stringify(data, null, 2) }],
     };
-  }
+  },
 );
 
 // ── Tool 9: search_taba_plans ───────────────────────────────────────────────
 
 server.tool(
   "search_taba_plans",
-  "Search national taba plan (תב\"ע) database from data.gov.il. Contains plan boundaries, status, and document links. Note: current coverage is partial — not all areas are included.",
+  'Search national taba plan (תב"ע) database from data.gov.il. Contains plan boundaries, status, and document links. Note: current coverage is partial — not all areas are included.',
   {
     query: z.string().optional().describe("Text search across all fields"),
-    plan_number: z.string().optional().describe("Specific plan number, e.g. '001/2022'"),
+    plan_number: z
+      .string()
+      .optional()
+      .describe("Specific plan number, e.g. '001/2022'"),
     status: z.string().optional().describe("Plan status filter, e.g. 'בתוקף'"),
     limit: z.number().optional().default(50).describe("Max results"),
   },
@@ -335,7 +421,7 @@ server.tool(
     const result = await searchTabaPlans(
       query,
       Object.keys(filters).length > 0 ? filters : undefined,
-      limit
+      limit,
     );
 
     return {
@@ -346,7 +432,7 @@ server.tool(
         },
       ],
     };
-  }
+  },
 );
 
 // ── Tool 10: search_datagov ─────────────────────────────────────────────────
@@ -381,7 +467,7 @@ server.tool(
         },
       ],
     };
-  }
+  },
 );
 
 // ── Start server ────────────────────────────────────────────────────────────

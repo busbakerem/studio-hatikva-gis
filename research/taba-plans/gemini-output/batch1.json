@@ -5,7 +5,10 @@
     "year": 2022,
     "status": "מאושרת",
     "gushim": [6136, 6137],
-    "chelkot": [2, 3, 5, 6, 7, 17, 56, 64, 65, 67, 68, 73, 99, 100, 107, 201, 214, 287, 289, 291, 296],
+    "chelkot": [
+      2, 3, 5, 6, 7, 17, 56, 64, 65, 67, 68, 73, 99, 100, 107, 201, 214, 287,
+      289, 291, 296
+    ],
     "area_dunam": 126.55,
     "units": null,
     "land_use": "מגורים / מסחר / מבני ציבור / שצ\"פ / דרכים",
@@ -15,9 +18,7 @@
     "parent_plan": "תא/5000",
     "overlapping_sites": [],
     "doc_type": "תשריט",
-    "source_files": [
-      "תא-4822-תשריט.pdf"
-    ],
+    "source_files": ["תא-4822-תשריט.pdf"],
     "verification": "MAVAT_VERIFIED",
     "notes": "מצב מוצע למארג רחובות ובינוי מרקמי."
   },
@@ -27,7 +28,10 @@
     "year": 2023,
     "status": "מאושרת",
     "gushim": [6136, 6137],
-    "chelkot": [2, 3, 5, 6, 7, 17, 56, 64, 65, 67, 68, 73, 99, 100, 107, 201, 214, 287, 289, 291, 296],
+    "chelkot": [
+      2, 3, 5, 6, 7, 17, 56, 64, 65, 67, 68, 73, 99, 100, 107, 201, 214, 287,
+      289, 291, 296
+    ],
     "area_dunam": 126.55,
     "units": 1696,
     "land_use": "מגורים / מגורים מסחר ותעסוקה / דיור מיוחד / מבני ציבור / שצ\"פ / דרכים",
@@ -41,9 +45,7 @@
     "parent_plan": "תא/5000",
     "overlapping_sites": [],
     "doc_type": "הוראות",
-    "source_files": [
-      "תא-4822-הוראות.pdf"
-    ],
+    "source_files": ["תא-4822-הוראות.pdf"],
     "verification": "MAVAT_VERIFIED",
     "notes": "כוללת שלביות פינוי ופיתוח."
   },
@@ -63,9 +65,7 @@
     "parent_plan": "2215 ג'/ במ2",
     "overlapping_sites": [],
     "doc_type": "תשריט",
-    "source_files": [
-      "תא-3328-תשריט.pdf"
-    ],
+    "source_files": ["תא-3328-תשריט.pdf"],
     "verification": "MAVAT_VERIFIED",
     "notes": "שינוי לתכנית 2215."
   },
@@ -89,9 +89,7 @@
     "parent_plan": "2215 ג'/ במ2",
     "overlapping_sites": [],
     "doc_type": "הוראות",
-    "source_files": [
-      "תא-3328-הוראות.pdf"
-    ],
+    "source_files": ["תא-3328-הוראות.pdf"],
     "verification": "MAVAT_VERIFIED",
     "notes": "בסמכות ועדה מקומית."
   },
@@ -111,9 +109,7 @@
     "parent_plan": "2620 ב.מ. 55",
     "overlapping_sites": [],
     "doc_type": "תשריט",
-    "source_files": [
-      "תא-3139-תשריט.pdf"
-    ],
+    "source_files": ["תא-3139-תשריט.pdf"],
     "verification": "MAVAT_VERIFIED",
     "notes": "מגרשים 401 ו-402."
   },
@@ -137,9 +133,7 @@
     "parent_plan": "2620 ב.מ. 55",
     "overlapping_sites": [],
     "doc_type": "הוראות",
-    "source_files": [
-      "תא-3139-הוראות.pdf"
-    ],
+    "source_files": ["תא-3139-הוראות.pdf"],
     "verification": "MAVAT_VERIFIED",
     "notes": "יזמים: פרידמן-חכשורי, אבודי."
   },
@@ -157,17 +151,9 @@
     "key_provisions": [],
     "is_reparcellation": true,
     "parent_plan": "2215",
-    "overlapping_sites": [
-      1,
-      2,
-      3,
-      4,
-      5
-    ],
+    "overlapping_sites": [1, 2, 3, 4, 5],
     "doc_type": "תשריט",
-    "source_files": [
-      "תא-2670-תשריט.pdf"
-    ],
+    "source_files": ["תא-2670-תשריט.pdf"],
     "verification": "MAVAT_VERIFIED",
     "notes": "חלקה 66 רלוונטית במיוחד לכל חמשת אתרי הסטודיו."
   },
@@ -189,17 +175,9 @@
     ],
     "is_reparcellation": true,
     "parent_plan": "2215",
-    "overlapping_sites": [
-      1,
-      2,
-      3,
-      4,
-      5
-    ],
+    "overlapping_sites": [1, 2, 3, 4, 5],
     "doc_type": "הוראות",
-    "source_files": [
-      "תא-2670-הוראות.pdf"
-    ],
+    "source_files": ["תא-2670-הוראות.pdf"],
     "verification": "MAVAT_VERIFIED",
     "notes": "משפיעה באופן ישיר על כל אתרי הפרויקט בגוש 6135."
   }
